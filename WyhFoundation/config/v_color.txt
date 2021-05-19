@@ -1,0 +1,77 @@
+# Hey this is a comment
+# And another one
+Primary-Color    : 0xfd5f52
+Cyan-Color       : 0xff66ccff
+
+# Title
+ArticleTitle     : #33fe66
+
+# Body
+ArticleBody      : 339666
+logout           : FD5F52
+logbt            : ff897f
+carCard          : fff7f6
+cardCard         : ffeceb
+newImg           : FF343C
+smbt             : e2e2e2
+grayBg           : fffdfd
+addAsset         : fda452
+
+orilNav          : FFbb3f
+locationBtBoder  : d8d8d8
+# Footnote
+ArticleFootnote  : ff66ccff
+private          : ffffff
+locationLine     : e3e3e3
+ThemeColor       : 0x007DD6
+rgbCR2           : 0xFF2200
+e48f04           : 0xE48F04
+f7f7f7           : 0xF7F7F7
+oilDetail        : 0x62859E
+reportPrice      : 0x151515
+reportline       : 0x979797
+c7c7c7           : 0xC7C7C7
+f6fbff           : 0xF6FBFF
+c3c3c3           : 0xC3C3C3
+e5f8ec           : 0xE5F8EC
+statebl          : 0x00BD48
+f5a623           : 0xF5A623
+stateblj         : 0xFF5940
+ffe8e5           : 0xFFE8E5
+b2b2b2           : 0xB2B2B2
+fff8f7           : 0xFFF8F7
+f33d55           : 0xF33D55
+333333           : 0x333333
+666666           : 0x666666
+999999           : 0x999999
+e5e5e5           : 0xE5E5E5
+f5f5f5           : 0xf5f5f5
+0947D4           : 0x0947D4
+5C46FF           : 0x5C46FF
+F5F6F9           : 0xF5F6F9
+F54E62           : 0xF54E62
+1363EC           : 0x1363EC
+FB792C           : 0xFB792C
+D8E4FF           : 0xD8E4FF
+D0D0D0           : 0xD0D0D0
+C6CAD4           : 0xC6CAD4
+FBAA2C           : 0xFBAA2C
+E8E8E8           : 0xE8E8E8
+d4d4d4           : 0xd4d4d4
+3C4B6C           : 0x3C4B6C
+2f3bd4           : 0x2f3bd4
+cccccc           : 0xcccccc
+FFFFFF           : 0xFFFFFF
+E9DB2F           : 0xE9DB2F
+05064C           : 0x05064C
+FBEE16           : 0xFBEE16
+105BE5           : 0x105BE5
+F4F8FF           : 0xF4F8FF
+8E9EBA           : 0x8E9EBA
+9AAFC0           : 0x9AAFC0
+FFAF00           : 0xFFAF00
+115CE5           : 0x115CE5
+728399           : 0x728399 
+# FontColor
+Font-Color-4           : 0x444444
+

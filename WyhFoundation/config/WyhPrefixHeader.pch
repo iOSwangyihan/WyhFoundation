@@ -1,0 +1,19 @@
+//
+//  WyhPrefixHeader.pch
+//  WyhFoundation
+//
+//  Created by 王乙涵 on 2021/5/19.
+//
+
+#ifndef WyhPrefixHeader_pch
+#define WyhPrefixHeader_pch
+
+#import <Masonry.h>
+#import "UIView+Extension.h"
+#import "ConstantHeader.h"
+#import "OcColors.h"
+#import "WyhFoundation-Swift.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* WyhPrefixHeader_pch */

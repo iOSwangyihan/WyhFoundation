@@ -1,0 +1,12 @@
+xcassets:
+  inputs:
+    - $SRCROOT/WyhFoundation/Assets.xcassets
+    - $SRCROOT/WyhFoundation/base/Base.xcassets
+  outputs:
+    - templateName: swift4
+      output: ./Assets.swift
+colors:
+  inputs: $SRCROOT/WyhFoundation/config/v_color.txt
+  outputs:
+    templateName: swift4
+    output: ./Colors.swift

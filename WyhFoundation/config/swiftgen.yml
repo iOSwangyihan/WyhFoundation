@@ -1,0 +1,12 @@
+xcassets:
+  inputs:
+    - /Users/wangyihan/Desktop/WyhFoundation/WyhFoundation/Assets.xcassets
+    - /Users/wangyihan/Desktop/WyhFoundation/WyhFoundation/base/Base.xcassets
+  outputs:
+    - templateName: swift4
+      output: ./Assets.swift
+colors:
+  inputs: /Users/wangyihan/Desktop/WyhFoundation/WyhFoundation/config/v_color.txt
+  outputs:
+    templateName: swift4
+    output: ./Colors.swift

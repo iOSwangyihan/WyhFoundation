@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F78B2656039200055389 /* AppFrameworksViewController.swift */; };
+		7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7962656091400055389 /* AppServicesViewController.swift */; };
+		7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F79E2656091F00055389 /* GraphicsandGamesViewController.swift */; };
+		7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7A32656092E00055389 /* MediaViewController.swift */; };
+		7C69F7A92656093900055389 /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7A82656093900055389 /* SystemViewController.swift */; };
+		7C69F7AE2656094300055389 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7AD2656094300055389 /* WebViewController.swift */; };
 		7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E2A72654AAB400001D7A /* AppDelegate.swift */; };
 		7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E2AB2654AAB400001D7A /* ViewController.swift */; };
 		7CA3E2AF2654AAB400001D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3E2AD2654AAB400001D7A /* Main.storyboard */; };
@@ -66,6 +72,12 @@
 		1A67B74091D30228BB3D359C /* Pods_WyhFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyhFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCAE172211BDE95ACFC1EDC /* Pods-WyhFoundationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundationTests.release.xcconfig"; path = "Target Support Files/Pods-WyhFoundationTests/Pods-WyhFoundationTests.release.xcconfig"; sourceTree = "<group>"; };
 		44946BAFC622C09BAE4181C5 /* Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; path = "Target Support Files/Pods-WyhFoundation-WyhFoundationUITests/Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C69F78B2656039200055389 /* AppFrameworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFrameworksViewController.swift; sourceTree = "<group>"; };
+		7C69F7962656091400055389 /* AppServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServicesViewController.swift; sourceTree = "<group>"; };
+		7C69F79E2656091F00055389 /* GraphicsandGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsandGamesViewController.swift; sourceTree = "<group>"; };
+		7C69F7A32656092E00055389 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		7C69F7A82656093900055389 /* SystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
+		7C69F7AD2656094300055389 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		7CA3E2A42654AAB400001D7A /* WyhFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyhFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA3E2A72654AAB400001D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA3E2AB2654AAB400001D7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -170,6 +182,54 @@
 				1CCAE172211BDE95ACFC1EDC /* Pods-WyhFoundationTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C69F790265608BB00055389 /* AppFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C69F78B2656039200055389 /* AppFrameworksViewController.swift */,
+			);
+			path = AppFrameworks;
+			sourceTree = "<group>";
+		};
+		7C69F791265608CC00055389 /* AppServices */ = {
+			isa = PBXGroup;
+			children = (
+				7C69F7962656091400055389 /* AppServicesViewController.swift */,
+			);
+			path = AppServices;
+			sourceTree = "<group>";
+		};
+		7C69F792265608E300055389 /* GraphicsandGames */ = {
+			isa = PBXGroup;
+			children = (
+				7C69F79E2656091F00055389 /* GraphicsandGamesViewController.swift */,
+			);
+			path = GraphicsandGames;
+			sourceTree = "<group>";
+		};
+		7C69F793265608ED00055389 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				7C69F7A32656092E00055389 /* MediaViewController.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		7C69F794265608F700055389 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				7C69F7A82656093900055389 /* SystemViewController.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		7C69F7952656090000055389 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				7C69F7AD2656094300055389 /* WebViewController.swift */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 		7CA3E29B2654AAB400001D7A = {
@@ -308,7 +368,13 @@
 		7CA3E3222654B74E00001D7A /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				7C69F7952656090000055389 /* Web */,
+				7C69F794265608F700055389 /* System */,
+				7C69F793265608ED00055389 /* Media */,
+				7C69F792265608E300055389 /* GraphicsandGames */,
+				7C69F791265608CC00055389 /* AppServices */,
 				7CA3E3442654BB8400001D7A /* SwiftViewController.swift */,
+				7C69F790265608BB00055389 /* AppFrameworks */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -587,11 +653,15 @@
 				7CA3E3032654B31C00001D7A /* SCDButtonAttributes.swift in Sources */,
 				7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */,
 				7CA3E3042654B31C00001D7A /* SCDImageViewAttributes.swift in Sources */,
+				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
+				7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */,
 				7CA3E3292654B7AB00001D7A /* BaseTableViewCell.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
+				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
+				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
 				7CA3E3362654B82500001D7A /* BaseView.swift in Sources */,
 				7CA3E3312654B7EA00001D7A /* BaseNaviView.swift in Sources */,
@@ -607,6 +677,8 @@
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
+				7C69F7A92656093900055389 /* SystemViewController.swift in Sources */,
+				7C69F7AE2656094300055389 /* WebViewController.swift in Sources */,
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
 				7CA3E2FE2654B31C00001D7A /* SCDSwiftKit.swift in Sources */,
 			);

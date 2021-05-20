@@ -14,7 +14,7 @@ enum ScreenTimeViewControllerType {
     func name() -> String {
         switch self {
         case .overview:
-            return "Framework:\n共享和管理web使用数据，并观察父母或监护人所做的更改.\n屏幕时间框架为您提供了您需要的工具，以帮助父母和监护人监督他们的孩子的网络使用。\n使用这个框架:1.网络使用数据报告。\n2.删除历史。\n3.当父或监护人阻止一个URL或开始执行子限制时采取行动."
+            return "Framework:iOS14\n共享和管理web使用数据，并观察父母或监护人所做的更改.\n屏幕时间框架为您提供了您需要的工具，以帮助父母和监护人监督他们的孩子的网络使用。\n使用这个框架:1.网络使用数据报告。\n2.删除历史。\n3.当父或监护人阻止一个URL或开始执行子限制时采取行动."
         case .topics:
             return "Essentials:\nSTWebpageController--用于报告web使用情况和阻止受限网页的控制器.\nConfiguration Queries:\nSTScreenTimeConfigurationObserver--用于观察对当前配置的更改的对象.\nSTScreenTimeConfiguration--该设备的配置.\nWeb-Usage Data Deletion:\nSTWebHistory--用于删除web使用数据的对象."
         case .demo:
@@ -41,9 +41,14 @@ class ScreenTimeViewController: SwiftViewController {
         
         let type = dataArr[indexPath.row] as? ScreenTimeViewControllerType ?? ScreenTimeViewControllerType.overview
         if type == .demo {
-            let vc = ScreenTimeDemoViewController()
+            if #available(iOS 14.0, *) {
+                let vc = ScreenTimeDemoViewController()
+                self.navigationController?.pushViewController(vc, animated: true)
+            } else {
+                // Fallback on earlier versions
+            }
             
-            self.navigationController?.pushViewController(vc, animated: true)
+            
         }
     }
     /*

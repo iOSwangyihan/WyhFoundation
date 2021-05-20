@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WyhFoundation"
   spec.version      = "0.0.1"
-  spec.summary      = "因为很多东西时间久了，没有用到，经常会遗忘，需要回去补一补，但是却没有系统的大纲，不知从何补起，不知哪些遗忘，为了解决这个问题，才打算弄这个项目.\n\n打算自己边学习边集合到项目内，最后做成framework，方便平时使用."
+  spec.summary      = "WyhFoundation"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "iOSwangyihan"
+  spec.description  = <<-DESC 因为很多东西时间久了，没有用到，经常会遗忘，需要回去补一补，但是却没有系统的大纲，不知从何补起，不知哪些遗忘，为了解决这个问题，才打算弄这个项目.\n\n打算自己边学习边集合到项目内，最后做成framework，方便平时使用. DESC
 
   spec.homepage     = "https://github.com/iOSwangyihan"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,8 +37,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "wangyihan" => "315638227@qq.com" }
+  spec.author             = { "iOSwangyihan" => "315638227@qq.com" }
   # Or just: spec.author    = ""
   # spec.authors            = { "" => "" }
   # spec.social_media_url   = "https://twitter.com/"
@@ -89,8 +89,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*{.h,.m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "WyhFoundation/**/*.{h,m,swift}"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

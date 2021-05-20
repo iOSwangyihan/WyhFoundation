@@ -27,7 +27,7 @@ enum WebViewControllerType {
         case .LinkPresentation:
             return AppFrameworksViewController()
         case .ScreenTime:
-            return AppFrameworksViewController()
+            return ScreenTimeViewController()
         
             
         }

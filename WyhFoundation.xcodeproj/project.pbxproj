@@ -13,6 +13,8 @@
 		7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7A32656092E00055389 /* MediaViewController.swift */; };
 		7C69F7A92656093900055389 /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7A82656093900055389 /* SystemViewController.swift */; };
 		7C69F7AE2656094300055389 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7AD2656094300055389 /* WebViewController.swift */; };
+		7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7BA265650F700055389 /* ScreenTimeViewController.swift */; };
+		7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7C72656549D00055389 /* ScreenTimeDemoViewController.swift */; };
 		7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E2A72654AAB400001D7A /* AppDelegate.swift */; };
 		7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E2AB2654AAB400001D7A /* ViewController.swift */; };
 		7CA3E2AF2654AAB400001D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3E2AD2654AAB400001D7A /* Main.storyboard */; };
@@ -78,6 +80,8 @@
 		7C69F7A32656092E00055389 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
 		7C69F7A82656093900055389 /* SystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
 		7C69F7AD2656094300055389 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7C69F7BA265650F700055389 /* ScreenTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeViewController.swift; sourceTree = "<group>"; };
+		7C69F7C72656549D00055389 /* ScreenTimeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3E2A42654AAB400001D7A /* WyhFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyhFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA3E2A72654AAB400001D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA3E2AB2654AAB400001D7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -228,6 +232,8 @@
 			isa = PBXGroup;
 			children = (
 				7C69F7AD2656094300055389 /* WebViewController.swift */,
+				7C69F7BA265650F700055389 /* ScreenTimeViewController.swift */,
+				7C69F7C72656549D00055389 /* ScreenTimeDemoViewController.swift */,
 			);
 			path = Web;
 			sourceTree = "<group>";
@@ -654,9 +660,11 @@
 				7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */,
 				7CA3E3042654B31C00001D7A /* SCDImageViewAttributes.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
+				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
 				7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */,
 				7CA3E3292654B7AB00001D7A /* BaseTableViewCell.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
+				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,

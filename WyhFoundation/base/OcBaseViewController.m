@@ -15,6 +15,7 @@
 - (OcBaseNaviView *)navi {
     if (_navi == nil) {
         _navi = [[OcBaseNaviView alloc]init];
+        
     }
     return  _navi;
 }
@@ -33,26 +34,30 @@
     self.navi.refreshBlock = ^() {
         [Self refreshBackActive];
     };
+    
     [self.view addSubview:self.navi];
 
     [self.navi mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.right.equalTo(self.view);
+            make.top.left.right.equalTo(self.view);
             make.height.mas_equalTo(44 + [self statusHeight]);
         }];
 }
 -(void)lefiBackActive {
-    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 -(void)closeBackActive {
-    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 -(void)refreshBackActive {
-    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 //状态栏高度
 -(CGFloat)statusHeight {
     
-    return [UIApplication sharedApplication].windows.firstObject.windowScene.statusBarManager.statusBarFrame.size.height;
+    if (@available(iOS 13.0, *)) {
+        return [UIApplication sharedApplication].windows.firstObject.windowScene.statusBarManager.statusBarFrame.size.height;
+    } else {
+        return [UIApplication sharedApplication].statusBarFrame.size.height;    }
    
 }
 

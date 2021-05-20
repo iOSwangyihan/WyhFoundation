@@ -16,14 +16,15 @@ typedef void(^NaviBlock)(void);
 NS_ASSUME_NONNULL_BEGIN
 
 @interface OcBaseNaviView : UIView
-@property(nonatomic, assign)NaviBlock backBlock;
-@property(nonatomic, assign)NaviBlock closeBlock;
-@property(nonatomic, assign)NaviBlock refreshBlock;
+@property(nonatomic, strong)NaviBlock backBlock;
+@property(nonatomic, strong)NaviBlock closeBlock;
+@property(nonatomic, strong)NaviBlock refreshBlock;
 @property(nonatomic, assign)NaviType naviType;
 @property(nonatomic, strong)UIButton * backBt;
 @property(nonatomic, strong)UIButton * closeBt;
 @property(nonatomic, strong)UIButton * refreshBt;
 @property(nonatomic, strong)UILabel * titile;
+- (void)setNaviType:(NaviType)naviType;
 @end
 
 NS_ASSUME_NONNULL_END

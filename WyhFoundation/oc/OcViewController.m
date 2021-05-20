@@ -32,6 +32,8 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    [self.navi setNaviType:back];
+    self.navi.titile.text = @"Objective-C";
     
     self.table.delegate = self;
     self.table.dataSource = self;
@@ -39,7 +41,9 @@
     [self.view addSubViews:@[self.table]];
 
     [self.table mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(self.view);
+        make.top.equalTo(self.navi.mas_bottom);
+        make.right.bottom.left.equalTo(self.view);
+        
     }];
     // Do any additional setup after loading the view.
 }

@@ -212,7 +212,7 @@ enum SystemViewControllerType {
         case .SystemConfiguration:
             return AppFrameworksViewController()
         case .UniformTypeIdentifiers:
-            return AppFrameworksViewController()
+            return UniformTypeIdentifiersViewController()
             
         }
     }

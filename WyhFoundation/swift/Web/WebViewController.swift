@@ -25,7 +25,7 @@ enum WebViewControllerType {
     func vc() -> SwiftViewController {
         switch self {
         case .LinkPresentation:
-            return AppFrameworksViewController()
+            return LinkPresentationViewController()
         case .ScreenTime:
             return ScreenTimeViewController()
         

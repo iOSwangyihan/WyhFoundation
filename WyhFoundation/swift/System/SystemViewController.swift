@@ -208,9 +208,9 @@ enum SystemViewControllerType {
         case .simd:
             return AppFrameworksViewController()
         case .System:
-            return AppFrameworksViewController()
+            return SystemFrameworkViewController()
         case .SystemConfiguration:
-            return AppFrameworksViewController()
+            return SystemConfigurationViewController()
         case .UniformTypeIdentifiers:
             return UniformTypeIdentifiersViewController()
             

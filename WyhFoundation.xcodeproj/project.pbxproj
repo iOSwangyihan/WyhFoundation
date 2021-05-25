@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
+		7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C300121265CCC0400C16956 /* SystemConfigationDemoViewController.swift */; };
+		7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C300126265CF1B800C16956 /* SystemDemoViewController.swift */; };
+		7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30012B265CF1E200C16956 /* SystemFrameworkViewController.swift */; };
 		7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6865C3265748C600034B11 /* UniformTypeIdentifiersViewController.swift */; };
 		7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6865C8265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift */; };
 		7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F78B2656039200055389 /* AppFrameworksViewController.swift */; };
@@ -79,6 +83,10 @@
 		1A67B74091D30228BB3D359C /* Pods_WyhFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyhFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCAE172211BDE95ACFC1EDC /* Pods-WyhFoundationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundationTests.release.xcconfig"; path = "Target Support Files/Pods-WyhFoundationTests/Pods-WyhFoundationTests.release.xcconfig"; sourceTree = "<group>"; };
 		44946BAFC622C09BAE4181C5 /* Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; path = "Target Support Files/Pods-WyhFoundation-WyhFoundationUITests/Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
+		7C300121265CCC0400C16956 /* SystemConfigationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigationDemoViewController.swift; sourceTree = "<group>"; };
+		7C300126265CF1B800C16956 /* SystemDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemDemoViewController.swift; sourceTree = "<group>"; };
+		7C30012B265CF1E200C16956 /* SystemFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFrameworkViewController.swift; sourceTree = "<group>"; };
 		7C6865C3265748C600034B11 /* UniformTypeIdentifiersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniformTypeIdentifiersViewController.swift; sourceTree = "<group>"; };
 		7C6865C8265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniformTypeIdentifiersDemoViewController.swift; sourceTree = "<group>"; };
 		7C69F78B2656039200055389 /* AppFrameworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFrameworksViewController.swift; sourceTree = "<group>"; };
@@ -236,6 +244,10 @@
 				7C69F7A82656093900055389 /* SystemViewController.swift */,
 				7C6865C3265748C600034B11 /* UniformTypeIdentifiersViewController.swift */,
 				7C6865C8265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift */,
+				7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */,
+				7C300121265CCC0400C16956 /* SystemConfigationDemoViewController.swift */,
+				7C300126265CF1B800C16956 /* SystemDemoViewController.swift */,
+				7C30012B265CF1E200C16956 /* SystemFrameworkViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -683,6 +695,7 @@
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
+				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
@@ -696,11 +709,14 @@
 				7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
 				7CA3E31E2654B46600001D7A /* Colors.swift in Sources */,
+				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,
 				7CA3E3062654B31C00001D7A /* SCDTextViewAttributes.swift in Sources */,
 				7CA3E3022654B31C00001D7A /* SCDScrollViewAttributes.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
+				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
+				7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */,
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
 				7C69F7A92656093900055389 /* SystemViewController.swift in Sources */,
 				7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */,

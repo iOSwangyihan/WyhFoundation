@@ -194,17 +194,17 @@ enum SystemViewControllerType {
         case .Network:
             return AppFrameworksViewController()
         case .NetworkExtension:
-            return AppFrameworksViewController()
+            return NetworkExtensionViewController()
         case .ObjectiveC:
-            return AppFrameworksViewController()
+            return Objective_CRuntimeViewController()
         case .os:
-            return AppFrameworksViewController()
+            return osViewController()
         case .OSLog:
             return AppFrameworksViewController()
         case .Security:
-            return AppFrameworksViewController()
+            return SecurityViewController()
         case .SensorKit:
-            return AppFrameworksViewController()
+            return SensorKitViewController()
         case .simd:
             return AppFrameworksViewController()
         case .System:

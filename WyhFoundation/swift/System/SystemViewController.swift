@@ -192,7 +192,7 @@ enum SystemViewControllerType {
         case .NearbyInteraction:
             return AppFrameworksViewController()
         case .Network:
-            return AppFrameworksViewController()
+            return NetworkViewController()
         case .NetworkExtension:
             return NetworkExtensionViewController()
         case .ObjectiveC:

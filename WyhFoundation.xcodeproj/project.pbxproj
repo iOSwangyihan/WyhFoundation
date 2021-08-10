@@ -24,6 +24,8 @@
 		7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7D426565F0F00055389 /* LinkPresentationDemoViewController.swift */; };
 		7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7D926565F3400055389 /* BaseDemoViewController.swift */; };
 		7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */; };
+		7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F7EFC26C257DF009F3833 /* NetworkViewController.swift */; };
+		7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F7EFE26C257E8009F3833 /* NetworkDemoViewController.swift */; };
 		7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */; };
 		7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */; };
 		7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3615026C12CEA009E5376 /* SecurityViewController.swift */; };
@@ -110,6 +112,8 @@
 		7C69F7D426565F0F00055389 /* LinkPresentationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationDemoViewController.swift; sourceTree = "<group>"; };
 		7C69F7D926565F3400055389 /* BaseDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDemoViewController.swift; sourceTree = "<group>"; };
 		7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationViewController.swift; sourceTree = "<group>"; };
+		7C7F7EFC26C257DF009F3833 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		7C7F7EFE26C257E8009F3833 /* NetworkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitViewController.swift; sourceTree = "<group>"; };
 		7CA3615026C12CEA009E5376 /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
@@ -278,6 +282,8 @@
 				7CA3615A26C13112009E5376 /* Objective-CRuntimeDemoViewController.swift */,
 				7CA3615C26C1326F009E5376 /* NetworkExtensionViewController.swift */,
 				7CA3615E26C1327A009E5376 /* NetworkExtensionDemoViewController.swift */,
+				7C7F7EFC26C257DF009F3833 /* NetworkViewController.swift */,
+				7C7F7EFE26C257E8009F3833 /* NetworkDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -721,6 +727,7 @@
 				7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */,
 				7CA3615926C13107009E5376 /* Objective-CRuntimeViewController.swift in Sources */,
 				7CA3E3292654B7AB00001D7A /* BaseTableViewCell.swift in Sources */,
+				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
 				7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
@@ -748,6 +755,7 @@
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,
 				7CA3E3062654B31C00001D7A /* SCDTextViewAttributes.swift in Sources */,
 				7CA3E3022654B31C00001D7A /* SCDScrollViewAttributes.swift in Sources */,
+				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
 				7CA3615326C12D0D009E5376 /* SecurityDemoViewController.swift in Sources */,

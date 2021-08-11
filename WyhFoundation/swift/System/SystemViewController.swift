@@ -190,7 +190,7 @@ enum SystemViewControllerType {
         case .MetricKit:
             return AppFrameworksViewController()
         case .NearbyInteraction:
-            return AppFrameworksViewController()
+            return NearbyInteractionViewController()
         case .Network:
             return NetworkViewController()
         case .NetworkExtension:

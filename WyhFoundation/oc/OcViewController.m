@@ -37,7 +37,7 @@
     
     self.table.delegate = self;
     self.table.dataSource = self;
-    
+    NSString *s = @"";
     [self.view addSubViews:@[self.table]];
 
     [self.table mas_makeConstraints:^(MASConstraintMaker *make) {

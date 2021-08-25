@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0130B726D5D0610050833E /* MetricKitViewController.swift */; };
+		7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
 		7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C300121265CCC0400C16956 /* SystemConfigationDemoViewController.swift */; };
 		7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C300126265CF1B800C16956 /* SystemDemoViewController.swift */; };
@@ -99,6 +101,8 @@
 		1A67B74091D30228BB3D359C /* Pods_WyhFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyhFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCAE172211BDE95ACFC1EDC /* Pods-WyhFoundationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundationTests.release.xcconfig"; path = "Target Support Files/Pods-WyhFoundationTests/Pods-WyhFoundationTests.release.xcconfig"; sourceTree = "<group>"; };
 		44946BAFC622C09BAE4181C5 /* Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; path = "Target Support Files/Pods-WyhFoundation-WyhFoundationUITests/Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C0130B726D5D0610050833E /* MetricKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitViewController.swift; sourceTree = "<group>"; };
+		7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
 		7C300121265CCC0400C16956 /* SystemConfigationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigationDemoViewController.swift; sourceTree = "<group>"; };
 		7C300126265CF1B800C16956 /* SystemDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemDemoViewController.swift; sourceTree = "<group>"; };
@@ -296,6 +300,8 @@
 				7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */,
 				7C50FC1226D47FE500D9D857 /* MLComputeViewController.swift */,
 				7C50FC1426D47FF200D9D857 /* MLComputeDemoViewController.swift */,
+				7C0130B726D5D0610050833E /* MetricKitViewController.swift */,
+				7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -763,6 +769,7 @@
 				7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */,
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
+				7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */,
 				7CA3615B26C13112009E5376 /* Objective-CRuntimeDemoViewController.swift in Sources */,
 				7CA3E31E2654B46600001D7A /* Colors.swift in Sources */,
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,
@@ -777,6 +784,7 @@
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,
+				7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */,
 				7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */,
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,

@@ -1,19 +1,17 @@
 //
-//  MLComputeDemoViewController.swift
+//  MetricKitDemoViewController.swift
 //  WyhFoundation
 //
-//  Created by 王乙涵 on 2021/8/24.
+//  Created by 王乙涵 on 2021/8/25.
 //
 
 import UIKit
-//template<class T> {
-//
-//}
-class MLComputeDemoViewController: SwiftViewController {
+
+class MetricKitDemoViewController: SwiftViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
     

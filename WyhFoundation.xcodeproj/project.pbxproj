@@ -15,6 +15,8 @@
 		7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30012B265CF1E200C16956 /* SystemFrameworkViewController.swift */; };
 		7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC1226D47FE500D9D857 /* MLComputeViewController.swift */; };
 		7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC1426D47FF200D9D857 /* MLComputeDemoViewController.swift */; };
+		7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */; };
+		7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */; };
 		7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6865C3265748C600034B11 /* UniformTypeIdentifiersViewController.swift */; };
 		7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6865C8265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift */; };
 		7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F78B2656039200055389 /* AppFrameworksViewController.swift */; };
@@ -109,6 +111,8 @@
 		7C30012B265CF1E200C16956 /* SystemFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFrameworkViewController.swift; sourceTree = "<group>"; };
 		7C50FC1226D47FE500D9D857 /* MLComputeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLComputeViewController.swift; sourceTree = "<group>"; };
 		7C50FC1426D47FF200D9D857 /* MLComputeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLComputeDemoViewController.swift; sourceTree = "<group>"; };
+		7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationViewController.swift; sourceTree = "<group>"; };
+		7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationDemoViewController.swift; sourceTree = "<group>"; };
 		7C6865C3265748C600034B11 /* UniformTypeIdentifiersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniformTypeIdentifiersViewController.swift; sourceTree = "<group>"; };
 		7C6865C8265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniformTypeIdentifiersDemoViewController.swift; sourceTree = "<group>"; };
 		7C69F78B2656039200055389 /* AppFrameworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFrameworksViewController.swift; sourceTree = "<group>"; };
@@ -302,6 +306,8 @@
 				7C50FC1426D47FF200D9D857 /* MLComputeDemoViewController.swift */,
 				7C0130B726D5D0610050833E /* MetricKitViewController.swift */,
 				7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */,
+				7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */,
+				7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -745,6 +751,7 @@
 				7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */,
 				7CA3615926C13107009E5376 /* Objective-CRuntimeViewController.swift in Sources */,
 				7CA3E3292654B7AB00001D7A /* BaseTableViewCell.swift in Sources */,
+				7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */,
 				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
 				7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
@@ -777,6 +784,7 @@
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
 				7CA3E3022654B31C00001D7A /* SCDScrollViewAttributes.swift in Sources */,
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
+				7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
 				7CA3615326C12D0D009E5376 /* SecurityDemoViewController.swift in Sources */,

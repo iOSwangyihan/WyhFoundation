@@ -30,6 +30,7 @@ class MetricKitViewController: SwiftViewController {
         super.viewDidLoad()
         dataArr = [MetricKitViewControllerType.overview, MetricKitViewControllerType.topics, MetricKitViewControllerType.demo]
         // Do any additional setup after loading the view.
+        
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

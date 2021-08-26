@@ -1,17 +1,17 @@
 //
-//  MetricKitDemoViewController.swift
+//  LocalAuthenticationDemoViewController.swift
 //  WyhFoundation
 //
-//  Created by 王乙涵 on 2021/8/25.
+//  Created by 王乙涵 on 2021/8/26.
 //
 
 import UIKit
 
-class MetricKitDemoViewController: SwiftViewController {
+class LocalAuthenticationDemoViewController: SwiftViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
     

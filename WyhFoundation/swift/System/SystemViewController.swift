@@ -184,7 +184,7 @@ enum SystemViewControllerType {
         case .GSS:
             return AppFrameworksViewController()
         case .IOSurface:
-            return AppFrameworksViewController()
+            return LocalAuthenticationViewController()
         case .LocalAuthentication:
             return MetricKitViewController()
         case .MetricKit:

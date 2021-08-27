@@ -17,7 +17,7 @@ enum IOSurfaceViewControllerType {
         case .overview:
             return "Framework:iOS11+\n跨多个进程共享硬件加速的缓冲区数据(帧缓冲区和纹理)。更有效地管理映像内存。"
         case .topics:
-            return "Classes:\nIOSurface--表示IOSurface不透明对象的数据类型。\nIOSurfaceRef--表示IOSurface不透明对象的数据类型。\nIOSurfaceLockOptions--\nIOSurfacePropertyKey--\nIOSurfacePurgeabilityState--"
+            return "Classes:\nIOSurface--表示IOSurface不透明对象的数据类型。\nIOSurfaceRef--表示IOSurface不透明对象的数据类型。\nIOSurfaceLockOptions--\nIOSurfacePropertyKey--\nIOSurfacePurgeabilityState--\n"
         case .demo:
             return "Click here to example"
         }

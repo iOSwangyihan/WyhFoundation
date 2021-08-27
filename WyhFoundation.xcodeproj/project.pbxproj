@@ -17,6 +17,8 @@
 		7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC1426D47FF200D9D857 /* MLComputeDemoViewController.swift */; };
 		7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */; };
 		7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */; };
+		7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66106D26D8BFFB00F4188D /* IOSurfaceViewController.swift */; };
+		7C66107026D8C00400F4188D /* IOSurfaceDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66106F26D8C00400F4188D /* IOSurfaceDemoViewController.swift */; };
 		7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6865C3265748C600034B11 /* UniformTypeIdentifiersViewController.swift */; };
 		7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6865C8265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift */; };
 		7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F78B2656039200055389 /* AppFrameworksViewController.swift */; };
@@ -113,6 +115,8 @@
 		7C50FC1426D47FF200D9D857 /* MLComputeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLComputeDemoViewController.swift; sourceTree = "<group>"; };
 		7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationViewController.swift; sourceTree = "<group>"; };
 		7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationDemoViewController.swift; sourceTree = "<group>"; };
+		7C66106D26D8BFFB00F4188D /* IOSurfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSurfaceViewController.swift; sourceTree = "<group>"; };
+		7C66106F26D8C00400F4188D /* IOSurfaceDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSurfaceDemoViewController.swift; sourceTree = "<group>"; };
 		7C6865C3265748C600034B11 /* UniformTypeIdentifiersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniformTypeIdentifiersViewController.swift; sourceTree = "<group>"; };
 		7C6865C8265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniformTypeIdentifiersDemoViewController.swift; sourceTree = "<group>"; };
 		7C69F78B2656039200055389 /* AppFrameworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFrameworksViewController.swift; sourceTree = "<group>"; };
@@ -308,6 +312,8 @@
 				7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */,
 				7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */,
 				7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */,
+				7C66106D26D8BFFB00F4188D /* IOSurfaceViewController.swift */,
+				7C66106F26D8C00400F4188D /* IOSurfaceDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -746,6 +752,7 @@
 				7CA3E3032654B31C00001D7A /* SCDButtonAttributes.swift in Sources */,
 				7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */,
 				7CA3E3042654B31C00001D7A /* SCDImageViewAttributes.swift in Sources */,
+				7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
 				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
 				7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */,
@@ -777,6 +784,7 @@
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
 				7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */,
+				7C66107026D8C00400F4188D /* IOSurfaceDemoViewController.swift in Sources */,
 				7CA3615B26C13112009E5376 /* Objective-CRuntimeDemoViewController.swift in Sources */,
 				7CA3E31E2654B46600001D7A /* Colors.swift in Sources */,
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,

@@ -79,6 +79,8 @@
 		7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */; };
 		7CBD752A26C35FDF0089C344 /* NearbyInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752926C35FDF0089C344 /* NearbyInteractionViewController.swift */; };
 		7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */; };
+		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
+		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		F3118AFA54262A1A77A747F0 /* Pods_WyhFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A67B74091D30228BB3D359C /* Pods_WyhFoundation.framework */; };
 		F34DD4CF6E30318703931BEE /* Pods_WyhFoundation_WyhFoundationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3C3D8FAC05A2C40403A9F1 /* Pods_WyhFoundation_WyhFoundationUITests.framework */; };
 		F9257961DDC0E3CC9126D07A /* Pods_WyhFoundationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AB197390474C7DAEFFFBAA /* Pods_WyhFoundationTests.framework */; };
@@ -191,6 +193,8 @@
 		7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcBaseNaviView.m; sourceTree = "<group>"; };
 		7CBD752926C35FDF0089C344 /* NearbyInteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionViewController.swift; sourceTree = "<group>"; };
 		7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionDemoViewController.swift; sourceTree = "<group>"; };
+		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
+		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		B5C3CABCDE7DEB6C35664C59 /* Pods-WyhFoundationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundationTests.debug.xcconfig"; path = "Target Support Files/Pods-WyhFoundationTests/Pods-WyhFoundationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6AB197390474C7DAEFFFBAA /* Pods_WyhFoundationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyhFoundationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E4FBDC510E840EEBEA6E54 /* Pods-WyhFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundation.debug.xcconfig"; path = "Target Support Files/Pods-WyhFoundation/Pods-WyhFoundation.debug.xcconfig"; sourceTree = "<group>"; };
@@ -314,6 +318,8 @@
 				7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */,
 				7C66106D26D8BFFB00F4188D /* IOSurfaceViewController.swift */,
 				7C66106F26D8C00400F4188D /* IOSurfaceDemoViewController.swift */,
+				7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */,
+				7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -768,6 +774,7 @@
 				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
+				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
@@ -799,6 +806,7 @@
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
+				7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,
 				7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */,
 				7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */,

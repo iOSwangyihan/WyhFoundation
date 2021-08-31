@@ -81,6 +81,8 @@
 		7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
+		7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */; };
+		7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF948E326DDC0440071430A /* ExternalAccessoryDemoViewController.swift */; };
 		F3118AFA54262A1A77A747F0 /* Pods_WyhFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A67B74091D30228BB3D359C /* Pods_WyhFoundation.framework */; };
 		F34DD4CF6E30318703931BEE /* Pods_WyhFoundation_WyhFoundationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3C3D8FAC05A2C40403A9F1 /* Pods_WyhFoundation_WyhFoundationUITests.framework */; };
 		F9257961DDC0E3CC9126D07A /* Pods_WyhFoundationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AB197390474C7DAEFFFBAA /* Pods_WyhFoundationTests.framework */; };
@@ -195,6 +197,8 @@
 		7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
+		7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAccessoryViewController.swift; sourceTree = "<group>"; };
+		7CF948E326DDC0440071430A /* ExternalAccessoryDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAccessoryDemoViewController.swift; sourceTree = "<group>"; };
 		B5C3CABCDE7DEB6C35664C59 /* Pods-WyhFoundationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundationTests.debug.xcconfig"; path = "Target Support Files/Pods-WyhFoundationTests/Pods-WyhFoundationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6AB197390474C7DAEFFFBAA /* Pods_WyhFoundationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyhFoundationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E4FBDC510E840EEBEA6E54 /* Pods-WyhFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundation.debug.xcconfig"; path = "Target Support Files/Pods-WyhFoundation/Pods-WyhFoundation.debug.xcconfig"; sourceTree = "<group>"; };
@@ -320,6 +324,8 @@
 				7C66106F26D8C00400F4188D /* IOSurfaceDemoViewController.swift */,
 				7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */,
 				7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */,
+				7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */,
+				7CF948E326DDC0440071430A /* ExternalAccessoryDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -777,6 +783,7 @@
 				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
+				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
 				7CA3E3362654B82500001D7A /* BaseView.swift in Sources */,
 				7CBD752A26C35FDF0089C344 /* NearbyInteractionViewController.swift in Sources */,
@@ -789,6 +796,7 @@
 				7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */,
 				7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */,
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
+				7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
 				7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */,
 				7C66107026D8C00400F4188D /* IOSurfaceDemoViewController.swift in Sources */,

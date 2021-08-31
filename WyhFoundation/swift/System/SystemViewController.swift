@@ -28,6 +28,7 @@ import GSS
 import IOSurface
 import LocalAuthentication
 import MetricKit
+import MLCompute
 import NearbyInteraction
 import Network
 import NetworkExtension
@@ -63,6 +64,7 @@ enum SystemViewControllerType {
     case IOSurface
     case LocalAuthentication
     case MetricKit
+    case MLCompute
     case NearbyInteraction
     case Network
     case NetworkExtension
@@ -119,6 +121,8 @@ enum SystemViewControllerType {
             return "LocalAuthentication"
         case .MetricKit:
             return "MetricKit"
+        case .MLCompute:
+            return "MLCompute"
         case .NearbyInteraction:
             return "NearbyInteraction"
         case .Network:
@@ -180,14 +184,16 @@ enum SystemViewControllerType {
         case .ExposureNotification:
             return AppFrameworksViewController()
         case .ExternalAccessory:
-            return AppFrameworksViewController()
+            return ExternalAccessoryViewController()
         case .GSS:
-            return AppFrameworksViewController()
+            return GSSViewController()
         case .IOSurface:
-            return LocalAuthenticationViewController()
+            return IOSurfaceViewController()
         case .LocalAuthentication:
-            return MetricKitViewController()
+            return LocalAuthenticationViewController()
         case .MetricKit:
+            return MetricKitViewController()
+        case .MLCompute:
             return MLComputeViewController()
         case .NearbyInteraction:
             return NearbyInteractionViewController()

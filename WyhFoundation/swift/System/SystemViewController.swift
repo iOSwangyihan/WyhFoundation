@@ -182,7 +182,7 @@ enum SystemViewControllerType {
         case .dnssd:
             return AppFrameworksViewController()
         case .ExposureNotification:
-            return AppFrameworksViewController()
+            return ExposureNotificationViewController()
         case .ExternalAccessory:
             return ExternalAccessoryViewController()
         case .GSS:

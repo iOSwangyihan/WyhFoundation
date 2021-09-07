@@ -79,6 +79,8 @@
 		7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E3A22654DD5F00001D7A /* OcViewController.m */; };
 		7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E3D02654E7F200001D7A /* OcColors.m */; };
 		7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */; };
+		7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB61F7D26E6F88100019248 /* dnssdViewController.swift */; };
+		7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */; };
 		7CBD752A26C35FDF0089C344 /* NearbyInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752926C35FDF0089C344 /* NearbyInteractionViewController.swift */; };
 		7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
@@ -197,6 +199,8 @@
 		7CA3E3D02654E7F200001D7A /* OcColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcColors.m; sourceTree = "<group>"; };
 		7CA3E3DB2654F76E00001D7A /* OcBaseNaviView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OcBaseNaviView.h; sourceTree = "<group>"; };
 		7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcBaseNaviView.m; sourceTree = "<group>"; };
+		7CB61F7D26E6F88100019248 /* dnssdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnssdViewController.swift; sourceTree = "<group>"; };
+		7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnssdDemoViewController.swift; sourceTree = "<group>"; };
 		7CBD752926C35FDF0089C344 /* NearbyInteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionViewController.swift; sourceTree = "<group>"; };
 		7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
@@ -332,6 +336,8 @@
 				7CF948E326DDC0440071430A /* ExternalAccessoryDemoViewController.swift */,
 				7C343DDA26E5A3BB00A7A6BC /* ExposureNotificationViewController.swift */,
 				7C343DDC26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift */,
+				7CB61F7D26E6F88100019248 /* dnssdViewController.swift */,
+				7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -781,6 +787,7 @@
 				7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
+				7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */,
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
 				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
@@ -814,6 +821,7 @@
 				7CA3E3062654B31C00001D7A /* SCDTextViewAttributes.swift in Sources */,
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
 				7CA3E3022654B31C00001D7A /* SCDScrollViewAttributes.swift in Sources */,
+				7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */,
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
 				7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,

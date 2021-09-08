@@ -83,6 +83,8 @@
 		7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */; };
 		7CBD752A26C35FDF0089C344 /* NearbyInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752926C35FDF0089C344 /* NearbyInteractionViewController.swift */; };
 		7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */; };
+		7CD0988726E8456C00EBA585 /* DispatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988626E8456C00EBA585 /* DispatchViewController.swift */; };
+		7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988826E8457300EBA585 /* DispatchDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */; };
@@ -203,6 +205,8 @@
 		7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnssdDemoViewController.swift; sourceTree = "<group>"; };
 		7CBD752926C35FDF0089C344 /* NearbyInteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionViewController.swift; sourceTree = "<group>"; };
 		7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionDemoViewController.swift; sourceTree = "<group>"; };
+		7CD0988626E8456C00EBA585 /* DispatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchViewController.swift; sourceTree = "<group>"; };
+		7CD0988826E8457300EBA585 /* DispatchDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAccessoryViewController.swift; sourceTree = "<group>"; };
@@ -338,6 +342,8 @@
 				7C343DDC26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift */,
 				7CB61F7D26E6F88100019248 /* dnssdViewController.swift */,
 				7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */,
+				7CD0988626E8456C00EBA585 /* DispatchViewController.swift */,
+				7CD0988826E8457300EBA585 /* DispatchDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -807,8 +813,10 @@
 				7CA3E3012654B31C00001D7A /* SCDViewAttributes.swift in Sources */,
 				7C343DDB26E5A3BB00A7A6BC /* ExposureNotificationViewController.swift in Sources */,
 				7CA3E3192654B45E00001D7A /* Assets.swift in Sources */,
+				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */,
 				7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */,
+				7CD0988726E8456C00EBA585 /* DispatchViewController.swift in Sources */,
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
 				7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,

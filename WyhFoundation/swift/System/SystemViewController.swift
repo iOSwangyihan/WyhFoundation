@@ -178,9 +178,9 @@ enum SystemViewControllerType {
         case .CryptoTokenKit:
             return AppFrameworksViewController()
         case .Dispatch:
-            return AppFrameworksViewController()
+            return DispatchViewController()
         case .dnssd:
-            return AppFrameworksViewController()
+            return dnssdViewController()
         case .ExposureNotification:
             return ExposureNotificationViewController()
         case .ExternalAccessory:

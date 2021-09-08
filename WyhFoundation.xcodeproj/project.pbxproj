@@ -85,6 +85,10 @@
 		7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */; };
 		7CD0988726E8456C00EBA585 /* DispatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988626E8456C00EBA585 /* DispatchViewController.swift */; };
 		7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988826E8457300EBA585 /* DispatchDemoViewController.swift */; };
+		7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988A26E8B78B00EBA585 /* DeviceManagementViewController.swift */; };
+		7CD0988D26E8B79300EBA585 /* DeviceManagementDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988C26E8B79300EBA585 /* DeviceManagementDemoViewController.swift */; };
+		7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988E26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift */; };
+		7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0989026E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */; };
@@ -207,6 +211,10 @@
 		7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionDemoViewController.swift; sourceTree = "<group>"; };
 		7CD0988626E8456C00EBA585 /* DispatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchViewController.swift; sourceTree = "<group>"; };
 		7CD0988826E8457300EBA585 /* DispatchDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchDemoViewController.swift; sourceTree = "<group>"; };
+		7CD0988A26E8B78B00EBA585 /* DeviceManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManagementViewController.swift; sourceTree = "<group>"; };
+		7CD0988C26E8B79300EBA585 /* DeviceManagementDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManagementDemoViewController.swift; sourceTree = "<group>"; };
+		7CD0988E26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTokenKitViewController.swift; sourceTree = "<group>"; };
+		7CD0989026E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTokenKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAccessoryViewController.swift; sourceTree = "<group>"; };
@@ -344,6 +352,10 @@
 				7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */,
 				7CD0988626E8456C00EBA585 /* DispatchViewController.swift */,
 				7CD0988826E8457300EBA585 /* DispatchDemoViewController.swift */,
+				7CD0988A26E8B78B00EBA585 /* DeviceManagementViewController.swift */,
+				7CD0988C26E8B79300EBA585 /* DeviceManagementDemoViewController.swift */,
+				7CD0988E26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift */,
+				7CD0989026E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -801,6 +813,7 @@
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
 				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
+				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
 				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
@@ -827,6 +840,8 @@
 				7CA3E31E2654B46600001D7A /* Colors.swift in Sources */,
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,
 				7CA3E3062654B31C00001D7A /* SCDTextViewAttributes.swift in Sources */,
+				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
+				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
 				7CA3E3022654B31C00001D7A /* SCDScrollViewAttributes.swift in Sources */,
 				7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */,
@@ -834,6 +849,7 @@
 				7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
+				7CD0988D26E8B79300EBA585 /* DeviceManagementDemoViewController.swift in Sources */,
 				7CA3615326C12D0D009E5376 /* SecurityDemoViewController.swift in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,

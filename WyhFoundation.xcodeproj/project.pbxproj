@@ -17,6 +17,10 @@
 		7C343DDD26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C343DDC26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift */; };
 		7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC1226D47FE500D9D857 /* MLComputeViewController.swift */; };
 		7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC1426D47FF200D9D857 /* MLComputeDemoViewController.swift */; };
+		7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53BB9226E99936004A1753 /* CoreServicesViewController.swift */; };
+		7C53BB9526E9993F004A1753 /* CoreServicesDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53BB9426E9993F004A1753 /* CoreServicesDemoViewController.swift */; };
+		7C53BB9726E99F02004A1753 /* CoreNFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53BB9626E99F02004A1753 /* CoreNFCViewController.swift */; };
+		7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53BB9826E99F0C004A1753 /* CoreNFCDemoViewController.swift */; };
 		7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */; };
 		7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */; };
 		7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66106D26D8BFFB00F4188D /* IOSurfaceViewController.swift */; };
@@ -89,6 +93,8 @@
 		7CD0988D26E8B79300EBA585 /* DeviceManagementDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988C26E8B79300EBA585 /* DeviceManagementDemoViewController.swift */; };
 		7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988E26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift */; };
 		7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0989026E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift */; };
+		7CD0989326E8BD9D00EBA585 /* CoreTelephonyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0989226E8BD9D00EBA585 /* CoreTelephonyViewController.swift */; };
+		7CD0989526E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0989426E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */; };
@@ -129,6 +135,10 @@
 		7C343DDC26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureNotificationDemoViewController.swift; sourceTree = "<group>"; };
 		7C50FC1226D47FE500D9D857 /* MLComputeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLComputeViewController.swift; sourceTree = "<group>"; };
 		7C50FC1426D47FF200D9D857 /* MLComputeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLComputeDemoViewController.swift; sourceTree = "<group>"; };
+		7C53BB9226E99936004A1753 /* CoreServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreServicesViewController.swift; sourceTree = "<group>"; };
+		7C53BB9426E9993F004A1753 /* CoreServicesDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreServicesDemoViewController.swift; sourceTree = "<group>"; };
+		7C53BB9626E99F02004A1753 /* CoreNFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNFCViewController.swift; sourceTree = "<group>"; };
+		7C53BB9826E99F0C004A1753 /* CoreNFCDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNFCDemoViewController.swift; sourceTree = "<group>"; };
 		7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationViewController.swift; sourceTree = "<group>"; };
 		7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationDemoViewController.swift; sourceTree = "<group>"; };
 		7C66106D26D8BFFB00F4188D /* IOSurfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSurfaceViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +225,8 @@
 		7CD0988C26E8B79300EBA585 /* DeviceManagementDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManagementDemoViewController.swift; sourceTree = "<group>"; };
 		7CD0988E26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTokenKitViewController.swift; sourceTree = "<group>"; };
 		7CD0989026E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTokenKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CD0989226E8BD9D00EBA585 /* CoreTelephonyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTelephonyViewController.swift; sourceTree = "<group>"; };
+		7CD0989426E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTelephonyDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAccessoryViewController.swift; sourceTree = "<group>"; };
@@ -356,6 +368,12 @@
 				7CD0988C26E8B79300EBA585 /* DeviceManagementDemoViewController.swift */,
 				7CD0988E26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift */,
 				7CD0989026E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift */,
+				7CD0989226E8BD9D00EBA585 /* CoreTelephonyViewController.swift */,
+				7CD0989426E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift */,
+				7C53BB9226E99936004A1753 /* CoreServicesViewController.swift */,
+				7C53BB9426E9993F004A1753 /* CoreServicesDemoViewController.swift */,
+				7C53BB9626E99F02004A1753 /* CoreNFCViewController.swift */,
+				7C53BB9826E99F0C004A1753 /* CoreNFCDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -803,12 +821,14 @@
 				7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */,
 				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
 				7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */,
+				7C53BB9526E9993F004A1753 /* CoreServicesDemoViewController.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
 				7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */,
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
 				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
+				7CD0989326E8BD9D00EBA585 /* CoreTelephonyViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
 				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
@@ -817,6 +837,7 @@
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
 				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
+				7C53BB9726E99F02004A1753 /* CoreNFCViewController.swift in Sources */,
 				7CA3E3362654B82500001D7A /* BaseView.swift in Sources */,
 				7CBD752A26C35FDF0089C344 /* NearbyInteractionViewController.swift in Sources */,
 				7CA3E3312654B7EA00001D7A /* BaseNaviView.swift in Sources */,
@@ -843,6 +864,7 @@
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
 				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
+				7CD0989526E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift in Sources */,
 				7CA3E3022654B31C00001D7A /* SCDScrollViewAttributes.swift in Sources */,
 				7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */,
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
@@ -854,6 +876,7 @@
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
+				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,
 				7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,
 				7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */,
@@ -868,6 +891,7 @@
 				7C69F7AE2656094300055389 /* WebViewController.swift in Sources */,
 				7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */,
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
+				7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */,
 				7CA3E2FE2654B31C00001D7A /* SCDSwiftKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0130B726D5D0610050833E /* MetricKitViewController.swift */; };
 		7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */; };
+		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
+		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
 		7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C300121265CCC0400C16956 /* SystemConfigationDemoViewController.swift */; };
 		7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C300126265CF1B800C16956 /* SystemDemoViewController.swift */; };
@@ -127,6 +129,8 @@
 		44946BAFC622C09BAE4181C5 /* Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; path = "Target Support Files/Pods-WyhFoundation-WyhFoundationUITests/Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C0130B726D5D0610050833E /* MetricKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitViewController.swift; sourceTree = "<group>"; };
 		7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
+		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
 		7C300121265CCC0400C16956 /* SystemConfigationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigationDemoViewController.swift; sourceTree = "<group>"; };
 		7C300126265CF1B800C16956 /* SystemDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemDemoViewController.swift; sourceTree = "<group>"; };
@@ -374,6 +378,8 @@
 				7C53BB9426E9993F004A1753 /* CoreServicesDemoViewController.swift */,
 				7C53BB9626E99F02004A1753 /* CoreNFCViewController.swift */,
 				7C53BB9826E99F0C004A1753 /* CoreNFCDemoViewController.swift */,
+				7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */,
+				7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -832,6 +838,7 @@
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
 				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
+				7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
@@ -876,6 +883,7 @@
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
+				7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */,
 				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,
 				7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,

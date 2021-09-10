@@ -170,13 +170,13 @@ enum SystemViewControllerType {
         case .CoreBluetooth:
             return AppFrameworksViewController()
         case .CoreNFC:
-            return AppFrameworksViewController()
+            return CoreNFCViewController()
         case .CoreServices:
-            return AppFrameworksViewController()
+            return CoreServicesViewController()
         case .CoreTelephony:
-            return AppFrameworksViewController()
+            return CoreTelephonyViewController()
         case .CryptoTokenKit:
-            return AppFrameworksViewController()
+            return CryptoTokenKitViewController()
         case .Dispatch:
             return DispatchViewController()
         case .dnssd:

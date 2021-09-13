@@ -166,9 +166,9 @@ enum SystemViewControllerType {
         case .CoreLocation:
             return AppFrameworksViewController()
         case .Compression:
-            return AppFrameworksViewController()
+            return CompressionViewController()
         case .CoreBluetooth:
-            return AppFrameworksViewController()
+            return CoreBluetoothViewController()
         case .CoreNFC:
             return CoreNFCViewController()
         case .CoreServices:

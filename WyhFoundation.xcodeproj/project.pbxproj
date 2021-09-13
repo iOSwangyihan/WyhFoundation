@@ -52,6 +52,8 @@
 		7CA3615B26C13112009E5376 /* Objective-CRuntimeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3615A26C13112009E5376 /* Objective-CRuntimeDemoViewController.swift */; };
 		7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3615C26C1326F009E5376 /* NetworkExtensionViewController.swift */; };
 		7CA3615F26C1327A009E5376 /* NetworkExtensionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3615E26C1327A009E5376 /* NetworkExtensionDemoViewController.swift */; };
+		7CA3E04226EF359800902D84 /* CompressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E04126EF359800902D84 /* CompressionViewController.swift */; };
+		7CA3E04426EF359E00902D84 /* CompressionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E04326EF359E00902D84 /* CompressionDemoViewController.swift */; };
 		7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E2A72654AAB400001D7A /* AppDelegate.swift */; };
 		7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E2AB2654AAB400001D7A /* ViewController.swift */; };
 		7CA3E2AF2654AAB400001D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3E2AD2654AAB400001D7A /* Main.storyboard */; };
@@ -172,6 +174,8 @@
 		7CA3615A26C13112009E5376 /* Objective-CRuntimeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Objective-CRuntimeDemoViewController.swift"; sourceTree = "<group>"; };
 		7CA3615C26C1326F009E5376 /* NetworkExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExtensionViewController.swift; sourceTree = "<group>"; };
 		7CA3615E26C1327A009E5376 /* NetworkExtensionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExtensionDemoViewController.swift; sourceTree = "<group>"; };
+		7CA3E04126EF359800902D84 /* CompressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionViewController.swift; sourceTree = "<group>"; };
+		7CA3E04326EF359E00902D84 /* CompressionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3E2A42654AAB400001D7A /* WyhFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyhFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA3E2A72654AAB400001D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA3E2AB2654AAB400001D7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -380,6 +384,8 @@
 				7C53BB9826E99F0C004A1753 /* CoreNFCDemoViewController.swift */,
 				7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */,
 				7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */,
+				7CA3E04126EF359800902D84 /* CompressionViewController.swift */,
+				7CA3E04326EF359E00902D84 /* CompressionDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -832,6 +838,7 @@
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
 				7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */,
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
+				7CA3E04226EF359800902D84 /* CompressionViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
 				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
 				7CD0989326E8BD9D00EBA585 /* CoreTelephonyViewController.swift in Sources */,
@@ -882,6 +889,7 @@
 				7CA3615326C12D0D009E5376 /* SecurityDemoViewController.swift in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
+				7CA3E04426EF359E00902D84 /* CompressionDemoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
 				7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */,
 				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,

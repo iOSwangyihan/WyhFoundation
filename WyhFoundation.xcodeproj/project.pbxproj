@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0130B726D5D0610050833E /* MetricKitViewController.swift */; };
 		7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */; };
+		7C0F154826F02F5B0020C51A /* CFNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F154726F02F5B0020C51A /* CFNetworkViewController.swift */; };
+		7C0F154A26F02F700020C51A /* CFNetworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F154926F02F700020C51A /* CFNetworkDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -131,6 +133,8 @@
 		44946BAFC622C09BAE4181C5 /* Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; path = "Target Support Files/Pods-WyhFoundation-WyhFoundationUITests/Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C0130B726D5D0610050833E /* MetricKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitViewController.swift; sourceTree = "<group>"; };
 		7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C0F154726F02F5B0020C51A /* CFNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNetworkViewController.swift; sourceTree = "<group>"; };
+		7C0F154926F02F700020C51A /* CFNetworkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNetworkDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -386,6 +390,8 @@
 				7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */,
 				7CA3E04126EF359800902D84 /* CompressionViewController.swift */,
 				7CA3E04326EF359E00902D84 /* CompressionDemoViewController.swift */,
+				7C0F154726F02F5B0020C51A /* CFNetworkViewController.swift */,
+				7C0F154926F02F700020C51A /* CFNetworkDemoViewController.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -824,6 +830,7 @@
 				7CA3E3032654B31C00001D7A /* SCDButtonAttributes.swift in Sources */,
 				7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */,
 				7CA3E3042654B31C00001D7A /* SCDImageViewAttributes.swift in Sources */,
+				7C0F154826F02F5B0020C51A /* CFNetworkViewController.swift in Sources */,
 				7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
 				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
@@ -859,6 +866,7 @@
 				7CA3615F26C1327A009E5376 /* NetworkExtensionDemoViewController.swift in Sources */,
 				7CA3E2E82654B01F00001D7A /* UIView_Extension.swift in Sources */,
 				7CA3E3012654B31C00001D7A /* SCDViewAttributes.swift in Sources */,
+				7C0F154A26F02F700020C51A /* CFNetworkDemoViewController.swift in Sources */,
 				7C343DDB26E5A3BB00A7A6BC /* ExposureNotificationViewController.swift in Sources */,
 				7CA3E3192654B45E00001D7A /* Assets.swift in Sources */,
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,

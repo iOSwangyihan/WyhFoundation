@@ -152,17 +152,17 @@ enum SystemViewControllerType {
     func vc() -> SwiftViewController {
         switch self {
         case .Accelerate:
-            return AppFrameworksViewController()
+            return AccelerateViewController()
         case .AppTrackingTransparency:
-            return AppFrameworksViewController()
+            return AppTrackingTransparencyViewController()
         case .AppleArchive:
-            return AppFrameworksViewController()
+            return AppleArchiveViewController()
         case .CryptoKit:
-            return AppFrameworksViewController()
+            return AppleCryptoKitViewController()
         case .AuthenticationServices:
-            return AppFrameworksViewController()
+            return AuthenticationServicesViewController()
         case .CFNetwork:
-            return AppFrameworksViewController()
+            return CFNetworkViewController()
         case .CoreLocation:
             return AppFrameworksViewController()
         case .Compression:

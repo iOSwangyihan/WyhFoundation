@@ -128,9 +128,9 @@ enum MediaViewControllerType {
         case .VideoSubscriberAccount:
             return AppFrameworksViewController()
         case .VideoToolbox:
-            return AppFrameworksViewController()
+            return VideoToolboxViewController()
         case .VisionKit:
-            return AppFrameworksViewController()
+            return VisionKitViewController()
        
             
         }

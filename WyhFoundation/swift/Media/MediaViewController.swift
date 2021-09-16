@@ -94,39 +94,39 @@ enum MediaViewControllerType {
     func vc() -> SwiftViewController {
         switch self {
         case .AudioToolbox:
-            return AppFrameworksViewController()
+            return AudioToolboxViewController()
         case .AudioUnit:
-            return AppFrameworksViewController()
+            return AudioUnitViewController()
         case .AVFoundation:
-            return AppFrameworksViewController()
+            return AVFoundationViewController()
         case .AVKit:
-            return AppFrameworksViewController()
+            return AVKitViewController()
         case .CoreAudio:
-            return AppFrameworksViewController()
+            return CoreAudioViewController()
         case .CoreAudioKit:
-            return AppFrameworksViewController()
+            return CoreAudioKitViewController()
         case .CoreHaptics:
-            return AppFrameworksViewController()
+            return CoreHapticsViewController()
         case .CoreMedia:
-            return AppFrameworksViewController()
+            return CoreMediaViewController()
         case .CoreMIDI:
-            return AppFrameworksViewController()
+            return CoreMIDIViewController()
         case .CoreVideo:
-            return AppFrameworksViewController()
+            return CoreVideoViewController()
         case .ImageCaptureCore:
-            return AppFrameworksViewController()
+            return ImageCaptureCoreViewController()
         case .MediaAccessibility:
-            return AppFrameworksViewController()
+            return MediaAccessibilityViewController()
         case .MediaPlayer:
-            return AppFrameworksViewController()
+            return MediaPlayerViewController()
         case .Photos:
-            return AppFrameworksViewController()
+            return PhotoKitViewController()
         case .QuickLookThumbnailing:
-            return AppFrameworksViewController()
+            return QuickLookThumbnailingViewController()
         case .SoundAnalysis:
-            return AppFrameworksViewController()
+            return SoundAnalysisViewController()
         case .VideoSubscriberAccount:
-            return AppFrameworksViewController()
+            return VideoSubscriberAccountViewController()
         case .VideoToolbox:
             return VideoToolboxViewController()
         case .VisionKit:

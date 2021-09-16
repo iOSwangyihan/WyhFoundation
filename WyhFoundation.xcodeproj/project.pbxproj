@@ -139,6 +139,26 @@
 		7CD0989526E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0989426E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
+		7CF6694826F2D10F0079A5EB /* CoreHapticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6694726F2D10F0079A5EB /* CoreHapticsViewController.swift */; };
+		7CF6694A26F2D1190079A5EB /* CoreHapticsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6694926F2D1190079A5EB /* CoreHapticsDemoViewController.swift */; };
+		7CF6694C26F2D2C50079A5EB /* CoreAudioTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6694B26F2D2C50079A5EB /* CoreAudioTypesViewController.swift */; };
+		7CF6694E26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6694D26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift */; };
+		7CF6695026F2D3A50079A5EB /* CoreAudioKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6694F26F2D3A50079A5EB /* CoreAudioKitViewController.swift */; };
+		7CF6695226F2D3B70079A5EB /* CoreAudioKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6695126F2D3B70079A5EB /* CoreAudioKitDemoViewController.swift */; };
+		7CF6695426F2D4930079A5EB /* CoreAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6695326F2D4930079A5EB /* CoreAudioViewController.swift */; };
+		7CF6695626F2D49F0079A5EB /* CoreAudioDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6695526F2D49F0079A5EB /* CoreAudioDemoViewController.swift */; };
+		7CF6695826F2D5EA0079A5EB /* AVKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6695726F2D5EA0079A5EB /* AVKitViewController.swift */; };
+		7CF6695A26F2D5EF0079A5EB /* AVKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6695926F2D5EF0079A5EB /* AVKitDemoViewController.swift */; };
+		7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6695B26F2D8910079A5EB /* AVFoundationViewController.swift */; };
+		7CF6695E26F2D8970079A5EB /* AVFoundationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6695D26F2D8970079A5EB /* AVFoundationDemoViewController.swift */; };
+		7CF6696026F2DA390079A5EB /* AVFAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6695F26F2DA390079A5EB /* AVFAudioViewController.swift */; };
+		7CF6696226F2DA3F0079A5EB /* AVFAudioDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6696126F2DA3F0079A5EB /* AVFAudioDemoViewController.swift */; };
+		7CF6696426F2DB050079A5EB /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6696326F2DB050079A5EB /* AudioUnitViewController.swift */; };
+		7CF6696626F2DB0E0079A5EB /* AudioUnitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6696526F2DB0E0079A5EB /* AudioUnitDemoViewController.swift */; };
+		7CF6696826F2DC870079A5EB /* AudioToolboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6696726F2DC870079A5EB /* AudioToolboxViewController.swift */; };
+		7CF6696A26F2DC8F0079A5EB /* AudioToolboxDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6696926F2DC8F0079A5EB /* AudioToolboxDemoViewController.swift */; };
+		7CF6697226F2DF640079A5EB /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6697126F2DF640079A5EB /* VisionViewController.swift */; };
+		7CF6697426F2DF690079A5EB /* VisionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6697326F2DF690079A5EB /* VisionDemoViewController.swift */; };
 		7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */; };
 		7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF948E326DDC0440071430A /* ExternalAccessoryDemoViewController.swift */; };
 		F3118AFA54262A1A77A747F0 /* Pods_WyhFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A67B74091D30228BB3D359C /* Pods_WyhFoundation.framework */; };
@@ -313,6 +333,26 @@
 		7CD0989426E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTelephonyDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6694726F2D10F0079A5EB /* CoreHapticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsViewController.swift; sourceTree = "<group>"; };
+		7CF6694926F2D1190079A5EB /* CoreHapticsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6694B26F2D2C50079A5EB /* CoreAudioTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioTypesViewController.swift; sourceTree = "<group>"; };
+		7CF6694D26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioTypesDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6694F26F2D3A50079A5EB /* CoreAudioKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioKitViewController.swift; sourceTree = "<group>"; };
+		7CF6695126F2D3B70079A5EB /* CoreAudioKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6695326F2D4930079A5EB /* CoreAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioViewController.swift; sourceTree = "<group>"; };
+		7CF6695526F2D49F0079A5EB /* CoreAudioDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6695726F2D5EA0079A5EB /* AVKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVKitViewController.swift; sourceTree = "<group>"; };
+		7CF6695926F2D5EF0079A5EB /* AVKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6695B26F2D8910079A5EB /* AVFoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationViewController.swift; sourceTree = "<group>"; };
+		7CF6695D26F2D8970079A5EB /* AVFoundationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6695F26F2DA390079A5EB /* AVFAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFAudioViewController.swift; sourceTree = "<group>"; };
+		7CF6696126F2DA3F0079A5EB /* AVFAudioDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFAudioDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6696326F2DB050079A5EB /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		7CF6696526F2DB0E0079A5EB /* AudioUnitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6696726F2DC870079A5EB /* AudioToolboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioToolboxViewController.swift; sourceTree = "<group>"; };
+		7CF6696926F2DC8F0079A5EB /* AudioToolboxDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioToolboxDemoViewController.swift; sourceTree = "<group>"; };
+		7CF6697126F2DF640079A5EB /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
+		7CF6697326F2DF690079A5EB /* VisionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDemoViewController.swift; sourceTree = "<group>"; };
 		7CF948E126DDC0390071430A /* ExternalAccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAccessoryViewController.swift; sourceTree = "<group>"; };
 		7CF948E326DDC0440071430A /* ExternalAccessoryDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAccessoryDemoViewController.swift; sourceTree = "<group>"; };
 		B5C3CABCDE7DEB6C35664C59 /* Pods-WyhFoundationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundationTests.debug.xcconfig"; path = "Target Support Files/Pods-WyhFoundationTests/Pods-WyhFoundationTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -394,6 +434,8 @@
 			isa = PBXGroup;
 			children = (
 				7C69F79E2656091F00055389 /* GraphicsandGamesViewController.swift */,
+				7CF6697126F2DF640079A5EB /* VisionViewController.swift */,
+				7CF6697326F2DF690079A5EB /* VisionDemoViewController.swift */,
 			);
 			path = GraphicsandGames;
 			sourceTree = "<group>";
@@ -428,6 +470,24 @@
 				7C08197E26F1990900CE1DD9 /* CoreMIDIDemoViewController.swift */,
 				7C08198026F19A2300CE1DD9 /* CoreMediaViewController.swift */,
 				7C08198226F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift */,
+				7CF6694726F2D10F0079A5EB /* CoreHapticsViewController.swift */,
+				7CF6694926F2D1190079A5EB /* CoreHapticsDemoViewController.swift */,
+				7CF6694B26F2D2C50079A5EB /* CoreAudioTypesViewController.swift */,
+				7CF6694D26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift */,
+				7CF6694F26F2D3A50079A5EB /* CoreAudioKitViewController.swift */,
+				7CF6695126F2D3B70079A5EB /* CoreAudioKitDemoViewController.swift */,
+				7CF6695326F2D4930079A5EB /* CoreAudioViewController.swift */,
+				7CF6695526F2D49F0079A5EB /* CoreAudioDemoViewController.swift */,
+				7CF6695726F2D5EA0079A5EB /* AVKitViewController.swift */,
+				7CF6695926F2D5EF0079A5EB /* AVKitDemoViewController.swift */,
+				7CF6695B26F2D8910079A5EB /* AVFoundationViewController.swift */,
+				7CF6695D26F2D8970079A5EB /* AVFoundationDemoViewController.swift */,
+				7CF6695F26F2DA390079A5EB /* AVFAudioViewController.swift */,
+				7CF6696126F2DA3F0079A5EB /* AVFAudioDemoViewController.swift */,
+				7CF6696326F2DB050079A5EB /* AudioUnitViewController.swift */,
+				7CF6696526F2DB0E0079A5EB /* AudioUnitDemoViewController.swift */,
+				7CF6696726F2DC870079A5EB /* AudioToolboxViewController.swift */,
+				7CF6696926F2DC8F0079A5EB /* AudioToolboxDemoViewController.swift */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -935,6 +995,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF6696226F2DA3F0079A5EB /* AVFAudioDemoViewController.swift in Sources */,
 				7C08196326F18EA800CE1DD9 /* QuickLookThumbnailingDemoViewController.swift in Sources */,
 				7CA3E3032654B31C00001D7A /* SCDButtonAttributes.swift in Sources */,
 				7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */,
@@ -945,12 +1006,15 @@
 				7C08198126F19A2300CE1DD9 /* CoreMediaViewController.swift in Sources */,
 				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
 				7C08194526F185D100CE1DD9 /* AppleArchiveDemoViewController.swift in Sources */,
+				7CF6695226F2D3B70079A5EB /* CoreAudioKitDemoViewController.swift in Sources */,
 				7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */,
+				7CF6694C26F2D2C50079A5EB /* CoreAudioTypesViewController.swift in Sources */,
 				7C08195F26F18DA900CE1DD9 /* SoundAnalysisDemoViewController.swift in Sources */,
 				7C08195D26F18D9F00CE1DD9 /* SoundAnalysisViewController.swift in Sources */,
 				7CA3615926C13107009E5376 /* Objective-CRuntimeViewController.swift in Sources */,
 				7CA3E3292654B7AB00001D7A /* BaseTableViewCell.swift in Sources */,
 				7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */,
+				7CF6694E26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift in Sources */,
 				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
 				7C08194F26F18A9E00CE1DD9 /* VisionKitViewController.swift in Sources */,
 				7C08197D26F1990200CE1DD9 /* CoreMIDIViewController.swift in Sources */,
@@ -958,15 +1022,19 @@
 				7C08196726F18F8600CE1DD9 /* PhotoKitDemoViewController.swift in Sources */,
 				7C53BB9526E9993F004A1753 /* CoreServicesDemoViewController.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
+				7CF6697426F2DF690079A5EB /* VisionDemoViewController.swift in Sources */,
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
+				7CF6696A26F2DC8F0079A5EB /* AudioToolboxDemoViewController.swift in Sources */,
 				7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */,
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
 				7C08193F26F1846400CE1DD9 /* AppleCryptoKitViewController.swift in Sources */,
 				7CA3E04226EF359800902D84 /* CompressionViewController.swift in Sources */,
+				7CF6695626F2D49F0079A5EB /* CoreAudioDemoViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
 				7C08197126F1945100CE1DD9 /* MediaAccessibilityViewController.swift in Sources */,
 				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
 				7CD0989326E8BD9D00EBA585 /* CoreTelephonyViewController.swift in Sources */,
+				7CF6696826F2DC870079A5EB /* AudioToolboxViewController.swift in Sources */,
 				7C08195526F18B6F00CE1DD9 /* VideoToolboxDemoViewController.swift in Sources */,
 				7C08193B26F1821700CE1DD9 /* AuthenticationServicesViewController.swift in Sources */,
 				7C08196926F1918B00CE1DD9 /* MediaSetupViewController.swift in Sources */,
@@ -975,7 +1043,9 @@
 				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
 				7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
+				7CF6694826F2D10F0079A5EB /* CoreHapticsViewController.swift in Sources */,
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
+				7CF6695826F2D5EA0079A5EB /* AVKitViewController.swift in Sources */,
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
 				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
@@ -994,12 +1064,14 @@
 				7C0F154A26F02F700020C51A /* CFNetworkDemoViewController.swift in Sources */,
 				7C343DDB26E5A3BB00A7A6BC /* ExposureNotificationViewController.swift in Sources */,
 				7CA3E3192654B45E00001D7A /* Assets.swift in Sources */,
+				7CF6697226F2DF640079A5EB /* VisionViewController.swift in Sources */,
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7C08194B26F1871600CE1DD9 /* AccelerateViewController.swift in Sources */,
 				7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */,
 				7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */,
 				7CD0988726E8456C00EBA585 /* DispatchViewController.swift in Sources */,
 				7C08196526F18F7F00CE1DD9 /* PhotoKitViewController.swift in Sources */,
+				7CF6695E26F2D8970079A5EB /* AVFoundationDemoViewController.swift in Sources */,
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
 				7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
@@ -1013,6 +1085,7 @@
 				7C08195126F18AA600CE1DD9 /* VisionKitDemoViewController.swift in Sources */,
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,
 				7CA3E3062654B31C00001D7A /* SCDTextViewAttributes.swift in Sources */,
+				7CF6694A26F2D1190079A5EB /* CoreHapticsDemoViewController.swift in Sources */,
 				7C08194926F186A300CE1DD9 /* AppTrackingTransparencyDemoViewController.swift in Sources */,
 				7C08198326F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift in Sources */,
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
@@ -1024,19 +1097,23 @@
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
 				7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
+				7CF6696626F2DB0E0079A5EB /* AudioUnitDemoViewController.swift in Sources */,
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
 				7CD0988D26E8B79300EBA585 /* DeviceManagementDemoViewController.swift in Sources */,
 				7C08196D26F1920300CE1DD9 /* MediaPlayerViewController.swift in Sources */,
 				7CA3615326C12D0D009E5376 /* SecurityDemoViewController.swift in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
+				7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */,
 				7CA3E04426EF359E00902D84 /* CompressionDemoViewController.swift in Sources */,
 				7C08197926F1972C00CE1DD9 /* CoreVideoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
 				7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */,
 				7C08194726F1869700CE1DD9 /* AppTrackingTransparencyViewController.swift in Sources */,
+				7CF6695026F2D3A50079A5EB /* CoreAudioKitViewController.swift in Sources */,
 				7C08195926F18CDD00CE1DD9 /* VideoSubscriberAccountViewController.swift in Sources */,
 				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,
+				7CF6695426F2D4930079A5EB /* CoreAudioViewController.swift in Sources */,
 				7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */,
 				7C08194126F1846E00CE1DD9 /* AppleCryptoKitDemoViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,
@@ -1048,11 +1125,14 @@
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,
+				7CF6696426F2DB050079A5EB /* AudioUnitViewController.swift in Sources */,
 				7C08196126F18E9E00CE1DD9 /* QuickLookThumbnailingViewController.swift in Sources */,
+				7CF6695A26F2D5EF0079A5EB /* AVKitDemoViewController.swift in Sources */,
 				7C69F7A92656093900055389 /* SystemViewController.swift in Sources */,
 				7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */,
 				7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,
+				7CF6696026F2DA390079A5EB /* AVFAudioViewController.swift in Sources */,
 				7CA3615726C13040009E5376 /* osDemoViewController.swift in Sources */,
 				7C69F7AE2656094300055389 /* WebViewController.swift in Sources */,
 				7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */,

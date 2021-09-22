@@ -137,6 +137,8 @@
 		7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0989026E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift */; };
 		7CD0989326E8BD9D00EBA585 /* CoreTelephonyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0989226E8BD9D00EBA585 /* CoreTelephonyViewController.swift */; };
 		7CD0989526E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0989426E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift */; };
+		7CD1BDC626FB1CEA00260DF5 /* ReplayKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1BDC526FB1CEA00260DF5 /* ReplayKitViewController.swift */; };
+		7CD1BDC826FB1CF200260DF5 /* ReplayKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1BDC726FB1CF200260DF5 /* ReplayKitDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */; };
@@ -335,6 +337,8 @@
 		7CD0989026E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTokenKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CD0989226E8BD9D00EBA585 /* CoreTelephonyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTelephonyViewController.swift; sourceTree = "<group>"; };
 		7CD0989426E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTelephonyDemoViewController.swift; sourceTree = "<group>"; };
+		7CD1BDC526FB1CEA00260DF5 /* ReplayKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitViewController.swift; sourceTree = "<group>"; };
+		7CD1BDC726FB1CF200260DF5 /* ReplayKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
@@ -448,6 +452,8 @@
 				7CF5981226F43E02009E16E5 /* SpriteKitDemoViewController.swift */,
 				7CF5981426F46C81009E16E5 /* SceneKitViewController.swift */,
 				7CF5981626F46C88009E16E5 /* SceneKitDemoViewController.swift */,
+				7CD1BDC526FB1CEA00260DF5 /* ReplayKitViewController.swift */,
+				7CD1BDC726FB1CF200260DF5 /* ReplayKitDemoViewController.swift */,
 			);
 			path = GraphicsandGames;
 			sourceTree = "<group>";
@@ -1086,6 +1092,7 @@
 				7C08196526F18F7F00CE1DD9 /* PhotoKitViewController.swift in Sources */,
 				7CF6695E26F2D8970079A5EB /* AVFoundationDemoViewController.swift in Sources */,
 				7CF5981326F43E02009E16E5 /* SpriteKitDemoViewController.swift in Sources */,
+				7CD1BDC826FB1CF200260DF5 /* ReplayKitDemoViewController.swift in Sources */,
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
 				7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
@@ -1136,6 +1143,7 @@
 				7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */,
 				7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */,
 				7C08194326F185C800CE1DD9 /* AppleArchiveViewController.swift in Sources */,
+				7CD1BDC626FB1CEA00260DF5 /* ReplayKitViewController.swift in Sources */,
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
 				7C08197726F1954900CE1DD9 /* ImageCaptureCoreDemoViewController.swift in Sources */,
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,

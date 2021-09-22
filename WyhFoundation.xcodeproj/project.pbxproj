@@ -139,6 +139,10 @@
 		7CD0989526E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0989426E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
+		7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */; };
+		7CF5981326F43E02009E16E5 /* SpriteKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981226F43E02009E16E5 /* SpriteKitDemoViewController.swift */; };
+		7CF5981526F46C81009E16E5 /* SceneKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981426F46C81009E16E5 /* SceneKitViewController.swift */; };
+		7CF5981726F46C88009E16E5 /* SceneKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981626F46C88009E16E5 /* SceneKitDemoViewController.swift */; };
 		7CF6694826F2D10F0079A5EB /* CoreHapticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6694726F2D10F0079A5EB /* CoreHapticsViewController.swift */; };
 		7CF6694A26F2D1190079A5EB /* CoreHapticsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6694926F2D1190079A5EB /* CoreHapticsDemoViewController.swift */; };
 		7CF6694C26F2D2C50079A5EB /* CoreAudioTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6694B26F2D2C50079A5EB /* CoreAudioTypesViewController.swift */; };
@@ -333,6 +337,10 @@
 		7CD0989426E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTelephonyDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
+		7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
+		7CF5981226F43E02009E16E5 /* SpriteKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CF5981426F46C81009E16E5 /* SceneKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitViewController.swift; sourceTree = "<group>"; };
+		7CF5981626F46C88009E16E5 /* SceneKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CF6694726F2D10F0079A5EB /* CoreHapticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsViewController.swift; sourceTree = "<group>"; };
 		7CF6694926F2D1190079A5EB /* CoreHapticsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsDemoViewController.swift; sourceTree = "<group>"; };
 		7CF6694B26F2D2C50079A5EB /* CoreAudioTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioTypesViewController.swift; sourceTree = "<group>"; };
@@ -436,6 +444,10 @@
 				7C69F79E2656091F00055389 /* GraphicsandGamesViewController.swift */,
 				7CF6697126F2DF640079A5EB /* VisionViewController.swift */,
 				7CF6697326F2DF690079A5EB /* VisionDemoViewController.swift */,
+				7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */,
+				7CF5981226F43E02009E16E5 /* SpriteKitDemoViewController.swift */,
+				7CF5981426F46C81009E16E5 /* SceneKitViewController.swift */,
+				7CF5981626F46C88009E16E5 /* SceneKitDemoViewController.swift */,
 			);
 			path = GraphicsandGames;
 			sourceTree = "<group>";
@@ -1039,6 +1051,7 @@
 				7C08193B26F1821700CE1DD9 /* AuthenticationServicesViewController.swift in Sources */,
 				7C08196926F1918B00CE1DD9 /* MediaSetupViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
+				7CF5981726F46C88009E16E5 /* SceneKitDemoViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
 				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
 				7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */,
@@ -1072,6 +1085,7 @@
 				7CD0988726E8456C00EBA585 /* DispatchViewController.swift in Sources */,
 				7C08196526F18F7F00CE1DD9 /* PhotoKitViewController.swift in Sources */,
 				7CF6695E26F2D8970079A5EB /* AVFoundationDemoViewController.swift in Sources */,
+				7CF5981326F43E02009E16E5 /* SpriteKitDemoViewController.swift in Sources */,
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
 				7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
@@ -1097,11 +1111,13 @@
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
 				7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
+				7CF5981526F46C81009E16E5 /* SceneKitViewController.swift in Sources */,
 				7CF6696626F2DB0E0079A5EB /* AudioUnitDemoViewController.swift in Sources */,
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
 				7CD0988D26E8B79300EBA585 /* DeviceManagementDemoViewController.swift in Sources */,
 				7C08196D26F1920300CE1DD9 /* MediaPlayerViewController.swift in Sources */,
 				7CA3615326C12D0D009E5376 /* SecurityDemoViewController.swift in Sources */,
+				7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
 				7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */,

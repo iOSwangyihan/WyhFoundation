@@ -145,7 +145,7 @@ enum GraphicsandGamesViewControllerType {
         case .SceneKit:
             return AppFrameworksViewController()
         case .SpriteKit:
-            return AppFrameworksViewController()
+            return SpriteKitViewController()
         case .Vision:
             return VisionViewController()
      

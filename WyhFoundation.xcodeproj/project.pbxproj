@@ -63,6 +63,8 @@
 		7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53BB9826E99F0C004A1753 /* CoreNFCDemoViewController.swift */; };
 		7C5A58D126FC76B8006CA748 /* PencilKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A58D026FC76B8006CA748 /* PencilKitViewController.swift */; };
 		7C5A58D326FC76C0006CA748 /* PencilKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A58D226FC76C0006CA748 /* PencilKitDemoViewController.swift */; };
+		7C5A58D526FC80F5006CA748 /* PDFKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A58D426FC80F5006CA748 /* PDFKitViewController.swift */; };
+		7C5A58D726FC80FD006CA748 /* PDFKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A58D626FC80FD006CA748 /* PDFKitDemoViewController.swift */; };
 		7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */; };
 		7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */; };
 		7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66106D26D8BFFB00F4188D /* IOSurfaceViewController.swift */; };
@@ -253,6 +255,8 @@
 		7C53BB9826E99F0C004A1753 /* CoreNFCDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNFCDemoViewController.swift; sourceTree = "<group>"; };
 		7C5A58D026FC76B8006CA748 /* PencilKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitViewController.swift; sourceTree = "<group>"; };
 		7C5A58D226FC76C0006CA748 /* PencilKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C5A58D426FC80F5006CA748 /* PDFKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitViewController.swift; sourceTree = "<group>"; };
+		7C5A58D626FC80FD006CA748 /* PDFKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitDemoViewController.swift; sourceTree = "<group>"; };
 		7C62A9F526D7417200D35995 /* LocalAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationViewController.swift; sourceTree = "<group>"; };
 		7C62A9F726D7417C00D35995 /* LocalAuthenticationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationDemoViewController.swift; sourceTree = "<group>"; };
 		7C66106D26D8BFFB00F4188D /* IOSurfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSurfaceViewController.swift; sourceTree = "<group>"; };
@@ -466,6 +470,8 @@
 				7CD1BDCB26FB33F100260DF5 /* RealityKitDemoViewController.swift */,
 				7C5A58D026FC76B8006CA748 /* PencilKitViewController.swift */,
 				7C5A58D226FC76C0006CA748 /* PencilKitDemoViewController.swift */,
+				7C5A58D426FC80F5006CA748 /* PDFKitViewController.swift */,
+				7C5A58D626FC80FD006CA748 /* PDFKitDemoViewController.swift */,
 			);
 			path = GraphicsandGames;
 			sourceTree = "<group>";
@@ -1061,6 +1067,7 @@
 				7CA3E04226EF359800902D84 /* CompressionViewController.swift in Sources */,
 				7CF6695626F2D49F0079A5EB /* CoreAudioDemoViewController.swift in Sources */,
 				7CD1BDCC26FB33F100260DF5 /* RealityKitDemoViewController.swift in Sources */,
+				7C5A58D526FC80F5006CA748 /* PDFKitViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
 				7C08197126F1945100CE1DD9 /* MediaAccessibilityViewController.swift in Sources */,
 				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
@@ -1101,6 +1108,7 @@
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7C08194B26F1871600CE1DD9 /* AccelerateViewController.swift in Sources */,
 				7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */,
+				7C5A58D726FC80FD006CA748 /* PDFKitDemoViewController.swift in Sources */,
 				7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */,
 				7CD0988726E8456C00EBA585 /* DispatchViewController.swift in Sources */,
 				7C08196526F18F7F00CE1DD9 /* PhotoKitViewController.swift in Sources */,

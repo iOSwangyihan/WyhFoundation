@@ -98,6 +98,8 @@
 		7C91AD45270168F2005E47D9 /* GameplayKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD44270168F2005E47D9 /* GameplayKitDemoViewController.swift */; };
 		7C91AD4727019DA2005E47D9 /* GameKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4627019DA2005E47D9 /* GameKitViewController.swift */; };
 		7C91AD4927019DA8005E47D9 /* GameKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4827019DA8005E47D9 /* GameKitDemoViewController.swift */; };
+		7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4A2701A100005E47D9 /* GameControllerViewController.swift */; };
+		7C91AD4D2701A10A005E47D9 /* GameControllerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4C2701A10A005E47D9 /* GameControllerDemoViewController.swift */; };
 		7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */; };
 		7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */; };
 		7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3615026C12CEA009E5376 /* SecurityViewController.swift */; };
@@ -306,6 +308,8 @@
 		7C91AD44270168F2005E47D9 /* GameplayKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayKitDemoViewController.swift; sourceTree = "<group>"; };
 		7C91AD4627019DA2005E47D9 /* GameKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKitViewController.swift; sourceTree = "<group>"; };
 		7C91AD4827019DA8005E47D9 /* GameKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C91AD4A2701A100005E47D9 /* GameControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerViewController.swift; sourceTree = "<group>"; };
+		7C91AD4C2701A10A005E47D9 /* GameControllerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitViewController.swift; sourceTree = "<group>"; };
 		7CA3615026C12CEA009E5376 /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
@@ -520,6 +524,8 @@
 				7C91AD44270168F2005E47D9 /* GameplayKitDemoViewController.swift */,
 				7C91AD4627019DA2005E47D9 /* GameKitViewController.swift */,
 				7C91AD4827019DA8005E47D9 /* GameKitDemoViewController.swift */,
+				7C91AD4A2701A100005E47D9 /* GameControllerViewController.swift */,
+				7C91AD4C2701A10A005E47D9 /* GameControllerDemoViewController.swift */,
 			);
 			path = GraphicsandGames;
 			sourceTree = "<group>";
@@ -1082,6 +1088,7 @@
 				7CF6696226F2DA3F0079A5EB /* AVFAudioDemoViewController.swift in Sources */,
 				7C08196326F18EA800CE1DD9 /* QuickLookThumbnailingDemoViewController.swift in Sources */,
 				7CA3E3032654B31C00001D7A /* SCDButtonAttributes.swift in Sources */,
+				7C91AD4D2701A10A005E47D9 /* GameControllerDemoViewController.swift in Sources */,
 				7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */,
 				7CA3E3042654B31C00001D7A /* SCDImageViewAttributes.swift in Sources */,
 				7C0F154826F02F5B0020C51A /* CFNetworkViewController.swift in Sources */,
@@ -1230,6 +1237,7 @@
 				7CD1BDC626FB1CEA00260DF5 /* ReplayKitViewController.swift in Sources */,
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
 				7C08197726F1954900CE1DD9 /* ImageCaptureCoreDemoViewController.swift in Sources */,
+				7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */,
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,

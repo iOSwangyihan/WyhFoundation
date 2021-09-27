@@ -96,6 +96,8 @@
 		7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD402701688B005E47D9 /* GLKitDemoViewController.swift */; };
 		7C91AD43270168ED005E47D9 /* GameplayKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD42270168ED005E47D9 /* GameplayKitViewController.swift */; };
 		7C91AD45270168F2005E47D9 /* GameplayKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD44270168F2005E47D9 /* GameplayKitDemoViewController.swift */; };
+		7C91AD4727019DA2005E47D9 /* GameKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4627019DA2005E47D9 /* GameKitViewController.swift */; };
+		7C91AD4927019DA8005E47D9 /* GameKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4827019DA8005E47D9 /* GameKitDemoViewController.swift */; };
 		7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */; };
 		7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */; };
 		7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3615026C12CEA009E5376 /* SecurityViewController.swift */; };
@@ -302,6 +304,8 @@
 		7C91AD402701688B005E47D9 /* GLKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLKitDemoViewController.swift; sourceTree = "<group>"; };
 		7C91AD42270168ED005E47D9 /* GameplayKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayKitViewController.swift; sourceTree = "<group>"; };
 		7C91AD44270168F2005E47D9 /* GameplayKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C91AD4627019DA2005E47D9 /* GameKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKitViewController.swift; sourceTree = "<group>"; };
+		7C91AD4827019DA8005E47D9 /* GameKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitViewController.swift; sourceTree = "<group>"; };
 		7CA3615026C12CEA009E5376 /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
@@ -514,6 +518,8 @@
 				7C91AD402701688B005E47D9 /* GLKitDemoViewController.swift */,
 				7C91AD42270168ED005E47D9 /* GameplayKitViewController.swift */,
 				7C91AD44270168F2005E47D9 /* GameplayKitDemoViewController.swift */,
+				7C91AD4627019DA2005E47D9 /* GameKitViewController.swift */,
+				7C91AD4827019DA8005E47D9 /* GameKitDemoViewController.swift */,
 			);
 			path = GraphicsandGames;
 			sourceTree = "<group>";
@@ -1082,6 +1088,7 @@
 				7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
 				7C08198126F19A2300CE1DD9 /* CoreMediaViewController.swift in Sources */,
+				7C91AD4727019DA2005E47D9 /* GameKitViewController.swift in Sources */,
 				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
 				7C08194526F185D100CE1DD9 /* AppleArchiveDemoViewController.swift in Sources */,
 				7CF6695226F2D3B70079A5EB /* CoreAudioKitDemoViewController.swift in Sources */,
@@ -1172,6 +1179,7 @@
 				7C08196F26F1920C00CE1DD9 /* MediaPlayerDemoViewController.swift in Sources */,
 				7CA3615B26C13112009E5376 /* Objective-CRuntimeDemoViewController.swift in Sources */,
 				7C08197B26F1973400CE1DD9 /* CoreVideoDemoViewController.swift in Sources */,
+				7C91AD4927019DA8005E47D9 /* GameKitDemoViewController.swift in Sources */,
 				7CA3E31E2654B46600001D7A /* Colors.swift in Sources */,
 				7C08195126F18AA600CE1DD9 /* VisionKitDemoViewController.swift in Sources */,
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,

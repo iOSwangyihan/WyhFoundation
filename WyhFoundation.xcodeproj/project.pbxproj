@@ -88,6 +88,8 @@
 		7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */; };
 		7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F7EFC26C257DF009F3833 /* NetworkViewController.swift */; };
 		7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F7EFE26C257E8009F3833 /* NetworkDemoViewController.swift */; };
+		7C91AD3727015569005E47D9 /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD3627015569005E47D9 /* MetalViewController.swift */; };
+		7C91AD3927015571005E47D9 /* MetalDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD3827015571005E47D9 /* MetalDemoViewController.swift */; };
 		7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */; };
 		7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */; };
 		7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3615026C12CEA009E5376 /* SecurityViewController.swift */; };
@@ -286,6 +288,8 @@
 		7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationViewController.swift; sourceTree = "<group>"; };
 		7C7F7EFC26C257DF009F3833 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		7C7F7EFE26C257E8009F3833 /* NetworkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemoViewController.swift; sourceTree = "<group>"; };
+		7C91AD3627015569005E47D9 /* MetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
+		7C91AD3827015571005E47D9 /* MetalDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitViewController.swift; sourceTree = "<group>"; };
 		7CA3615026C12CEA009E5376 /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
@@ -490,6 +494,8 @@
 				7C05A52526FD843200A6D7A7 /* MetalPerformanceShadersGraphDemoViewController.swift */,
 				7CF8D90427005C47008DCEF2 /* MetalPerformanceShadersViewController.swift */,
 				7CF8D90627005C55008DCEF2 /* MetalPerformanceShadersDemoViewController.swift */,
+				7C91AD3627015569005E47D9 /* MetalViewController.swift */,
+				7C91AD3827015571005E47D9 /* MetalDemoViewController.swift */,
 			);
 			path = GraphicsandGames;
 			sourceTree = "<group>";
@@ -1080,6 +1086,7 @@
 				7CF6697426F2DF690079A5EB /* VisionDemoViewController.swift in Sources */,
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
 				7CF6696A26F2DC8F0079A5EB /* AudioToolboxDemoViewController.swift in Sources */,
+				7C91AD3927015571005E47D9 /* MetalDemoViewController.swift in Sources */,
 				7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */,
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
 				7C08193F26F1846400CE1DD9 /* AppleCryptoKitViewController.swift in Sources */,
@@ -1201,6 +1208,7 @@
 				7CF6695A26F2D5EF0079A5EB /* AVKitDemoViewController.swift in Sources */,
 				7C05A52426FD842200A6D7A7 /* MetalPerformanceShadersGraphViewController.swift in Sources */,
 				7C69F7A92656093900055389 /* SystemViewController.swift in Sources */,
+				7C91AD3727015569005E47D9 /* MetalViewController.swift in Sources */,
 				7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */,
 				7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,

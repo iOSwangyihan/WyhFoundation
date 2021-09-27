@@ -48,7 +48,7 @@ class MetalPerformanceShadersViewController: SwiftViewController {
         if type == .demo {
            
             if #available(iOS 13.0, *) {
-                let vc = MetalPerformanceShadersGraphDemoViewController()
+                let vc = MetalPerformanceShadersDemoViewController()
                 self.navigationController?.pushViewController(vc, animated: true)
             } else {
                 // Fallback on earlier versions

@@ -100,6 +100,8 @@
 		7C91AD4927019DA8005E47D9 /* GameKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4827019DA8005E47D9 /* GameKitDemoViewController.swift */; };
 		7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4A2701A100005E47D9 /* GameControllerViewController.swift */; };
 		7C91AD4D2701A10A005E47D9 /* GameControllerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4C2701A10A005E47D9 /* GameControllerDemoViewController.swift */; };
+		7C91AD4F2701A7F4005E47D9 /* CoreImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD4E2701A7F4005E47D9 /* CoreImageViewController.swift */; };
+		7C91AD512701A7FE005E47D9 /* CoreImageDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD502701A7FE005E47D9 /* CoreImageDemoViewController.swift */; };
 		7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */; };
 		7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */; };
 		7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3615026C12CEA009E5376 /* SecurityViewController.swift */; };
@@ -310,6 +312,8 @@
 		7C91AD4827019DA8005E47D9 /* GameKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKitDemoViewController.swift; sourceTree = "<group>"; };
 		7C91AD4A2701A100005E47D9 /* GameControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerViewController.swift; sourceTree = "<group>"; };
 		7C91AD4C2701A10A005E47D9 /* GameControllerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerDemoViewController.swift; sourceTree = "<group>"; };
+		7C91AD4E2701A7F4005E47D9 /* CoreImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageViewController.swift; sourceTree = "<group>"; };
+		7C91AD502701A7FE005E47D9 /* CoreImageDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614C26C129AC009E5376 /* SensorKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CA3614E26C12A20009E5376 /* SensorKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorKitViewController.swift; sourceTree = "<group>"; };
 		7CA3615026C12CEA009E5376 /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
@@ -526,6 +530,8 @@
 				7C91AD4827019DA8005E47D9 /* GameKitDemoViewController.swift */,
 				7C91AD4A2701A100005E47D9 /* GameControllerViewController.swift */,
 				7C91AD4C2701A10A005E47D9 /* GameControllerDemoViewController.swift */,
+				7C91AD4E2701A7F4005E47D9 /* CoreImageViewController.swift */,
+				7C91AD502701A7FE005E47D9 /* CoreImageDemoViewController.swift */,
 			);
 			path = GraphicsandGames;
 			sourceTree = "<group>";
@@ -1169,6 +1175,7 @@
 				7CF6697226F2DF640079A5EB /* VisionViewController.swift in Sources */,
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7C08194B26F1871600CE1DD9 /* AccelerateViewController.swift in Sources */,
+				7C91AD512701A7FE005E47D9 /* CoreImageDemoViewController.swift in Sources */,
 				7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */,
 				7C5A58D726FC80FD006CA748 /* PDFKitDemoViewController.swift in Sources */,
 				7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */,
@@ -1205,6 +1212,7 @@
 				7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */,
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
 				7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */,
+				7C91AD4F2701A7F4005E47D9 /* CoreImageViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
 				7CF5981526F46C81009E16E5 /* SceneKitViewController.swift in Sources */,
 				7CF6696626F2DB0E0079A5EB /* AudioUnitDemoViewController.swift in Sources */,

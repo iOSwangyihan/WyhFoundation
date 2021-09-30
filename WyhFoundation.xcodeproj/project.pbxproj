@@ -86,6 +86,8 @@
 		7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7D426565F0F00055389 /* LinkPresentationDemoViewController.swift */; };
 		7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7D926565F3400055389 /* BaseDemoViewController.swift */; };
 		7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */; };
+		7C7EE591270545F10003965E /* TabularDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE590270545F10003965E /* TabularDataViewController.swift */; };
+		7C7EE593270545FA0003965E /* TabularDataDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE592270545FA0003965E /* TabularDataDemoViewController.swift */; };
 		7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F7EFC26C257DF009F3833 /* NetworkViewController.swift */; };
 		7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F7EFE26C257E8009F3833 /* NetworkDemoViewController.swift */; };
 		7C91AD3727015569005E47D9 /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD3627015569005E47D9 /* MetalViewController.swift */; };
@@ -149,6 +151,27 @@
 		7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */; };
 		7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB61F7D26E6F88100019248 /* dnssdViewController.swift */; };
 		7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */; };
+		7CBBC2DC27044B45001B6321 /* CoreGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2DB27044B45001B6321 /* CoreGraphicsViewController.swift */; };
+		7CBBC2DE27044B4E001B6321 /* CoreGraphicsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2DD27044B4E001B6321 /* CoreGraphicsDemoViewController.swift */; };
+		7CBBC2E027044DF4001B6321 /* CoreAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2DF27044DF4001B6321 /* CoreAnimationViewController.swift */; };
+		7CBBC2E227044DFE001B6321 /* CoreAnimationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2E127044DFE001B6321 /* CoreAnimationDemoViewController.swift */; };
+		7CBBC2E4270451C4001B6321 /* ARKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2E3270451C4001B6321 /* ARKitViewController.swift */; };
+		7CBBC2E6270451CA001B6321 /* ARKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2E5270451CA001B6321 /* ARKitDemoViewController.swift */; };
+		7CBBC2E9270454E2001B6321 /* StoreKitTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2E8270454E2001B6321 /* StoreKitTestViewController.swift */; };
+		7CBBC2EB270454E9001B6321 /* StoreKitTestDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2EA270454E9001B6321 /* StoreKitTestDemoViewController.swift */; };
+		7CBBC2ED270455B4001B6321 /* DeveloperToolsSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2EC270455B4001B6321 /* DeveloperToolsSupportViewController.swift */; };
+		7CBBC2EF270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2EE270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift */; };
+		7CBBC2F12704565A001B6321 /* DeveloperToolsSupportFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2F02704565A001B6321 /* DeveloperToolsSupportFrameworkViewController.swift */; };
+		7CBBC2F32704571F001B6321 /* WidgetKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2F22704571F001B6321 /* WidgetKitViewController.swift */; };
+		7CBBC2F527045724001B6321 /* WidgetKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2F427045724001B6321 /* WidgetKitDemoViewController.swift */; };
+		7CBBC2F727045A5C001B6321 /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2F627045A5C001B6321 /* WebKitViewController.swift */; };
+		7CBBC2F927045A62001B6321 /* WebKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2F827045A62001B6321 /* WebKitDemoViewController.swift */; };
+		7CBBC2FB2704643E001B6321 /* WatchConnectivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2FA2704643E001B6321 /* WatchConnectivityViewController.swift */; };
+		7CBBC2FD2704644A001B6321 /* WatchConnectivityDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2FC2704644A001B6321 /* WatchConnectivityDemoViewController.swift */; };
+		7CBBC2FF27046700001B6321 /* UserNotificationsUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2FE27046700001B6321 /* UserNotificationsUIViewController.swift */; };
+		7CBBC3012704670C001B6321 /* UserNotificationsUIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC3002704670C001B6321 /* UserNotificationsUIDemoViewController.swift */; };
+		7CBBC30327046867001B6321 /* UserNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC30227046867001B6321 /* UserNotificationsViewController.swift */; };
+		7CBBC3052704686F001B6321 /* UserNotificationsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC3042704686F001B6321 /* UserNotificationsDemoViewController.swift */; };
 		7CBD752A26C35FDF0089C344 /* NearbyInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752926C35FDF0089C344 /* NearbyInteractionViewController.swift */; };
 		7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */; };
 		7CD0988726E8456C00EBA585 /* DispatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0988626E8456C00EBA585 /* DispatchViewController.swift */; };
@@ -298,6 +321,8 @@
 		7C69F7D426565F0F00055389 /* LinkPresentationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationDemoViewController.swift; sourceTree = "<group>"; };
 		7C69F7D926565F3400055389 /* BaseDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDemoViewController.swift; sourceTree = "<group>"; };
 		7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationViewController.swift; sourceTree = "<group>"; };
+		7C7EE590270545F10003965E /* TabularDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabularDataViewController.swift; sourceTree = "<group>"; };
+		7C7EE592270545FA0003965E /* TabularDataDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabularDataDemoViewController.swift; sourceTree = "<group>"; };
 		7C7F7EFC26C257DF009F3833 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		7C7F7EFE26C257E8009F3833 /* NetworkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemoViewController.swift; sourceTree = "<group>"; };
 		7C91AD3627015569005E47D9 /* MetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
@@ -375,6 +400,27 @@
 		7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcBaseNaviView.m; sourceTree = "<group>"; };
 		7CB61F7D26E6F88100019248 /* dnssdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnssdViewController.swift; sourceTree = "<group>"; };
 		7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnssdDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC2DB27044B45001B6321 /* CoreGraphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsViewController.swift; sourceTree = "<group>"; };
+		7CBBC2DD27044B4E001B6321 /* CoreGraphicsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC2DF27044DF4001B6321 /* CoreAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationViewController.swift; sourceTree = "<group>"; };
+		7CBBC2E127044DFE001B6321 /* CoreAnimationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC2E3270451C4001B6321 /* ARKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitViewController.swift; sourceTree = "<group>"; };
+		7CBBC2E5270451CA001B6321 /* ARKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC2E8270454E2001B6321 /* StoreKitTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitTestViewController.swift; sourceTree = "<group>"; };
+		7CBBC2EA270454E9001B6321 /* StoreKitTestDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitTestDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC2EC270455B4001B6321 /* DeveloperToolsSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperToolsSupportViewController.swift; sourceTree = "<group>"; };
+		7CBBC2EE270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperToolsSupportDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC2F02704565A001B6321 /* DeveloperToolsSupportFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperToolsSupportFrameworkViewController.swift; sourceTree = "<group>"; };
+		7CBBC2F22704571F001B6321 /* WidgetKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetKitViewController.swift; sourceTree = "<group>"; };
+		7CBBC2F427045724001B6321 /* WidgetKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC2F627045A5C001B6321 /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
+		7CBBC2F827045A62001B6321 /* WebKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC2FA2704643E001B6321 /* WatchConnectivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityViewController.swift; sourceTree = "<group>"; };
+		7CBBC2FC2704644A001B6321 /* WatchConnectivityDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC2FE27046700001B6321 /* UserNotificationsUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationsUIViewController.swift; sourceTree = "<group>"; };
+		7CBBC3002704670C001B6321 /* UserNotificationsUIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationsUIDemoViewController.swift; sourceTree = "<group>"; };
+		7CBBC30227046867001B6321 /* UserNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationsViewController.swift; sourceTree = "<group>"; };
+		7CBBC3042704686F001B6321 /* UserNotificationsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationsDemoViewController.swift; sourceTree = "<group>"; };
 		7CBD752926C35FDF0089C344 /* NearbyInteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionViewController.swift; sourceTree = "<group>"; };
 		7CBD752B26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionDemoViewController.swift; sourceTree = "<group>"; };
 		7CD0988626E8456C00EBA585 /* DispatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchViewController.swift; sourceTree = "<group>"; };
@@ -490,6 +536,18 @@
 			isa = PBXGroup;
 			children = (
 				7C69F7962656091400055389 /* AppServicesViewController.swift */,
+				7CBBC2F22704571F001B6321 /* WidgetKitViewController.swift */,
+				7CBBC2F427045724001B6321 /* WidgetKitDemoViewController.swift */,
+				7CBBC2F627045A5C001B6321 /* WebKitViewController.swift */,
+				7CBBC2F827045A62001B6321 /* WebKitDemoViewController.swift */,
+				7CBBC2FA2704643E001B6321 /* WatchConnectivityViewController.swift */,
+				7CBBC2FC2704644A001B6321 /* WatchConnectivityDemoViewController.swift */,
+				7CBBC2FE27046700001B6321 /* UserNotificationsUIViewController.swift */,
+				7CBBC3002704670C001B6321 /* UserNotificationsUIDemoViewController.swift */,
+				7CBBC30227046867001B6321 /* UserNotificationsViewController.swift */,
+				7CBBC3042704686F001B6321 /* UserNotificationsDemoViewController.swift */,
+				7C7EE590270545F10003965E /* TabularDataViewController.swift */,
+				7C7EE592270545FA0003965E /* TabularDataDemoViewController.swift */,
 			);
 			path = AppServices;
 			sourceTree = "<group>";
@@ -532,6 +590,12 @@
 				7C91AD4C2701A10A005E47D9 /* GameControllerDemoViewController.swift */,
 				7C91AD4E2701A7F4005E47D9 /* CoreImageViewController.swift */,
 				7C91AD502701A7FE005E47D9 /* CoreImageDemoViewController.swift */,
+				7CBBC2DB27044B45001B6321 /* CoreGraphicsViewController.swift */,
+				7CBBC2DD27044B4E001B6321 /* CoreGraphicsDemoViewController.swift */,
+				7CBBC2DF27044DF4001B6321 /* CoreAnimationViewController.swift */,
+				7CBBC2E127044DFE001B6321 /* CoreAnimationDemoViewController.swift */,
+				7CBBC2E3270451C4001B6321 /* ARKitViewController.swift */,
+				7CBBC2E5270451CA001B6321 /* ARKitDemoViewController.swift */,
 			);
 			path = GraphicsandGames;
 			sourceTree = "<group>";
@@ -809,6 +873,7 @@
 		7CA3E3222654B74E00001D7A /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				7CBBC2E7270454A5001B6321 /* DeveloperToolsSupport */,
 				7C69F7952656090000055389 /* Web */,
 				7C69F794265608F700055389 /* System */,
 				7C69F793265608ED00055389 /* Media */,
@@ -828,6 +893,18 @@
 				7CA3E3A22654DD5F00001D7A /* OcViewController.m */,
 			);
 			path = oc;
+			sourceTree = "<group>";
+		};
+		7CBBC2E7270454A5001B6321 /* DeveloperToolsSupport */ = {
+			isa = PBXGroup;
+			children = (
+				7CBBC2F02704565A001B6321 /* DeveloperToolsSupportFrameworkViewController.swift */,
+				7CBBC2E8270454E2001B6321 /* StoreKitTestViewController.swift */,
+				7CBBC2EA270454E9001B6321 /* StoreKitTestDemoViewController.swift */,
+				7CBBC2EC270455B4001B6321 /* DeveloperToolsSupportViewController.swift */,
+				7CBBC2EE270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift */,
+			);
+			path = DeveloperToolsSupport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1122,6 +1199,7 @@
 				7C53BB9526E9993F004A1753 /* CoreServicesDemoViewController.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
 				7CF6697426F2DF690079A5EB /* VisionDemoViewController.swift in Sources */,
+				7CBBC3012704670C001B6321 /* UserNotificationsUIDemoViewController.swift in Sources */,
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
 				7CF6696A26F2DC8F0079A5EB /* AudioToolboxDemoViewController.swift in Sources */,
 				7C91AD3927015571005E47D9 /* MetalDemoViewController.swift in Sources */,
@@ -1140,7 +1218,10 @@
 				7C08195526F18B6F00CE1DD9 /* VideoToolboxDemoViewController.swift in Sources */,
 				7C08193B26F1821700CE1DD9 /* AuthenticationServicesViewController.swift in Sources */,
 				7C08196926F1918B00CE1DD9 /* MediaSetupViewController.swift in Sources */,
+				7C7EE593270545FA0003965E /* TabularDataDemoViewController.swift in Sources */,
+				7CBBC2ED270455B4001B6321 /* DeveloperToolsSupportViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
+				7CBBC30327046867001B6321 /* UserNotificationsViewController.swift in Sources */,
 				7CF5981726F46C88009E16E5 /* SceneKitDemoViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
 				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
@@ -1150,6 +1231,7 @@
 				7CF8D90727005C55008DCEF2 /* MetalPerformanceShadersDemoViewController.swift in Sources */,
 				7C91AD43270168ED005E47D9 /* GameplayKitViewController.swift in Sources */,
 				7CF6694826F2D10F0079A5EB /* CoreHapticsViewController.swift in Sources */,
+				7CBBC2EF270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift in Sources */,
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
 				7C05A52026FD724500A6D7A7 /* ModelIOViewController.swift in Sources */,
 				7CF6695826F2D5EA0079A5EB /* AVKitViewController.swift in Sources */,
@@ -1161,6 +1243,7 @@
 				7C08195B26F18CEA00CE1DD9 /* VideoSubscriberAccountDemoViewController.swift in Sources */,
 				7CA3E3362654B82500001D7A /* BaseView.swift in Sources */,
 				7CBD752A26C35FDF0089C344 /* NearbyInteractionViewController.swift in Sources */,
+				7CBBC2FF27046700001B6321 /* UserNotificationsUIViewController.swift in Sources */,
 				7CA3E3312654B7EA00001D7A /* BaseNaviView.swift in Sources */,
 				7CA3E3002654B31C00001D7A /* SCDTableViewAttributes.swift in Sources */,
 				7C08193D26F1822300CE1DD9 /* AuthenticationServicesDemoViewController.swift in Sources */,
@@ -1176,6 +1259,7 @@
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7C08194B26F1871600CE1DD9 /* AccelerateViewController.swift in Sources */,
 				7C91AD512701A7FE005E47D9 /* CoreImageDemoViewController.swift in Sources */,
+				7CBBC2DE27044B4E001B6321 /* CoreGraphicsDemoViewController.swift in Sources */,
 				7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */,
 				7C5A58D726FC80FD006CA748 /* PDFKitDemoViewController.swift in Sources */,
 				7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */,
@@ -1184,12 +1268,15 @@
 				7CF6695E26F2D8970079A5EB /* AVFoundationDemoViewController.swift in Sources */,
 				7CF5981326F43E02009E16E5 /* SpriteKitDemoViewController.swift in Sources */,
 				7CD1BDC826FB1CF200260DF5 /* ReplayKitDemoViewController.swift in Sources */,
+				7CBBC2DC27044B45001B6321 /* CoreGraphicsViewController.swift in Sources */,
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
 				7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
+				7CBBC2E027044DF4001B6321 /* CoreAnimationViewController.swift in Sources */,
 				7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */,
 				7C343DDD26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift in Sources */,
 				7C66107026D8C00400F4188D /* IOSurfaceDemoViewController.swift in Sources */,
+				7CBBC2E9270454E2001B6321 /* StoreKitTestViewController.swift in Sources */,
 				7C08196F26F1920C00CE1DD9 /* MediaPlayerDemoViewController.swift in Sources */,
 				7CA3615B26C13112009E5376 /* Objective-CRuntimeDemoViewController.swift in Sources */,
 				7C08197B26F1973400CE1DD9 /* CoreVideoDemoViewController.swift in Sources */,
@@ -1205,30 +1292,39 @@
 				7C08198326F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift in Sources */,
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
 				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
+				7CBBC2F527045724001B6321 /* WidgetKitDemoViewController.swift in Sources */,
 				7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */,
+				7CBBC2F727045A5C001B6321 /* WebKitViewController.swift in Sources */,
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
 				7CD0989526E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift in Sources */,
 				7CA3E3022654B31C00001D7A /* SCDScrollViewAttributes.swift in Sources */,
 				7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */,
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
+				7CBBC2EB270454E9001B6321 /* StoreKitTestDemoViewController.swift in Sources */,
+				7CBBC2F927045A62001B6321 /* WebKitDemoViewController.swift in Sources */,
 				7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */,
 				7C91AD4F2701A7F4005E47D9 /* CoreImageViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
+				7CBBC2F12704565A001B6321 /* DeveloperToolsSupportFrameworkViewController.swift in Sources */,
 				7CF5981526F46C81009E16E5 /* SceneKitViewController.swift in Sources */,
 				7CF6696626F2DB0E0079A5EB /* AudioUnitDemoViewController.swift in Sources */,
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
 				7CD0988D26E8B79300EBA585 /* DeviceManagementDemoViewController.swift in Sources */,
 				7C08196D26F1920300CE1DD9 /* MediaPlayerViewController.swift in Sources */,
+				7CBBC2FB2704643E001B6321 /* WatchConnectivityViewController.swift in Sources */,
 				7CA3615326C12D0D009E5376 /* SecurityDemoViewController.swift in Sources */,
 				7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */,
+				7CBBC2E227044DFE001B6321 /* CoreAnimationDemoViewController.swift in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
 				7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */,
 				7CA3E04426EF359E00902D84 /* CompressionDemoViewController.swift in Sources */,
 				7C08197926F1972C00CE1DD9 /* CoreVideoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
+				7CBBC2E4270451C4001B6321 /* ARKitViewController.swift in Sources */,
 				7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */,
 				7C91AD3D27016759005E47D9 /* ImageIODemoViewController.swift in Sources */,
+				7CBBC2E6270451CA001B6321 /* ARKitDemoViewController.swift in Sources */,
 				7C08194726F1869700CE1DD9 /* AppTrackingTransparencyViewController.swift in Sources */,
 				7CF6695026F2D3A50079A5EB /* CoreAudioKitViewController.swift in Sources */,
 				7C08195926F18CDD00CE1DD9 /* VideoSubscriberAccountViewController.swift in Sources */,
@@ -1239,6 +1335,7 @@
 				7C08194126F1846E00CE1DD9 /* AppleCryptoKitDemoViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,
 				7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */,
+				7C7EE591270545F10003965E /* TabularDataViewController.swift in Sources */,
 				7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */,
 				7CF8D90527005C47008DCEF2 /* MetalPerformanceShadersViewController.swift in Sources */,
 				7C08194326F185C800CE1DD9 /* AppleArchiveViewController.swift in Sources */,
@@ -1250,6 +1347,7 @@
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,
 				7CF6696426F2DB050079A5EB /* AudioUnitViewController.swift in Sources */,
+				7CBBC3052704686F001B6321 /* UserNotificationsDemoViewController.swift in Sources */,
 				7C08196126F18E9E00CE1DD9 /* QuickLookThumbnailingViewController.swift in Sources */,
 				7CD1BDCA26FB33EB00260DF5 /* RealityKitViewController.swift in Sources */,
 				7CF6695A26F2D5EF0079A5EB /* AVKitDemoViewController.swift in Sources */,
@@ -1257,6 +1355,7 @@
 				7C69F7A92656093900055389 /* SystemViewController.swift in Sources */,
 				7C91AD3727015569005E47D9 /* MetalViewController.swift in Sources */,
 				7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */,
+				7CBBC2FD2704644A001B6321 /* WatchConnectivityDemoViewController.swift in Sources */,
 				7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */,
 				7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,
@@ -1267,6 +1366,7 @@
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
 				7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */,
 				7C08194D26F1871C00CE1DD9 /* AccelerateDemoViewController.swift in Sources */,
+				7CBBC2F32704571F001B6321 /* WidgetKitViewController.swift in Sources */,
 				7C08197526F1954300CE1DD9 /* ImageCaptureCoreViewController.swift in Sources */,
 				7CA3E2FE2654B31C00001D7A /* SCDSwiftKit.swift in Sources */,
 			);

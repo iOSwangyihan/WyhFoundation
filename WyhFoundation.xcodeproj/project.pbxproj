@@ -51,6 +51,12 @@
 		7C08198326F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08198226F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift */; };
 		7C0F154826F02F5B0020C51A /* CFNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F154726F02F5B0020C51A /* CFNetworkViewController.swift */; };
 		7C0F154A26F02F700020C51A /* CFNetworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F154926F02F700020C51A /* CFNetworkDemoViewController.swift */; };
+		7C0FF085270FD95800FE3525 /* SiriKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF084270FD95800FE3525 /* SiriKitViewController.swift */; };
+		7C0FF087270FD95F00FE3525 /* SiriKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF086270FD95F00FE3525 /* SiriKitDemoViewController.swift */; };
+		7C0FF0892710176B00FE3525 /* SafariServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0882710176B00FE3525 /* SafariServicesViewController.swift */; };
+		7C0FF08B2710177400FE3525 /* SafariServicesDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF08A2710177400FE3525 /* SafariServicesDemoViewController.swift */; };
+		7C0FF08D27101A4600FE3525 /* QuickLookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF08C27101A4600FE3525 /* QuickLookViewController.swift */; };
+		7C0FF08F27101A4D00FE3525 /* QuickLookDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF08E27101A4D00FE3525 /* QuickLookDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -88,6 +94,14 @@
 		7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */; };
 		7C7EE591270545F10003965E /* TabularDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE590270545F10003965E /* TabularDataViewController.swift */; };
 		7C7EE593270545FA0003965E /* TabularDataDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE592270545FA0003965E /* TabularDataDemoViewController.swift */; };
+		7C7EE59527054CCB0003965E /* StoreKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE59427054CCB0003965E /* StoreKitViewController.swift */; };
+		7C7EE59727054CD90003965E /* StoreKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE59627054CD90003965E /* StoreKitDemoViewController.swift */; };
+		7C7EE5992705507C0003965E /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE5982705507C0003965E /* SpeechViewController.swift */; };
+		7C7EE59B270550830003965E /* SpeechDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE59A270550830003965E /* SpeechDemoViewController.swift */; };
+		7C7EE59D270592600003965E /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE59C270592600003965E /* SocialViewController.swift */; };
+		7C7EE59F270592660003965E /* SocialDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE59E270592660003965E /* SocialDemoViewController.swift */; };
+		7C7EE5A1270596060003965E /* SMSandCallReportingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE5A0270596060003965E /* SMSandCallReportingViewController.swift */; };
+		7C7EE5A3270596150003965E /* SMSandCallReportingDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE5A2270596150003965E /* SMSandCallReportingDemoViewController.swift */; };
 		7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F7EFC26C257DF009F3833 /* NetworkViewController.swift */; };
 		7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F7EFE26C257E8009F3833 /* NetworkDemoViewController.swift */; };
 		7C91AD3727015569005E47D9 /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91AD3627015569005E47D9 /* MetalViewController.swift */; };
@@ -286,6 +300,12 @@
 		7C08198226F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMediaDemoViewController.swift; sourceTree = "<group>"; };
 		7C0F154726F02F5B0020C51A /* CFNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNetworkViewController.swift; sourceTree = "<group>"; };
 		7C0F154926F02F700020C51A /* CFNetworkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNetworkDemoViewController.swift; sourceTree = "<group>"; };
+		7C0FF084270FD95800FE3525 /* SiriKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriKitViewController.swift; sourceTree = "<group>"; };
+		7C0FF086270FD95F00FE3525 /* SiriKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C0FF0882710176B00FE3525 /* SafariServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariServicesViewController.swift; sourceTree = "<group>"; };
+		7C0FF08A2710177400FE3525 /* SafariServicesDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariServicesDemoViewController.swift; sourceTree = "<group>"; };
+		7C0FF08C27101A4600FE3525 /* QuickLookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookViewController.swift; sourceTree = "<group>"; };
+		7C0FF08E27101A4D00FE3525 /* QuickLookDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -323,6 +343,14 @@
 		7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationViewController.swift; sourceTree = "<group>"; };
 		7C7EE590270545F10003965E /* TabularDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabularDataViewController.swift; sourceTree = "<group>"; };
 		7C7EE592270545FA0003965E /* TabularDataDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabularDataDemoViewController.swift; sourceTree = "<group>"; };
+		7C7EE59427054CCB0003965E /* StoreKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitViewController.swift; sourceTree = "<group>"; };
+		7C7EE59627054CD90003965E /* StoreKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C7EE5982705507C0003965E /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		7C7EE59A270550830003965E /* SpeechDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDemoViewController.swift; sourceTree = "<group>"; };
+		7C7EE59C270592600003965E /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		7C7EE59E270592660003965E /* SocialDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialDemoViewController.swift; sourceTree = "<group>"; };
+		7C7EE5A0270596060003965E /* SMSandCallReportingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSandCallReportingViewController.swift; sourceTree = "<group>"; };
+		7C7EE5A2270596150003965E /* SMSandCallReportingDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSandCallReportingDemoViewController.swift; sourceTree = "<group>"; };
 		7C7F7EFC26C257DF009F3833 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		7C7F7EFE26C257E8009F3833 /* NetworkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemoViewController.swift; sourceTree = "<group>"; };
 		7C91AD3627015569005E47D9 /* MetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
@@ -548,6 +576,20 @@
 				7CBBC3042704686F001B6321 /* UserNotificationsDemoViewController.swift */,
 				7C7EE590270545F10003965E /* TabularDataViewController.swift */,
 				7C7EE592270545FA0003965E /* TabularDataDemoViewController.swift */,
+				7C7EE59427054CCB0003965E /* StoreKitViewController.swift */,
+				7C7EE59627054CD90003965E /* StoreKitDemoViewController.swift */,
+				7C7EE5982705507C0003965E /* SpeechViewController.swift */,
+				7C7EE59A270550830003965E /* SpeechDemoViewController.swift */,
+				7C7EE59C270592600003965E /* SocialViewController.swift */,
+				7C7EE59E270592660003965E /* SocialDemoViewController.swift */,
+				7C7EE5A0270596060003965E /* SMSandCallReportingViewController.swift */,
+				7C7EE5A2270596150003965E /* SMSandCallReportingDemoViewController.swift */,
+				7C0FF084270FD95800FE3525 /* SiriKitViewController.swift */,
+				7C0FF086270FD95F00FE3525 /* SiriKitDemoViewController.swift */,
+				7C0FF0882710176B00FE3525 /* SafariServicesViewController.swift */,
+				7C0FF08A2710177400FE3525 /* SafariServicesDemoViewController.swift */,
+				7C0FF08C27101A4600FE3525 /* QuickLookViewController.swift */,
+				7C0FF08E27101A4D00FE3525 /* QuickLookDemoViewController.swift */,
 			);
 			path = AppServices;
 			sourceTree = "<group>";
@@ -1190,6 +1232,7 @@
 				7CA3615926C13107009E5376 /* Objective-CRuntimeViewController.swift in Sources */,
 				7CA3E3292654B7AB00001D7A /* BaseTableViewCell.swift in Sources */,
 				7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */,
+				7C0FF0892710176B00FE3525 /* SafariServicesViewController.swift in Sources */,
 				7CF6694E26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift in Sources */,
 				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
 				7C08194F26F18A9E00CE1DD9 /* VisionKitViewController.swift in Sources */,
@@ -1197,6 +1240,7 @@
 				7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */,
 				7C08196726F18F8600CE1DD9 /* PhotoKitDemoViewController.swift in Sources */,
 				7C53BB9526E9993F004A1753 /* CoreServicesDemoViewController.swift in Sources */,
+				7C7EE5A1270596060003965E /* SMSandCallReportingViewController.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
 				7CF6697426F2DF690079A5EB /* VisionDemoViewController.swift in Sources */,
 				7CBBC3012704670C001B6321 /* UserNotificationsUIDemoViewController.swift in Sources */,
@@ -1221,6 +1265,7 @@
 				7C7EE593270545FA0003965E /* TabularDataDemoViewController.swift in Sources */,
 				7CBBC2ED270455B4001B6321 /* DeveloperToolsSupportViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
+				7C7EE59527054CCB0003965E /* StoreKitViewController.swift in Sources */,
 				7CBBC30327046867001B6321 /* UserNotificationsViewController.swift in Sources */,
 				7CF5981726F46C88009E16E5 /* SceneKitDemoViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
@@ -1233,10 +1278,12 @@
 				7CF6694826F2D10F0079A5EB /* CoreHapticsViewController.swift in Sources */,
 				7CBBC2EF270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift in Sources */,
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
+				7C7EE59727054CD90003965E /* StoreKitDemoViewController.swift in Sources */,
 				7C05A52026FD724500A6D7A7 /* ModelIOViewController.swift in Sources */,
 				7CF6695826F2D5EA0079A5EB /* AVKitViewController.swift in Sources */,
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
 				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
+				7C0FF08D27101A4600FE3525 /* QuickLookViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
 				7C53BB9726E99F02004A1753 /* CoreNFCViewController.swift in Sources */,
 				7C08196B26F1919200CE1DD9 /* MediaSetupDemoViewController.swift in Sources */,
@@ -1251,6 +1298,8 @@
 				7CA3615F26C1327A009E5376 /* NetworkExtensionDemoViewController.swift in Sources */,
 				7CA3E2E82654B01F00001D7A /* UIView_Extension.swift in Sources */,
 				7CA3E3012654B31C00001D7A /* SCDViewAttributes.swift in Sources */,
+				7C7EE59F270592660003965E /* SocialDemoViewController.swift in Sources */,
+				7C0FF087270FD95F00FE3525 /* SiriKitDemoViewController.swift in Sources */,
 				7C08197F26F1990900CE1DD9 /* CoreMIDIDemoViewController.swift in Sources */,
 				7C0F154A26F02F700020C51A /* CFNetworkDemoViewController.swift in Sources */,
 				7C343DDB26E5A3BB00A7A6BC /* ExposureNotificationViewController.swift in Sources */,
@@ -1266,6 +1315,7 @@
 				7CD0988726E8456C00EBA585 /* DispatchViewController.swift in Sources */,
 				7C08196526F18F7F00CE1DD9 /* PhotoKitViewController.swift in Sources */,
 				7CF6695E26F2D8970079A5EB /* AVFoundationDemoViewController.swift in Sources */,
+				7C7EE5992705507C0003965E /* SpeechViewController.swift in Sources */,
 				7CF5981326F43E02009E16E5 /* SpriteKitDemoViewController.swift in Sources */,
 				7CD1BDC826FB1CF200260DF5 /* ReplayKitDemoViewController.swift in Sources */,
 				7CBBC2DC27044B45001B6321 /* CoreGraphicsViewController.swift in Sources */,
@@ -1274,6 +1324,7 @@
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
 				7CBBC2E027044DF4001B6321 /* CoreAnimationViewController.swift in Sources */,
 				7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */,
+				7C0FF08B2710177400FE3525 /* SafariServicesDemoViewController.swift in Sources */,
 				7C343DDD26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift in Sources */,
 				7C66107026D8C00400F4188D /* IOSurfaceDemoViewController.swift in Sources */,
 				7CBBC2E9270454E2001B6321 /* StoreKitTestViewController.swift in Sources */,
@@ -1291,14 +1342,17 @@
 				7C91AD45270168F2005E47D9 /* GameplayKitDemoViewController.swift in Sources */,
 				7C08198326F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift in Sources */,
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
+				7C7EE5A3270596150003965E /* SMSandCallReportingDemoViewController.swift in Sources */,
 				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
 				7CBBC2F527045724001B6321 /* WidgetKitDemoViewController.swift in Sources */,
 				7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */,
 				7CBBC2F727045A5C001B6321 /* WebKitViewController.swift in Sources */,
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
+				7C7EE59D270592600003965E /* SocialViewController.swift in Sources */,
 				7CD0989526E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift in Sources */,
 				7CA3E3022654B31C00001D7A /* SCDScrollViewAttributes.swift in Sources */,
 				7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */,
+				7C7EE59B270550830003965E /* SpeechDemoViewController.swift in Sources */,
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
 				7CBBC2EB270454E9001B6321 /* StoreKitTestDemoViewController.swift in Sources */,
 				7CBBC2F927045A62001B6321 /* WebKitDemoViewController.swift in Sources */,
@@ -1331,6 +1385,7 @@
 				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,
 				7CF6695426F2D4930079A5EB /* CoreAudioViewController.swift in Sources */,
 				7C5A58D126FC76B8006CA748 /* PencilKitViewController.swift in Sources */,
+				7C0FF08F27101A4D00FE3525 /* QuickLookDemoViewController.swift in Sources */,
 				7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */,
 				7C08194126F1846E00CE1DD9 /* AppleCryptoKitDemoViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,
@@ -1360,6 +1415,7 @@
 				7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,
 				7CF6696026F2DA390079A5EB /* AVFAudioViewController.swift in Sources */,
+				7C0FF085270FD95800FE3525 /* SiriKitViewController.swift in Sources */,
 				7CA3615726C13040009E5376 /* osDemoViewController.swift in Sources */,
 				7C69F7AE2656094300055389 /* WebViewController.swift in Sources */,
 				7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */,

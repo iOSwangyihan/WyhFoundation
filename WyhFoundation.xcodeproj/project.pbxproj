@@ -57,6 +57,18 @@
 		7C0FF08B2710177400FE3525 /* SafariServicesDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF08A2710177400FE3525 /* SafariServicesDemoViewController.swift */; };
 		7C0FF08D27101A4600FE3525 /* QuickLookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF08C27101A4600FE3525 /* QuickLookViewController.swift */; };
 		7C0FF08F27101A4D00FE3525 /* QuickLookDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF08E27101A4D00FE3525 /* QuickLookDemoViewController.swift */; };
+		7C0FF0912710207600FE3525 /* PushKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0902710207600FE3525 /* PushKitViewController.swift */; };
+		7C0FF0932710207C00FE3525 /* PushKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0922710207C00FE3525 /* PushKitDemoViewController.swift */; };
+		7C0FF0952710227F00FE3525 /* PassKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0942710227F00FE3525 /* PassKitViewController.swift */; };
+		7C0FF0972710228700FE3525 /* PassKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0962710228700FE3525 /* PassKitDemoViewController.swift */; };
+		7C0FF0992710252200FE3525 /* NaturalLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0982710252200FE3525 /* NaturalLanguageViewController.swift */; };
+		7C0FF09B2710252D00FE3525 /* NaturalLanguageDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF09A2710252D00FE3525 /* NaturalLanguageDemoViewController.swift */; };
+		7C0FF09D2710273400FE3525 /* MultipeerConnectivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF09C2710273400FE3525 /* MultipeerConnectivityViewController.swift */; };
+		7C0FF09F2710273F00FE3525 /* MultipeerConnectivityDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF09E2710273F00FE3525 /* MultipeerConnectivityDemoViewController.swift */; };
+		7C0FF0A1271029E900FE3525 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0A0271029E900FE3525 /* MessagesViewController.swift */; };
+		7C0FF0A3271029EF00FE3525 /* MessagesDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0A2271029EF00FE3525 /* MessagesDemoViewController.swift */; };
+		7C0FF0A527102C7400FE3525 /* MessageUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0A427102C7400FE3525 /* MessageUIViewController.swift */; };
+		7C0FF0A727102C7D00FE3525 /* MessageUIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF0A627102C7D00FE3525 /* MessageUIDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -92,6 +104,8 @@
 		7C69F7D526565F0F00055389 /* LinkPresentationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7D426565F0F00055389 /* LinkPresentationDemoViewController.swift */; };
 		7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7D926565F3400055389 /* BaseDemoViewController.swift */; };
 		7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */; };
+		7C7D819927113005003317F1 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D819827113005003317F1 /* MapKitViewController.swift */; };
+		7C7D819B2711300B003317F1 /* MapKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D819A2711300B003317F1 /* MapKitDemoViewController.swift */; };
 		7C7EE591270545F10003965E /* TabularDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE590270545F10003965E /* TabularDataViewController.swift */; };
 		7C7EE593270545FA0003965E /* TabularDataDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE592270545FA0003965E /* TabularDataDemoViewController.swift */; };
 		7C7EE59527054CCB0003965E /* StoreKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7EE59427054CCB0003965E /* StoreKitViewController.swift */; };
@@ -200,6 +214,12 @@
 		7CD1BDC826FB1CF200260DF5 /* ReplayKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1BDC726FB1CF200260DF5 /* ReplayKitDemoViewController.swift */; };
 		7CD1BDCA26FB33EB00260DF5 /* RealityKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1BDC926FB33EB00260DF5 /* RealityKitViewController.swift */; };
 		7CD1BDCC26FB33F100260DF5 /* RealityKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1BDCB26FB33F100260DF5 /* RealityKitDemoViewController.swift */; };
+		7CDA894627141B1300C93FBE /* ManagedSettingsUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894527141B1300C93FBE /* ManagedSettingsUIViewController.swift */; };
+		7CDA894827141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894727141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift */; };
+		7CDA894A27141B9800C93FBE /* ManagedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894927141B9800C93FBE /* ManagedSettingsViewController.swift */; };
+		7CDA894C27141BA000C93FBE /* ManagedSettingsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894B27141BA000C93FBE /* ManagedSettingsDemoViewController.swift */; };
+		7CDA894E2714208A00C93FBE /* JavaScriptCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894D2714208A00C93FBE /* JavaScriptCoreViewController.swift */; };
+		7CDA89502714209500C93FBE /* JavaScriptCoreDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894F2714209500C93FBE /* JavaScriptCoreDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */; };
@@ -306,6 +326,18 @@
 		7C0FF08A2710177400FE3525 /* SafariServicesDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariServicesDemoViewController.swift; sourceTree = "<group>"; };
 		7C0FF08C27101A4600FE3525 /* QuickLookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookViewController.swift; sourceTree = "<group>"; };
 		7C0FF08E27101A4D00FE3525 /* QuickLookDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookDemoViewController.swift; sourceTree = "<group>"; };
+		7C0FF0902710207600FE3525 /* PushKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushKitViewController.swift; sourceTree = "<group>"; };
+		7C0FF0922710207C00FE3525 /* PushKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C0FF0942710227F00FE3525 /* PassKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassKitViewController.swift; sourceTree = "<group>"; };
+		7C0FF0962710228700FE3525 /* PassKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C0FF0982710252200FE3525 /* NaturalLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalLanguageViewController.swift; sourceTree = "<group>"; };
+		7C0FF09A2710252D00FE3525 /* NaturalLanguageDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalLanguageDemoViewController.swift; sourceTree = "<group>"; };
+		7C0FF09C2710273400FE3525 /* MultipeerConnectivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityViewController.swift; sourceTree = "<group>"; };
+		7C0FF09E2710273F00FE3525 /* MultipeerConnectivityDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityDemoViewController.swift; sourceTree = "<group>"; };
+		7C0FF0A0271029E900FE3525 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		7C0FF0A2271029EF00FE3525 /* MessagesDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesDemoViewController.swift; sourceTree = "<group>"; };
+		7C0FF0A427102C7400FE3525 /* MessageUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageUIViewController.swift; sourceTree = "<group>"; };
+		7C0FF0A627102C7D00FE3525 /* MessageUIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageUIDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -341,6 +373,8 @@
 		7C69F7D426565F0F00055389 /* LinkPresentationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationDemoViewController.swift; sourceTree = "<group>"; };
 		7C69F7D926565F3400055389 /* BaseDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDemoViewController.swift; sourceTree = "<group>"; };
 		7C69F7DE2656600400055389 /* LinkPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationViewController.swift; sourceTree = "<group>"; };
+		7C7D819827113005003317F1 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		7C7D819A2711300B003317F1 /* MapKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitDemoViewController.swift; sourceTree = "<group>"; };
 		7C7EE590270545F10003965E /* TabularDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabularDataViewController.swift; sourceTree = "<group>"; };
 		7C7EE592270545FA0003965E /* TabularDataDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabularDataDemoViewController.swift; sourceTree = "<group>"; };
 		7C7EE59427054CCB0003965E /* StoreKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitViewController.swift; sourceTree = "<group>"; };
@@ -463,6 +497,12 @@
 		7CD1BDC726FB1CF200260DF5 /* ReplayKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CD1BDC926FB33EB00260DF5 /* RealityKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitViewController.swift; sourceTree = "<group>"; };
 		7CD1BDCB26FB33F100260DF5 /* RealityKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CDA894527141B1300C93FBE /* ManagedSettingsUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsUIViewController.swift; sourceTree = "<group>"; };
+		7CDA894727141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsUIDemoViewController.swift; sourceTree = "<group>"; };
+		7CDA894927141B9800C93FBE /* ManagedSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsViewController.swift; sourceTree = "<group>"; };
+		7CDA894B27141BA000C93FBE /* ManagedSettingsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsDemoViewController.swift; sourceTree = "<group>"; };
+		7CDA894D2714208A00C93FBE /* JavaScriptCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptCoreViewController.swift; sourceTree = "<group>"; };
+		7CDA894F2714209500C93FBE /* JavaScriptCoreDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptCoreDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
@@ -590,6 +630,26 @@
 				7C0FF08A2710177400FE3525 /* SafariServicesDemoViewController.swift */,
 				7C0FF08C27101A4600FE3525 /* QuickLookViewController.swift */,
 				7C0FF08E27101A4D00FE3525 /* QuickLookDemoViewController.swift */,
+				7C0FF0902710207600FE3525 /* PushKitViewController.swift */,
+				7C0FF0922710207C00FE3525 /* PushKitDemoViewController.swift */,
+				7C0FF0942710227F00FE3525 /* PassKitViewController.swift */,
+				7C0FF0962710228700FE3525 /* PassKitDemoViewController.swift */,
+				7C0FF0982710252200FE3525 /* NaturalLanguageViewController.swift */,
+				7C0FF09A2710252D00FE3525 /* NaturalLanguageDemoViewController.swift */,
+				7C0FF09C2710273400FE3525 /* MultipeerConnectivityViewController.swift */,
+				7C0FF09E2710273F00FE3525 /* MultipeerConnectivityDemoViewController.swift */,
+				7C0FF0A0271029E900FE3525 /* MessagesViewController.swift */,
+				7C0FF0A2271029EF00FE3525 /* MessagesDemoViewController.swift */,
+				7C0FF0A427102C7400FE3525 /* MessageUIViewController.swift */,
+				7C0FF0A627102C7D00FE3525 /* MessageUIDemoViewController.swift */,
+				7C7D819827113005003317F1 /* MapKitViewController.swift */,
+				7C7D819A2711300B003317F1 /* MapKitDemoViewController.swift */,
+				7CDA894527141B1300C93FBE /* ManagedSettingsUIViewController.swift */,
+				7CDA894727141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift */,
+				7CDA894927141B9800C93FBE /* ManagedSettingsViewController.swift */,
+				7CDA894B27141BA000C93FBE /* ManagedSettingsDemoViewController.swift */,
+				7CDA894D2714208A00C93FBE /* JavaScriptCoreViewController.swift */,
+				7CDA894F2714209500C93FBE /* JavaScriptCoreDemoViewController.swift */,
 			);
 			path = AppServices;
 			sourceTree = "<group>";
@@ -1218,6 +1278,7 @@
 				7CA3E3042654B31C00001D7A /* SCDImageViewAttributes.swift in Sources */,
 				7C0F154826F02F5B0020C51A /* CFNetworkViewController.swift in Sources */,
 				7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */,
+				7CDA894E2714208A00C93FBE /* JavaScriptCoreViewController.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
 				7C08198126F19A2300CE1DD9 /* CoreMediaViewController.swift in Sources */,
 				7C91AD4727019DA2005E47D9 /* GameKitViewController.swift in Sources */,
@@ -1237,8 +1298,11 @@
 				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
 				7C08194F26F18A9E00CE1DD9 /* VisionKitViewController.swift in Sources */,
 				7C08197D26F1990200CE1DD9 /* CoreMIDIViewController.swift in Sources */,
+				7C0FF0972710228700FE3525 /* PassKitDemoViewController.swift in Sources */,
 				7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */,
+				7C0FF09D2710273400FE3525 /* MultipeerConnectivityViewController.swift in Sources */,
 				7C08196726F18F8600CE1DD9 /* PhotoKitDemoViewController.swift in Sources */,
+				7C0FF0932710207C00FE3525 /* PushKitDemoViewController.swift in Sources */,
 				7C53BB9526E9993F004A1753 /* CoreServicesDemoViewController.swift in Sources */,
 				7C7EE5A1270596060003965E /* SMSandCallReportingViewController.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
@@ -1273,16 +1337,20 @@
 				7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */,
 				7C5A58D326FC76C0006CA748 /* PencilKitDemoViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
+				7C7D819927113005003317F1 /* MapKitViewController.swift in Sources */,
 				7CF8D90727005C55008DCEF2 /* MetalPerformanceShadersDemoViewController.swift in Sources */,
 				7C91AD43270168ED005E47D9 /* GameplayKitViewController.swift in Sources */,
+				7C0FF0952710227F00FE3525 /* PassKitViewController.swift in Sources */,
 				7CF6694826F2D10F0079A5EB /* CoreHapticsViewController.swift in Sources */,
 				7CBBC2EF270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift in Sources */,
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
 				7C7EE59727054CD90003965E /* StoreKitDemoViewController.swift in Sources */,
 				7C05A52026FD724500A6D7A7 /* ModelIOViewController.swift in Sources */,
+				7C0FF09F2710273F00FE3525 /* MultipeerConnectivityDemoViewController.swift in Sources */,
 				7CF6695826F2D5EA0079A5EB /* AVKitViewController.swift in Sources */,
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
 				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
+				7C0FF0A1271029E900FE3525 /* MessagesViewController.swift in Sources */,
 				7C0FF08D27101A4600FE3525 /* QuickLookViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
 				7C53BB9726E99F02004A1753 /* CoreNFCViewController.swift in Sources */,
@@ -1292,6 +1360,7 @@
 				7CBD752A26C35FDF0089C344 /* NearbyInteractionViewController.swift in Sources */,
 				7CBBC2FF27046700001B6321 /* UserNotificationsUIViewController.swift in Sources */,
 				7CA3E3312654B7EA00001D7A /* BaseNaviView.swift in Sources */,
+				7CDA894C27141BA000C93FBE /* ManagedSettingsDemoViewController.swift in Sources */,
 				7CA3E3002654B31C00001D7A /* SCDTableViewAttributes.swift in Sources */,
 				7C08193D26F1822300CE1DD9 /* AuthenticationServicesDemoViewController.swift in Sources */,
 				7C91AD3B2701674E005E47D9 /* ImageIOViewController.swift in Sources */,
@@ -1333,6 +1402,7 @@
 				7C08197B26F1973400CE1DD9 /* CoreVideoDemoViewController.swift in Sources */,
 				7C91AD4927019DA8005E47D9 /* GameKitDemoViewController.swift in Sources */,
 				7CA3E31E2654B46600001D7A /* Colors.swift in Sources */,
+				7C7D819B2711300B003317F1 /* MapKitDemoViewController.swift in Sources */,
 				7C08195126F18AA600CE1DD9 /* VisionKitDemoViewController.swift in Sources */,
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,
 				7CA3E3062654B31C00001D7A /* SCDTextViewAttributes.swift in Sources */,
@@ -1342,7 +1412,9 @@
 				7C91AD45270168F2005E47D9 /* GameplayKitDemoViewController.swift in Sources */,
 				7C08198326F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift in Sources */,
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
+				7C0FF0A727102C7D00FE3525 /* MessageUIDemoViewController.swift in Sources */,
 				7C7EE5A3270596150003965E /* SMSandCallReportingDemoViewController.swift in Sources */,
+				7C0FF0912710207600FE3525 /* PushKitViewController.swift in Sources */,
 				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
 				7CBBC2F527045724001B6321 /* WidgetKitDemoViewController.swift in Sources */,
 				7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */,
@@ -1362,6 +1434,8 @@
 				7CBBC2F12704565A001B6321 /* DeveloperToolsSupportFrameworkViewController.swift in Sources */,
 				7CF5981526F46C81009E16E5 /* SceneKitViewController.swift in Sources */,
 				7CF6696626F2DB0E0079A5EB /* AudioUnitDemoViewController.swift in Sources */,
+				7C0FF0A3271029EF00FE3525 /* MessagesDemoViewController.swift in Sources */,
+				7CDA894627141B1300C93FBE /* ManagedSettingsUIViewController.swift in Sources */,
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
 				7CD0988D26E8B79300EBA585 /* DeviceManagementDemoViewController.swift in Sources */,
 				7C08196D26F1920300CE1DD9 /* MediaPlayerViewController.swift in Sources */,
@@ -1370,6 +1444,7 @@
 				7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */,
 				7CBBC2E227044DFE001B6321 /* CoreAnimationDemoViewController.swift in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
+				7CDA894827141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
 				7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */,
 				7CA3E04426EF359E00902D84 /* CompressionDemoViewController.swift in Sources */,
@@ -1378,12 +1453,15 @@
 				7CBBC2E4270451C4001B6321 /* ARKitViewController.swift in Sources */,
 				7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */,
 				7C91AD3D27016759005E47D9 /* ImageIODemoViewController.swift in Sources */,
+				7CDA89502714209500C93FBE /* JavaScriptCoreDemoViewController.swift in Sources */,
+				7C0FF0992710252200FE3525 /* NaturalLanguageViewController.swift in Sources */,
 				7CBBC2E6270451CA001B6321 /* ARKitDemoViewController.swift in Sources */,
 				7C08194726F1869700CE1DD9 /* AppTrackingTransparencyViewController.swift in Sources */,
 				7CF6695026F2D3A50079A5EB /* CoreAudioKitViewController.swift in Sources */,
 				7C08195926F18CDD00CE1DD9 /* VideoSubscriberAccountViewController.swift in Sources */,
 				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,
 				7CF6695426F2D4930079A5EB /* CoreAudioViewController.swift in Sources */,
+				7C0FF09B2710252D00FE3525 /* NaturalLanguageDemoViewController.swift in Sources */,
 				7C5A58D126FC76B8006CA748 /* PencilKitViewController.swift in Sources */,
 				7C0FF08F27101A4D00FE3525 /* QuickLookDemoViewController.swift in Sources */,
 				7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */,
@@ -1398,6 +1476,7 @@
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
 				7C08197726F1954900CE1DD9 /* ImageCaptureCoreDemoViewController.swift in Sources */,
 				7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */,
+				7CDA894A27141B9800C93FBE /* ManagedSettingsViewController.swift in Sources */,
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,
@@ -1414,6 +1493,7 @@
 				7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */,
 				7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,
+				7C0FF0A527102C7400FE3525 /* MessageUIViewController.swift in Sources */,
 				7CF6696026F2DA390079A5EB /* AVFAudioViewController.swift in Sources */,
 				7C0FF085270FD95800FE3525 /* SiriKitViewController.swift in Sources */,
 				7CA3615726C13040009E5376 /* osDemoViewController.swift in Sources */,

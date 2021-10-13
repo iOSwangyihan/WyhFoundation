@@ -49,10 +49,28 @@
 		7C08197F26F1990900CE1DD9 /* CoreMIDIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08197E26F1990900CE1DD9 /* CoreMIDIDemoViewController.swift */; };
 		7C08198126F19A2300CE1DD9 /* CoreMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08198026F19A2300CE1DD9 /* CoreMediaViewController.swift */; };
 		7C08198326F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08198226F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift */; };
+		7C0C27DA2716836A004D250D /* FamilyControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27D92716836A004D250D /* FamilyControlsViewController.swift */; };
+		7C0C27DC2716836F004D250D /* FamilyControlsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27DB2716836F004D250D /* FamilyControlsDemoViewController.swift */; };
+		7C0C27DE271684F2004D250D /* EventKitUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27DD271684F2004D250D /* EventKitUIViewController.swift */; };
+		7C0C27E027168514004D250D /* EventKitUIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27DF27168514004D250D /* EventKitUIDemoViewController.swift */; };
+		7C0C27E2271685E0004D250D /* EventKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27E1271685E0004D250D /* EventKitViewController.swift */; };
+		7C0C27E4271685E7004D250D /* EventKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27E3271685E7004D250D /* EventKitDemoViewController.swift */; };
+		7C0C27E627168896004D250D /* DeviceCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27E527168896004D250D /* DeviceCheckViewController.swift */; };
+		7C0C27E82716889C004D250D /* DeviceCheckDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27E72716889C004D250D /* DeviceCheckDemoViewController.swift */; };
+		7C0C27EA27168987004D250D /* DeviceActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27E927168987004D250D /* DeviceActivityViewController.swift */; };
+		7C0C27EC2716898E004D250D /* DeviceActivityDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27EB2716898E004D250D /* DeviceActivityDemoViewController.swift */; };
+		7C0C27EE27168AFF004D250D /* CreateMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27ED27168AFF004D250D /* CreateMLViewController.swift */; };
+		7C0C27F027168B07004D250D /* CreateMLDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27EF27168B07004D250D /* CreateMLDemoViewController.swift */; };
 		7C0E0FAF271533390036C7C2 /* iAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FAE271533390036C7C2 /* iAdViewController.swift */; };
 		7C0E0FB1271533450036C7C2 /* iAdDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FB0271533450036C7C2 /* iAdDemoViewController.swift */; };
 		7C0E0FB32715341E0036C7C2 /* HomeKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FB22715341E0036C7C2 /* HomeKitViewController.swift */; };
 		7C0E0FB5271534660036C7C2 /* HomeKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FB4271534660036C7C2 /* HomeKitDemoViewController.swift */; };
+		7C0E0FB7271567B30036C7C2 /* HealthKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FB6271567B30036C7C2 /* HealthKitViewController.swift */; };
+		7C0E0FB9271567B90036C7C2 /* HealthKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FB8271567B90036C7C2 /* HealthKitDemoViewController.swift */; };
+		7C0E0FBB271568F00036C7C2 /* FileProviderUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FBA271568F00036C7C2 /* FileProviderUIViewController.swift */; };
+		7C0E0FBD271568FA0036C7C2 /* FileProviderUIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FBC271568FA0036C7C2 /* FileProviderUIDemoViewController.swift */; };
+		7C0E0FBF271569F90036C7C2 /* FileProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FBE271569F90036C7C2 /* FileProviderViewController.swift */; };
+		7C0E0FC127156A020036C7C2 /* FileProviderDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FC027156A020036C7C2 /* FileProviderDemoViewController.swift */; };
 		7C0F154826F02F5B0020C51A /* CFNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F154726F02F5B0020C51A /* CFNetworkViewController.swift */; };
 		7C0F154A26F02F700020C51A /* CFNetworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F154926F02F700020C51A /* CFNetworkDemoViewController.swift */; };
 		7C0FF085270FD95800FE3525 /* SiriKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FF084270FD95800FE3525 /* SiriKitViewController.swift */; };
@@ -322,10 +340,28 @@
 		7C08197E26F1990900CE1DD9 /* CoreMIDIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMIDIDemoViewController.swift; sourceTree = "<group>"; };
 		7C08198026F19A2300CE1DD9 /* CoreMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMediaViewController.swift; sourceTree = "<group>"; };
 		7C08198226F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMediaDemoViewController.swift; sourceTree = "<group>"; };
+		7C0C27D92716836A004D250D /* FamilyControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyControlsViewController.swift; sourceTree = "<group>"; };
+		7C0C27DB2716836F004D250D /* FamilyControlsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyControlsDemoViewController.swift; sourceTree = "<group>"; };
+		7C0C27DD271684F2004D250D /* EventKitUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitUIViewController.swift; sourceTree = "<group>"; };
+		7C0C27DF27168514004D250D /* EventKitUIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitUIDemoViewController.swift; sourceTree = "<group>"; };
+		7C0C27E1271685E0004D250D /* EventKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitViewController.swift; sourceTree = "<group>"; };
+		7C0C27E3271685E7004D250D /* EventKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C0C27E527168896004D250D /* DeviceCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCheckViewController.swift; sourceTree = "<group>"; };
+		7C0C27E72716889C004D250D /* DeviceCheckDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCheckDemoViewController.swift; sourceTree = "<group>"; };
+		7C0C27E927168987004D250D /* DeviceActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityViewController.swift; sourceTree = "<group>"; };
+		7C0C27EB2716898E004D250D /* DeviceActivityDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityDemoViewController.swift; sourceTree = "<group>"; };
+		7C0C27ED27168AFF004D250D /* CreateMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMLViewController.swift; sourceTree = "<group>"; };
+		7C0C27EF27168B07004D250D /* CreateMLDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMLDemoViewController.swift; sourceTree = "<group>"; };
 		7C0E0FAE271533390036C7C2 /* iAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAdViewController.swift; sourceTree = "<group>"; };
 		7C0E0FB0271533450036C7C2 /* iAdDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAdDemoViewController.swift; sourceTree = "<group>"; };
 		7C0E0FB22715341E0036C7C2 /* HomeKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitViewController.swift; sourceTree = "<group>"; };
 		7C0E0FB4271534660036C7C2 /* HomeKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C0E0FB6271567B30036C7C2 /* HealthKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitViewController.swift; sourceTree = "<group>"; };
+		7C0E0FB8271567B90036C7C2 /* HealthKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C0E0FBA271568F00036C7C2 /* FileProviderUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderUIViewController.swift; sourceTree = "<group>"; };
+		7C0E0FBC271568FA0036C7C2 /* FileProviderUIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderUIDemoViewController.swift; sourceTree = "<group>"; };
+		7C0E0FBE271569F90036C7C2 /* FileProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderViewController.swift; sourceTree = "<group>"; };
+		7C0E0FC027156A020036C7C2 /* FileProviderDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderDemoViewController.swift; sourceTree = "<group>"; };
 		7C0F154726F02F5B0020C51A /* CFNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNetworkViewController.swift; sourceTree = "<group>"; };
 		7C0F154926F02F700020C51A /* CFNetworkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNetworkDemoViewController.swift; sourceTree = "<group>"; };
 		7C0FF084270FD95800FE3525 /* SiriKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriKitViewController.swift; sourceTree = "<group>"; };
@@ -662,6 +698,24 @@
 				7C0E0FB0271533450036C7C2 /* iAdDemoViewController.swift */,
 				7C0E0FB22715341E0036C7C2 /* HomeKitViewController.swift */,
 				7C0E0FB4271534660036C7C2 /* HomeKitDemoViewController.swift */,
+				7C0E0FB6271567B30036C7C2 /* HealthKitViewController.swift */,
+				7C0E0FB8271567B90036C7C2 /* HealthKitDemoViewController.swift */,
+				7C0E0FBA271568F00036C7C2 /* FileProviderUIViewController.swift */,
+				7C0E0FBC271568FA0036C7C2 /* FileProviderUIDemoViewController.swift */,
+				7C0E0FBE271569F90036C7C2 /* FileProviderViewController.swift */,
+				7C0E0FC027156A020036C7C2 /* FileProviderDemoViewController.swift */,
+				7C0C27D92716836A004D250D /* FamilyControlsViewController.swift */,
+				7C0C27DB2716836F004D250D /* FamilyControlsDemoViewController.swift */,
+				7C0C27DD271684F2004D250D /* EventKitUIViewController.swift */,
+				7C0C27DF27168514004D250D /* EventKitUIDemoViewController.swift */,
+				7C0C27E1271685E0004D250D /* EventKitViewController.swift */,
+				7C0C27E3271685E7004D250D /* EventKitDemoViewController.swift */,
+				7C0C27E527168896004D250D /* DeviceCheckViewController.swift */,
+				7C0C27E72716889C004D250D /* DeviceCheckDemoViewController.swift */,
+				7C0C27E927168987004D250D /* DeviceActivityViewController.swift */,
+				7C0C27EB2716898E004D250D /* DeviceActivityDemoViewController.swift */,
+				7C0C27ED27168AFF004D250D /* CreateMLViewController.swift */,
+				7C0C27EF27168B07004D250D /* CreateMLDemoViewController.swift */,
 			);
 			path = AppServices;
 			sourceTree = "<group>";
@@ -1290,6 +1344,7 @@
 				7C0E0FB5271534660036C7C2 /* HomeKitDemoViewController.swift in Sources */,
 				7CA3E3042654B31C00001D7A /* SCDImageViewAttributes.swift in Sources */,
 				7C0F154826F02F5B0020C51A /* CFNetworkViewController.swift in Sources */,
+				7C0C27EC2716898E004D250D /* DeviceActivityDemoViewController.swift in Sources */,
 				7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */,
 				7CDA894E2714208A00C93FBE /* JavaScriptCoreViewController.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
@@ -1309,12 +1364,14 @@
 				7C0FF0892710176B00FE3525 /* SafariServicesViewController.swift in Sources */,
 				7CF6694E26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift in Sources */,
 				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
+				7C0E0FB9271567B90036C7C2 /* HealthKitDemoViewController.swift in Sources */,
 				7C08194F26F18A9E00CE1DD9 /* VisionKitViewController.swift in Sources */,
 				7C08197D26F1990200CE1DD9 /* CoreMIDIViewController.swift in Sources */,
 				7C0FF0972710228700FE3525 /* PassKitDemoViewController.swift in Sources */,
 				7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */,
 				7C0FF09D2710273400FE3525 /* MultipeerConnectivityViewController.swift in Sources */,
 				7C08196726F18F8600CE1DD9 /* PhotoKitDemoViewController.swift in Sources */,
+				7C0C27EE27168AFF004D250D /* CreateMLViewController.swift in Sources */,
 				7C0FF0932710207C00FE3525 /* PushKitDemoViewController.swift in Sources */,
 				7C53BB9526E9993F004A1753 /* CoreServicesDemoViewController.swift in Sources */,
 				7C7EE5A1270596060003965E /* SMSandCallReportingViewController.swift in Sources */,
@@ -1337,6 +1394,7 @@
 				7CD0989326E8BD9D00EBA585 /* CoreTelephonyViewController.swift in Sources */,
 				7CF6696826F2DC870079A5EB /* AudioToolboxViewController.swift in Sources */,
 				7C08195526F18B6F00CE1DD9 /* VideoToolboxDemoViewController.swift in Sources */,
+				7C0C27E82716889C004D250D /* DeviceCheckDemoViewController.swift in Sources */,
 				7C08193B26F1821700CE1DD9 /* AuthenticationServicesViewController.swift in Sources */,
 				7C08196926F1918B00CE1DD9 /* MediaSetupViewController.swift in Sources */,
 				7C7EE593270545FA0003965E /* TabularDataDemoViewController.swift in Sources */,
@@ -1363,6 +1421,7 @@
 				7CF6695826F2D5EA0079A5EB /* AVKitViewController.swift in Sources */,
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
 				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
+				7C0E0FC127156A020036C7C2 /* FileProviderDemoViewController.swift in Sources */,
 				7C0FF0A1271029E900FE3525 /* MessagesViewController.swift in Sources */,
 				7C0FF08D27101A4600FE3525 /* QuickLookViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
@@ -1390,6 +1449,7 @@
 				7CF6697226F2DF640079A5EB /* VisionViewController.swift in Sources */,
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7C08194B26F1871600CE1DD9 /* AccelerateViewController.swift in Sources */,
+				7C0C27E027168514004D250D /* EventKitUIDemoViewController.swift in Sources */,
 				7C91AD512701A7FE005E47D9 /* CoreImageDemoViewController.swift in Sources */,
 				7CBBC2DE27044B4E001B6321 /* CoreGraphicsDemoViewController.swift in Sources */,
 				7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */,
@@ -1408,6 +1468,7 @@
 				7CBBC2E027044DF4001B6321 /* CoreAnimationViewController.swift in Sources */,
 				7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */,
 				7C0FF08B2710177400FE3525 /* SafariServicesDemoViewController.swift in Sources */,
+				7C0E0FBB271568F00036C7C2 /* FileProviderUIViewController.swift in Sources */,
 				7C343DDD26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift in Sources */,
 				7C66107026D8C00400F4188D /* IOSurfaceDemoViewController.swift in Sources */,
 				7CBBC2E9270454E2001B6321 /* StoreKitTestViewController.swift in Sources */,
@@ -1424,13 +1485,16 @@
 				7CF6694A26F2D1190079A5EB /* CoreHapticsDemoViewController.swift in Sources */,
 				7C08194926F186A300CE1DD9 /* AppTrackingTransparencyDemoViewController.swift in Sources */,
 				7C91AD45270168F2005E47D9 /* GameplayKitDemoViewController.swift in Sources */,
+				7C0C27EA27168987004D250D /* DeviceActivityViewController.swift in Sources */,
 				7C08198326F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift in Sources */,
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
+				7C0C27F027168B07004D250D /* CreateMLDemoViewController.swift in Sources */,
 				7C0FF0A727102C7D00FE3525 /* MessageUIDemoViewController.swift in Sources */,
 				7C7EE5A3270596150003965E /* SMSandCallReportingDemoViewController.swift in Sources */,
 				7C0FF0912710207600FE3525 /* PushKitViewController.swift in Sources */,
 				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
 				7CBBC2F527045724001B6321 /* WidgetKitDemoViewController.swift in Sources */,
+				7C0E0FBD271568FA0036C7C2 /* FileProviderUIDemoViewController.swift in Sources */,
 				7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */,
 				7CBBC2F727045A5C001B6321 /* WebKitViewController.swift in Sources */,
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
@@ -1441,8 +1505,10 @@
 				7C7EE59B270550830003965E /* SpeechDemoViewController.swift in Sources */,
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
 				7CBBC2EB270454E9001B6321 /* StoreKitTestDemoViewController.swift in Sources */,
+				7C0E0FBF271569F90036C7C2 /* FileProviderViewController.swift in Sources */,
 				7CBBC2F927045A62001B6321 /* WebKitDemoViewController.swift in Sources */,
 				7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */,
+				7C0C27E4271685E7004D250D /* EventKitDemoViewController.swift in Sources */,
 				7C91AD4F2701A7F4005E47D9 /* CoreImageViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
 				7CBBC2F12704565A001B6321 /* DeveloperToolsSupportFrameworkViewController.swift in Sources */,
@@ -1461,6 +1527,7 @@
 				7CDA894827141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
 				7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */,
+				7C0C27DA2716836A004D250D /* FamilyControlsViewController.swift in Sources */,
 				7CA3E04426EF359E00902D84 /* CompressionDemoViewController.swift in Sources */,
 				7C08197926F1972C00CE1DD9 /* CoreVideoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
@@ -1469,6 +1536,7 @@
 				7C91AD3D27016759005E47D9 /* ImageIODemoViewController.swift in Sources */,
 				7CDA89502714209500C93FBE /* JavaScriptCoreDemoViewController.swift in Sources */,
 				7C0FF0992710252200FE3525 /* NaturalLanguageViewController.swift in Sources */,
+				7C0C27E2271685E0004D250D /* EventKitViewController.swift in Sources */,
 				7CBBC2E6270451CA001B6321 /* ARKitDemoViewController.swift in Sources */,
 				7C08194726F1869700CE1DD9 /* AppTrackingTransparencyViewController.swift in Sources */,
 				7CF6695026F2D3A50079A5EB /* CoreAudioKitViewController.swift in Sources */,
@@ -1479,10 +1547,12 @@
 				7C5A58D126FC76B8006CA748 /* PencilKitViewController.swift in Sources */,
 				7C0FF08F27101A4D00FE3525 /* QuickLookDemoViewController.swift in Sources */,
 				7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */,
+				7C0E0FB7271567B30036C7C2 /* HealthKitViewController.swift in Sources */,
 				7C08194126F1846E00CE1DD9 /* AppleCryptoKitDemoViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,
 				7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */,
 				7C7EE591270545F10003965E /* TabularDataViewController.swift in Sources */,
+				7C0C27DE271684F2004D250D /* EventKitUIViewController.swift in Sources */,
 				7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */,
 				7CF8D90527005C47008DCEF2 /* MetalPerformanceShadersViewController.swift in Sources */,
 				7C0E0FB32715341E0036C7C2 /* HomeKitViewController.swift in Sources */,
@@ -1490,9 +1560,11 @@
 				7CD1BDC626FB1CEA00260DF5 /* ReplayKitViewController.swift in Sources */,
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
 				7C08197726F1954900CE1DD9 /* ImageCaptureCoreDemoViewController.swift in Sources */,
+				7C0C27E627168896004D250D /* DeviceCheckViewController.swift in Sources */,
 				7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */,
 				7CDA894A27141B9800C93FBE /* ManagedSettingsViewController.swift in Sources */,
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,
+				7C0C27DC2716836F004D250D /* FamilyControlsDemoViewController.swift in Sources */,
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,
 				7CF6696426F2DB050079A5EB /* AudioUnitViewController.swift in Sources */,

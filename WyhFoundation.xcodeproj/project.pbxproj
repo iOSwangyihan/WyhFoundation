@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0130B726D5D0610050833E /* MetricKitViewController.swift */; };
 		7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */; };
+		7C050E96271E556300958A5E /* CoreFoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C050E95271E556300958A5E /* CoreFoundationViewController.swift */; };
+		7C050E98271E556C00958A5E /* CoreFoundationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C050E97271E556C00958A5E /* CoreFoundationDemoViewController.swift */; };
 		7C05A52026FD724500A6D7A7 /* ModelIOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05A51F26FD724500A6D7A7 /* ModelIOViewController.swift */; };
 		7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05A52126FD725300A6D7A7 /* ModelIODemoViewController.swift */; };
 		7C05A52426FD842200A6D7A7 /* MetalPerformanceShadersGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05A52326FD842200A6D7A7 /* MetalPerformanceShadersGraphViewController.swift */; };
@@ -61,6 +63,10 @@
 		7C0C27EC2716898E004D250D /* DeviceActivityDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27EB2716898E004D250D /* DeviceActivityDemoViewController.swift */; };
 		7C0C27EE27168AFF004D250D /* CreateMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27ED27168AFF004D250D /* CreateMLViewController.swift */; };
 		7C0C27F027168B07004D250D /* CreateMLDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27EF27168B07004D250D /* CreateMLDemoViewController.swift */; };
+		7C0C27F22716B0F2004D250D /* CoreTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27F12716B0F2004D250D /* CoreTextViewController.swift */; };
+		7C0C27F42716B0FB004D250D /* CoreTextDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27F32716B0FB004D250D /* CoreTextDemoViewController.swift */; };
+		7C0C27F62716DCC5004D250D /* CoreSpotlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27F52716DCC5004D250D /* CoreSpotlightViewController.swift */; };
+		7C0C27F82716DCCE004D250D /* CoreSpotlightDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C27F72716DCCE004D250D /* CoreSpotlightDemoViewController.swift */; };
 		7C0E0FAF271533390036C7C2 /* iAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FAE271533390036C7C2 /* iAdViewController.swift */; };
 		7C0E0FB1271533450036C7C2 /* iAdDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FB0271533450036C7C2 /* iAdDemoViewController.swift */; };
 		7C0E0FB32715341E0036C7C2 /* HomeKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E0FB22715341E0036C7C2 /* HomeKitViewController.swift */; };
@@ -201,6 +207,10 @@
 		7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */; };
 		7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB61F7D26E6F88100019248 /* dnssdViewController.swift */; };
 		7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */; };
+		7CB634292717C5B10092758D /* CoreMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB634282717C5B10092758D /* CoreMotionViewController.swift */; };
+		7CB6342B2717C5BA0092758D /* CoreMotionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6342A2717C5BA0092758D /* CoreMotionDemoViewController.swift */; };
+		7CB6342D2717D5480092758D /* CoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6342C2717D5480092758D /* CoreMLViewController.swift */; };
+		7CB6342F2717D5500092758D /* CoreMLDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6342E2717D5500092758D /* CoreMLDemoViewController.swift */; };
 		7CBBC2DC27044B45001B6321 /* CoreGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2DB27044B45001B6321 /* CoreGraphicsViewController.swift */; };
 		7CBBC2DE27044B4E001B6321 /* CoreGraphicsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2DD27044B4E001B6321 /* CoreGraphicsDemoViewController.swift */; };
 		7CBBC2E027044DF4001B6321 /* CoreAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBC2DF27044DF4001B6321 /* CoreAnimationViewController.swift */; };
@@ -236,6 +246,10 @@
 		7CD1BDC826FB1CF200260DF5 /* ReplayKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1BDC726FB1CF200260DF5 /* ReplayKitDemoViewController.swift */; };
 		7CD1BDCA26FB33EB00260DF5 /* RealityKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1BDC926FB33EB00260DF5 /* RealityKitViewController.swift */; };
 		7CD1BDCC26FB33F100260DF5 /* RealityKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1BDCB26FB33F100260DF5 /* RealityKitDemoViewController.swift */; };
+		7CD621612719322F0048499D /* CoreLocationUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD621602719322F0048499D /* CoreLocationUIViewController.swift */; };
+		7CD62163271932370048499D /* CoreLocationUIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD62162271932370048499D /* CoreLocationUIDemoViewController.swift */; };
+		7CD62165271934410048499D /* CoreLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD62164271934410048499D /* CoreLocationViewController.swift */; };
+		7CD62167271934490048499D /* CoreLocationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD62166271934490048499D /* CoreLocationDemoViewController.swift */; };
 		7CDA894627141B1300C93FBE /* ManagedSettingsUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894527141B1300C93FBE /* ManagedSettingsUIViewController.swift */; };
 		7CDA894827141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894727141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift */; };
 		7CDA894A27141B9800C93FBE /* ManagedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894927141B9800C93FBE /* ManagedSettingsViewController.swift */; };
@@ -300,6 +314,8 @@
 		44946BAFC622C09BAE4181C5 /* Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; path = "Target Support Files/Pods-WyhFoundation-WyhFoundationUITests/Pods-WyhFoundation-WyhFoundationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C0130B726D5D0610050833E /* MetricKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitViewController.swift; sourceTree = "<group>"; };
 		7C0130B926D5D0700050833E /* MetricKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C050E95271E556300958A5E /* CoreFoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreFoundationViewController.swift; sourceTree = "<group>"; };
+		7C050E97271E556C00958A5E /* CoreFoundationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreFoundationDemoViewController.swift; sourceTree = "<group>"; };
 		7C05A51F26FD724500A6D7A7 /* ModelIOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelIOViewController.swift; sourceTree = "<group>"; };
 		7C05A52126FD725300A6D7A7 /* ModelIODemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelIODemoViewController.swift; sourceTree = "<group>"; };
 		7C05A52326FD842200A6D7A7 /* MetalPerformanceShadersGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalPerformanceShadersGraphViewController.swift; sourceTree = "<group>"; };
@@ -352,6 +368,10 @@
 		7C0C27EB2716898E004D250D /* DeviceActivityDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityDemoViewController.swift; sourceTree = "<group>"; };
 		7C0C27ED27168AFF004D250D /* CreateMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMLViewController.swift; sourceTree = "<group>"; };
 		7C0C27EF27168B07004D250D /* CreateMLDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMLDemoViewController.swift; sourceTree = "<group>"; };
+		7C0C27F12716B0F2004D250D /* CoreTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTextViewController.swift; sourceTree = "<group>"; };
+		7C0C27F32716B0FB004D250D /* CoreTextDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTextDemoViewController.swift; sourceTree = "<group>"; };
+		7C0C27F52716DCC5004D250D /* CoreSpotlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSpotlightViewController.swift; sourceTree = "<group>"; };
+		7C0C27F72716DCCE004D250D /* CoreSpotlightDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSpotlightDemoViewController.swift; sourceTree = "<group>"; };
 		7C0E0FAE271533390036C7C2 /* iAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAdViewController.swift; sourceTree = "<group>"; };
 		7C0E0FB0271533450036C7C2 /* iAdDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAdDemoViewController.swift; sourceTree = "<group>"; };
 		7C0E0FB22715341E0036C7C2 /* HomeKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitViewController.swift; sourceTree = "<group>"; };
@@ -506,6 +526,10 @@
 		7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcBaseNaviView.m; sourceTree = "<group>"; };
 		7CB61F7D26E6F88100019248 /* dnssdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnssdViewController.swift; sourceTree = "<group>"; };
 		7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnssdDemoViewController.swift; sourceTree = "<group>"; };
+		7CB634282717C5B10092758D /* CoreMotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionViewController.swift; sourceTree = "<group>"; };
+		7CB6342A2717C5BA0092758D /* CoreMotionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionDemoViewController.swift; sourceTree = "<group>"; };
+		7CB6342C2717D5480092758D /* CoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLViewController.swift; sourceTree = "<group>"; };
+		7CB6342E2717D5500092758D /* CoreMLDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLDemoViewController.swift; sourceTree = "<group>"; };
 		7CBBC2DB27044B45001B6321 /* CoreGraphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsViewController.swift; sourceTree = "<group>"; };
 		7CBBC2DD27044B4E001B6321 /* CoreGraphicsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsDemoViewController.swift; sourceTree = "<group>"; };
 		7CBBC2DF27044DF4001B6321 /* CoreAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationViewController.swift; sourceTree = "<group>"; };
@@ -541,6 +565,10 @@
 		7CD1BDC726FB1CF200260DF5 /* ReplayKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CD1BDC926FB33EB00260DF5 /* RealityKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitViewController.swift; sourceTree = "<group>"; };
 		7CD1BDCB26FB33F100260DF5 /* RealityKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CD621602719322F0048499D /* CoreLocationUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationUIViewController.swift; sourceTree = "<group>"; };
+		7CD62162271932370048499D /* CoreLocationUIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationUIDemoViewController.swift; sourceTree = "<group>"; };
+		7CD62164271934410048499D /* CoreLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationViewController.swift; sourceTree = "<group>"; };
+		7CD62166271934490048499D /* CoreLocationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationDemoViewController.swift; sourceTree = "<group>"; };
 		7CDA894527141B1300C93FBE /* ManagedSettingsUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsUIViewController.swift; sourceTree = "<group>"; };
 		7CDA894727141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsUIDemoViewController.swift; sourceTree = "<group>"; };
 		7CDA894927141B9800C93FBE /* ManagedSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsViewController.swift; sourceTree = "<group>"; };
@@ -716,6 +744,20 @@
 				7C0C27EB2716898E004D250D /* DeviceActivityDemoViewController.swift */,
 				7C0C27ED27168AFF004D250D /* CreateMLViewController.swift */,
 				7C0C27EF27168B07004D250D /* CreateMLDemoViewController.swift */,
+				7C0C27F12716B0F2004D250D /* CoreTextViewController.swift */,
+				7C0C27F32716B0FB004D250D /* CoreTextDemoViewController.swift */,
+				7C0C27F52716DCC5004D250D /* CoreSpotlightViewController.swift */,
+				7C0C27F72716DCCE004D250D /* CoreSpotlightDemoViewController.swift */,
+				7CB634282717C5B10092758D /* CoreMotionViewController.swift */,
+				7CB6342A2717C5BA0092758D /* CoreMotionDemoViewController.swift */,
+				7CB6342C2717D5480092758D /* CoreMLViewController.swift */,
+				7CB6342E2717D5500092758D /* CoreMLDemoViewController.swift */,
+				7CD621602719322F0048499D /* CoreLocationUIViewController.swift */,
+				7CD62162271932370048499D /* CoreLocationUIDemoViewController.swift */,
+				7CD62164271934410048499D /* CoreLocationViewController.swift */,
+				7CD62166271934490048499D /* CoreLocationDemoViewController.swift */,
+				7C050E95271E556300958A5E /* CoreFoundationViewController.swift */,
+				7C050E97271E556C00958A5E /* CoreFoundationDemoViewController.swift */,
 			);
 			path = AppServices;
 			sourceTree = "<group>";
@@ -1352,6 +1394,7 @@
 				7C91AD4727019DA2005E47D9 /* GameKitViewController.swift in Sources */,
 				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
 				7C08194526F185D100CE1DD9 /* AppleArchiveDemoViewController.swift in Sources */,
+				7CB6342B2717C5BA0092758D /* CoreMotionDemoViewController.swift in Sources */,
 				7CF6695226F2D3B70079A5EB /* CoreAudioKitDemoViewController.swift in Sources */,
 				7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */,
 				7CF6694C26F2D2C50079A5EB /* CoreAudioTypesViewController.swift in Sources */,
@@ -1409,11 +1452,13 @@
 				7C5A58D326FC76C0006CA748 /* PencilKitDemoViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
 				7C7D819927113005003317F1 /* MapKitViewController.swift in Sources */,
+				7C050E96271E556300958A5E /* CoreFoundationViewController.swift in Sources */,
 				7CF8D90727005C55008DCEF2 /* MetalPerformanceShadersDemoViewController.swift in Sources */,
 				7C91AD43270168ED005E47D9 /* GameplayKitViewController.swift in Sources */,
 				7C0FF0952710227F00FE3525 /* PassKitViewController.swift in Sources */,
 				7CF6694826F2D10F0079A5EB /* CoreHapticsViewController.swift in Sources */,
 				7CBBC2EF270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift in Sources */,
+				7C0C27F42716B0FB004D250D /* CoreTextDemoViewController.swift in Sources */,
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
 				7C7EE59727054CD90003965E /* StoreKitDemoViewController.swift in Sources */,
 				7C05A52026FD724500A6D7A7 /* ModelIOViewController.swift in Sources */,
@@ -1432,23 +1477,27 @@
 				7CA3E3362654B82500001D7A /* BaseView.swift in Sources */,
 				7CBD752A26C35FDF0089C344 /* NearbyInteractionViewController.swift in Sources */,
 				7CBBC2FF27046700001B6321 /* UserNotificationsUIViewController.swift in Sources */,
+				7C050E98271E556C00958A5E /* CoreFoundationDemoViewController.swift in Sources */,
 				7CA3E3312654B7EA00001D7A /* BaseNaviView.swift in Sources */,
 				7CDA894C27141BA000C93FBE /* ManagedSettingsDemoViewController.swift in Sources */,
 				7CA3E3002654B31C00001D7A /* SCDTableViewAttributes.swift in Sources */,
 				7C08193D26F1822300CE1DD9 /* AuthenticationServicesDemoViewController.swift in Sources */,
 				7C91AD3B2701674E005E47D9 /* ImageIOViewController.swift in Sources */,
+				7C0C27F82716DCCE004D250D /* CoreSpotlightDemoViewController.swift in Sources */,
 				7CA3615F26C1327A009E5376 /* NetworkExtensionDemoViewController.swift in Sources */,
 				7CA3E2E82654B01F00001D7A /* UIView_Extension.swift in Sources */,
 				7CA3E3012654B31C00001D7A /* SCDViewAttributes.swift in Sources */,
 				7C7EE59F270592660003965E /* SocialDemoViewController.swift in Sources */,
 				7C0FF087270FD95F00FE3525 /* SiriKitDemoViewController.swift in Sources */,
 				7C08197F26F1990900CE1DD9 /* CoreMIDIDemoViewController.swift in Sources */,
+				7CB634292717C5B10092758D /* CoreMotionViewController.swift in Sources */,
 				7C0F154A26F02F700020C51A /* CFNetworkDemoViewController.swift in Sources */,
 				7C343DDB26E5A3BB00A7A6BC /* ExposureNotificationViewController.swift in Sources */,
 				7CA3E3192654B45E00001D7A /* Assets.swift in Sources */,
 				7CF6697226F2DF640079A5EB /* VisionViewController.swift in Sources */,
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7C08194B26F1871600CE1DD9 /* AccelerateViewController.swift in Sources */,
+				7CD62167271934490048499D /* CoreLocationDemoViewController.swift in Sources */,
 				7C0C27E027168514004D250D /* EventKitUIDemoViewController.swift in Sources */,
 				7C91AD512701A7FE005E47D9 /* CoreImageDemoViewController.swift in Sources */,
 				7CBBC2DE27044B4E001B6321 /* CoreGraphicsDemoViewController.swift in Sources */,
@@ -1513,6 +1562,7 @@
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
 				7CBBC2F12704565A001B6321 /* DeveloperToolsSupportFrameworkViewController.swift in Sources */,
 				7CF5981526F46C81009E16E5 /* SceneKitViewController.swift in Sources */,
+				7C0C27F62716DCC5004D250D /* CoreSpotlightViewController.swift in Sources */,
 				7CF6696626F2DB0E0079A5EB /* AudioUnitDemoViewController.swift in Sources */,
 				7C0FF0A3271029EF00FE3525 /* MessagesDemoViewController.swift in Sources */,
 				7CDA894627141B1300C93FBE /* ManagedSettingsUIViewController.swift in Sources */,
@@ -1529,6 +1579,7 @@
 				7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */,
 				7C0C27DA2716836A004D250D /* FamilyControlsViewController.swift in Sources */,
 				7CA3E04426EF359E00902D84 /* CompressionDemoViewController.swift in Sources */,
+				7CD621612719322F0048499D /* CoreLocationUIViewController.swift in Sources */,
 				7C08197926F1972C00CE1DD9 /* CoreVideoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
 				7CBBC2E4270451C4001B6321 /* ARKitViewController.swift in Sources */,
@@ -1536,6 +1587,7 @@
 				7C91AD3D27016759005E47D9 /* ImageIODemoViewController.swift in Sources */,
 				7CDA89502714209500C93FBE /* JavaScriptCoreDemoViewController.swift in Sources */,
 				7C0FF0992710252200FE3525 /* NaturalLanguageViewController.swift in Sources */,
+				7C0C27F22716B0F2004D250D /* CoreTextViewController.swift in Sources */,
 				7C0C27E2271685E0004D250D /* EventKitViewController.swift in Sources */,
 				7CBBC2E6270451CA001B6321 /* ARKitDemoViewController.swift in Sources */,
 				7C08194726F1869700CE1DD9 /* AppTrackingTransparencyViewController.swift in Sources */,
@@ -1568,9 +1620,11 @@
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,
 				7CF6696426F2DB050079A5EB /* AudioUnitViewController.swift in Sources */,
+				7CB6342D2717D5480092758D /* CoreMLViewController.swift in Sources */,
 				7CBBC3052704686F001B6321 /* UserNotificationsDemoViewController.swift in Sources */,
 				7C08196126F18E9E00CE1DD9 /* QuickLookThumbnailingViewController.swift in Sources */,
 				7CD1BDCA26FB33EB00260DF5 /* RealityKitViewController.swift in Sources */,
+				7CD62163271932370048499D /* CoreLocationUIDemoViewController.swift in Sources */,
 				7CF6695A26F2D5EF0079A5EB /* AVKitDemoViewController.swift in Sources */,
 				7C05A52426FD842200A6D7A7 /* MetalPerformanceShadersGraphViewController.swift in Sources */,
 				7C69F7A92656093900055389 /* SystemViewController.swift in Sources */,
@@ -1579,6 +1633,7 @@
 				7CBBC2FD2704644A001B6321 /* WatchConnectivityDemoViewController.swift in Sources */,
 				7C0E0FB1271533450036C7C2 /* iAdDemoViewController.swift in Sources */,
 				7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */,
+				7CB6342F2717D5500092758D /* CoreMLDemoViewController.swift in Sources */,
 				7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,
 				7C0FF0A527102C7400FE3525 /* MessageUIViewController.swift in Sources */,
@@ -1586,6 +1641,7 @@
 				7C0FF085270FD95800FE3525 /* SiriKitViewController.swift in Sources */,
 				7CA3615726C13040009E5376 /* osDemoViewController.swift in Sources */,
 				7C69F7AE2656094300055389 /* WebViewController.swift in Sources */,
+				7CD62165271934410048499D /* CoreLocationViewController.swift in Sources */,
 				7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */,
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
 				7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */,

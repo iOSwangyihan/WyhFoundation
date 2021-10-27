@@ -131,6 +131,12 @@
 		7C55B3892729451D005FE5BA /* AdServicesDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55B3882729451D005FE5BA /* AdServicesDemoViewController.swift */; };
 		7C55B393272946A5005FE5BA /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55B392272946A5005FE5BA /* UIKitViewController.swift */; };
 		7C55B395272946AB005FE5BA /* UIKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55B394272946AB005FE5BA /* UIKitDemoViewController.swift */; };
+		7C55B39727294D6F005FE5BA /* SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55B39627294D6F005FE5BA /* SwiftUIViewController.swift */; };
+		7C55B39927294D75005FE5BA /* SwiftUIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55B39827294D75005FE5BA /* SwiftUIDemoViewController.swift */; };
+		7C55B39B2729504D005FE5BA /* SwiftFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55B39A2729504D005FE5BA /* SwiftFrameworkViewController.swift */; };
+		7C55B39D27295054005FE5BA /* SwiftFrameworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55B39C27295054005FE5BA /* SwiftFrameworkDemoViewController.swift */; };
+		7C55B39F272951BC005FE5BA /* FoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55B39E272951BC005FE5BA /* FoundationViewController.swift */; };
+		7C55B3A1272951C2005FE5BA /* FoundationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55B3A0272951C2005FE5BA /* FoundationDemoViewController.swift */; };
 		7C5A58D126FC76B8006CA748 /* PencilKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A58D026FC76B8006CA748 /* PencilKitViewController.swift */; };
 		7C5A58D326FC76C0006CA748 /* PencilKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A58D226FC76C0006CA748 /* PencilKitDemoViewController.swift */; };
 		7C5A58D526FC80F5006CA748 /* PDFKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A58D426FC80F5006CA748 /* PDFKitViewController.swift */; };
@@ -466,6 +472,12 @@
 		7C55B3882729451D005FE5BA /* AdServicesDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdServicesDemoViewController.swift; sourceTree = "<group>"; };
 		7C55B392272946A5005FE5BA /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		7C55B394272946AB005FE5BA /* UIKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C55B39627294D6F005FE5BA /* SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
+		7C55B39827294D75005FE5BA /* SwiftUIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoViewController.swift; sourceTree = "<group>"; };
+		7C55B39A2729504D005FE5BA /* SwiftFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFrameworkViewController.swift; sourceTree = "<group>"; };
+		7C55B39C27295054005FE5BA /* SwiftFrameworkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFrameworkDemoViewController.swift; sourceTree = "<group>"; };
+		7C55B39E272951BC005FE5BA /* FoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationViewController.swift; sourceTree = "<group>"; };
+		7C55B3A0272951C2005FE5BA /* FoundationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationDemoViewController.swift; sourceTree = "<group>"; };
 		7C5A58D026FC76B8006CA748 /* PencilKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitViewController.swift; sourceTree = "<group>"; };
 		7C5A58D226FC76C0006CA748 /* PencilKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitDemoViewController.swift; sourceTree = "<group>"; };
 		7C5A58D426FC80F5006CA748 /* PDFKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitViewController.swift; sourceTree = "<group>"; };
@@ -730,6 +742,12 @@
 				7C69F78B2656039200055389 /* AppFrameworksViewController.swift */,
 				7C55B392272946A5005FE5BA /* UIKitViewController.swift */,
 				7C55B394272946AB005FE5BA /* UIKitDemoViewController.swift */,
+				7C55B39627294D6F005FE5BA /* SwiftUIViewController.swift */,
+				7C55B39827294D75005FE5BA /* SwiftUIDemoViewController.swift */,
+				7C55B39A2729504D005FE5BA /* SwiftFrameworkViewController.swift */,
+				7C55B39C27295054005FE5BA /* SwiftFrameworkDemoViewController.swift */,
+				7C55B39E272951BC005FE5BA /* FoundationViewController.swift */,
+				7C55B3A0272951C2005FE5BA /* FoundationDemoViewController.swift */,
 			);
 			path = AppFrameworks;
 			sourceTree = "<group>";
@@ -1478,6 +1496,7 @@
 				7CA3E3042654B31C00001D7A /* SCDImageViewAttributes.swift in Sources */,
 				7C0F154826F02F5B0020C51A /* CFNetworkViewController.swift in Sources */,
 				7C0C27EC2716898E004D250D /* DeviceActivityDemoViewController.swift in Sources */,
+				7C55B39727294D6F005FE5BA /* SwiftUIViewController.swift in Sources */,
 				7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */,
 				7CDA894E2714208A00C93FBE /* JavaScriptCoreViewController.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
@@ -1503,6 +1522,7 @@
 				7C08194F26F18A9E00CE1DD9 /* VisionKitViewController.swift in Sources */,
 				7C08197D26F1990200CE1DD9 /* CoreMIDIViewController.swift in Sources */,
 				7C0FF0972710228700FE3525 /* PassKitDemoViewController.swift in Sources */,
+				7C55B39D27295054005FE5BA /* SwiftFrameworkDemoViewController.swift in Sources */,
 				7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */,
 				7C9BAA3A2727AE68000B9EC8 /* CombineDemoViewController.swift in Sources */,
 				7C0FF09D2710273400FE3525 /* MultipeerConnectivityViewController.swift in Sources */,
@@ -1546,6 +1566,7 @@
 				7CF5981726F46C88009E16E5 /* SceneKitDemoViewController.swift in Sources */,
 				7C55B36B2728E3A2005FE5BA /* ClassKitViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
+				7C55B39927294D75005FE5BA /* SwiftUIDemoViewController.swift in Sources */,
 				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
 				7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */,
 				7C5A58D326FC76C0006CA748 /* PencilKitDemoViewController.swift in Sources */,
@@ -1693,6 +1714,7 @@
 				7C55B395272946AB005FE5BA /* UIKitDemoViewController.swift in Sources */,
 				7C08197926F1972C00CE1DD9 /* CoreVideoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
+				7C55B39B2729504D005FE5BA /* SwiftFrameworkViewController.swift in Sources */,
 				7CBBC2E4270451C4001B6321 /* ARKitViewController.swift in Sources */,
 				7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */,
 				7C9BAA3C2727D7D2000B9EC8 /* CloudKitViewController.swift in Sources */,
@@ -1705,6 +1727,7 @@
 				7C08194726F1869700CE1DD9 /* AppTrackingTransparencyViewController.swift in Sources */,
 				7CF6695026F2D3A50079A5EB /* CoreAudioKitViewController.swift in Sources */,
 				7C08195926F18CDD00CE1DD9 /* VideoSubscriberAccountViewController.swift in Sources */,
+				7C55B3A1272951C2005FE5BA /* FoundationDemoViewController.swift in Sources */,
 				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,
 				7C55B38327293BA9005FE5BA /* AdSupportViewController.swift in Sources */,
 				7CF6695426F2D4930079A5EB /* CoreAudioViewController.swift in Sources */,
@@ -1759,6 +1782,7 @@
 				7C69F7AE2656094300055389 /* WebViewController.swift in Sources */,
 				7CD62165271934410048499D /* CoreLocationViewController.swift in Sources */,
 				7C55B3772729353D005FE5BA /* BusinessChatViewController.swift in Sources */,
+				7C55B39F272951BC005FE5BA /* FoundationViewController.swift in Sources */,
 				7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */,
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
 				7C55B3732728F8DA005FE5BA /* CallKitViewController.swift in Sources */,

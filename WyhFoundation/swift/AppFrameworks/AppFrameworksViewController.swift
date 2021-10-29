@@ -39,15 +39,15 @@ enum AppFrameworksViewControllerType {
     func vc() -> SwiftViewController {
         switch self {
         case .Accessibility:
-            return AppFrameworksViewController()
+            return AccessibilityViewController()
         case .AppClip:
-            return AppFrameworksViewController()
+            return AppClipsViewController()
         case .Foundation:
-            return AppFrameworksViewController()
+            return FoundationViewController()
         case .SwiftUI:
-            return AppFrameworksViewController()
+            return SwiftUIViewController()
         case .UIKit:
-            return AppFrameworksViewController()
+            return UIKitViewController()
        
         }
     }

@@ -221,99 +221,99 @@ enum AppServicesViewControllerType {
         case .AddressBookUI:
             return AppFrameworksViewController()
         case .AdSupport:
-            return AppFrameworksViewController()
+            return AdSupportViewController()
         case .AutomaticAssessmentConfiguration:
-            return AppFrameworksViewController()
+            return AutomaticAssessmentConfigurationViewController()
         case .BackgroundTasks:
-            return AppFrameworksViewController()
+            return BackgroundTasksViewController()
         case .BusinessChat:
-            return AppFrameworksViewController()
+            return BusinessChatViewController()
         case .CallKit:
-            return AppFrameworksViewController()
+            return CallKitViewController()
         case .CarPlay:
-            return AppFrameworksViewController()
+            return CarPlayViewController()
         case .ClassKit:
-            return AppFrameworksViewController()
+            return ClassKitViewController()
         case .ClockKit:
-            return AppFrameworksViewController()
+            return ClockKitViewController()
         case .CloudKit:
-            return AppFrameworksViewController()
+            return CloudKitViewController()
         case .Combine:
-            return AppFrameworksViewController()
+            return CombineViewController()
         case .Contacts:
-            return AppFrameworksViewController()
+            return ContactsViewController()
         case .ContactsUI:
-            return AppFrameworksViewController()
+            return ContactsUIViewController()
         case .CoreData:
-            return AppFrameworksViewController()
+            return CoreDataViewController()
         case .CoreFoundation:
-            return AppFrameworksViewController()
+            return CoreFoundationViewController()
         case .CoreLocation:
-            return AppFrameworksViewController()
+            return CoreLocationViewController()
         case .CoreML:
-            return AppFrameworksViewController()
+            return CoreMLViewController()
         case .CoreMotion:
-            return AppFrameworksViewController()
+            return CoreMotionViewController()
         case .CoreSpotlight:
-            return AppFrameworksViewController()
+            return CoreSpotlightViewController()
         case .CoreText:
-            return AppFrameworksViewController()
+            return CoreTextViewController()
         case .DeviceCheck:
-            return AppFrameworksViewController()
+            return DeviceCheckViewController()
         case .EventKit:
-            return AppFrameworksViewController()
+            return EventKitViewController()
         case .EventKitUI:
-            return AppFrameworksViewController()
+            return EventKitUIViewController()
         case .FileProvider:
-            return AppFrameworksViewController()
+            return FileProviderViewController()
         case .FileProviderUI:
-            return AppFrameworksViewController()
+            return FileProviderUIViewController()
         case .HealthKit:
-            return AppFrameworksViewController()
+            return HealthKitViewController()
         case .HomeKit:
-            return AppFrameworksViewController()
+            return HomeKitViewController()
         case .iAd:
-            return AppFrameworksViewController()
+            return iAdViewController()
         case .JavaScriptCore:
-            return AppFrameworksViewController()
+            return JavaScriptCoreViewController()
         case .MapKit:
-            return AppFrameworksViewController()
+            return MapKitViewController()
         case .MessageUI:
-            return AppFrameworksViewController()
+            return MessageUIViewController()
         case .Messages:
-            return AppFrameworksViewController()
+            return MessagesViewController()
         case .MultipeerConnectivity:
-            return AppFrameworksViewController()
+            return MultipeerConnectivityViewController()
         case .NaturalLanguage:
-            return AppFrameworksViewController()
+            return NaturalLanguageViewController()
         case .NewsstandKit:
             return AppFrameworksViewController()
         case .NotificationCenter:
             return AppFrameworksViewController()
         case .PassKit:
-            return AppFrameworksViewController()
+            return PassKitViewController()
         case .PushKit:
-            return AppFrameworksViewController()
+            return PushKitViewController()
         case .QuickLook:
-            return AppFrameworksViewController()
+            return QuickLookViewController()
         case .SafariServices:
-            return AppFrameworksViewController()
+            return SafariServicesViewController()
         case .Social:
-            return AppFrameworksViewController()
+            return SocialViewController()
         case .Speech:
-            return AppFrameworksViewController()
+            return SpeechViewController()
         case .StoreKit:
-            return AppFrameworksViewController()
+            return StoreKitViewController()
         case .UserNotifications:
-            return AppFrameworksViewController()
+            return UserNotificationsViewController()
         case .UserNotificationsUI:
-            return AppFrameworksViewController()
+            return UserNotificationsUIViewController()
         case .WatchConnectivity:
-            return AppFrameworksViewController()
+            return WatchConnectivityViewController()
         case .WebKit:
-            return AppFrameworksViewController()
+            return WebKitViewController()
         case .WidgetKit:
-            return AppFrameworksViewController()
+            return WidgetKitViewController()
             
         }
     }

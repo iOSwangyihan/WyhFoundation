@@ -292,6 +292,12 @@
 		7CDA894C27141BA000C93FBE /* ManagedSettingsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894B27141BA000C93FBE /* ManagedSettingsDemoViewController.swift */; };
 		7CDA894E2714208A00C93FBE /* JavaScriptCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894D2714208A00C93FBE /* JavaScriptCoreViewController.swift */; };
 		7CDA89502714209500C93FBE /* JavaScriptCoreDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA894F2714209500C93FBE /* JavaScriptCoreDemoViewController.swift */; };
+		7CDB3B57272A4B6100419ED4 /* BundleResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB3B56272A4B6100419ED4 /* BundleResourcesViewController.swift */; };
+		7CDB3B59272A4B6900419ED4 /* BundleResourcesDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB3B58272A4B6900419ED4 /* BundleResourcesDemoViewController.swift */; };
+		7CDB3B5B272A4C1700419ED4 /* AppClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB3B5A272A4C1700419ED4 /* AppClipsViewController.swift */; };
+		7CDB3B5D272A4C1F00419ED4 /* AppClipsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB3B5C272A4C1F00419ED4 /* AppClipsDemoViewController.swift */; };
+		7CDB3B5F272A4E2600419ED4 /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB3B5E272A4E2600419ED4 /* AccessibilityViewController.swift */; };
+		7CDB3B61272A4E2D00419ED4 /* AccessibilityDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB3B60272A4E2D00419ED4 /* AccessibilityDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */; };
@@ -647,6 +653,12 @@
 		7CDA894B27141BA000C93FBE /* ManagedSettingsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsDemoViewController.swift; sourceTree = "<group>"; };
 		7CDA894D2714208A00C93FBE /* JavaScriptCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptCoreViewController.swift; sourceTree = "<group>"; };
 		7CDA894F2714209500C93FBE /* JavaScriptCoreDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptCoreDemoViewController.swift; sourceTree = "<group>"; };
+		7CDB3B56272A4B6100419ED4 /* BundleResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleResourcesViewController.swift; sourceTree = "<group>"; };
+		7CDB3B58272A4B6900419ED4 /* BundleResourcesDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleResourcesDemoViewController.swift; sourceTree = "<group>"; };
+		7CDB3B5A272A4C1700419ED4 /* AppClipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipsViewController.swift; sourceTree = "<group>"; };
+		7CDB3B5C272A4C1F00419ED4 /* AppClipsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipsDemoViewController.swift; sourceTree = "<group>"; };
+		7CDB3B5E272A4E2600419ED4 /* AccessibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
+		7CDB3B60272A4E2D00419ED4 /* AccessibilityDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
@@ -748,6 +760,12 @@
 				7C55B39C27295054005FE5BA /* SwiftFrameworkDemoViewController.swift */,
 				7C55B39E272951BC005FE5BA /* FoundationViewController.swift */,
 				7C55B3A0272951C2005FE5BA /* FoundationDemoViewController.swift */,
+				7CDB3B56272A4B6100419ED4 /* BundleResourcesViewController.swift */,
+				7CDB3B58272A4B6900419ED4 /* BundleResourcesDemoViewController.swift */,
+				7CDB3B5A272A4C1700419ED4 /* AppClipsViewController.swift */,
+				7CDB3B5C272A4C1F00419ED4 /* AppClipsDemoViewController.swift */,
+				7CDB3B5E272A4E2600419ED4 /* AccessibilityViewController.swift */,
+				7CDB3B60272A4E2D00419ED4 /* AccessibilityDemoViewController.swift */,
 			);
 			path = AppFrameworks;
 			sourceTree = "<group>";
@@ -1583,6 +1601,7 @@
 				7C7EE59727054CD90003965E /* StoreKitDemoViewController.swift in Sources */,
 				7C05A52026FD724500A6D7A7 /* ModelIOViewController.swift in Sources */,
 				7C0FF09F2710273F00FE3525 /* MultipeerConnectivityDemoViewController.swift in Sources */,
+				7CDB3B5D272A4C1F00419ED4 /* AppClipsDemoViewController.swift in Sources */,
 				7CF6695826F2D5EA0079A5EB /* AVKitViewController.swift in Sources */,
 				7CA3615526C13036009E5376 /* osViewController.swift in Sources */,
 				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
@@ -1675,6 +1694,7 @@
 				7C0E0FBD271568FA0036C7C2 /* FileProviderUIDemoViewController.swift in Sources */,
 				7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */,
 				7CBBC2F727045A5C001B6321 /* WebKitViewController.swift in Sources */,
+				7CDB3B61272A4E2D00419ED4 /* AccessibilityDemoViewController.swift in Sources */,
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
 				7C7EE59D270592600003965E /* SocialViewController.swift in Sources */,
 				7CD0989526E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift in Sources */,
@@ -1694,6 +1714,7 @@
 				7CBBC2F12704565A001B6321 /* DeveloperToolsSupportFrameworkViewController.swift in Sources */,
 				7CF5981526F46C81009E16E5 /* SceneKitViewController.swift in Sources */,
 				7C0C27F62716DCC5004D250D /* CoreSpotlightViewController.swift in Sources */,
+				7CDB3B5F272A4E2600419ED4 /* AccessibilityViewController.swift in Sources */,
 				7CF6696626F2DB0E0079A5EB /* AudioUnitDemoViewController.swift in Sources */,
 				7C0FF0A3271029EF00FE3525 /* MessagesDemoViewController.swift in Sources */,
 				7CDA894627141B1300C93FBE /* ManagedSettingsUIViewController.swift in Sources */,
@@ -1704,9 +1725,11 @@
 				7CA3615326C12D0D009E5376 /* SecurityDemoViewController.swift in Sources */,
 				7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */,
 				7CBBC2E227044DFE001B6321 /* CoreAnimationDemoViewController.swift in Sources */,
+				7CDB3B57272A4B6100419ED4 /* BundleResourcesViewController.swift in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7CDA894827141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift in Sources */,
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
+				7CDB3B59272A4B6900419ED4 /* BundleResourcesDemoViewController.swift in Sources */,
 				7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */,
 				7C0C27DA2716836A004D250D /* FamilyControlsViewController.swift in Sources */,
 				7CA3E04426EF359E00902D84 /* CompressionDemoViewController.swift in Sources */,
@@ -1752,6 +1775,7 @@
 				7C0C27E627168896004D250D /* DeviceCheckViewController.swift in Sources */,
 				7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */,
 				7CDA894A27141B9800C93FBE /* ManagedSettingsViewController.swift in Sources */,
+				7CDB3B5B272A4C1700419ED4 /* AppClipsViewController.swift in Sources */,
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,
 				7C0C27DC2716836F004D250D /* FamilyControlsDemoViewController.swift in Sources */,
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,

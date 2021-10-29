@@ -105,41 +105,41 @@ enum GraphicsandGamesViewControllerType {
     func vc() -> SwiftViewController {
         switch self {
         case .ARKit:
-            return AppFrameworksViewController()
+            return ARKitViewController()
         case .CoreGraphics:
-            return AppFrameworksViewController()
+            return CoreGraphicsViewController()
         case .CoreImage:
-            return AppFrameworksViewController()
+            return CoreImageViewController()
         case .GameController:
-            return AppFrameworksViewController()
+            return GameControllerViewController()
         case .GameKit:
-            return AppFrameworksViewController()
+            return GameKitViewController()
         case .GameplayKit:
-            return AppFrameworksViewController()
+            return GameplayKitViewController()
         case .GLKit:
-            return AppFrameworksViewController()
+            return GLKitViewController()
         case .ImageIO:
-            return AppFrameworksViewController()
+            return ImageIOViewController()
         case .Metal:
-            return AppFrameworksViewController()
+            return MetalViewController()
         case .MetalPerformanceShaders:
-            return AppFrameworksViewController()
+            return MetalPerformanceShadersViewController()
         case .MetalPerformanceShadersGraph:
-            return AppFrameworksViewController()
+            return MetalPerformanceShadersGraphViewController()
         case .MetalKit:
             return AppFrameworksViewController()
         case .ModelIO:
-            return AppFrameworksViewController()
+            return ModelIOViewController()
         case .OpenGLES:
             return AppFrameworksViewController()
         case .PDFKit:
-            return AppFrameworksViewController()
+            return PDFKitViewController()
         case .PencilKit:
-            return AppFrameworksViewController()
+            return PencilKitViewController()
         case .QuartzCore:
             return AppFrameworksViewController()
         case .RealityKit:
-            return AppFrameworksViewController()
+            return RealityKitViewController()
         case .ReplayKit:
             return ReplayKitViewController()
         case .SceneKit:

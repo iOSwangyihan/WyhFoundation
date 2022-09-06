@@ -103,6 +103,8 @@
 		7C1273D428C6D9EC003A3660 /* Open_source_ios_appsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273D328C6D9EC003A3660 /* Open_source_ios_appsDemoViewController.swift */; };
 		7C1273D628C6E1FB003A3660 /* Swift30ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273D528C6E1FB003A3660 /* Swift30ProjectsViewController.swift */; };
 		7C1273D828C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273D728C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift */; };
+		7C1273DA28C6E474003A3660 /* V2ex_SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273D928C6E474003A3660 /* V2ex_SwiftViewController.swift */; };
+		7C1273DC28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273DB28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -458,6 +460,8 @@
 		7C1273D328C6D9EC003A3660 /* Open_source_ios_appsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_source_ios_appsDemoViewController.swift; sourceTree = "<group>"; };
 		7C1273D528C6E1FB003A3660 /* Swift30ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift30ProjectsViewController.swift; sourceTree = "<group>"; };
 		7C1273D728C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift30ProjectsDemoViewController.swift; sourceTree = "<group>"; };
+		7C1273D928C6E474003A3660 /* V2ex_SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2ex_SwiftViewController.swift; sourceTree = "<group>"; };
+		7C1273DB28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2ex_SwiftDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -781,6 +785,8 @@
 				7C1273D328C6D9EC003A3660 /* Open_source_ios_appsDemoViewController.swift */,
 				7C1273D528C6E1FB003A3660 /* Swift30ProjectsViewController.swift */,
 				7C1273D728C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift */,
+				7C1273D928C6E474003A3660 /* V2ex_SwiftViewController.swift */,
+				7C1273DB28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift */,
 			);
 			path = CompleteTheAPP;
 			sourceTree = "<group>";
@@ -1749,6 +1755,7 @@
 				7CBBC2F727045A5C001B6321 /* WebKitViewController.swift in Sources */,
 				7CDB3B61272A4E2D00419ED4 /* AccessibilityDemoViewController.swift in Sources */,
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
+				7C1273DA28C6E474003A3660 /* V2ex_SwiftViewController.swift in Sources */,
 				7C7EE59D270592600003965E /* SocialViewController.swift in Sources */,
 				7CD0989526E8BDA800EBA585 /* CoreTelephonyDemoViewController.swift in Sources */,
 				7C1273D228C6D9DA003A3660 /* Open_source_ios_appsViewController.swift in Sources */,
@@ -1855,6 +1862,7 @@
 				7CB6342F2717D5500092758D /* CoreMLDemoViewController.swift in Sources */,
 				7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,
+				7C1273DC28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift in Sources */,
 				7C0FF0A527102C7400FE3525 /* MessageUIViewController.swift in Sources */,
 				7CF6696026F2DA390079A5EB /* AVFAudioViewController.swift in Sources */,
 				7C0FF085270FD95800FE3525 /* SiriKitViewController.swift in Sources */,

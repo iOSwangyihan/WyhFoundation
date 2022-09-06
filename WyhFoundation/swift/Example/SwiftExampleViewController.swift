@@ -21,6 +21,8 @@ enum SwiftExampleViewControllerType {
     case Appframework
     case Safe
     case Network
+    case DataStorage
+    
     func name() -> String {
         switch self {
         case .CompleteTheAPP:
@@ -31,7 +33,8 @@ enum SwiftExampleViewControllerType {
             return "安全"
         case .Network:
             return "网络"
-       
+        case .DataStorage:
+            return "数据存储"
         }
     }
     func vc() -> SwiftViewController {
@@ -44,6 +47,8 @@ enum SwiftExampleViewControllerType {
             return SafeViewController()
         case .Network:
            return NetworksViewController()
+        case .DataStorage:
+            return DataStorageViewController()
        
         }
     }
@@ -53,7 +58,7 @@ class SwiftExampleViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework, SwiftExampleViewControllerType.Safe, SwiftExampleViewControllerType.Network]
+        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework, SwiftExampleViewControllerType.Safe, SwiftExampleViewControllerType.Network, SwiftExampleViewControllerType.DataStorage]
        
         // Do any additional setup after loading the view.
     }

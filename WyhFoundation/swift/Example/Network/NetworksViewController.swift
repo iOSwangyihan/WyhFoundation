@@ -21,6 +21,9 @@ enum NetworksViewControllerType {
     case ImageAcquisition
     case InternetChat
     case NetworkMeasurement
+    case WebFramework
+    case NetworkAnalysis
+    
     func name() -> String {
         switch self {
         case .NetworkRequest:
@@ -31,6 +34,10 @@ enum NetworksViewControllerType {
             return "网络聊天"
         case .NetworkMeasurement:
             return "网络测试"
+        case .WebFramework:
+            return "网页框架"
+        case .NetworkAnalysis:
+            return "网络解析"
         }
     }
     func vc() -> SwiftViewController {
@@ -43,6 +50,10 @@ enum NetworksViewControllerType {
             return InternetChatViewController()
         case .NetworkMeasurement:
             return NetworkMeasurementViewController()
+        case .WebFramework:
+            return WebFrameworkViewController()
+        case .NetworkAnalysis:
+            return NetworkAnalysisViewController()
        
         }
     }
@@ -52,7 +63,7 @@ class NetworksViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [NetworksViewControllerType.NetworkRequest,NetworksViewControllerType.ImageAcquisition,NetworksViewControllerType.InternetChat,NetworksViewControllerType.NetworkMeasurement]
+        dataArr = [NetworksViewControllerType.NetworkRequest,NetworksViewControllerType.ImageAcquisition,NetworksViewControllerType.InternetChat,NetworksViewControllerType.NetworkMeasurement,NetworksViewControllerType.WebFramework, NetworksViewControllerType.NetworkAnalysis]
        
         // Do any additional setup after loading the view.
     }

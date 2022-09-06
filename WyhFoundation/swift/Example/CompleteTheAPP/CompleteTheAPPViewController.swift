@@ -19,8 +19,8 @@ import UIKit
 
 enum CompleteTheAPPViewControllerType {
     case open_source_ios_apps
-    case AppClip
-    case Foundation
+    case Swift_30_Projects
+    case V2ex_Swift
     case SwiftUI
     case UIKit
   
@@ -28,10 +28,10 @@ enum CompleteTheAPPViewControllerType {
         switch self {
         case .open_source_ios_apps:
             return "open-source-ios-apps"
-        case .AppClip:
-            return "AppClip"
-        case .Foundation:
-            return "Foundation"
+        case .Swift_30_Projects:
+            return "Swift 30 Projects"
+        case .V2ex_Swift :
+            return "V2ex-Swift "
         case .SwiftUI:
             return "SwiftUI"
         case .UIKit:
@@ -43,10 +43,10 @@ enum CompleteTheAPPViewControllerType {
         switch self {
         case .open_source_ios_apps:
             return Open_source_ios_appsViewController()
-        case .AppClip:
-            return AppClipsViewController()
-        case .Foundation:
-            return FoundationViewController()
+        case .Swift_30_Projects:
+            return Swift30ProjectsViewController()
+        case .V2ex_Swift:
+            return V2ex_SwiftViewController()
         case .SwiftUI:
             return SwiftUIViewController()
         case .UIKit:
@@ -60,7 +60,7 @@ class CompleteTheAPPViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [CompleteTheAPPViewControllerType.open_source_ios_apps, CompleteTheAPPViewControllerType.AppClip, CompleteTheAPPViewControllerType.Foundation, CompleteTheAPPViewControllerType.SwiftUI, CompleteTheAPPViewControllerType.UIKit]
+        dataArr = [CompleteTheAPPViewControllerType.open_source_ios_apps, CompleteTheAPPViewControllerType.Swift_30_Projects, CompleteTheAPPViewControllerType.V2ex_Swift, CompleteTheAPPViewControllerType.SwiftUI, CompleteTheAPPViewControllerType.UIKit]
        
         // Do any additional setup after loading the view.
     }

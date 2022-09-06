@@ -121,6 +121,13 @@
 		7C1273FC28C6ED8C003A3660 /* ios_ossDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273FB28C6ED8C003A3660 /* ios_ossDemoViewController.swift */; };
 		7C1273FE28C6EE9D003A3660 /* CocoaChinaPlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273FD28C6EE9D003A3660 /* CocoaChinaPlusViewController.swift */; };
 		7C12740028C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273FF28C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift */; };
+		7C12740328C6F192003A3660 /* AppframeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12740228C6F192003A3660 /* AppframeworkViewController.swift */; };
+		7C12740628C6F211003A3660 /* ReactiveFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12740528C6F211003A3660 /* ReactiveFrameworkViewController.swift */; };
+		7C12740828C6F382003A3660 /* ReactiveCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12740728C6F382003A3660 /* ReactiveCocoaViewController.swift */; };
+		7C12740A28C6F388003A3660 /* ReactiveCocoaDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12740928C6F388003A3660 /* ReactiveCocoaDemoViewController.swift */; };
+		7C12740D28C6F48D003A3660 /* PageRoutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12740C28C6F48D003A3660 /* PageRoutingViewController.swift */; };
+		7C12740F28C6F515003A3660 /* ACRouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12740E28C6F515003A3660 /* ACRouterViewController.swift */; };
+		7C12741128C6F51A003A3660 /* ACRouterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741028C6F51A003A3660 /* ACRouterDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -494,6 +501,13 @@
 		7C1273FB28C6ED8C003A3660 /* ios_ossDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossDemoViewController.swift; sourceTree = "<group>"; };
 		7C1273FD28C6EE9D003A3660 /* CocoaChinaPlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaChinaPlusViewController.swift; sourceTree = "<group>"; };
 		7C1273FF28C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaChinaPlusDemoViewController.swift; sourceTree = "<group>"; };
+		7C12740228C6F192003A3660 /* AppframeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppframeworkViewController.swift; sourceTree = "<group>"; };
+		7C12740528C6F211003A3660 /* ReactiveFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveFrameworkViewController.swift; sourceTree = "<group>"; };
+		7C12740728C6F382003A3660 /* ReactiveCocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCocoaViewController.swift; sourceTree = "<group>"; };
+		7C12740928C6F388003A3660 /* ReactiveCocoaDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCocoaDemoViewController.swift; sourceTree = "<group>"; };
+		7C12740C28C6F48D003A3660 /* PageRoutingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRoutingViewController.swift; sourceTree = "<group>"; };
+		7C12740E28C6F515003A3660 /* ACRouterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACRouterViewController.swift; sourceTree = "<group>"; };
+		7C12741028C6F51A003A3660 /* ACRouterDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACRouterDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -803,6 +817,7 @@
 		7C1273CB28C6D643003A3660 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				7C12740128C6F16E003A3660 /* Appframework */,
 				7C1273CC28C6D67D003A3660 /* SwiftExampleViewController.swift */,
 				7C1273CE28C6D91E003A3660 /* CompleteTheAPP */,
 			);
@@ -837,6 +852,36 @@
 				7C1273FF28C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift */,
 			);
 			path = CompleteTheAPP;
+			sourceTree = "<group>";
+		};
+		7C12740128C6F16E003A3660 /* Appframework */ = {
+			isa = PBXGroup;
+			children = (
+				7C12740B28C6F47C003A3660 /* PageRouting */,
+				7C12740228C6F192003A3660 /* AppframeworkViewController.swift */,
+				7C12740428C6F1FF003A3660 /* ReactiveFramework */,
+			);
+			path = Appframework;
+			sourceTree = "<group>";
+		};
+		7C12740428C6F1FF003A3660 /* ReactiveFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7C12740528C6F211003A3660 /* ReactiveFrameworkViewController.swift */,
+				7C12740728C6F382003A3660 /* ReactiveCocoaViewController.swift */,
+				7C12740928C6F388003A3660 /* ReactiveCocoaDemoViewController.swift */,
+			);
+			path = ReactiveFramework;
+			sourceTree = "<group>";
+		};
+		7C12740B28C6F47C003A3660 /* PageRouting */ = {
+			isa = PBXGroup;
+			children = (
+				7C12740C28C6F48D003A3660 /* PageRoutingViewController.swift */,
+				7C12740E28C6F515003A3660 /* ACRouterViewController.swift */,
+				7C12741028C6F51A003A3660 /* ACRouterDemoViewController.swift */,
+			);
+			path = PageRouting;
 			sourceTree = "<group>";
 		};
 		7C69F790265608BB00055389 /* AppFrameworks */ = {
@@ -1644,6 +1689,7 @@
 				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
 				7C1273F628C6EC54003A3660 /* TuanViewController.swift in Sources */,
 				7C0E0FB9271567B90036C7C2 /* HealthKitDemoViewController.swift in Sources */,
+				7C12740328C6F192003A3660 /* AppframeworkViewController.swift in Sources */,
 				7C08194F26F18A9E00CE1DD9 /* VisionKitViewController.swift in Sources */,
 				7C08197D26F1990200CE1DD9 /* CoreMIDIViewController.swift in Sources */,
 				7C0FF0972710228700FE3525 /* PassKitDemoViewController.swift in Sources */,
@@ -1662,6 +1708,7 @@
 				7CBBC3012704670C001B6321 /* UserNotificationsUIDemoViewController.swift in Sources */,
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
 				7CF6696A26F2DC8F0079A5EB /* AudioToolboxDemoViewController.swift in Sources */,
+				7C12740F28C6F515003A3660 /* ACRouterViewController.swift in Sources */,
 				7C1273D028C6D92E003A3660 /* CompleteTheAPPViewController.swift in Sources */,
 				7C91AD3927015571005E47D9 /* MetalDemoViewController.swift in Sources */,
 				7C6982B8272680020006DB04 /* ContactsUIViewController.swift in Sources */,
@@ -1738,6 +1785,7 @@
 				7C1273EC28C6E8D9003A3660 /* DesignerNewsAppDemoViewController.swift in Sources */,
 				7C0C27F82716DCCE004D250D /* CoreSpotlightDemoViewController.swift in Sources */,
 				7CA3615F26C1327A009E5376 /* NetworkExtensionDemoViewController.swift in Sources */,
+				7C12740828C6F382003A3660 /* ReactiveCocoaViewController.swift in Sources */,
 				7C55B37F27293B01005FE5BA /* AutomaticAssessmentConfigurationViewController.swift in Sources */,
 				7CA3E2E82654B01F00001D7A /* UIView_Extension.swift in Sources */,
 				7CA3E3012654B31C00001D7A /* SCDViewAttributes.swift in Sources */,
@@ -1898,10 +1946,12 @@
 				7C0C27E627168896004D250D /* DeviceCheckViewController.swift in Sources */,
 				7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */,
 				7CDA894A27141B9800C93FBE /* ManagedSettingsViewController.swift in Sources */,
+				7C12740D28C6F48D003A3660 /* PageRoutingViewController.swift in Sources */,
 				7CDB3B5B272A4C1700419ED4 /* AppClipsViewController.swift in Sources */,
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,
 				7C1273EA28C6E8CE003A3660 /* DesignerNewsAppViewController.swift in Sources */,
 				7C0C27DC2716836F004D250D /* FamilyControlsDemoViewController.swift in Sources */,
+				7C12741128C6F51A003A3660 /* ACRouterDemoViewController.swift in Sources */,
 				7C1273F228C6EA7D003A3660 /* BaiduFM_SwiftViewController.swift in Sources */,
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,
@@ -1915,6 +1965,7 @@
 				7CD62163271932370048499D /* CoreLocationUIDemoViewController.swift in Sources */,
 				7CF6695A26F2D5EF0079A5EB /* AVKitDemoViewController.swift in Sources */,
 				7C05A52426FD842200A6D7A7 /* MetalPerformanceShadersGraphViewController.swift in Sources */,
+				7C12740628C6F211003A3660 /* ReactiveFrameworkViewController.swift in Sources */,
 				7C69F7A92656093900055389 /* SystemViewController.swift in Sources */,
 				7C91AD3727015569005E47D9 /* MetalViewController.swift in Sources */,
 				7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */,
@@ -1935,6 +1986,7 @@
 				7CD62165271934410048499D /* CoreLocationViewController.swift in Sources */,
 				7C55B3772729353D005FE5BA /* BusinessChatViewController.swift in Sources */,
 				7C55B39F272951BC005FE5BA /* FoundationViewController.swift in Sources */,
+				7C12740A28C6F388003A3660 /* ReactiveCocoaDemoViewController.swift in Sources */,
 				7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */,
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
 				7C55B3732728F8DA005FE5BA /* CallKitViewController.swift in Sources */,

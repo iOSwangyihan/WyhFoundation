@@ -1,5 +1,5 @@
 //
-//  SwiftExampleViewController.swift
+//  PageRoutingViewController.swift
 //  WyhFoundation
 //
 //  Created by 王乙涵 on 2022/9/6.
@@ -16,50 +16,43 @@ import Foundation
 import SwiftUI
 import UIKit
 
-enum SwiftExampleViewControllerType {
-    case CompleteTheAPP
-    case Appframework
-  
-  
+enum PageRoutingViewControllerType {
+    case ACRouter
+ 
     func name() -> String {
         switch self {
-        case .CompleteTheAPP:
-            return "完整APP"
-        case .Appframework:
-            return "App框架"
-    
-       
+        case .ACRouter :
+            return "ACRouter "
+     
         }
     }
     func vc() -> SwiftViewController {
         switch self {
-        case .CompleteTheAPP:
-            return CompleteTheAPPViewController()
-        case .Appframework:
-            return AppframeworkViewController()
-    
+        case .ACRouter :
+            return ACRouterViewController()
+      
        
         }
     }
 }
 
-class SwiftExampleViewController: SwiftViewController {
+class PageRoutingViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework]
+        dataArr = [PageRoutingViewControllerType.ACRouter ,]
        
         // Do any additional setup after loading the view.
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = (dataArr[indexPath.row] as? SwiftExampleViewControllerType)?.name()
+        cell.textLabel?.text = (dataArr[indexPath.row] as? PageRoutingViewControllerType)?.name()
         return cell
     }
   
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let type = dataArr[indexPath.row] as? SwiftExampleViewControllerType ?? SwiftExampleViewControllerType.CompleteTheAPP
+        let type = dataArr[indexPath.row] as? PageRoutingViewControllerType ?? PageRoutingViewControllerType.ACRouter 
         let vc = type.vc()
         vc.tname = type.name()
         self.navigationController?.pushViewController(vc, animated: true)
@@ -76,3 +69,4 @@ class SwiftExampleViewController: SwiftViewController {
     */
 
 }
+

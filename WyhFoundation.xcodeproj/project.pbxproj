@@ -128,6 +128,9 @@
 		7C12740D28C6F48D003A3660 /* PageRoutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12740C28C6F48D003A3660 /* PageRoutingViewController.swift */; };
 		7C12740F28C6F515003A3660 /* ACRouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12740E28C6F515003A3660 /* ACRouterViewController.swift */; };
 		7C12741128C6F51A003A3660 /* ACRouterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741028C6F51A003A3660 /* ACRouterDemoViewController.swift */; };
+		7C12741428C6F7DC003A3660 /* VersionManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741328C6F7DC003A3660 /* VersionManagementViewController.swift */; };
+		7C12741628C6F83C003A3660 /* CarthageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741528C6F83C003A3660 /* CarthageViewController.swift */; };
+		7C12741828C6F841003A3660 /* CarthageDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741728C6F841003A3660 /* CarthageDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -508,6 +511,9 @@
 		7C12740C28C6F48D003A3660 /* PageRoutingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRoutingViewController.swift; sourceTree = "<group>"; };
 		7C12740E28C6F515003A3660 /* ACRouterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACRouterViewController.swift; sourceTree = "<group>"; };
 		7C12741028C6F51A003A3660 /* ACRouterDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACRouterDemoViewController.swift; sourceTree = "<group>"; };
+		7C12741328C6F7DC003A3660 /* VersionManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionManagementViewController.swift; sourceTree = "<group>"; };
+		7C12741528C6F83C003A3660 /* CarthageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageViewController.swift; sourceTree = "<group>"; };
+		7C12741728C6F841003A3660 /* CarthageDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -817,8 +823,8 @@
 		7C1273CB28C6D643003A3660 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				7C12740128C6F16E003A3660 /* Appframework */,
 				7C1273CC28C6D67D003A3660 /* SwiftExampleViewController.swift */,
+				7C12740128C6F16E003A3660 /* Appframework */,
 				7C1273CE28C6D91E003A3660 /* CompleteTheAPP */,
 			);
 			path = Example;
@@ -857,8 +863,9 @@
 		7C12740128C6F16E003A3660 /* Appframework */ = {
 			isa = PBXGroup;
 			children = (
-				7C12740B28C6F47C003A3660 /* PageRouting */,
 				7C12740228C6F192003A3660 /* AppframeworkViewController.swift */,
+				7C12741228C6F7C2003A3660 /* VersionManagement */,
+				7C12740B28C6F47C003A3660 /* PageRouting */,
 				7C12740428C6F1FF003A3660 /* ReactiveFramework */,
 			);
 			path = Appframework;
@@ -882,6 +889,16 @@
 				7C12741028C6F51A003A3660 /* ACRouterDemoViewController.swift */,
 			);
 			path = PageRouting;
+			sourceTree = "<group>";
+		};
+		7C12741228C6F7C2003A3660 /* VersionManagement */ = {
+			isa = PBXGroup;
+			children = (
+				7C12741328C6F7DC003A3660 /* VersionManagementViewController.swift */,
+				7C12741528C6F83C003A3660 /* CarthageViewController.swift */,
+				7C12741728C6F841003A3660 /* CarthageDemoViewController.swift */,
+			);
+			path = VersionManagement;
 			sourceTree = "<group>";
 		};
 		7C69F790265608BB00055389 /* AppFrameworks */ = {
@@ -1355,6 +1372,7 @@
 		7CA3E3222654B74E00001D7A /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				7CA3E3442654BB8400001D7A /* SwiftViewController.swift */,
 				7C1273CB28C6D643003A3660 /* Example */,
 				7CBBC2E7270454A5001B6321 /* DeveloperToolsSupport */,
 				7C69F7952656090000055389 /* Web */,
@@ -1362,7 +1380,6 @@
 				7C69F793265608ED00055389 /* Media */,
 				7C69F792265608E300055389 /* GraphicsandGames */,
 				7C69F791265608CC00055389 /* AppServices */,
-				7CA3E3442654BB8400001D7A /* SwiftViewController.swift */,
 				7C69F790265608BB00055389 /* AppFrameworks */,
 			);
 			path = swift;
@@ -1673,6 +1690,7 @@
 				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
 				7C08194526F185D100CE1DD9 /* AppleArchiveDemoViewController.swift in Sources */,
 				7CB6342B2717C5BA0092758D /* CoreMotionDemoViewController.swift in Sources */,
+				7C12741828C6F841003A3660 /* CarthageDemoViewController.swift in Sources */,
 				7CF6695226F2D3B70079A5EB /* CoreAudioKitDemoViewController.swift in Sources */,
 				7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */,
 				7CF6694C26F2D2C50079A5EB /* CoreAudioTypesViewController.swift in Sources */,
@@ -1852,6 +1870,7 @@
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
 				7C1273F428C6EA86003A3660 /* BaiduFM_SwiftDemoViewController.swift in Sources */,
 				7C0C27F027168B07004D250D /* CreateMLDemoViewController.swift in Sources */,
+				7C12741628C6F83C003A3660 /* CarthageViewController.swift in Sources */,
 				7C0FF0A727102C7D00FE3525 /* MessageUIDemoViewController.swift in Sources */,
 				7C7EE5A3270596150003965E /* SMSandCallReportingDemoViewController.swift in Sources */,
 				7C0FF0912710207600FE3525 /* PushKitViewController.swift in Sources */,
@@ -1973,6 +1992,7 @@
 				7C735E6728585F7C00469516 /* SwiftUIUIViewController.swift in Sources */,
 				7CBBC2FD2704644A001B6321 /* WatchConnectivityDemoViewController.swift in Sources */,
 				7C0E0FB1271533450036C7C2 /* iAdDemoViewController.swift in Sources */,
+				7C12741428C6F7DC003A3660 /* VersionManagementViewController.swift in Sources */,
 				7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */,
 				7CB6342F2717D5500092758D /* CoreMLDemoViewController.swift in Sources */,
 				7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */,

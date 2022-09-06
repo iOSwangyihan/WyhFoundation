@@ -21,8 +21,8 @@ enum CompleteTheAPPViewControllerType {
     case open_source_ios_apps
     case Swift_30_Projects
     case V2ex_Swift
-    case SwiftUI
-    case UIKit
+    case iBBS_Swift
+    case NirZhihuDaily2_swift
   
     func name() -> String {
         switch self {
@@ -32,10 +32,10 @@ enum CompleteTheAPPViewControllerType {
             return "Swift 30 Projects"
         case .V2ex_Swift :
             return "V2ex-Swift "
-        case .SwiftUI:
-            return "SwiftUI"
-        case .UIKit:
-            return "UIKit"
+        case .iBBS_Swift:
+            return "iBBS-Swift"
+        case .NirZhihuDaily2_swift:
+            return "NirZhihuDaily2_swift"
        
         }
     }
@@ -47,10 +47,10 @@ enum CompleteTheAPPViewControllerType {
             return Swift30ProjectsViewController()
         case .V2ex_Swift:
             return V2ex_SwiftViewController()
-        case .SwiftUI:
-            return SwiftUIViewController()
-        case .UIKit:
-            return UIKitViewController()
+        case .iBBS_Swift:
+            return iBBS_SwiftViewController()
+        case .NirZhihuDaily2_swift:
+            return NirZhihuDaily2_swiftViewController()
        
         }
     }
@@ -60,7 +60,7 @@ class CompleteTheAPPViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [CompleteTheAPPViewControllerType.open_source_ios_apps, CompleteTheAPPViewControllerType.Swift_30_Projects, CompleteTheAPPViewControllerType.V2ex_Swift, CompleteTheAPPViewControllerType.SwiftUI, CompleteTheAPPViewControllerType.UIKit]
+        dataArr = [CompleteTheAPPViewControllerType.open_source_ios_apps, CompleteTheAPPViewControllerType.Swift_30_Projects, CompleteTheAPPViewControllerType.V2ex_Swift, CompleteTheAPPViewControllerType.iBBS_Swift, CompleteTheAPPViewControllerType.NirZhihuDaily2_swift]
        
         // Do any additional setup after loading the view.
     }

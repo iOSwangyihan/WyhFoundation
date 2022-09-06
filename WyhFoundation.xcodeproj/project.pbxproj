@@ -105,6 +105,10 @@
 		7C1273D828C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273D728C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift */; };
 		7C1273DA28C6E474003A3660 /* V2ex_SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273D928C6E474003A3660 /* V2ex_SwiftViewController.swift */; };
 		7C1273DC28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273DB28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift */; };
+		7C1273DE28C6E62E003A3660 /* iBBS_SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273DD28C6E62E003A3660 /* iBBS_SwiftViewController.swift */; };
+		7C1273E028C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273DF28C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift */; };
+		7C1273E628C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273E528C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift */; };
+		7C1273E828C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273E728C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -462,6 +466,10 @@
 		7C1273D728C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift30ProjectsDemoViewController.swift; sourceTree = "<group>"; };
 		7C1273D928C6E474003A3660 /* V2ex_SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2ex_SwiftViewController.swift; sourceTree = "<group>"; };
 		7C1273DB28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2ex_SwiftDemoViewController.swift; sourceTree = "<group>"; };
+		7C1273DD28C6E62E003A3660 /* iBBS_SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBBS_SwiftViewController.swift; sourceTree = "<group>"; };
+		7C1273DF28C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBBS_SwiftDemoViewController.swift; sourceTree = "<group>"; };
+		7C1273E528C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NirZhihuDaily2_swiftViewController.swift; sourceTree = "<group>"; };
+		7C1273E728C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NirZhihuDaily2_swiftDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -787,6 +795,10 @@
 				7C1273D728C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift */,
 				7C1273D928C6E474003A3660 /* V2ex_SwiftViewController.swift */,
 				7C1273DB28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift */,
+				7C1273DD28C6E62E003A3660 /* iBBS_SwiftViewController.swift */,
+				7C1273DF28C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift */,
+				7C1273E528C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift */,
+				7C1273E728C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift */,
 			);
 			path = CompleteTheAPP;
 			sourceTree = "<group>";
@@ -1562,6 +1574,7 @@
 				7C08196326F18EA800CE1DD9 /* QuickLookThumbnailingDemoViewController.swift in Sources */,
 				7CA3E3032654B31C00001D7A /* SCDButtonAttributes.swift in Sources */,
 				7C55B37B272939D1005FE5BA /* BackgroundTasksViewController.swift in Sources */,
+				7C1273E628C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift in Sources */,
 				7C91AD4D2701A10A005E47D9 /* GameControllerDemoViewController.swift in Sources */,
 				7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */,
 				7C0E0FB5271534660036C7C2 /* HomeKitDemoViewController.swift in Sources */,
@@ -1654,6 +1667,7 @@
 				7C0FF0952710227F00FE3525 /* PassKitViewController.swift in Sources */,
 				7CF6694826F2D10F0079A5EB /* CoreHapticsViewController.swift in Sources */,
 				7CBBC2EF270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift in Sources */,
+				7C1273E028C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift in Sources */,
 				7C0C27F42716B0FB004D250D /* CoreTextDemoViewController.swift in Sources */,
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
 				7C7EE59727054CD90003965E /* StoreKitDemoViewController.swift in Sources */,
@@ -1698,6 +1712,7 @@
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7C08194B26F1871600CE1DD9 /* AccelerateViewController.swift in Sources */,
 				7CD62167271934490048499D /* CoreLocationDemoViewController.swift in Sources */,
+				7C1273E828C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift in Sources */,
 				7C0C27E027168514004D250D /* EventKitUIDemoViewController.swift in Sources */,
 				7C55B38527293BB0005FE5BA /* AdSupportDemoViewController.swift in Sources */,
 				7C91AD512701A7FE005E47D9 /* CoreImageDemoViewController.swift in Sources */,
@@ -1814,6 +1829,7 @@
 				7C55B3A1272951C2005FE5BA /* FoundationDemoViewController.swift in Sources */,
 				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,
 				7C55B38327293BA9005FE5BA /* AdSupportViewController.swift in Sources */,
+				7C1273DE28C6E62E003A3660 /* iBBS_SwiftViewController.swift in Sources */,
 				7CF6695426F2D4930079A5EB /* CoreAudioViewController.swift in Sources */,
 				7C0FF09B2710252D00FE3525 /* NaturalLanguageDemoViewController.swift in Sources */,
 				7C5A58D126FC76B8006CA748 /* PencilKitViewController.swift in Sources */,

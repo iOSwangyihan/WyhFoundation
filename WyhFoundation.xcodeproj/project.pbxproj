@@ -172,6 +172,28 @@
 		7C12748128C73C88003A3660 /* KeyChainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748028C73C88003A3660 /* KeyChainViewController.swift */; };
 		7C12748328C73CDC003A3660 /* EllipticCurveKeyPairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748228C73CDC003A3660 /* EllipticCurveKeyPairViewController.swift */; };
 		7C12748528C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748428C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift */; };
+		7C12748828C73DCE003A3660 /* MultithreadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748728C73DCE003A3660 /* MultithreadingViewController.swift */; };
+		7C12748A28C73E29003A3660 /* OverdriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748928C73E29003A3660 /* OverdriveViewController.swift */; };
+		7C12748C28C73E2F003A3660 /* OverdriveDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748B28C73E2F003A3660 /* OverdriveDemoViewController.swift */; };
+		7C12748F28C73EFD003A3660 /* MultimediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748E28C73EFD003A3660 /* MultimediaViewController.swift */; };
+		7C12749228C73F7B003A3660 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12749128C73F7B003A3660 /* CameraViewController.swift */; };
+		7C12749428C73FD2003A3660 /* CameraManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12749328C73FD2003A3660 /* CameraManagerViewController.swift */; };
+		7C12749628C73FD9003A3660 /* CameraManagerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12749528C73FD9003A3660 /* CameraManagerDemoViewController.swift */; };
+		7C12749928C7432D003A3660 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12749828C7432D003A3660 /* QRCodeViewController.swift */; };
+		7C12749B28C7438E003A3660 /* EFQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12749A28C7438E003A3660 /* EFQRCodeViewController.swift */; };
+		7C12749D28C74394003A3660 /* EFQRCodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12749C28C74394003A3660 /* EFQRCodeDemoViewController.swift */; };
+		7C1274A028C74492003A3660 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12749F28C74492003A3660 /* PDFViewController.swift */; };
+		7C1274A428C744EC003A3660 /* FolioReaderKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274A328C744EC003A3660 /* FolioReaderKitViewController.swift */; };
+		7C1274A628C744F1003A3660 /* FolioReaderKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274A528C744F1003A3660 /* FolioReaderKitDemoViewController.swift */; };
+		7C1274A928C74631003A3660 /* GIFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274A828C74631003A3660 /* GIFViewController.swift */; };
+		7C1274AB28C746BE003A3660 /* AImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274AA28C746BE003A3660 /* AImageViewController.swift */; };
+		7C1274AD28C746C6003A3660 /* AImageDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274AC28C746C6003A3660 /* AImageDemoViewController.swift */; };
+		7C1274B028C74B51003A3660 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274AF28C74B51003A3660 /* AudioViewController.swift */; };
+		7C1274B228C74BB7003A3660 /* recordDemoswiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274B128C74BB7003A3660 /* recordDemoswiftViewController.swift */; };
+		7C1274B428C74BBF003A3660 /* recordDemoswiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274B328C74BBF003A3660 /* recordDemoswiftDemoViewController.swift */; };
+		7C1274B728C74CCB003A3660 /* MediaStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274B628C74CCB003A3660 /* MediaStreamViewController.swift */; };
+		7C1274BB28C74D5E003A3660 /* lfswiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274BA28C74D5E003A3660 /* lfswiftViewController.swift */; };
+		7C1274BD28C74D66003A3660 /* lfswiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1274BC28C74D66003A3660 /* lfswiftDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -596,6 +618,28 @@
 		7C12748028C73C88003A3660 /* KeyChainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainViewController.swift; sourceTree = "<group>"; };
 		7C12748228C73CDC003A3660 /* EllipticCurveKeyPairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPairViewController.swift; sourceTree = "<group>"; };
 		7C12748428C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPairDemoViewController.swift; sourceTree = "<group>"; };
+		7C12748728C73DCE003A3660 /* MultithreadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingViewController.swift; sourceTree = "<group>"; };
+		7C12748928C73E29003A3660 /* OverdriveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverdriveViewController.swift; sourceTree = "<group>"; };
+		7C12748B28C73E2F003A3660 /* OverdriveDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverdriveDemoViewController.swift; sourceTree = "<group>"; };
+		7C12748E28C73EFD003A3660 /* MultimediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultimediaViewController.swift; sourceTree = "<group>"; };
+		7C12749128C73F7B003A3660 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		7C12749328C73FD2003A3660 /* CameraManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManagerViewController.swift; sourceTree = "<group>"; };
+		7C12749528C73FD9003A3660 /* CameraManagerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManagerDemoViewController.swift; sourceTree = "<group>"; };
+		7C12749828C7432D003A3660 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		7C12749A28C7438E003A3660 /* EFQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFQRCodeViewController.swift; sourceTree = "<group>"; };
+		7C12749C28C74394003A3660 /* EFQRCodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFQRCodeDemoViewController.swift; sourceTree = "<group>"; };
+		7C12749F28C74492003A3660 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		7C1274A328C744EC003A3660 /* FolioReaderKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioReaderKitViewController.swift; sourceTree = "<group>"; };
+		7C1274A528C744F1003A3660 /* FolioReaderKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioReaderKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C1274A828C74631003A3660 /* GIFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFViewController.swift; sourceTree = "<group>"; };
+		7C1274AA28C746BE003A3660 /* AImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AImageViewController.swift; sourceTree = "<group>"; };
+		7C1274AC28C746C6003A3660 /* AImageDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AImageDemoViewController.swift; sourceTree = "<group>"; };
+		7C1274AF28C74B51003A3660 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		7C1274B128C74BB7003A3660 /* recordDemoswiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordDemoswiftViewController.swift; sourceTree = "<group>"; };
+		7C1274B328C74BBF003A3660 /* recordDemoswiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordDemoswiftDemoViewController.swift; sourceTree = "<group>"; };
+		7C1274B628C74CCB003A3660 /* MediaStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaStreamViewController.swift; sourceTree = "<group>"; };
+		7C1274BA28C74D5E003A3660 /* lfswiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lfswiftViewController.swift; sourceTree = "<group>"; };
+		7C1274BC28C74D66003A3660 /* lfswiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lfswiftDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -906,6 +950,8 @@
 			isa = PBXGroup;
 			children = (
 				7C1273CC28C6D67D003A3660 /* SwiftExampleViewController.swift */,
+				7C12748D28C73EF1003A3660 /* Multimedia */,
+				7C12748628C73DC2003A3660 /* Multithreading */,
 				7C12746328C72C4A003A3660 /* DataStorage */,
 				7C12742728C71947003A3660 /* Network */,
 				7C12742028C7177F003A3660 /* Safe */,
@@ -1158,6 +1204,90 @@
 				7C12748428C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift */,
 			);
 			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		7C12748628C73DC2003A3660 /* Multithreading */ = {
+			isa = PBXGroup;
+			children = (
+				7C12748728C73DCE003A3660 /* MultithreadingViewController.swift */,
+				7C12748928C73E29003A3660 /* OverdriveViewController.swift */,
+				7C12748B28C73E2F003A3660 /* OverdriveDemoViewController.swift */,
+			);
+			path = Multithreading;
+			sourceTree = "<group>";
+		};
+		7C12748D28C73EF1003A3660 /* Multimedia */ = {
+			isa = PBXGroup;
+			children = (
+				7C12748E28C73EFD003A3660 /* MultimediaViewController.swift */,
+				7C1274B528C74CBD003A3660 /* MediaStream */,
+				7C1274AE28C74B43003A3660 /* Audio */,
+				7C1274A728C74628003A3660 /* GIF */,
+				7C12749E28C74489003A3660 /* PDF */,
+				7C12749728C74321003A3660 /* QRCode */,
+				7C12749028C73F6F003A3660 /* Camera */,
+			);
+			path = Multimedia;
+			sourceTree = "<group>";
+		};
+		7C12749028C73F6F003A3660 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				7C12749128C73F7B003A3660 /* CameraViewController.swift */,
+				7C12749328C73FD2003A3660 /* CameraManagerViewController.swift */,
+				7C12749528C73FD9003A3660 /* CameraManagerDemoViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		7C12749728C74321003A3660 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				7C12749828C7432D003A3660 /* QRCodeViewController.swift */,
+				7C12749A28C7438E003A3660 /* EFQRCodeViewController.swift */,
+				7C12749C28C74394003A3660 /* EFQRCodeDemoViewController.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		7C12749E28C74489003A3660 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				7C12749F28C74492003A3660 /* PDFViewController.swift */,
+				7C1274A328C744EC003A3660 /* FolioReaderKitViewController.swift */,
+				7C1274A528C744F1003A3660 /* FolioReaderKitDemoViewController.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		7C1274A728C74628003A3660 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				7C1274A828C74631003A3660 /* GIFViewController.swift */,
+				7C1274AA28C746BE003A3660 /* AImageViewController.swift */,
+				7C1274AC28C746C6003A3660 /* AImageDemoViewController.swift */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+		7C1274AE28C74B43003A3660 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				7C1274AF28C74B51003A3660 /* AudioViewController.swift */,
+				7C1274B128C74BB7003A3660 /* recordDemoswiftViewController.swift */,
+				7C1274B328C74BBF003A3660 /* recordDemoswiftDemoViewController.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		7C1274B528C74CBD003A3660 /* MediaStream */ = {
+			isa = PBXGroup;
+			children = (
+				7C1274B628C74CCB003A3660 /* MediaStreamViewController.swift */,
+				7C1274BA28C74D5E003A3660 /* lfswiftViewController.swift */,
+				7C1274BC28C74D66003A3660 /* lfswiftDemoViewController.swift */,
+			);
+			path = MediaStream;
 			sourceTree = "<group>";
 		};
 		7C69F790265608BB00055389 /* AppFrameworks */ = {
@@ -1962,6 +2092,7 @@
 				7CA3615926C13107009E5376 /* Objective-CRuntimeViewController.swift in Sources */,
 				7CA3E3292654B7AB00001D7A /* BaseTableViewCell.swift in Sources */,
 				7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */,
+				7C1274A928C74631003A3660 /* GIFViewController.swift in Sources */,
 				7C0FF0892710176B00FE3525 /* SafariServicesViewController.swift in Sources */,
 				7CF6694E26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift in Sources */,
 				7C12743028C71AD4003A3660 /* AlamofireViewController.swift in Sources */,
@@ -1974,14 +2105,17 @@
 				7C08194F26F18A9E00CE1DD9 /* VisionKitViewController.swift in Sources */,
 				7C08197D26F1990200CE1DD9 /* CoreMIDIViewController.swift in Sources */,
 				7C0FF0972710228700FE3525 /* PassKitDemoViewController.swift in Sources */,
+				7C1274A028C74492003A3660 /* PDFViewController.swift in Sources */,
 				7C55B39D27295054005FE5BA /* SwiftFrameworkDemoViewController.swift in Sources */,
 				7C69F7DA26565F3400055389 /* BaseDemoViewController.swift in Sources */,
 				7C9BAA3A2727AE68000B9EC8 /* CombineDemoViewController.swift in Sources */,
 				7C0FF09D2710273400FE3525 /* MultipeerConnectivityViewController.swift in Sources */,
 				7C08196726F18F8600CE1DD9 /* PhotoKitDemoViewController.swift in Sources */,
 				7C0C27EE27168AFF004D250D /* CreateMLViewController.swift in Sources */,
+				7C12749428C73FD2003A3660 /* CameraManagerViewController.swift in Sources */,
 				7C0FF0932710207C00FE3525 /* PushKitDemoViewController.swift in Sources */,
 				7C53BB9526E9993F004A1753 /* CoreServicesDemoViewController.swift in Sources */,
+				7C1274B428C74BBF003A3660 /* recordDemoswiftDemoViewController.swift in Sources */,
 				7C7EE5A1270596060003965E /* SMSandCallReportingViewController.swift in Sources */,
 				7CA3E2FF2654B31C00001D7A /* SCDTextFieldAttributes.swift in Sources */,
 				7C97EC3B2721699400536B9A /* CoreDataViewController.swift in Sources */,
@@ -1998,6 +2132,7 @@
 				7C1273F828C6EC59003A3660 /* TuanDemoViewController.swift in Sources */,
 				7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */,
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
+				7C12749228C73F7B003A3660 /* CameraViewController.swift in Sources */,
 				7C08193F26F1846400CE1DD9 /* AppleCryptoKitViewController.swift in Sources */,
 				7CA3E04226EF359800902D84 /* CompressionViewController.swift in Sources */,
 				7CF6695626F2D49F0079A5EB /* CoreAudioDemoViewController.swift in Sources */,
@@ -2006,6 +2141,7 @@
 				7C5A58D526FC80F5006CA748 /* PDFKitViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
 				7C08197126F1945100CE1DD9 /* MediaAccessibilityViewController.swift in Sources */,
+				7C12748F28C73EFD003A3660 /* MultimediaViewController.swift in Sources */,
 				7C12744E28C725DF003A3660 /* JSONViewController.swift in Sources */,
 				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
 				7C1273D828C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift in Sources */,
@@ -2015,9 +2151,12 @@
 				7C0C27E82716889C004D250D /* DeviceCheckDemoViewController.swift in Sources */,
 				7C55B38127293B0D005FE5BA /* AutomaticAssessmentConfigurationDemoViewController.swift in Sources */,
 				7C08193B26F1821700CE1DD9 /* AuthenticationServicesViewController.swift in Sources */,
+				7C12749628C73FD9003A3660 /* CameraManagerDemoViewController.swift in Sources */,
 				7C08196926F1918B00CE1DD9 /* MediaSetupViewController.swift in Sources */,
 				7C7EE593270545FA0003965E /* TabularDataDemoViewController.swift in Sources */,
+				7C12749B28C7438E003A3660 /* EFQRCodeViewController.swift in Sources */,
 				7C1273CD28C6D67D003A3660 /* SwiftExampleViewController.swift in Sources */,
+				7C12749D28C74394003A3660 /* EFQRCodeDemoViewController.swift in Sources */,
 				7CBBC2ED270455B4001B6321 /* DeveloperToolsSupportViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
 				7C7EE59527054CCB0003965E /* StoreKitViewController.swift in Sources */,
@@ -2147,6 +2286,7 @@
 				7C12743228C71ADA003A3660 /* AlamofireDemoViewController.swift in Sources */,
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
 				7C1273F428C6EA86003A3660 /* BaiduFM_SwiftDemoViewController.swift in Sources */,
+				7C1274BD28C74D66003A3660 /* lfswiftDemoViewController.swift in Sources */,
 				7C0C27F027168B07004D250D /* CreateMLDemoViewController.swift in Sources */,
 				7C12741628C6F83C003A3660 /* CarthageViewController.swift in Sources */,
 				7C0FF0A727102C7D00FE3525 /* MessageUIDemoViewController.swift in Sources */,
@@ -2155,7 +2295,9 @@
 				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
 				7C12747728C7362A003A3660 /* JSQCoreDataKitDemoViewController.swift in Sources */,
 				7CBBC2F527045724001B6321 /* WidgetKitDemoViewController.swift in Sources */,
+				7C1274BB28C74D5E003A3660 /* lfswiftViewController.swift in Sources */,
 				7C0E0FBD271568FA0036C7C2 /* FileProviderUIDemoViewController.swift in Sources */,
+				7C12748A28C73E29003A3660 /* OverdriveViewController.swift in Sources */,
 				7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */,
 				7CBBC2F727045A5C001B6321 /* WebKitViewController.swift in Sources */,
 				7CDB3B61272A4E2D00419ED4 /* AccessibilityDemoViewController.swift in Sources */,
@@ -2189,6 +2331,7 @@
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
 				7CD0988D26E8B79300EBA585 /* DeviceManagementDemoViewController.swift in Sources */,
 				7C08196D26F1920300CE1DD9 /* MediaPlayerViewController.swift in Sources */,
+				7C1274AB28C746BE003A3660 /* AImageViewController.swift in Sources */,
 				7CBBC2FB2704643E001B6321 /* WatchConnectivityViewController.swift in Sources */,
 				7CA3615326C12D0D009E5376 /* SecurityDemoViewController.swift in Sources */,
 				7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */,
@@ -2200,8 +2343,10 @@
 				7C12746228C72B85003A3660 /* CSwiftVDemoViewController.swift in Sources */,
 				7CDB3B59272A4B6900419ED4 /* BundleResourcesDemoViewController.swift in Sources */,
 				7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */,
+				7C1274B028C74B51003A3660 /* AudioViewController.swift in Sources */,
 				7C0C27DA2716836A004D250D /* FamilyControlsViewController.swift in Sources */,
 				7CA3E04426EF359E00902D84 /* CompressionDemoViewController.swift in Sources */,
+				7C12748C28C73E2F003A3660 /* OverdriveDemoViewController.swift in Sources */,
 				7CD621612719322F0048499D /* CoreLocationUIViewController.swift in Sources */,
 				7C55B395272946AB005FE5BA /* UIKitDemoViewController.swift in Sources */,
 				7C08197926F1972C00CE1DD9 /* CoreVideoViewController.swift in Sources */,
@@ -2241,10 +2386,13 @@
 				7CF8D90527005C47008DCEF2 /* MetalPerformanceShadersViewController.swift in Sources */,
 				7C0E0FB32715341E0036C7C2 /* HomeKitViewController.swift in Sources */,
 				7C12744228C7221D003A3660 /* WebFrameworkViewController.swift in Sources */,
+				7C1274A628C744F1003A3660 /* FolioReaderKitDemoViewController.swift in Sources */,
 				7C9BAA382727AE60000B9EC8 /* CombineViewController.swift in Sources */,
 				7C08194326F185C800CE1DD9 /* AppleArchiveViewController.swift in Sources */,
 				7C12741D28C6FA04003A3660 /* SwiftPythonViewController.swift in Sources */,
 				7CD1BDC626FB1CEA00260DF5 /* ReplayKitViewController.swift in Sources */,
+				7C12749928C7432D003A3660 /* QRCodeViewController.swift in Sources */,
+				7C1274A428C744EC003A3660 /* FolioReaderKitViewController.swift in Sources */,
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
 				7C08197726F1954900CE1DD9 /* ImageCaptureCoreDemoViewController.swift in Sources */,
 				7C0C27E627168896004D250D /* DeviceCheckViewController.swift in Sources */,
@@ -2254,6 +2402,7 @@
 				7C12743F28C71E49003A3660 /* ReachabilityswiftDemoViewController.swift in Sources */,
 				7C12740D28C6F48D003A3660 /* PageRoutingViewController.swift in Sources */,
 				7C12743D28C71E3D003A3660 /* Reachability_swiftViewController.swift in Sources */,
+				7C12748828C73DCE003A3660 /* MultithreadingViewController.swift in Sources */,
 				7CDB3B5B272A4C1700419ED4 /* AppClipsViewController.swift in Sources */,
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,
 				7C1273EA28C6E8CE003A3660 /* DesignerNewsAppViewController.swift in Sources */,
@@ -2269,6 +2418,7 @@
 				7CB6342D2717D5480092758D /* CoreMLViewController.swift in Sources */,
 				7CBBC3052704686F001B6321 /* UserNotificationsDemoViewController.swift in Sources */,
 				7C08196126F18E9E00CE1DD9 /* QuickLookThumbnailingViewController.swift in Sources */,
+				7C1274B728C74CCB003A3660 /* MediaStreamViewController.swift in Sources */,
 				7C12746028C72B7F003A3660 /* CSwiftVViewController.swift in Sources */,
 				7CD1BDCA26FB33EB00260DF5 /* RealityKitViewController.swift in Sources */,
 				7C12741F28C6FA0B003A3660 /* SwiftPythonDemoViewController.swift in Sources */,
@@ -2279,6 +2429,7 @@
 				7C12740628C6F211003A3660 /* ReactiveFrameworkViewController.swift in Sources */,
 				7C69F7A92656093900055389 /* SystemViewController.swift in Sources */,
 				7C91AD3727015569005E47D9 /* MetalViewController.swift in Sources */,
+				7C1274AD28C746C6003A3660 /* AImageDemoViewController.swift in Sources */,
 				7C12745928C72840003A3660 /* AEXMLViewController.swift in Sources */,
 				7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */,
 				7C55B36D2728E3A7005FE5BA /* ClassKitDemoViewController.swift in Sources */,
@@ -2308,6 +2459,7 @@
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
 				7C55B3732728F8DA005FE5BA /* CallKitViewController.swift in Sources */,
 				7C12741B28C6F9A6003A3660 /* MixedDevelopmentViewController.swift in Sources */,
+				7C1274B228C74BB7003A3660 /* recordDemoswiftViewController.swift in Sources */,
 				7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */,
 				7C55B36F2728ED61005FE5BA /* CarPlayViewController.swift in Sources */,
 				7C12747328C735CC003A3660 /* CoreDatasViewController.swift in Sources */,

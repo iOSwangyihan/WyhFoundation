@@ -1,0 +1,70 @@
+//
+//  recordDemoswiftViewController.swift
+//  WyhFoundation
+//
+//  Created by 王乙涵 on 2022/9/6.
+//
+
+
+
+import UIKit
+
+enum recordDemoswiftViewControllerType {
+    case overview
+    case topics
+    case demo
+    func name() -> String {
+        switch self {
+        case .overview:
+            return "一个Swift语言实现直接可以用的录音Demo，实现说明."
+        case .topics:
+            return "a simple recordDemo\n一个简单的录音Demo run in"
+        case .demo:
+            return "https://github.com/iOSwangyihan/recordDemo"
+        }
+    }
+}
+class recordDemoswiftViewController: SwiftViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        dataArr = [recordDemoswiftViewControllerType.overview, recordDemoswiftViewControllerType.topics, recordDemoswiftViewControllerType.demo]
+        // Do any additional setup after loading the view.
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.text = (dataArr[indexPath.row] as? recordDemoswiftViewControllerType)?.name()
+        return cell
+    }
+  
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let type = dataArr[indexPath.row] as? recordDemoswiftViewControllerType ?? recordDemoswiftViewControllerType.overview
+        if type == .demo {
+           
+            if #available(iOS 13.0, *) {
+                let vc = recordDemoswiftDemoViewController()
+                vc.url = type.name()
+                vc.tname = self.tname
+                self.navigationController?.pushViewController(vc, animated: true)
+            } else {
+                // Fallback on earlier versions
+            }
+               
+            
+        }
+    }
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
+

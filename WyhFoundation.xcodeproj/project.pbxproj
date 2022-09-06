@@ -163,6 +163,15 @@
 		7C12746A28C72CD9003A3660 /* CacheHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12746928C72CD9003A3660 /* CacheHandlingViewController.swift */; };
 		7C12746C28C72D46003A3660 /* CacheswiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12746B28C72D46003A3660 /* CacheswiftViewController.swift */; };
 		7C12746E28C72D4F003A3660 /* CacheswiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12746D28C72D4F003A3660 /* CacheswiftDemoViewController.swift */; };
+		7C12747328C735CC003A3660 /* CoreDatasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12747228C735CC003A3660 /* CoreDatasViewController.swift */; };
+		7C12747528C73624003A3660 /* JSQCoreDataKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12747428C73624003A3660 /* JSQCoreDataKitViewController.swift */; };
+		7C12747728C7362A003A3660 /* JSQCoreDataKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12747628C7362A003A3660 /* JSQCoreDataKitDemoViewController.swift */; };
+		7C12747A28C737D0003A3660 /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12747928C737D0003A3660 /* DatabaseViewController.swift */; };
+		7C12747C28C73858003A3660 /* realm_cocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12747B28C73858003A3660 /* realm_cocoaViewController.swift */; };
+		7C12747E28C73864003A3660 /* realm_cocoaDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12747D28C73864003A3660 /* realm_cocoaDemoViewController.swift */; };
+		7C12748128C73C88003A3660 /* KeyChainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748028C73C88003A3660 /* KeyChainViewController.swift */; };
+		7C12748328C73CDC003A3660 /* EllipticCurveKeyPairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748228C73CDC003A3660 /* EllipticCurveKeyPairViewController.swift */; };
+		7C12748528C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12748428C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -578,6 +587,15 @@
 		7C12746928C72CD9003A3660 /* CacheHandlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheHandlingViewController.swift; sourceTree = "<group>"; };
 		7C12746B28C72D46003A3660 /* CacheswiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheswiftViewController.swift; sourceTree = "<group>"; };
 		7C12746D28C72D4F003A3660 /* CacheswiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheswiftDemoViewController.swift; sourceTree = "<group>"; };
+		7C12747228C735CC003A3660 /* CoreDatasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDatasViewController.swift; sourceTree = "<group>"; };
+		7C12747428C73624003A3660 /* JSQCoreDataKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSQCoreDataKitViewController.swift; sourceTree = "<group>"; };
+		7C12747628C7362A003A3660 /* JSQCoreDataKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSQCoreDataKitDemoViewController.swift; sourceTree = "<group>"; };
+		7C12747928C737D0003A3660 /* DatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
+		7C12747B28C73858003A3660 /* realm_cocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_cocoaViewController.swift; sourceTree = "<group>"; };
+		7C12747D28C73864003A3660 /* realm_cocoaDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_cocoaDemoViewController.swift; sourceTree = "<group>"; };
+		7C12748028C73C88003A3660 /* KeyChainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainViewController.swift; sourceTree = "<group>"; };
+		7C12748228C73CDC003A3660 /* EllipticCurveKeyPairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPairViewController.swift; sourceTree = "<group>"; };
+		7C12748428C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPairDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -1094,6 +1112,9 @@
 			isa = PBXGroup;
 			children = (
 				7C12746428C72C58003A3660 /* DataStorageViewController.swift */,
+				7C12747F28C73C77003A3660 /* KeyChain */,
+				7C12747828C737C6003A3660 /* Database */,
+				7C12746F28C735A7003A3660 /* CoreData */,
 				7C12746828C72CC9003A3660 /* CacheHandling */,
 			);
 			path = DataStorage;
@@ -1107,6 +1128,36 @@
 				7C12746D28C72D4F003A3660 /* CacheswiftDemoViewController.swift */,
 			);
 			path = CacheHandling;
+			sourceTree = "<group>";
+		};
+		7C12746F28C735A7003A3660 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7C12747228C735CC003A3660 /* CoreDatasViewController.swift */,
+				7C12747428C73624003A3660 /* JSQCoreDataKitViewController.swift */,
+				7C12747628C7362A003A3660 /* JSQCoreDataKitDemoViewController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7C12747828C737C6003A3660 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				7C12747928C737D0003A3660 /* DatabaseViewController.swift */,
+				7C12747B28C73858003A3660 /* realm_cocoaViewController.swift */,
+				7C12747D28C73864003A3660 /* realm_cocoaDemoViewController.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		7C12747F28C73C77003A3660 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				7C12748028C73C88003A3660 /* KeyChainViewController.swift */,
+				7C12748228C73CDC003A3660 /* EllipticCurveKeyPairViewController.swift */,
+				7C12748428C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift */,
+			);
+			path = KeyChain;
 			sourceTree = "<group>";
 		};
 		7C69F790265608BB00055389 /* AppFrameworks */ = {
@@ -1880,6 +1931,8 @@
 				7C08196326F18EA800CE1DD9 /* QuickLookThumbnailingDemoViewController.swift in Sources */,
 				7CA3E3032654B31C00001D7A /* SCDButtonAttributes.swift in Sources */,
 				7C55B37B272939D1005FE5BA /* BackgroundTasksViewController.swift in Sources */,
+				7C12747C28C73858003A3660 /* realm_cocoaViewController.swift in Sources */,
+				7C12747A28C737D0003A3660 /* DatabaseViewController.swift in Sources */,
 				7C1273E628C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift in Sources */,
 				7C91AD4D2701A10A005E47D9 /* GameControllerDemoViewController.swift in Sources */,
 				7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */,
@@ -2004,6 +2057,7 @@
 				7C55B38727294518005FE5BA /* AdServicesViewController.swift in Sources */,
 				7C0E0FAF271533390036C7C2 /* iAdViewController.swift in Sources */,
 				7C53BB9726E99F02004A1753 /* CoreNFCViewController.swift in Sources */,
+				7C12748128C73C88003A3660 /* KeyChainViewController.swift in Sources */,
 				7C12742428C7180F003A3660 /* PermissionScopeViewController.swift in Sources */,
 				7C08196B26F1919200CE1DD9 /* MediaSetupDemoViewController.swift in Sources */,
 				7C08195B26F18CEA00CE1DD9 /* VideoSubscriberAccountDemoViewController.swift in Sources */,
@@ -2018,6 +2072,7 @@
 				7C91AD3B2701674E005E47D9 /* ImageIOViewController.swift in Sources */,
 				7C1273EC28C6E8D9003A3660 /* DesignerNewsAppDemoViewController.swift in Sources */,
 				7C0C27F82716DCCE004D250D /* CoreSpotlightDemoViewController.swift in Sources */,
+				7C12748528C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift in Sources */,
 				7CA3615F26C1327A009E5376 /* NetworkExtensionDemoViewController.swift in Sources */,
 				7C12740828C6F382003A3660 /* ReactiveCocoaViewController.swift in Sources */,
 				7C55B37F27293B01005FE5BA /* AutomaticAssessmentConfigurationViewController.swift in Sources */,
@@ -2098,6 +2153,7 @@
 				7C7EE5A3270596150003965E /* SMSandCallReportingDemoViewController.swift in Sources */,
 				7C0FF0912710207600FE3525 /* PushKitViewController.swift in Sources */,
 				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
+				7C12747728C7362A003A3660 /* JSQCoreDataKitDemoViewController.swift in Sources */,
 				7CBBC2F527045724001B6321 /* WidgetKitDemoViewController.swift in Sources */,
 				7C0E0FBD271568FA0036C7C2 /* FileProviderUIDemoViewController.swift in Sources */,
 				7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */,
@@ -2158,6 +2214,7 @@
 				7C91AD3D27016759005E47D9 /* ImageIODemoViewController.swift in Sources */,
 				7CDA89502714209500C93FBE /* JavaScriptCoreDemoViewController.swift in Sources */,
 				7C0FF0992710252200FE3525 /* NaturalLanguageViewController.swift in Sources */,
+				7C12747528C73624003A3660 /* JSQCoreDataKitViewController.swift in Sources */,
 				7C0C27F22716B0F2004D250D /* CoreTextViewController.swift in Sources */,
 				7C0C27E2271685E0004D250D /* EventKitViewController.swift in Sources */,
 				7CBBC2E6270451CA001B6321 /* ARKitDemoViewController.swift in Sources */,
@@ -2227,11 +2284,13 @@
 				7C55B36D2728E3A7005FE5BA /* ClassKitDemoViewController.swift in Sources */,
 				7C735E6728585F7C00469516 /* SwiftUIUIViewController.swift in Sources */,
 				7C12742928C7195C003A3660 /* NetworksViewController.swift in Sources */,
+				7C12748328C73CDC003A3660 /* EllipticCurveKeyPairViewController.swift in Sources */,
 				7CBBC2FD2704644A001B6321 /* WatchConnectivityDemoViewController.swift in Sources */,
 				7C0E0FB1271533450036C7C2 /* iAdDemoViewController.swift in Sources */,
 				7C12741428C6F7DC003A3660 /* VersionManagementViewController.swift in Sources */,
 				7CBD752C26C35FEA0089C344 /* NearbyInteractionDemoViewController.swift in Sources */,
 				7CB6342F2717D5500092758D /* CoreMLDemoViewController.swift in Sources */,
+				7C12747E28C73864003A3660 /* realm_cocoaDemoViewController.swift in Sources */,
 				7C12745B28C72847003A3660 /* AEXMLDemoViewController.swift in Sources */,
 				7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,
@@ -2251,6 +2310,7 @@
 				7C12741B28C6F9A6003A3660 /* MixedDevelopmentViewController.swift in Sources */,
 				7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */,
 				7C55B36F2728ED61005FE5BA /* CarPlayViewController.swift in Sources */,
+				7C12747328C735CC003A3660 /* CoreDatasViewController.swift in Sources */,
 				7C08194D26F1871C00CE1DD9 /* AccelerateDemoViewController.swift in Sources */,
 				7CBBC2F32704571F001B6321 /* WidgetKitViewController.swift in Sources */,
 				7C08197526F1954300CE1DD9 /* ImageCaptureCoreViewController.swift in Sources */,

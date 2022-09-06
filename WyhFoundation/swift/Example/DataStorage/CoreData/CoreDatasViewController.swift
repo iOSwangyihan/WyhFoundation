@@ -1,5 +1,5 @@
 //
-//  DataStorageViewController.swift
+//  CoreDatasViewController.swift
 //  WyhFoundation
 //
 //  Created by 王乙涵 on 2022/9/6.
@@ -16,56 +16,41 @@ import Foundation
 import SwiftUI
 import UIKit
 
-enum DataStorageViewControllerType {
-    case CacheHandling
-    case CoreData
-    case Database
-    case KeyChain
+enum CoreDatasViewControllerType {
+    case JSQCoreDataKit
     
     func name() -> String {
         switch self {
-        case .CacheHandling:
-            return "缓存处理"
-        case .CoreData:
-            return "CoreData"
-        case .Database:
-            return "数据库"
-        case .KeyChain:
-            return "钥匙链"
+        case .JSQCoreDataKit:
+            return "JSQCoreDataKit"
         }
     }
     func vc() -> SwiftViewController {
         switch self {
-        case .CacheHandling:
-            return CacheHandlingViewController()
-        case .CoreData:
-            return CoreDatasViewController()
-        case .Database:
-            return DatabaseViewController()
-        case .KeyChain:
-            return KeyChainViewController()
+        case .JSQCoreDataKit:
+            return JSQCoreDataKitViewController()
        
         }
     }
 }
 
-class DataStorageViewController: SwiftViewController {
+class CoreDatasViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [DataStorageViewControllerType.CacheHandling,DataStorageViewControllerType.CoreData,DataStorageViewControllerType.Database,DataStorageViewControllerType.KeyChain]
+        dataArr = [CoreDatasViewControllerType.JSQCoreDataKit,]
        
         // Do any additional setup after loading the view.
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = (dataArr[indexPath.row] as? DataStorageViewControllerType)?.name()
+        cell.textLabel?.text = (dataArr[indexPath.row] as? CoreDatasViewControllerType)?.name()
         return cell
     }
   
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let type = dataArr[indexPath.row] as? DataStorageViewControllerType ?? DataStorageViewControllerType.CacheHandling
+        let type = dataArr[indexPath.row] as? CoreDatasViewControllerType ?? CoreDatasViewControllerType.JSQCoreDataKit
         let vc = type.vc()
         vc.tname = type.name()
         self.navigationController?.pushViewController(vc, animated: true)

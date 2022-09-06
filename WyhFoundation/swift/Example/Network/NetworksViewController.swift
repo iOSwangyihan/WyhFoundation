@@ -1,5 +1,5 @@
 //
-//  SwiftExampleViewController.swift
+//  NetworksViewController.swift
 //  WyhFoundation
 //
 //  Created by 王乙涵 on 2022/9/6.
@@ -16,56 +16,55 @@ import Foundation
 import SwiftUI
 import UIKit
 
-enum SwiftExampleViewControllerType {
-    case CompleteTheAPP
-    case Appframework
-    case Safe
-    case Network
+enum NetworksViewControllerType {
+    case NetworkRequest
+    case ImageAcquisition
+    case InternetChat
+    case NetworkMeasurement
     func name() -> String {
         switch self {
-        case .CompleteTheAPP:
-            return "完整APP"
-        case .Appframework:
-            return "App框架"
-        case .Safe:
-            return "安全"
-        case .Network:
-            return "网络"
-       
+        case .NetworkRequest:
+            return "网络请求"
+        case .ImageAcquisition:
+            return "图像获取"
+        case .InternetChat:
+            return "网络聊天"
+        case .NetworkMeasurement:
+            return "网络测试"
         }
     }
     func vc() -> SwiftViewController {
         switch self {
-        case .CompleteTheAPP:
-            return CompleteTheAPPViewController()
-        case .Appframework:
-            return AppframeworkViewController()
-        case .Safe:
-            return SafeViewController()
-        case .Network:
-           return NetworksViewController()
+        case .NetworkRequest:
+            return NetworkRequestViewController()
+        case .ImageAcquisition:
+            return ImageAcquisitionViewController()
+        case .InternetChat:
+            return InternetChatViewController()
+        case .NetworkMeasurement:
+            return NetworkMeasurementViewController()
        
         }
     }
 }
 
-class SwiftExampleViewController: SwiftViewController {
+class NetworksViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework, SwiftExampleViewControllerType.Safe, SwiftExampleViewControllerType.Network]
+        dataArr = [NetworksViewControllerType.NetworkRequest,NetworksViewControllerType.ImageAcquisition,NetworksViewControllerType.InternetChat,NetworksViewControllerType.NetworkMeasurement]
        
         // Do any additional setup after loading the view.
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = (dataArr[indexPath.row] as? SwiftExampleViewControllerType)?.name()
+        cell.textLabel?.text = (dataArr[indexPath.row] as? NetworksViewControllerType)?.name()
         return cell
     }
   
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let type = dataArr[indexPath.row] as? SwiftExampleViewControllerType ?? SwiftExampleViewControllerType.CompleteTheAPP
+        let type = dataArr[indexPath.row] as? NetworksViewControllerType ?? NetworksViewControllerType.NetworkRequest
         let vc = type.vc()
         vc.tname = type.name()
         self.navigationController?.pushViewController(vc, animated: true)
@@ -82,3 +81,4 @@ class SwiftExampleViewController: SwiftViewController {
     */
 
 }
+

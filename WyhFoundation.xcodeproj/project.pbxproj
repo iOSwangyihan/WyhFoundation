@@ -109,6 +109,16 @@
 		7C1273E028C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273DF28C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift */; };
 		7C1273E628C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273E528C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift */; };
 		7C1273E828C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273E728C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift */; };
+		7C1273EA28C6E8CE003A3660 /* DesignerNewsAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273E928C6E8CE003A3660 /* DesignerNewsAppViewController.swift */; };
+		7C1273EC28C6E8D9003A3660 /* DesignerNewsAppDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273EB28C6E8D9003A3660 /* DesignerNewsAppDemoViewController.swift */; };
+		7C1273EE28C6E9B7003A3660 /* EidolonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273ED28C6E9B7003A3660 /* EidolonViewController.swift */; };
+		7C1273F028C6E9BD003A3660 /* EidolonDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273EF28C6E9BD003A3660 /* EidolonDemoViewController.swift */; };
+		7C1273F228C6EA7D003A3660 /* BaiduFM_SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273F128C6EA7D003A3660 /* BaiduFM_SwiftViewController.swift */; };
+		7C1273F428C6EA86003A3660 /* BaiduFM_SwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273F328C6EA86003A3660 /* BaiduFM_SwiftDemoViewController.swift */; };
+		7C1273F628C6EC54003A3660 /* TuanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273F528C6EC54003A3660 /* TuanViewController.swift */; };
+		7C1273F828C6EC59003A3660 /* TuanDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273F728C6EC59003A3660 /* TuanDemoViewController.swift */; };
+		7C1273FA28C6ED83003A3660 /* ios_ossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273F928C6ED83003A3660 /* ios_ossViewController.swift */; };
+		7C1273FC28C6ED8C003A3660 /* ios_ossDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273FB28C6ED8C003A3660 /* ios_ossDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -470,6 +480,16 @@
 		7C1273DF28C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBBS_SwiftDemoViewController.swift; sourceTree = "<group>"; };
 		7C1273E528C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NirZhihuDaily2_swiftViewController.swift; sourceTree = "<group>"; };
 		7C1273E728C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NirZhihuDaily2_swiftDemoViewController.swift; sourceTree = "<group>"; };
+		7C1273E928C6E8CE003A3660 /* DesignerNewsAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerNewsAppViewController.swift; sourceTree = "<group>"; };
+		7C1273EB28C6E8D9003A3660 /* DesignerNewsAppDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerNewsAppDemoViewController.swift; sourceTree = "<group>"; };
+		7C1273ED28C6E9B7003A3660 /* EidolonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EidolonViewController.swift; sourceTree = "<group>"; };
+		7C1273EF28C6E9BD003A3660 /* EidolonDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EidolonDemoViewController.swift; sourceTree = "<group>"; };
+		7C1273F128C6EA7D003A3660 /* BaiduFM_SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduFM_SwiftViewController.swift; sourceTree = "<group>"; };
+		7C1273F328C6EA86003A3660 /* BaiduFM_SwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduFM_SwiftDemoViewController.swift; sourceTree = "<group>"; };
+		7C1273F528C6EC54003A3660 /* TuanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuanViewController.swift; sourceTree = "<group>"; };
+		7C1273F728C6EC59003A3660 /* TuanDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuanDemoViewController.swift; sourceTree = "<group>"; };
+		7C1273F928C6ED83003A3660 /* ios_ossViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossViewController.swift; sourceTree = "<group>"; };
+		7C1273FB28C6ED8C003A3660 /* ios_ossDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -799,6 +819,16 @@
 				7C1273DF28C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift */,
 				7C1273E528C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift */,
 				7C1273E728C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift */,
+				7C1273E928C6E8CE003A3660 /* DesignerNewsAppViewController.swift */,
+				7C1273EB28C6E8D9003A3660 /* DesignerNewsAppDemoViewController.swift */,
+				7C1273ED28C6E9B7003A3660 /* EidolonViewController.swift */,
+				7C1273EF28C6E9BD003A3660 /* EidolonDemoViewController.swift */,
+				7C1273F128C6EA7D003A3660 /* BaiduFM_SwiftViewController.swift */,
+				7C1273F328C6EA86003A3660 /* BaiduFM_SwiftDemoViewController.swift */,
+				7C1273F528C6EC54003A3660 /* TuanViewController.swift */,
+				7C1273F728C6EC59003A3660 /* TuanDemoViewController.swift */,
+				7C1273F928C6ED83003A3660 /* ios_ossViewController.swift */,
+				7C1273FB28C6ED8C003A3660 /* ios_ossDemoViewController.swift */,
 			);
 			path = CompleteTheAPP;
 			sourceTree = "<group>";
@@ -1586,6 +1616,7 @@
 				7CDA894E2714208A00C93FBE /* JavaScriptCoreViewController.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
 				7C08198126F19A2300CE1DD9 /* CoreMediaViewController.swift in Sources */,
+				7C1273F028C6E9BD003A3660 /* EidolonDemoViewController.swift in Sources */,
 				7C55B37927293545005FE5BA /* BusinessChatDemoViewController.swift in Sources */,
 				7C91AD4727019DA2005E47D9 /* GameKitViewController.swift in Sources */,
 				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
@@ -1603,7 +1634,9 @@
 				7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */,
 				7C0FF0892710176B00FE3525 /* SafariServicesViewController.swift in Sources */,
 				7CF6694E26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift in Sources */,
+				7C1273EE28C6E9B7003A3660 /* EidolonViewController.swift in Sources */,
 				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
+				7C1273F628C6EC54003A3660 /* TuanViewController.swift in Sources */,
 				7C0E0FB9271567B90036C7C2 /* HealthKitDemoViewController.swift in Sources */,
 				7C08194F26F18A9E00CE1DD9 /* VisionKitViewController.swift in Sources */,
 				7C08197D26F1990200CE1DD9 /* CoreMIDIViewController.swift in Sources */,
@@ -1627,6 +1660,7 @@
 				7C91AD3927015571005E47D9 /* MetalDemoViewController.swift in Sources */,
 				7C6982B8272680020006DB04 /* ContactsUIViewController.swift in Sources */,
 				7C55B3692728E268005FE5BA /* ClockKitDemoViewController.swift in Sources */,
+				7C1273F828C6EC59003A3660 /* TuanDemoViewController.swift in Sources */,
 				7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */,
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
 				7C08193F26F1846400CE1DD9 /* AppleCryptoKitViewController.swift in Sources */,
@@ -1695,6 +1729,7 @@
 				7CA3E3002654B31C00001D7A /* SCDTableViewAttributes.swift in Sources */,
 				7C08193D26F1822300CE1DD9 /* AuthenticationServicesDemoViewController.swift in Sources */,
 				7C91AD3B2701674E005E47D9 /* ImageIOViewController.swift in Sources */,
+				7C1273EC28C6E8D9003A3660 /* DesignerNewsAppDemoViewController.swift in Sources */,
 				7C0C27F82716DCCE004D250D /* CoreSpotlightDemoViewController.swift in Sources */,
 				7CA3615F26C1327A009E5376 /* NetworkExtensionDemoViewController.swift in Sources */,
 				7C55B37F27293B01005FE5BA /* AutomaticAssessmentConfigurationViewController.swift in Sources */,
@@ -1759,6 +1794,7 @@
 				7C08198326F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift in Sources */,
 				7C6982BA2726800A0006DB04 /* ContactsUIDemoViewController.swift in Sources */,
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
+				7C1273F428C6EA86003A3660 /* BaiduFM_SwiftDemoViewController.swift in Sources */,
 				7C0C27F027168B07004D250D /* CreateMLDemoViewController.swift in Sources */,
 				7C0FF0A727102C7D00FE3525 /* MessageUIDemoViewController.swift in Sources */,
 				7C7EE5A3270596150003965E /* SMSandCallReportingDemoViewController.swift in Sources */,
@@ -1792,6 +1828,7 @@
 				7C0C27F62716DCC5004D250D /* CoreSpotlightViewController.swift in Sources */,
 				7CDB3B5F272A4E2600419ED4 /* AccessibilityViewController.swift in Sources */,
 				7CF6696626F2DB0E0079A5EB /* AudioUnitDemoViewController.swift in Sources */,
+				7C1273FA28C6ED83003A3660 /* ios_ossViewController.swift in Sources */,
 				7C0FF0A3271029EF00FE3525 /* MessagesDemoViewController.swift in Sources */,
 				7CDA894627141B1300C93FBE /* ManagedSettingsUIViewController.swift in Sources */,
 				7CA3E39D2654DCB600001D7A /* UIView+Extension.m in Sources */,
@@ -1815,6 +1852,7 @@
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
 				7C55B39B2729504D005FE5BA /* SwiftFrameworkViewController.swift in Sources */,
 				7CBBC2E4270451C4001B6321 /* ARKitViewController.swift in Sources */,
+				7C1273FC28C6ED8C003A3660 /* ios_ossDemoViewController.swift in Sources */,
 				7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */,
 				7C9BAA3C2727D7D2000B9EC8 /* CloudKitViewController.swift in Sources */,
 				7C91AD3D27016759005E47D9 /* ImageIODemoViewController.swift in Sources */,
@@ -1854,7 +1892,9 @@
 				7CDA894A27141B9800C93FBE /* ManagedSettingsViewController.swift in Sources */,
 				7CDB3B5B272A4C1700419ED4 /* AppClipsViewController.swift in Sources */,
 				7C50FC1526D47FF200D9D857 /* MLComputeDemoViewController.swift in Sources */,
+				7C1273EA28C6E8CE003A3660 /* DesignerNewsAppViewController.swift in Sources */,
 				7C0C27DC2716836F004D250D /* FamilyControlsDemoViewController.swift in Sources */,
+				7C1273F228C6EA7D003A3660 /* BaiduFM_SwiftViewController.swift in Sources */,
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,
 				7CF6696426F2DB050079A5EB /* AudioUnitViewController.swift in Sources */,

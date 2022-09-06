@@ -23,7 +23,11 @@ enum CompleteTheAPPViewControllerType {
     case V2ex_Swift
     case iBBS_Swift
     case NirZhihuDaily2_swift
-  
+    case DesignerNewsApp
+    case Eidolon
+    case BaiduFM_Swift
+    case Tuan
+    case ios_oss
     func name() -> String {
         switch self {
         case .open_source_ios_apps:
@@ -35,8 +39,17 @@ enum CompleteTheAPPViewControllerType {
         case .iBBS_Swift:
             return "iBBS-Swift"
         case .NirZhihuDaily2_swift:
-            return "NirZhihuDaily2_swift"
-       
+            return "NirZhihuDaily2.0_swift"
+        case .DesignerNewsApp:
+            return "DesignerNewsApp"
+        case .Eidolon:
+            return "Eidolon"
+        case .BaiduFM_Swift:
+            return "BaiduFM-Swift"
+        case .Tuan :
+            return "Tuan "
+        case .ios_oss:
+            return "ios-oss"
         }
     }
     func vc() -> SwiftViewController {
@@ -51,6 +64,16 @@ enum CompleteTheAPPViewControllerType {
             return iBBS_SwiftViewController()
         case .NirZhihuDaily2_swift:
             return NirZhihuDaily2_swiftViewController()
+        case .DesignerNewsApp:
+            return DesignerNewsAppViewController()
+        case .Eidolon:
+            return EidolonViewController()
+        case .BaiduFM_Swift:
+            return BaiduFM_SwiftViewController()
+        case .Tuan :
+            return TuanViewController()
+        case .ios_oss:
+            return ios_ossViewController()
        
         }
     }
@@ -60,7 +83,7 @@ class CompleteTheAPPViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [CompleteTheAPPViewControllerType.open_source_ios_apps, CompleteTheAPPViewControllerType.Swift_30_Projects, CompleteTheAPPViewControllerType.V2ex_Swift, CompleteTheAPPViewControllerType.iBBS_Swift, CompleteTheAPPViewControllerType.NirZhihuDaily2_swift]
+        dataArr = [CompleteTheAPPViewControllerType.open_source_ios_apps, CompleteTheAPPViewControllerType.Swift_30_Projects, CompleteTheAPPViewControllerType.V2ex_Swift, CompleteTheAPPViewControllerType.iBBS_Swift, CompleteTheAPPViewControllerType.NirZhihuDaily2_swift,CompleteTheAPPViewControllerType.DesignerNewsApp, CompleteTheAPPViewControllerType.Eidolon, CompleteTheAPPViewControllerType.BaiduFM_Swift, CompleteTheAPPViewControllerType.Tuan ,CompleteTheAPPViewControllerType.ios_oss]
        
         // Do any additional setup after loading the view.
     }

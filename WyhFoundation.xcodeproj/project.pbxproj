@@ -119,6 +119,8 @@
 		7C1273F828C6EC59003A3660 /* TuanDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273F728C6EC59003A3660 /* TuanDemoViewController.swift */; };
 		7C1273FA28C6ED83003A3660 /* ios_ossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273F928C6ED83003A3660 /* ios_ossViewController.swift */; };
 		7C1273FC28C6ED8C003A3660 /* ios_ossDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273FB28C6ED8C003A3660 /* ios_ossDemoViewController.swift */; };
+		7C1273FE28C6EE9D003A3660 /* CocoaChinaPlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273FD28C6EE9D003A3660 /* CocoaChinaPlusViewController.swift */; };
+		7C12740028C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1273FF28C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -490,6 +492,8 @@
 		7C1273F728C6EC59003A3660 /* TuanDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuanDemoViewController.swift; sourceTree = "<group>"; };
 		7C1273F928C6ED83003A3660 /* ios_ossViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossViewController.swift; sourceTree = "<group>"; };
 		7C1273FB28C6ED8C003A3660 /* ios_ossDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ossDemoViewController.swift; sourceTree = "<group>"; };
+		7C1273FD28C6EE9D003A3660 /* CocoaChinaPlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaChinaPlusViewController.swift; sourceTree = "<group>"; };
+		7C1273FF28C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaChinaPlusDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -829,6 +833,8 @@
 				7C1273F728C6EC59003A3660 /* TuanDemoViewController.swift */,
 				7C1273F928C6ED83003A3660 /* ios_ossViewController.swift */,
 				7C1273FB28C6ED8C003A3660 /* ios_ossDemoViewController.swift */,
+				7C1273FD28C6EE9D003A3660 /* CocoaChinaPlusViewController.swift */,
+				7C1273FF28C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift */,
 			);
 			path = CompleteTheAPP;
 			sourceTree = "<group>";
@@ -1746,6 +1752,7 @@
 				7CF6697226F2DF640079A5EB /* VisionViewController.swift in Sources */,
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7C08194B26F1871600CE1DD9 /* AccelerateViewController.swift in Sources */,
+				7C1273FE28C6EE9D003A3660 /* CocoaChinaPlusViewController.swift in Sources */,
 				7CD62167271934490048499D /* CoreLocationDemoViewController.swift in Sources */,
 				7C1273E828C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift in Sources */,
 				7C0C27E027168514004D250D /* EventKitUIDemoViewController.swift in Sources */,
@@ -1780,6 +1787,7 @@
 				7C91AD4927019DA8005E47D9 /* GameKitDemoViewController.swift in Sources */,
 				7CA3E31E2654B46600001D7A /* Colors.swift in Sources */,
 				7C7D819B2711300B003317F1 /* MapKitDemoViewController.swift in Sources */,
+				7C12740028C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift in Sources */,
 				7C08195126F18AA600CE1DD9 /* VisionKitDemoViewController.swift in Sources */,
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,
 				7C55B3752728F8E0005FE5BA /* CallKitDemoViewController.swift in Sources */,

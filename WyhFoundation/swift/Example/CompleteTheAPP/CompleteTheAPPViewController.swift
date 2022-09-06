@@ -28,6 +28,7 @@ enum CompleteTheAPPViewControllerType {
     case BaiduFM_Swift
     case Tuan
     case ios_oss
+    case CocoaChinaPlus
     func name() -> String {
         switch self {
         case .open_source_ios_apps:
@@ -50,6 +51,8 @@ enum CompleteTheAPPViewControllerType {
             return "Tuan "
         case .ios_oss:
             return "ios-oss"
+        case .CocoaChinaPlus:
+            return "CocoaChinaPlus"
         }
     }
     func vc() -> SwiftViewController {
@@ -74,6 +77,8 @@ enum CompleteTheAPPViewControllerType {
             return TuanViewController()
         case .ios_oss:
             return ios_ossViewController()
+        case .CocoaChinaPlus:
+            return CocoaChinaPlusViewController()
        
         }
     }
@@ -83,7 +88,7 @@ class CompleteTheAPPViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [CompleteTheAPPViewControllerType.open_source_ios_apps, CompleteTheAPPViewControllerType.Swift_30_Projects, CompleteTheAPPViewControllerType.V2ex_Swift, CompleteTheAPPViewControllerType.iBBS_Swift, CompleteTheAPPViewControllerType.NirZhihuDaily2_swift,CompleteTheAPPViewControllerType.DesignerNewsApp, CompleteTheAPPViewControllerType.Eidolon, CompleteTheAPPViewControllerType.BaiduFM_Swift, CompleteTheAPPViewControllerType.Tuan ,CompleteTheAPPViewControllerType.ios_oss]
+        dataArr = [CompleteTheAPPViewControllerType.open_source_ios_apps, CompleteTheAPPViewControllerType.Swift_30_Projects, CompleteTheAPPViewControllerType.V2ex_Swift, CompleteTheAPPViewControllerType.iBBS_Swift, CompleteTheAPPViewControllerType.NirZhihuDaily2_swift,CompleteTheAPPViewControllerType.DesignerNewsApp, CompleteTheAPPViewControllerType.Eidolon, CompleteTheAPPViewControllerType.BaiduFM_Swift, CompleteTheAPPViewControllerType.Tuan ,CompleteTheAPPViewControllerType.ios_oss, CompleteTheAPPViewControllerType.CocoaChinaPlus]
        
         // Do any additional setup after loading the view.
     }

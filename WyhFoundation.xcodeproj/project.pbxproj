@@ -131,6 +131,9 @@
 		7C12741428C6F7DC003A3660 /* VersionManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741328C6F7DC003A3660 /* VersionManagementViewController.swift */; };
 		7C12741628C6F83C003A3660 /* CarthageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741528C6F83C003A3660 /* CarthageViewController.swift */; };
 		7C12741828C6F841003A3660 /* CarthageDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741728C6F841003A3660 /* CarthageDemoViewController.swift */; };
+		7C12741B28C6F9A6003A3660 /* MixedDevelopmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741A28C6F9A6003A3660 /* MixedDevelopmentViewController.swift */; };
+		7C12741D28C6FA04003A3660 /* SwiftPythonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741C28C6FA04003A3660 /* SwiftPythonViewController.swift */; };
+		7C12741F28C6FA0B003A3660 /* SwiftPythonDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12741E28C6FA0B003A3660 /* SwiftPythonDemoViewController.swift */; };
 		7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */; };
 		7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */; };
 		7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */; };
@@ -514,6 +517,9 @@
 		7C12741328C6F7DC003A3660 /* VersionManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionManagementViewController.swift; sourceTree = "<group>"; };
 		7C12741528C6F83C003A3660 /* CarthageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageViewController.swift; sourceTree = "<group>"; };
 		7C12741728C6F841003A3660 /* CarthageDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageDemoViewController.swift; sourceTree = "<group>"; };
+		7C12741A28C6F9A6003A3660 /* MixedDevelopmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedDevelopmentViewController.swift; sourceTree = "<group>"; };
+		7C12741C28C6FA04003A3660 /* SwiftPythonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPythonViewController.swift; sourceTree = "<group>"; };
+		7C12741E28C6FA0B003A3660 /* SwiftPythonDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPythonDemoViewController.swift; sourceTree = "<group>"; };
 		7C1EE70F26EAE648007F2A95 /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
 		7C1EE71126EAE653007F2A95 /* CoreBluetoothDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothDemoViewController.swift; sourceTree = "<group>"; };
 		7C30011C265CCBE900C16956 /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -864,6 +870,7 @@
 			isa = PBXGroup;
 			children = (
 				7C12740228C6F192003A3660 /* AppframeworkViewController.swift */,
+				7C12741928C6F993003A3660 /* MixedDevelopment */,
 				7C12741228C6F7C2003A3660 /* VersionManagement */,
 				7C12740B28C6F47C003A3660 /* PageRouting */,
 				7C12740428C6F1FF003A3660 /* ReactiveFramework */,
@@ -899,6 +906,16 @@
 				7C12741728C6F841003A3660 /* CarthageDemoViewController.swift */,
 			);
 			path = VersionManagement;
+			sourceTree = "<group>";
+		};
+		7C12741928C6F993003A3660 /* MixedDevelopment */ = {
+			isa = PBXGroup;
+			children = (
+				7C12741A28C6F9A6003A3660 /* MixedDevelopmentViewController.swift */,
+				7C12741C28C6FA04003A3660 /* SwiftPythonViewController.swift */,
+				7C12741E28C6FA0B003A3660 /* SwiftPythonDemoViewController.swift */,
+			);
+			path = MixedDevelopment;
 			sourceTree = "<group>";
 		};
 		7C69F790265608BB00055389 /* AppFrameworks */ = {
@@ -1959,6 +1976,7 @@
 				7C0E0FB32715341E0036C7C2 /* HomeKitViewController.swift in Sources */,
 				7C9BAA382727AE60000B9EC8 /* CombineViewController.swift in Sources */,
 				7C08194326F185C800CE1DD9 /* AppleArchiveViewController.swift in Sources */,
+				7C12741D28C6FA04003A3660 /* SwiftPythonViewController.swift in Sources */,
 				7CD1BDC626FB1CEA00260DF5 /* ReplayKitViewController.swift in Sources */,
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
 				7C08197726F1954900CE1DD9 /* ImageCaptureCoreDemoViewController.swift in Sources */,
@@ -1980,6 +1998,7 @@
 				7CBBC3052704686F001B6321 /* UserNotificationsDemoViewController.swift in Sources */,
 				7C08196126F18E9E00CE1DD9 /* QuickLookThumbnailingViewController.swift in Sources */,
 				7CD1BDCA26FB33EB00260DF5 /* RealityKitViewController.swift in Sources */,
+				7C12741F28C6FA0B003A3660 /* SwiftPythonDemoViewController.swift in Sources */,
 				7C55B3672728E262005FE5BA /* ClockKitViewController.swift in Sources */,
 				7CD62163271932370048499D /* CoreLocationUIDemoViewController.swift in Sources */,
 				7CF6695A26F2D5EF0079A5EB /* AVKitDemoViewController.swift in Sources */,
@@ -2010,6 +2029,7 @@
 				7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */,
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
 				7C55B3732728F8DA005FE5BA /* CallKitViewController.swift in Sources */,
+				7C12741B28C6F9A6003A3660 /* MixedDevelopmentViewController.swift in Sources */,
 				7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */,
 				7C55B36F2728ED61005FE5BA /* CarPlayViewController.swift in Sources */,
 				7C08194D26F1871C00CE1DD9 /* AccelerateDemoViewController.swift in Sources */,

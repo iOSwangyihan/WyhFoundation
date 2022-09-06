@@ -1,9 +1,10 @@
 //
-//  AppframeworkViewController.swift
+//  MixedDevelopmentViewController.swift
 //  WyhFoundation
 //
 //  Created by 王乙涵 on 2022/9/6.
 //
+
 
 
 import UIKit
@@ -15,55 +16,43 @@ import Foundation
 import SwiftUI
 import UIKit
 
-enum AppframeworkViewControllerType {
-    case ReactiveFramework
-   case PageRouting
-    case VersionManagement
-    case MixedDevelopment
+enum MixedDevelopmentViewControllerType {
+    case SwiftPython
+ 
     func name() -> String {
         switch self {
-        case .ReactiveFramework:
-            return "响应式框架"
-        case .PageRouting:
-            return "页面路由"
-        case .VersionManagement:
-            return "版本管理"
-        case .MixedDevelopment:
-            return "混合开发"
+        case .SwiftPython :
+            return "SwiftPython "
+     
         }
     }
     func vc() -> SwiftViewController {
         switch self {
-        case .ReactiveFramework:
-            return ReactiveFrameworkViewController()
-        case .PageRouting:
-            return PageRoutingViewController()
-        case .VersionManagement:
-            return VersionManagementViewController()
-        case .MixedDevelopment:
-            return MixedDevelopmentViewController()
+        case .SwiftPython :
+            return SwiftPythonViewController()
+      
        
         }
     }
 }
 
-class AppframeworkViewController: SwiftViewController {
+class MixedDevelopmentViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [AppframeworkViewControllerType.ReactiveFramework,AppframeworkViewControllerType.PageRouting,AppframeworkViewControllerType.VersionManagement, AppframeworkViewControllerType.MixedDevelopment]
+        dataArr = [MixedDevelopmentViewControllerType.SwiftPython ,]
        
         // Do any additional setup after loading the view.
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = (dataArr[indexPath.row] as? AppframeworkViewControllerType)?.name()
+        cell.textLabel?.text = (dataArr[indexPath.row] as? MixedDevelopmentViewControllerType)?.name()
         return cell
     }
   
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let type = dataArr[indexPath.row] as? AppframeworkViewControllerType ?? AppframeworkViewControllerType.ReactiveFramework
+        let type = dataArr[indexPath.row] as? MixedDevelopmentViewControllerType ?? MixedDevelopmentViewControllerType.SwiftPython
         let vc = type.vc()
         vc.tname = type.name()
         self.navigationController?.pushViewController(vc, animated: true)

@@ -149,6 +149,7 @@ enum SwiftViewControllerType {
     case Media
     case System
     case Web
+    case Example
     func name() -> String {
         switch self {
         case .AppFrameworks:
@@ -163,6 +164,8 @@ enum SwiftViewControllerType {
             return "System"
         case .Web:
             return "Web"
+        case .Example:
+            return "Example"
         }
     }
     func vc() -> SwiftViewController {
@@ -179,6 +182,8 @@ enum SwiftViewControllerType {
             return SystemViewController()
         case .Web:
             return WebViewController()
+        case .Example:
+            return SwiftExampleViewController()
         }
     }
 }
@@ -186,7 +191,7 @@ class SwiftViewController: BaseViewController {
     var tname = "Swift"
     
     var tabl = UITableView(frame: .zero, style: .plain)
-    var dataArr : [Any] = [SwiftViewControllerType.AppFrameworks, SwiftViewControllerType.AppServices, SwiftViewControllerType.GraphicsandGames, SwiftViewControllerType.Media, SwiftViewControllerType.System, SwiftViewControllerType.Web]
+    var dataArr : [Any] = [SwiftViewControllerType.AppFrameworks, SwiftViewControllerType.AppServices, SwiftViewControllerType.GraphicsandGames, SwiftViewControllerType.Media, SwiftViewControllerType.System, SwiftViewControllerType.Web, SwiftViewControllerType.Example]
     
     override func viewDidLoad() {
         super.viewDidLoad()

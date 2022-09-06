@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     var explain = UILabel()
     var start = UIButton()
     var startOc = UIButton()
+    var startSwiftUI = UIButton()
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.isHidden = true
@@ -20,8 +21,10 @@ class ViewController: UIViewController {
         start.addTarget(self, action: #selector(startSwiftAction), for: .touchUpInside)
         startOc.scd.title("开始学习 for OC", for: .normal).font(16).titleColor(ColorName.f4F8Ff.color, for: .normal).cornerRadius(20).backgroundColor(ColorName._105Be5.color, for: .normal)
         startOc.addTarget(self, action: #selector(startOcAction), for: .touchUpInside)
+        startSwiftUI.scd.title("开始学习 for SwiftUI", for: .normal).font(16).titleColor(ColorName.f4F8Ff.color, for: .normal).cornerRadius(20).backgroundColor(ColorName._105Be5.color, for: .normal)
+        startSwiftUI.addTarget(self, action: #selector(startSwiftUIAction), for: .touchUpInside)
         
-        self.view.addSubViews(views: [explain, start, startOc])
+        self.view.addSubViews(views: [explain, start, startOc, startSwiftUI])
         
         explain.snp.makeConstraints { (m) in
             m.top.equalTo(100)
@@ -41,6 +44,12 @@ class ViewController: UIViewController {
             m.height.equalTo(40)
             m.centerX.equalToSuperview()
         }
+        startSwiftUI.snp.makeConstraints { (m) in
+            m.top.equalTo(startOc.snp.bottom).offset(10)
+            m.width.equalTo(150)
+            m.height.equalTo(40)
+            m.centerX.equalToSuperview()
+        }
     }
 
     @objc func startSwiftAction() {
@@ -53,6 +62,11 @@ class ViewController: UIViewController {
     @objc func startOcAction() {
         
         let vc = OcViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @objc func startSwiftUIAction() {
+        
+        let vc = SwiftUIUIViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

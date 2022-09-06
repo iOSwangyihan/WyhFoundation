@@ -38,6 +38,7 @@
     self.table.delegate = self;
     self.table.dataSource = self;
     NSString *s = @"";
+    s = @"2";
     [self.view addSubViews:@[self.table]];
 
     [self.table mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -55,6 +56,7 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.textLabel.text = self.dataArr[indexPath.section];
     return  cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {

@@ -423,6 +423,35 @@
 		7CE5303428C843590022A009 /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5303328C843590022A009 /* PhotoAlbumViewController.swift */; };
 		7CE5303628C843C50022A009 /* DKImagePickerControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5303528C843C50022A009 /* DKImagePickerControllerViewController.swift */; };
 		7CE5303828C843CB0022A009 /* DKImagePickerControllerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5303728C843CB0022A009 /* DKImagePickerControllerDemoViewController.swift */; };
+		7CE5303B28C845BC0022A009 /* DataStructuresAlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5303A28C845BC0022A009 /* DataStructuresAlgorithmsViewController.swift */; };
+		7CE5303E28C8462A0022A009 /* MathematicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5303D28C8462A0022A009 /* MathematicsViewController.swift */; };
+		7CE5304028C8468C0022A009 /* SurgeswiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5303F28C8468C0022A009 /* SurgeswiftViewController.swift */; };
+		7CE5304228C846950022A009 /* SurgeswiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5304128C846950022A009 /* SurgeswiftDemoViewController.swift */; };
+		7CE5304528C847E40022A009 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5304428C847E40022A009 /* AnimationViewController.swift */; };
+		7CE5304828C848540022A009 /* AnimatedTransitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5304728C848540022A009 /* AnimatedTransitionsViewController.swift */; };
+		7CE5304A28C848910022A009 /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5304928C848910022A009 /* HeroViewController.swift */; };
+		7CE5304C28C848960022A009 /* HeroDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5304B28C848960022A009 /* HeroDemoViewController.swift */; };
+		7CE5304F28C8496D0022A009 /* SpecialEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5304E28C8496D0022A009 /* SpecialEffectsViewController.swift */; };
+		7CE5305128C849D00022A009 /* PastelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5305028C849D00022A009 /* PastelViewController.swift */; };
+		7CE5305328C849D60022A009 /* PastelDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5305228C849D60022A009 /* PastelDemoViewController.swift */; };
+		7CE5305628C84B960022A009 /* SwipeBackAndSwipeRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5305528C84B960022A009 /* SwipeBackAndSwipeRightViewController.swift */; };
+		7CE5305828C84BF30022A009 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5305728C84BF30022A009 /* SideMenuViewController.swift */; };
+		7CE5305A28C84BF90022A009 /* SideMenuDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5305928C84BF90022A009 /* SideMenuDemoViewController.swift */; };
+		7CE5305D28C84D8A0022A009 /* GIFAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5305C28C84D8A0022A009 /* GIFAnimationViewController.swift */; };
+		7CE5305F28C84E2C0022A009 /* YLGIFImage_SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5305E28C84E2C0022A009 /* YLGIFImage_SwiftViewController.swift */; };
+		7CE5306128C84E360022A009 /* YLGIFImage_SwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5306028C84E360022A009 /* YLGIFImage_SwiftDemoViewController.swift */; };
+		7CE5306428C86A340022A009 /* OtherAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5306328C86A340022A009 /* OtherAnimationViewController.swift */; };
+		7CE5306628C86A9B0022A009 /* GoogleNewsStandAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5306528C86A9B0022A009 /* GoogleNewsStandAnimationViewController.swift */; };
+		7CE5306828C86AA20022A009 /* GoogleNewsStandAnimationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5306728C86AA20022A009 /* GoogleNewsStandAnimationDemoViewController.swift */; };
+		7CE5306B28C86B610022A009 /* RichTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5306A28C86B610022A009 /* RichTextViewController.swift */; };
+		7CE5306D28C86BF60022A009 /* RichEditorViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5306C28C86BF60022A009 /* RichEditorViewViewController.swift */; };
+		7CE5306F28C86BFC0022A009 /* RichEditorViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5306E28C86BFC0022A009 /* RichEditorViewDemoViewController.swift */; };
+		7CE5307228C86CC10022A009 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307128C86CC10022A009 /* TextViewController.swift */; };
+		7CE5307428C86D140022A009 /* PowerModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307328C86D140022A009 /* PowerModeViewController.swift */; };
+		7CE5307628C86D1B0022A009 /* PowerModeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307528C86D1B0022A009 /* PowerModeDemoViewController.swift */; };
+		7CE5307928C86DC80022A009 /* TypefaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307828C86DC80022A009 /* TypefaceViewController.swift */; };
+		7CE5307B28C86E7D0022A009 /* FontAwesomeKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307A28C86E7D0022A009 /* FontAwesomeKitViewController.swift */; };
+		7CE5307D28C86E830022A009 /* FontAwesomeKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307C28C86E830022A009 /* FontAwesomeKitDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */; };
@@ -909,6 +938,35 @@
 		7CE5303328C843590022A009 /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
 		7CE5303528C843C50022A009 /* DKImagePickerControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKImagePickerControllerViewController.swift; sourceTree = "<group>"; };
 		7CE5303728C843CB0022A009 /* DKImagePickerControllerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKImagePickerControllerDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5303A28C845BC0022A009 /* DataStructuresAlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresAlgorithmsViewController.swift; sourceTree = "<group>"; };
+		7CE5303D28C8462A0022A009 /* MathematicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicsViewController.swift; sourceTree = "<group>"; };
+		7CE5303F28C8468C0022A009 /* SurgeswiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgeswiftViewController.swift; sourceTree = "<group>"; };
+		7CE5304128C846950022A009 /* SurgeswiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgeswiftDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5304428C847E40022A009 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		7CE5304728C848540022A009 /* AnimatedTransitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTransitionsViewController.swift; sourceTree = "<group>"; };
+		7CE5304928C848910022A009 /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		7CE5304B28C848960022A009 /* HeroDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5304E28C8496D0022A009 /* SpecialEffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffectsViewController.swift; sourceTree = "<group>"; };
+		7CE5305028C849D00022A009 /* PastelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelViewController.swift; sourceTree = "<group>"; };
+		7CE5305228C849D60022A009 /* PastelDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5305528C84B960022A009 /* SwipeBackAndSwipeRightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeBackAndSwipeRightViewController.swift; sourceTree = "<group>"; };
+		7CE5305728C84BF30022A009 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		7CE5305928C84BF90022A009 /* SideMenuDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5305C28C84D8A0022A009 /* GIFAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFAnimationViewController.swift; sourceTree = "<group>"; };
+		7CE5305E28C84E2C0022A009 /* YLGIFImage_SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLGIFImage_SwiftViewController.swift; sourceTree = "<group>"; };
+		7CE5306028C84E360022A009 /* YLGIFImage_SwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLGIFImage_SwiftDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5306328C86A340022A009 /* OtherAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherAnimationViewController.swift; sourceTree = "<group>"; };
+		7CE5306528C86A9B0022A009 /* GoogleNewsStandAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleNewsStandAnimationViewController.swift; sourceTree = "<group>"; };
+		7CE5306728C86AA20022A009 /* GoogleNewsStandAnimationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleNewsStandAnimationDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5306A28C86B610022A009 /* RichTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextViewController.swift; sourceTree = "<group>"; };
+		7CE5306C28C86BF60022A009 /* RichEditorViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichEditorViewViewController.swift; sourceTree = "<group>"; };
+		7CE5306E28C86BFC0022A009 /* RichEditorViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichEditorViewDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5307128C86CC10022A009 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		7CE5307328C86D140022A009 /* PowerModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerModeViewController.swift; sourceTree = "<group>"; };
+		7CE5307528C86D1B0022A009 /* PowerModeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerModeDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5307828C86DC80022A009 /* TypefaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypefaceViewController.swift; sourceTree = "<group>"; };
+		7CE5307A28C86E7D0022A009 /* FontAwesomeKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeKitViewController.swift; sourceTree = "<group>"; };
+		7CE5307C28C86E830022A009 /* FontAwesomeKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
@@ -1002,6 +1060,11 @@
 			isa = PBXGroup;
 			children = (
 				7C1273CC28C6D67D003A3660 /* SwiftExampleViewController.swift */,
+				7CE5307728C86DBD0022A009 /* Typeface */,
+				7CE5307028C86CB70022A009 /* Text */,
+				7CE5306928C86B550022A009 /* RichText */,
+				7CE5304328C847DA0022A009 /* Animation */,
+				7CE5303928C845A80022A009 /* DataStructuresAlgorithms */,
 				7CE5300C28C83A230022A009 /* Image */,
 				7C12748D28C73EF1003A3660 /* Multimedia */,
 				7C12748628C73DC2003A3660 /* Multithreading */,
@@ -1954,6 +2017,118 @@
 			path = PhotoAlbum;
 			sourceTree = "<group>";
 		};
+		7CE5303928C845A80022A009 /* DataStructuresAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5303A28C845BC0022A009 /* DataStructuresAlgorithmsViewController.swift */,
+				7CE5303C28C8461F0022A009 /* Mathematics */,
+			);
+			path = DataStructuresAlgorithms;
+			sourceTree = "<group>";
+		};
+		7CE5303C28C8461F0022A009 /* Mathematics */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5303D28C8462A0022A009 /* MathematicsViewController.swift */,
+				7CE5303F28C8468C0022A009 /* SurgeswiftViewController.swift */,
+				7CE5304128C846950022A009 /* SurgeswiftDemoViewController.swift */,
+			);
+			path = Mathematics;
+			sourceTree = "<group>";
+		};
+		7CE5304328C847DA0022A009 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5304428C847E40022A009 /* AnimationViewController.swift */,
+				7CE5306228C86A270022A009 /* OtherAnimation */,
+				7CE5305B28C84D7C0022A009 /* GIFAnimation */,
+				7CE5305428C84B7F0022A009 /* SwipeBackAndSwipeRight */,
+				7CE5304D28C8495D0022A009 /* SpecialEffects */,
+				7CE5304628C848470022A009 /* AnimatedTransitions */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		7CE5304628C848470022A009 /* AnimatedTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5304728C848540022A009 /* AnimatedTransitionsViewController.swift */,
+				7CE5304928C848910022A009 /* HeroViewController.swift */,
+				7CE5304B28C848960022A009 /* HeroDemoViewController.swift */,
+			);
+			path = AnimatedTransitions;
+			sourceTree = "<group>";
+		};
+		7CE5304D28C8495D0022A009 /* SpecialEffects */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5304E28C8496D0022A009 /* SpecialEffectsViewController.swift */,
+				7CE5305028C849D00022A009 /* PastelViewController.swift */,
+				7CE5305228C849D60022A009 /* PastelDemoViewController.swift */,
+			);
+			path = SpecialEffects;
+			sourceTree = "<group>";
+		};
+		7CE5305428C84B7F0022A009 /* SwipeBackAndSwipeRight */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5305528C84B960022A009 /* SwipeBackAndSwipeRightViewController.swift */,
+				7CE5305728C84BF30022A009 /* SideMenuViewController.swift */,
+				7CE5305928C84BF90022A009 /* SideMenuDemoViewController.swift */,
+			);
+			path = SwipeBackAndSwipeRight;
+			sourceTree = "<group>";
+		};
+		7CE5305B28C84D7C0022A009 /* GIFAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5305C28C84D8A0022A009 /* GIFAnimationViewController.swift */,
+				7CE5305E28C84E2C0022A009 /* YLGIFImage_SwiftViewController.swift */,
+				7CE5306028C84E360022A009 /* YLGIFImage_SwiftDemoViewController.swift */,
+			);
+			path = GIFAnimation;
+			sourceTree = "<group>";
+		};
+		7CE5306228C86A270022A009 /* OtherAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5306328C86A340022A009 /* OtherAnimationViewController.swift */,
+				7CE5306528C86A9B0022A009 /* GoogleNewsStandAnimationViewController.swift */,
+				7CE5306728C86AA20022A009 /* GoogleNewsStandAnimationDemoViewController.swift */,
+			);
+			path = OtherAnimation;
+			sourceTree = "<group>";
+		};
+		7CE5306928C86B550022A009 /* RichText */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5306A28C86B610022A009 /* RichTextViewController.swift */,
+				7CE5306C28C86BF60022A009 /* RichEditorViewViewController.swift */,
+				7CE5306E28C86BFC0022A009 /* RichEditorViewDemoViewController.swift */,
+			);
+			path = RichText;
+			sourceTree = "<group>";
+		};
+		7CE5307028C86CB70022A009 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5307128C86CC10022A009 /* TextViewController.swift */,
+				7CE5307328C86D140022A009 /* PowerModeViewController.swift */,
+				7CE5307528C86D1B0022A009 /* PowerModeDemoViewController.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		7CE5307728C86DBD0022A009 /* Typeface */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5307828C86DC80022A009 /* TypefaceViewController.swift */,
+				7CE5307A28C86E7D0022A009 /* FontAwesomeKitViewController.swift */,
+				7CE5307C28C86E830022A009 /* FontAwesomeKitDemoViewController.swift */,
+			);
+			path = Typeface;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2232,16 +2407,23 @@
 				7CE5302128C83EE00022A009 /* GPUImage2swiftViewController.swift in Sources */,
 				7C55B39727294D6F005FE5BA /* SwiftUIViewController.swift in Sources */,
 				7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */,
+				7CE5305D28C84D8A0022A009 /* GIFAnimationViewController.swift in Sources */,
+				7CE5303E28C8462A0022A009 /* MathematicsViewController.swift in Sources */,
 				7CDA894E2714208A00C93FBE /* JavaScriptCoreViewController.swift in Sources */,
+				7CE5306628C86A9B0022A009 /* GoogleNewsStandAnimationViewController.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
 				7C08198126F19A2300CE1DD9 /* CoreMediaViewController.swift in Sources */,
 				7C1273F028C6E9BD003A3660 /* EidolonDemoViewController.swift in Sources */,
+				7CE5305628C84B960022A009 /* SwipeBackAndSwipeRightViewController.swift in Sources */,
 				7C55B37927293545005FE5BA /* BusinessChatDemoViewController.swift in Sources */,
+				7CE5303B28C845BC0022A009 /* DataStructuresAlgorithmsViewController.swift in Sources */,
 				7C91AD4727019DA2005E47D9 /* GameKitViewController.swift in Sources */,
 				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
 				7C08194526F185D100CE1DD9 /* AppleArchiveDemoViewController.swift in Sources */,
+				7CE5306B28C86B610022A009 /* RichTextViewController.swift in Sources */,
 				7CB6342B2717C5BA0092758D /* CoreMotionDemoViewController.swift in Sources */,
 				7C12741828C6F841003A3660 /* CarthageDemoViewController.swift in Sources */,
+				7CE5305128C849D00022A009 /* PastelViewController.swift in Sources */,
 				7CF6695226F2D3B70079A5EB /* CoreAudioKitDemoViewController.swift in Sources */,
 				7C69F7A42656092E00055389 /* MediaViewController.swift in Sources */,
 				7CF6694C26F2D2C50079A5EB /* CoreAudioTypesViewController.swift in Sources */,
@@ -2256,6 +2438,7 @@
 				7C0FF0892710176B00FE3525 /* SafariServicesViewController.swift in Sources */,
 				7CF6694E26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift in Sources */,
 				7C12743028C71AD4003A3660 /* AlamofireViewController.swift in Sources */,
+				7CE5306428C86A340022A009 /* OtherAnimationViewController.swift in Sources */,
 				7C1273EE28C6E9B7003A3660 /* EidolonViewController.swift in Sources */,
 				7C7F7EFD26C257DF009F3833 /* NetworkViewController.swift in Sources */,
 				7C1273F628C6EC54003A3660 /* TuanViewController.swift in Sources */,
@@ -2273,7 +2456,9 @@
 				7C08196726F18F8600CE1DD9 /* PhotoKitDemoViewController.swift in Sources */,
 				7C0C27EE27168AFF004D250D /* CreateMLViewController.swift in Sources */,
 				7C12749428C73FD2003A3660 /* CameraManagerViewController.swift in Sources */,
+				7CE5307428C86D140022A009 /* PowerModeViewController.swift in Sources */,
 				7C0FF0932710207C00FE3525 /* PushKitDemoViewController.swift in Sources */,
+				7CE5304028C8468C0022A009 /* SurgeswiftViewController.swift in Sources */,
 				7C53BB9526E9993F004A1753 /* CoreServicesDemoViewController.swift in Sources */,
 				7C1274B428C74BBF003A3660 /* recordDemoswiftDemoViewController.swift in Sources */,
 				7C7EE5A1270596060003965E /* SMSandCallReportingViewController.swift in Sources */,
@@ -2307,6 +2492,7 @@
 				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
 				7C1273D828C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift in Sources */,
 				7CD0989326E8BD9D00EBA585 /* CoreTelephonyViewController.swift in Sources */,
+				7CE5307628C86D1B0022A009 /* PowerModeDemoViewController.swift in Sources */,
 				7CF6696826F2DC870079A5EB /* AudioToolboxViewController.swift in Sources */,
 				7C08195526F18B6F00CE1DD9 /* VideoToolboxDemoViewController.swift in Sources */,
 				7C0C27E82716889C004D250D /* DeviceCheckDemoViewController.swift in Sources */,
@@ -2320,9 +2506,11 @@
 				7C1273CD28C6D67D003A3660 /* SwiftExampleViewController.swift in Sources */,
 				7C12749D28C74394003A3660 /* EFQRCodeDemoViewController.swift in Sources */,
 				7CBBC2ED270455B4001B6321 /* DeveloperToolsSupportViewController.swift in Sources */,
+				7CE5304528C847E40022A009 /* AnimationViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
 				7C7EE59527054CCB0003965E /* StoreKitViewController.swift in Sources */,
 				7CBBC30327046867001B6321 /* UserNotificationsViewController.swift in Sources */,
+				7CE5305A28C84BF90022A009 /* SideMenuDemoViewController.swift in Sources */,
 				7C12743828C71D4E003A3660 /* InternetChatViewController.swift in Sources */,
 				7CF5981726F46C88009E16E5 /* SceneKitDemoViewController.swift in Sources */,
 				7C12744628C7233E003A3660 /* PerfectswiftViewController.swift in Sources */,
@@ -2345,6 +2533,7 @@
 				7CBBC2EF270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift in Sources */,
 				7C1273E028C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift in Sources */,
 				7C12742628C71815003A3660 /* PermissionScopeDemoViewController.swift in Sources */,
+				7CE5305828C84BF30022A009 /* SideMenuViewController.swift in Sources */,
 				7C0C27F42716B0FB004D250D /* CoreTextDemoViewController.swift in Sources */,
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
 				7C7EE59727054CD90003965E /* StoreKitDemoViewController.swift in Sources */,
@@ -2394,6 +2583,7 @@
 				7CF6697226F2DF640079A5EB /* VisionViewController.swift in Sources */,
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
 				7C12743528C71BE7003A3660 /* ImageAcquisitionViewController.swift in Sources */,
+				7CE5304C28C848960022A009 /* HeroDemoViewController.swift in Sources */,
 				7C08194B26F1871600CE1DD9 /* AccelerateViewController.swift in Sources */,
 				7C1273FE28C6EE9D003A3660 /* CocoaChinaPlusViewController.swift in Sources */,
 				7CD62167271934490048499D /* CoreLocationDemoViewController.swift in Sources */,
@@ -2402,6 +2592,7 @@
 				7C55B38527293BB0005FE5BA /* AdSupportDemoViewController.swift in Sources */,
 				7CE5302A28C840DF0022A009 /* KingfisherDemoViewController.swift in Sources */,
 				7C91AD512701A7FE005E47D9 /* CoreImageDemoViewController.swift in Sources */,
+				7CE5306D28C86BF60022A009 /* RichEditorViewViewController.swift in Sources */,
 				7CBBC2DE27044B4E001B6321 /* CoreGraphicsDemoViewController.swift in Sources */,
 				7CA3615126C12CEA009E5376 /* SecurityViewController.swift in Sources */,
 				7C5A58D726FC80FD006CA748 /* PDFKitDemoViewController.swift in Sources */,
@@ -2441,10 +2632,12 @@
 				7CA3E31E2654B46600001D7A /* Colors.swift in Sources */,
 				7C7D819B2711300B003317F1 /* MapKitDemoViewController.swift in Sources */,
 				7C12740028C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift in Sources */,
+				7CE5304A28C848910022A009 /* HeroViewController.swift in Sources */,
 				7C08195126F18AA600CE1DD9 /* VisionKitDemoViewController.swift in Sources */,
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,
 				7C55B3752728F8E0005FE5BA /* CallKitDemoViewController.swift in Sources */,
 				7CA3E3062654B31C00001D7A /* SCDTextViewAttributes.swift in Sources */,
+				7CE5306828C86AA20022A009 /* GoogleNewsStandAnimationDemoViewController.swift in Sources */,
 				7C1273D628C6E1FB003A3660 /* Swift30ProjectsViewController.swift in Sources */,
 				7C91AD3F27016884005E47D9 /* GLKitViewController.swift in Sources */,
 				7CF6694A26F2D1190079A5EB /* CoreHapticsDemoViewController.swift in Sources */,
@@ -2470,6 +2663,7 @@
 				7C1274BB28C74D5E003A3660 /* lfswiftViewController.swift in Sources */,
 				7CE5303628C843C50022A009 /* DKImagePickerControllerViewController.swift in Sources */,
 				7C0E0FBD271568FA0036C7C2 /* FileProviderUIDemoViewController.swift in Sources */,
+				7CE5305F28C84E2C0022A009 /* YLGIFImage_SwiftViewController.swift in Sources */,
 				7C12748A28C73E29003A3660 /* OverdriveViewController.swift in Sources */,
 				7CE5301528C83B100022A009 /* APKenBurnsViewDemoViewController.swift in Sources */,
 				7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */,
@@ -2485,6 +2679,7 @@
 				7C7EE59B270550830003965E /* SpeechDemoViewController.swift in Sources */,
 				7C7F7EFF26C257E8009F3833 /* NetworkDemoViewController.swift in Sources */,
 				7CE5302D28C841D80022A009 /* PictureBrowsingViewController.swift in Sources */,
+				7CE5304828C848540022A009 /* AnimatedTransitionsViewController.swift in Sources */,
 				7CBBC2EB270454E9001B6321 /* StoreKitTestDemoViewController.swift in Sources */,
 				7C0E0FBF271569F90036C7C2 /* FileProviderViewController.swift in Sources */,
 				7CE5300E28C83A320022A009 /* ImageViewController.swift in Sources */,
@@ -2519,6 +2714,7 @@
 				7C300122265CCC0400C16956 /* SystemConfigationDemoViewController.swift in Sources */,
 				7C12746228C72B85003A3660 /* CSwiftVDemoViewController.swift in Sources */,
 				7CDB3B59272A4B6900419ED4 /* BundleResourcesDemoViewController.swift in Sources */,
+				7CE5306F28C86BFC0022A009 /* RichEditorViewDemoViewController.swift in Sources */,
 				7CF6695C26F2D8920079A5EB /* AVFoundationViewController.swift in Sources */,
 				7C1274B028C74B51003A3660 /* AudioViewController.swift in Sources */,
 				7C0C27DA2716836A004D250D /* FamilyControlsViewController.swift in Sources */,
@@ -2537,6 +2733,7 @@
 				7CDA89502714209500C93FBE /* JavaScriptCoreDemoViewController.swift in Sources */,
 				7C0FF0992710252200FE3525 /* NaturalLanguageViewController.swift in Sources */,
 				7C12747528C73624003A3660 /* JSQCoreDataKitViewController.swift in Sources */,
+				7CE5307228C86CC10022A009 /* TextViewController.swift in Sources */,
 				7C0C27F22716B0F2004D250D /* CoreTextViewController.swift in Sources */,
 				7C0C27E2271685E0004D250D /* EventKitViewController.swift in Sources */,
 				7CBBC2E6270451CA001B6321 /* ARKitDemoViewController.swift in Sources */,
@@ -2545,6 +2742,7 @@
 				7C08195926F18CDD00CE1DD9 /* VideoSubscriberAccountViewController.swift in Sources */,
 				7CE5302328C83EE80022A009 /* GPUImage2swiftDemoViewController.swift in Sources */,
 				7C12745028C72635003A3660 /* SwiftyJSONViewController.swift in Sources */,
+				7CE5304F28C8496D0022A009 /* SpecialEffectsViewController.swift in Sources */,
 				7C55B3A1272951C2005FE5BA /* FoundationDemoViewController.swift in Sources */,
 				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,
 				7C55B38327293BA9005FE5BA /* AdSupportViewController.swift in Sources */,
@@ -2558,9 +2756,11 @@
 				7C0E0FB7271567B30036C7C2 /* HealthKitViewController.swift in Sources */,
 				7C08194126F1846E00CE1DD9 /* AppleCryptoKitDemoViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,
+				7CE5306128C84E360022A009 /* YLGIFImage_SwiftDemoViewController.swift in Sources */,
 				7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */,
 				7C7EE591270545F10003965E /* TabularDataViewController.swift in Sources */,
 				7C0C27DE271684F2004D250D /* EventKitUIViewController.swift in Sources */,
+				7CE5307D28C86E830022A009 /* FontAwesomeKitDemoViewController.swift in Sources */,
 				7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */,
 				7CF8D90527005C47008DCEF2 /* MetalPerformanceShadersViewController.swift in Sources */,
 				7C0E0FB32715341E0036C7C2 /* HomeKitViewController.swift in Sources */,
@@ -2574,6 +2774,7 @@
 				7C1274A428C744EC003A3660 /* FolioReaderKitViewController.swift in Sources */,
 				7CA3E3052654B31C00001D7A /* SCDLabelAttributes.swift in Sources */,
 				7C08197726F1954900CE1DD9 /* ImageCaptureCoreDemoViewController.swift in Sources */,
+				7CE5304228C846950022A009 /* SurgeswiftDemoViewController.swift in Sources */,
 				7C0C27E627168896004D250D /* DeviceCheckViewController.swift in Sources */,
 				7C12746E28C72D4F003A3660 /* CacheswiftDemoViewController.swift in Sources */,
 				7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */,
@@ -2626,6 +2827,7 @@
 				7C12747E28C73864003A3660 /* realm_cocoaDemoViewController.swift in Sources */,
 				7CE5301A28C83CA70022A009 /* ChineseIDCardOCRViewController.swift in Sources */,
 				7C12745B28C72847003A3660 /* AEXMLDemoViewController.swift in Sources */,
+				7CE5307B28C86E7D0022A009 /* FontAwesomeKitViewController.swift in Sources */,
 				7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,
 				7C1273DC28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift in Sources */,
@@ -2643,6 +2845,7 @@
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
 				7C55B3732728F8DA005FE5BA /* CallKitViewController.swift in Sources */,
 				7C12741B28C6F9A6003A3660 /* MixedDevelopmentViewController.swift in Sources */,
+				7CE5305328C849D60022A009 /* PastelDemoViewController.swift in Sources */,
 				7C1274B228C74BB7003A3660 /* recordDemoswiftViewController.swift in Sources */,
 				7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */,
 				7C55B36F2728ED61005FE5BA /* CarPlayViewController.swift in Sources */,
@@ -2652,6 +2855,7 @@
 				7C08197526F1954300CE1DD9 /* ImageCaptureCoreViewController.swift in Sources */,
 				7CA3E2FE2654B31C00001D7A /* SCDSwiftKit.swift in Sources */,
 				7C12744828C72347003A3660 /* PerfectswiftDemoViewController.swift in Sources */,
+				7CE5307928C86DC80022A009 /* TypefaceViewController.swift in Sources */,
 				7C55B37D272939DB005FE5BA /* BackgroundTasksDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

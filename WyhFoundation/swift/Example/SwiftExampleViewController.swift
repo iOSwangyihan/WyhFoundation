@@ -25,6 +25,11 @@ enum SwiftExampleViewControllerType {
     case Multithreading
     case Multimedia
     case Image
+    case DataStructuresAlgorithms
+    case Animation
+    case RichText
+    case Text
+    case Typeface
     
     func name() -> String {
         switch self {
@@ -44,6 +49,16 @@ enum SwiftExampleViewControllerType {
             return "多媒体"
         case .Image:
             return "图像"
+        case .DataStructuresAlgorithms:
+            return "数据结构/算法"
+        case .Animation:
+            return "动画"
+        case .RichText:
+            return "富文本"
+        case .Text:
+            return "文本"
+        case .Typeface:
+            return "字体"
         }
     }
     func vc() -> SwiftViewController {
@@ -64,6 +79,16 @@ enum SwiftExampleViewControllerType {
             return MultimediaViewController()
         case .Image:
             return ImageViewController()
+        case .DataStructuresAlgorithms:
+            return DataStructuresAlgorithmsViewController()
+        case .Animation:
+            return AnimationViewController()
+        case .RichText:
+            return RichTextViewController()
+        case .Text:
+            return TextViewController()
+        case .Typeface:
+            return TypefaceViewController()
        
         }
     }
@@ -73,7 +98,7 @@ class SwiftExampleViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework, SwiftExampleViewControllerType.Safe, SwiftExampleViewControllerType.Network, SwiftExampleViewControllerType.DataStorage,SwiftExampleViewControllerType.Multithreading,SwiftExampleViewControllerType.Multimedia,SwiftExampleViewControllerType.Image]
+        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework, SwiftExampleViewControllerType.Safe, SwiftExampleViewControllerType.Network, SwiftExampleViewControllerType.DataStorage,SwiftExampleViewControllerType.Multithreading,SwiftExampleViewControllerType.Multimedia,SwiftExampleViewControllerType.Image,SwiftExampleViewControllerType.DataStructuresAlgorithms,SwiftExampleViewControllerType.Animation,SwiftExampleViewControllerType.RichText,SwiftExampleViewControllerType.Text,SwiftExampleViewControllerType.Typeface]
        
         // Do any additional setup after loading the view.
     }

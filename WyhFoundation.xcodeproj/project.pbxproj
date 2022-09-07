@@ -397,6 +397,13 @@
 		7CDB3B5D272A4C1F00419ED4 /* AppClipsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB3B5C272A4C1F00419ED4 /* AppClipsDemoViewController.swift */; };
 		7CDB3B5F272A4E2600419ED4 /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB3B5E272A4E2600419ED4 /* AccessibilityViewController.swift */; };
 		7CDB3B61272A4E2D00419ED4 /* AccessibilityDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB3B60272A4E2D00419ED4 /* AccessibilityDemoViewController.swift */; };
+		7CE52FF928C8339C0022A009 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE52FF828C8339C0022A009 /* VideoViewController.swift */; };
+		7CE52FFB28C834270022A009 /* VideoPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE52FFA28C834270022A009 /* VideoPlayingViewController.swift */; };
+		7CE5300028C834C80022A009 /* MobilePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE52FFF28C834C80022A009 /* MobilePlayerViewController.swift */; };
+		7CE5300228C834CD0022A009 /* MobilePlayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5300128C834CD0022A009 /* MobilePlayerDemoViewController.swift */; };
+		7CE5300528C836CD0022A009 /* VideoProcessingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5300428C836CD0022A009 /* VideoProcessingViewController.swift */; };
+		7CE5300928C8373E0022A009 /* PryntTrimmerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5300828C8373E0022A009 /* PryntTrimmerViewViewController.swift */; };
+		7CE5300B28C837440022A009 /* PryntTrimmerViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5300A28C837440022A009 /* PryntTrimmerViewDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */; };
@@ -857,6 +864,13 @@
 		7CDB3B5C272A4C1F00419ED4 /* AppClipsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipsDemoViewController.swift; sourceTree = "<group>"; };
 		7CDB3B5E272A4E2600419ED4 /* AccessibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
 		7CDB3B60272A4E2D00419ED4 /* AccessibilityDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityDemoViewController.swift; sourceTree = "<group>"; };
+		7CE52FF828C8339C0022A009 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		7CE52FFA28C834270022A009 /* VideoPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayingViewController.swift; sourceTree = "<group>"; };
+		7CE52FFF28C834C80022A009 /* MobilePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePlayerViewController.swift; sourceTree = "<group>"; };
+		7CE5300128C834CD0022A009 /* MobilePlayerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePlayerDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5300428C836CD0022A009 /* VideoProcessingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProcessingViewController.swift; sourceTree = "<group>"; };
+		7CE5300828C8373E0022A009 /* PryntTrimmerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryntTrimmerViewViewController.swift; sourceTree = "<group>"; };
+		7CE5300A28C837440022A009 /* PryntTrimmerViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryntTrimmerViewDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
@@ -1220,6 +1234,7 @@
 			isa = PBXGroup;
 			children = (
 				7C12748E28C73EFD003A3660 /* MultimediaViewController.swift */,
+				7CE52FF728C8338C0022A009 /* Video */,
 				7C1274B528C74CBD003A3660 /* MediaStream */,
 				7C1274AE28C74B43003A3660 /* Audio */,
 				7C1274A728C74628003A3660 /* GIF */,
@@ -1796,6 +1811,36 @@
 			path = DeveloperToolsSupport;
 			sourceTree = "<group>";
 		};
+		7CE52FF728C8338C0022A009 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				7CE52FF828C8339C0022A009 /* VideoViewController.swift */,
+				7CE5300328C836BB0022A009 /* VideoProcessing */,
+				7CE52FFE28C834A80022A009 /* VideoPlaying */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		7CE52FFE28C834A80022A009 /* VideoPlaying */ = {
+			isa = PBXGroup;
+			children = (
+				7CE52FFA28C834270022A009 /* VideoPlayingViewController.swift */,
+				7CE52FFF28C834C80022A009 /* MobilePlayerViewController.swift */,
+				7CE5300128C834CD0022A009 /* MobilePlayerDemoViewController.swift */,
+			);
+			path = VideoPlaying;
+			sourceTree = "<group>";
+		};
+		7CE5300328C836BB0022A009 /* VideoProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5300428C836CD0022A009 /* VideoProcessingViewController.swift */,
+				7CE5300828C8373E0022A009 /* PryntTrimmerViewViewController.swift */,
+				7CE5300A28C837440022A009 /* PryntTrimmerViewDemoViewController.swift */,
+			);
+			path = VideoProcessing;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2153,6 +2198,7 @@
 				7C08193B26F1821700CE1DD9 /* AuthenticationServicesViewController.swift in Sources */,
 				7C12749628C73FD9003A3660 /* CameraManagerDemoViewController.swift in Sources */,
 				7C08196926F1918B00CE1DD9 /* MediaSetupViewController.swift in Sources */,
+				7CE52FFB28C834270022A009 /* VideoPlayingViewController.swift in Sources */,
 				7C7EE593270545FA0003965E /* TabularDataDemoViewController.swift in Sources */,
 				7C12749B28C7438E003A3660 /* EFQRCodeViewController.swift in Sources */,
 				7C1273CD28C6D67D003A3660 /* SwiftExampleViewController.swift in Sources */,
@@ -2170,7 +2216,9 @@
 				7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */,
 				7C1EE71226EAE653007F2A95 /* CoreBluetoothDemoViewController.swift in Sources */,
 				7C5A58D326FC76C0006CA748 /* PencilKitDemoViewController.swift in Sources */,
+				7CE52FF928C8339C0022A009 /* VideoViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
+				7CE5300928C8373E0022A009 /* PryntTrimmerViewViewController.swift in Sources */,
 				7C7D819927113005003317F1 /* MapKitViewController.swift in Sources */,
 				7C050E96271E556300958A5E /* CoreFoundationViewController.swift in Sources */,
 				7CF8D90727005C55008DCEF2 /* MetalPerformanceShadersDemoViewController.swift in Sources */,
@@ -2191,6 +2239,7 @@
 				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
 				7C0E0FC127156A020036C7C2 /* FileProviderDemoViewController.swift in Sources */,
 				7C0FF0A1271029E900FE3525 /* MessagesViewController.swift in Sources */,
+				7CE5300228C834CD0022A009 /* MobilePlayerDemoViewController.swift in Sources */,
 				7C0FF08D27101A4600FE3525 /* QuickLookViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
 				7C55B38727294518005FE5BA /* AdServicesViewController.swift in Sources */,
@@ -2250,13 +2299,16 @@
 				7C97EC3D2721699D00536B9A /* CoreDataDemoViewController.swift in Sources */,
 				7CD1BDC826FB1CF200260DF5 /* ReplayKitDemoViewController.swift in Sources */,
 				7CBBC2DC27044B45001B6321 /* CoreGraphicsViewController.swift in Sources */,
+				7CE5300B28C837440022A009 /* PryntTrimmerViewDemoViewController.swift in Sources */,
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
 				7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
 				7C12744B28C7257C003A3660 /* NetworkAnalysisViewController.swift in Sources */,
 				7C12746528C72C58003A3660 /* DataStorageViewController.swift in Sources */,
 				7CBBC2E027044DF4001B6321 /* CoreAnimationViewController.swift in Sources */,
+				7CE5300528C836CD0022A009 /* VideoProcessingViewController.swift in Sources */,
 				7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */,
+				7CE5300028C834C80022A009 /* MobilePlayerViewController.swift in Sources */,
 				7C0FF08B2710177400FE3525 /* SafariServicesDemoViewController.swift in Sources */,
 				7C0E0FBB271568F00036C7C2 /* FileProviderUIViewController.swift in Sources */,
 				7C343DDD26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift in Sources */,

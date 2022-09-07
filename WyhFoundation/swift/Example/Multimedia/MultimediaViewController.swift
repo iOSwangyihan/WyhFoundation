@@ -23,6 +23,7 @@ enum MultimediaViewControllerType {
     case GIF
     case Audio
     case MediaStream
+    case Video
     
     func name() -> String {
         switch self {
@@ -38,6 +39,8 @@ enum MultimediaViewControllerType {
             return "音频"
         case .MediaStream:
             return "媒体流"
+        case .Video:
+            return "视频"
         }
     }
     func vc() -> SwiftViewController {
@@ -54,6 +57,8 @@ enum MultimediaViewControllerType {
             return AudioViewController()
         case .MediaStream:
             return MediaStreamViewController()
+        case .Video:
+            return VideoViewController()
        
         }
     }
@@ -63,7 +68,7 @@ class MultimediaViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [MultimediaViewControllerType.Camera,MultimediaViewControllerType.QRCode,MultimediaViewControllerType.PDF,MultimediaViewControllerType.GIF,MultimediaViewControllerType.Audio,MultimediaViewControllerType.MediaStream]
+        dataArr = [MultimediaViewControllerType.Camera,MultimediaViewControllerType.QRCode,MultimediaViewControllerType.PDF,MultimediaViewControllerType.GIF,MultimediaViewControllerType.Audio,MultimediaViewControllerType.MediaStream,MultimediaViewControllerType.Video]
        
         // Do any additional setup after loading the view.
     }

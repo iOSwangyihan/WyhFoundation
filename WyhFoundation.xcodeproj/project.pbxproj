@@ -456,6 +456,27 @@
 		7CE5308328C872E30022A009 /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5308228C872E30022A009 /* AutoLayoutViewController.swift */; };
 		7CE5308528C873280022A009 /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5308428C873280022A009 /* SnapViewController.swift */; };
 		7CE5308728C8732F0022A009 /* SnapDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5308628C8732F0022A009 /* SnapDemoViewController.swift */; };
+		7CE5308A28C881820022A009 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5308928C881820022A009 /* ListViewController.swift */; };
+		7CE5308C28C881E00022A009 /* folding_cellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5308B28C881E00022A009 /* folding_cellViewController.swift */; };
+		7CE5308E28C881EC0022A009 /* folding_cellDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5308D28C881EC0022A009 /* folding_cellDemoViewController.swift */; };
+		7CE5309128C883770022A009 /* ScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5309028C883770022A009 /* ScrollViewViewController.swift */; };
+		7CE5309328C883C20022A009 /* ScrollableGraphViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5309228C883C20022A009 /* ScrollableGraphViewViewController.swift */; };
+		7CE5309528C883C80022A009 /* ScrollableGraphViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5309428C883C80022A009 /* ScrollableGraphViewDemoViewController.swift */; };
+		7CE5309828C8858E0022A009 /* HUDAndToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5309728C8858E0022A009 /* HUDAndToastViewController.swift */; };
+		7CE5309A28C885E30022A009 /* SwiftProgressHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5309928C885E30022A009 /* SwiftProgressHUDViewController.swift */; };
+		7CE5309C28C885EC0022A009 /* SwiftProgressHUDDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5309B28C885EC0022A009 /* SwiftProgressHUDDemoViewController.swift */; };
+		7CE5309F28C88BEB0022A009 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5309E28C88BEB0022A009 /* ChartViewController.swift */; };
+		7CE530A128C88C8F0022A009 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530A028C88C8F0022A009 /* ChartsViewController.swift */; };
+		7CE530A328C88C950022A009 /* ChartsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530A228C88C950022A009 /* ChartsDemoViewController.swift */; };
+		7CE530A628C88FA00022A009 /* IMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530A528C88FA00022A009 /* IMViewController.swift */; };
+		7CE530A828C88FE40022A009 /* MessageKitswiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530A728C88FE40022A009 /* MessageKitswiftViewController.swift */; };
+		7CE530AA28C88FEC0022A009 /* MessageKitswiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530A928C88FEC0022A009 /* MessageKitswiftDemoViewController.swift */; };
+		7CE530AD28C890830022A009 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530AC28C890830022A009 /* WebViewViewController.swift */; };
+		7CE530AF28C890D00022A009 /* IOSCallJsOrJsCallIOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530AE28C890D00022A009 /* IOSCallJsOrJsCallIOSViewController.swift */; };
+		7CE530B128C890D50022A009 /* IOSCallJsOrJsCallIOSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530B028C890D50022A009 /* IOSCallJsOrJsCallIOSDemoViewController.swift */; };
+		7CE530B428C898AB0022A009 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530B328C898AB0022A009 /* CalendarViewController.swift */; };
+		7CE530B628C898F80022A009 /* TimepieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530B528C898F80022A009 /* TimepieceViewController.swift */; };
+		7CE530B828C898FD0022A009 /* TimepieceDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530B728C898FD0022A009 /* TimepieceDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */; };
@@ -975,6 +996,27 @@
 		7CE5308228C872E30022A009 /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
 		7CE5308428C873280022A009 /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
 		7CE5308628C8732F0022A009 /* SnapDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5308928C881820022A009 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		7CE5308B28C881E00022A009 /* folding_cellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = folding_cellViewController.swift; sourceTree = "<group>"; };
+		7CE5308D28C881EC0022A009 /* folding_cellDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = folding_cellDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5309028C883770022A009 /* ScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewViewController.swift; sourceTree = "<group>"; };
+		7CE5309228C883C20022A009 /* ScrollableGraphViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewViewController.swift; sourceTree = "<group>"; };
+		7CE5309428C883C80022A009 /* ScrollableGraphViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5309728C8858E0022A009 /* HUDAndToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDAndToastViewController.swift; sourceTree = "<group>"; };
+		7CE5309928C885E30022A009 /* SwiftProgressHUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProgressHUDViewController.swift; sourceTree = "<group>"; };
+		7CE5309B28C885EC0022A009 /* SwiftProgressHUDDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProgressHUDDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5309E28C88BEB0022A009 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		7CE530A028C88C8F0022A009 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		7CE530A228C88C950022A009 /* ChartsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDemoViewController.swift; sourceTree = "<group>"; };
+		7CE530A528C88FA00022A009 /* IMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMViewController.swift; sourceTree = "<group>"; };
+		7CE530A728C88FE40022A009 /* MessageKitswiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageKitswiftViewController.swift; sourceTree = "<group>"; };
+		7CE530A928C88FEC0022A009 /* MessageKitswiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageKitswiftDemoViewController.swift; sourceTree = "<group>"; };
+		7CE530AC28C890830022A009 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		7CE530AE28C890D00022A009 /* IOSCallJsOrJsCallIOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSCallJsOrJsCallIOSViewController.swift; sourceTree = "<group>"; };
+		7CE530B028C890D50022A009 /* IOSCallJsOrJsCallIOSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSCallJsOrJsCallIOSDemoViewController.swift; sourceTree = "<group>"; };
+		7CE530B328C898AB0022A009 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		7CE530B528C898F80022A009 /* TimepieceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimepieceViewController.swift; sourceTree = "<group>"; };
+		7CE530B728C898FD0022A009 /* TimepieceDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimepieceDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
@@ -2142,6 +2184,13 @@
 			isa = PBXGroup;
 			children = (
 				7CE5307F28C8728D0022A009 /* UIsViewController.swift */,
+				7CE530B228C8989F0022A009 /* Calendar */,
+				7CE530AB28C8907B0022A009 /* WebView */,
+				7CE530A428C88F980022A009 /* IM */,
+				7CE5309D28C88BDF0022A009 /* Chart */,
+				7CE5309628C8857F0022A009 /* HUDAndToast */,
+				7CE5308F28C8836C0022A009 /* ScrollView */,
+				7CE5308828C881760022A009 /* List */,
 				7CE5308128C872DA0022A009 /* AutoLayout */,
 			);
 			path = UI;
@@ -2155,6 +2204,76 @@
 				7CE5308628C8732F0022A009 /* SnapDemoViewController.swift */,
 			);
 			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		7CE5308828C881760022A009 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5308928C881820022A009 /* ListViewController.swift */,
+				7CE5308B28C881E00022A009 /* folding_cellViewController.swift */,
+				7CE5308D28C881EC0022A009 /* folding_cellDemoViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		7CE5308F28C8836C0022A009 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5309028C883770022A009 /* ScrollViewViewController.swift */,
+				7CE5309228C883C20022A009 /* ScrollableGraphViewViewController.swift */,
+				7CE5309428C883C80022A009 /* ScrollableGraphViewDemoViewController.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		7CE5309628C8857F0022A009 /* HUDAndToast */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5309728C8858E0022A009 /* HUDAndToastViewController.swift */,
+				7CE5309928C885E30022A009 /* SwiftProgressHUDViewController.swift */,
+				7CE5309B28C885EC0022A009 /* SwiftProgressHUDDemoViewController.swift */,
+			);
+			path = HUDAndToast;
+			sourceTree = "<group>";
+		};
+		7CE5309D28C88BDF0022A009 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5309E28C88BEB0022A009 /* ChartViewController.swift */,
+				7CE530A028C88C8F0022A009 /* ChartsViewController.swift */,
+				7CE530A228C88C950022A009 /* ChartsDemoViewController.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		7CE530A428C88F980022A009 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				7CE530A528C88FA00022A009 /* IMViewController.swift */,
+				7CE530A728C88FE40022A009 /* MessageKitswiftViewController.swift */,
+				7CE530A928C88FEC0022A009 /* MessageKitswiftDemoViewController.swift */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		7CE530AB28C8907B0022A009 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				7CE530AC28C890830022A009 /* WebViewViewController.swift */,
+				7CE530AE28C890D00022A009 /* IOSCallJsOrJsCallIOSViewController.swift */,
+				7CE530B028C890D50022A009 /* IOSCallJsOrJsCallIOSDemoViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		7CE530B228C8989F0022A009 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				7CE530B328C898AB0022A009 /* CalendarViewController.swift */,
+				7CE530B528C898F80022A009 /* TimepieceViewController.swift */,
+				7CE530B728C898FD0022A009 /* TimepieceDemoViewController.swift */,
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2427,6 +2546,7 @@
 				7C12747A28C737D0003A3660 /* DatabaseViewController.swift in Sources */,
 				7C1273E628C6E79D003A3660 /* NirZhihuDaily2_swiftViewController.swift in Sources */,
 				7C91AD4D2701A10A005E47D9 /* GameControllerDemoViewController.swift in Sources */,
+				7CE5309328C883C20022A009 /* ScrollableGraphViewViewController.swift in Sources */,
 				7CA3E2AC2654AAB400001D7A /* ViewController.swift in Sources */,
 				7C0E0FB5271534660036C7C2 /* HomeKitDemoViewController.swift in Sources */,
 				7CA3E3042654B31C00001D7A /* SCDImageViewAttributes.swift in Sources */,
@@ -2435,6 +2555,7 @@
 				7CE5302128C83EE00022A009 /* GPUImage2swiftViewController.swift in Sources */,
 				7C55B39727294D6F005FE5BA /* SwiftUIViewController.swift in Sources */,
 				7C66106E26D8BFFB00F4188D /* IOSurfaceViewController.swift in Sources */,
+				7CE5308C28C881E00022A009 /* folding_cellViewController.swift in Sources */,
 				7CE5305D28C84D8A0022A009 /* GIFAnimationViewController.swift in Sources */,
 				7CE5303E28C8462A0022A009 /* MathematicsViewController.swift in Sources */,
 				7CDA894E2714208A00C93FBE /* JavaScriptCoreViewController.swift in Sources */,
@@ -2500,6 +2621,7 @@
 				7C12740F28C6F515003A3660 /* ACRouterViewController.swift in Sources */,
 				7C1273D028C6D92E003A3660 /* CompleteTheAPPViewController.swift in Sources */,
 				7C91AD3927015571005E47D9 /* MetalDemoViewController.swift in Sources */,
+				7CE5309A28C885E30022A009 /* SwiftProgressHUDViewController.swift in Sources */,
 				7C6982B8272680020006DB04 /* ContactsUIViewController.swift in Sources */,
 				7C55B3692728E268005FE5BA /* ClockKitDemoViewController.swift in Sources */,
 				7C1273F828C6EC59003A3660 /* TuanDemoViewController.swift in Sources */,
@@ -2552,9 +2674,11 @@
 				7C5A58D326FC76C0006CA748 /* PencilKitDemoViewController.swift in Sources */,
 				7CE52FF928C8339C0022A009 /* VideoViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
+				7CE530AD28C890830022A009 /* WebViewViewController.swift in Sources */,
 				7CE5300928C8373E0022A009 /* PryntTrimmerViewViewController.swift in Sources */,
 				7C7D819927113005003317F1 /* MapKitViewController.swift in Sources */,
 				7C050E96271E556300958A5E /* CoreFoundationViewController.swift in Sources */,
+				7CE530AA28C88FEC0022A009 /* MessageKitswiftDemoViewController.swift in Sources */,
 				7CF8D90727005C55008DCEF2 /* MetalPerformanceShadersDemoViewController.swift in Sources */,
 				7C91AD43270168ED005E47D9 /* GameplayKitViewController.swift in Sources */,
 				7C0FF0952710227F00FE3525 /* PassKitViewController.swift in Sources */,
@@ -2568,6 +2692,7 @@
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
 				7C7EE59727054CD90003965E /* StoreKitDemoViewController.swift in Sources */,
 				7C05A52026FD724500A6D7A7 /* ModelIOViewController.swift in Sources */,
+				7CE530B828C898FD0022A009 /* TimepieceDemoViewController.swift in Sources */,
 				7C0FF09F2710273F00FE3525 /* MultipeerConnectivityDemoViewController.swift in Sources */,
 				7CDB3B5D272A4C1F00419ED4 /* AppClipsDemoViewController.swift in Sources */,
 				7CF6695826F2D5EA0079A5EB /* AVKitViewController.swift in Sources */,
@@ -2575,7 +2700,9 @@
 				7CF948E226DDC0390071430A /* ExternalAccessoryViewController.swift in Sources */,
 				7C0E0FC127156A020036C7C2 /* FileProviderDemoViewController.swift in Sources */,
 				7C0FF0A1271029E900FE3525 /* MessagesViewController.swift in Sources */,
+				7CE530A828C88FE40022A009 /* MessageKitswiftViewController.swift in Sources */,
 				7CE5300228C834CD0022A009 /* MobilePlayerDemoViewController.swift in Sources */,
+				7CE5308A28C881820022A009 /* ListViewController.swift in Sources */,
 				7C0FF08D27101A4600FE3525 /* QuickLookViewController.swift in Sources */,
 				7CA3E2A82654AAB400001D7A /* AppDelegate.swift in Sources */,
 				7C55B38727294518005FE5BA /* AdServicesViewController.swift in Sources */,
@@ -2592,6 +2719,7 @@
 				7CA3E3312654B7EA00001D7A /* BaseNaviView.swift in Sources */,
 				7CDA894C27141BA000C93FBE /* ManagedSettingsDemoViewController.swift in Sources */,
 				7CA3E3002654B31C00001D7A /* SCDTableViewAttributes.swift in Sources */,
+				7CE530A628C88FA00022A009 /* IMViewController.swift in Sources */,
 				7C08193D26F1822300CE1DD9 /* AuthenticationServicesDemoViewController.swift in Sources */,
 				7C91AD3B2701674E005E47D9 /* ImageIOViewController.swift in Sources */,
 				7C1273EC28C6E8D9003A3660 /* DesignerNewsAppDemoViewController.swift in Sources */,
@@ -2599,6 +2727,7 @@
 				7C12748528C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift in Sources */,
 				7CA3615F26C1327A009E5376 /* NetworkExtensionDemoViewController.swift in Sources */,
 				7C12740828C6F382003A3660 /* ReactiveCocoaViewController.swift in Sources */,
+				7CE530A128C88C8F0022A009 /* ChartsViewController.swift in Sources */,
 				7C55B37F27293B01005FE5BA /* AutomaticAssessmentConfigurationViewController.swift in Sources */,
 				7CA3E2E82654B01F00001D7A /* UIView_Extension.swift in Sources */,
 				7CA3E3012654B31C00001D7A /* SCDViewAttributes.swift in Sources */,
@@ -2609,6 +2738,7 @@
 				7C55B3892729451D005FE5BA /* AdServicesDemoViewController.swift in Sources */,
 				7C0F154A26F02F700020C51A /* CFNetworkDemoViewController.swift in Sources */,
 				7C343DDB26E5A3BB00A7A6BC /* ExposureNotificationViewController.swift in Sources */,
+				7CE5309128C883770022A009 /* ScrollViewViewController.swift in Sources */,
 				7CA3E3192654B45E00001D7A /* Assets.swift in Sources */,
 				7CF6697226F2DF640079A5EB /* VisionViewController.swift in Sources */,
 				7CD0988926E8457300EBA585 /* DispatchDemoViewController.swift in Sources */,
@@ -2677,16 +2807,21 @@
 				7C0C27EA27168987004D250D /* DeviceActivityViewController.swift in Sources */,
 				7C08198326F19A2B00CE1DD9 /* CoreMediaDemoViewController.swift in Sources */,
 				7C6982BA2726800A0006DB04 /* ContactsUIDemoViewController.swift in Sources */,
+				7CE5309F28C88BEB0022A009 /* ChartViewController.swift in Sources */,
 				7C12743228C71ADA003A3660 /* AlamofireDemoViewController.swift in Sources */,
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
+				7CE5309C28C885EC0022A009 /* SwiftProgressHUDDemoViewController.swift in Sources */,
 				7C1273F428C6EA86003A3660 /* BaiduFM_SwiftDemoViewController.swift in Sources */,
+				7CE5309828C8858E0022A009 /* HUDAndToastViewController.swift in Sources */,
 				7C1274BD28C74D66003A3660 /* lfswiftDemoViewController.swift in Sources */,
 				7C0C27F027168B07004D250D /* CreateMLDemoViewController.swift in Sources */,
 				7C12741628C6F83C003A3660 /* CarthageViewController.swift in Sources */,
+				7CE5308E28C881EC0022A009 /* folding_cellDemoViewController.swift in Sources */,
 				7C0FF0A727102C7D00FE3525 /* MessageUIDemoViewController.swift in Sources */,
 				7C7EE5A3270596150003965E /* SMSandCallReportingDemoViewController.swift in Sources */,
 				7C0FF0912710207600FE3525 /* PushKitViewController.swift in Sources */,
 				7CE5302628C8408E0022A009 /* TheImageCacheViewController.swift in Sources */,
+				7CE530A328C88C950022A009 /* ChartsDemoViewController.swift in Sources */,
 				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
 				7C12747728C7362A003A3660 /* JSQCoreDataKitDemoViewController.swift in Sources */,
 				7CBBC2F527045724001B6321 /* WidgetKitDemoViewController.swift in Sources */,
@@ -2791,8 +2926,10 @@
 				7C0130B826D5D0610050833E /* MetricKitViewController.swift in Sources */,
 				7C7EE591270545F10003965E /* TabularDataViewController.swift in Sources */,
 				7C0C27DE271684F2004D250D /* EventKitUIViewController.swift in Sources */,
+				7CE530B628C898F80022A009 /* TimepieceViewController.swift in Sources */,
 				7CE5307D28C86E830022A009 /* FontAwesomeKitDemoViewController.swift in Sources */,
 				7C30011D265CCBE900C16956 /* SystemConfigurationViewController.swift in Sources */,
+				7CE530B428C898AB0022A009 /* CalendarViewController.swift in Sources */,
 				7CF8D90527005C47008DCEF2 /* MetalPerformanceShadersViewController.swift in Sources */,
 				7C0E0FB32715341E0036C7C2 /* HomeKitViewController.swift in Sources */,
 				7C12744228C7221D003A3660 /* WebFrameworkViewController.swift in Sources */,
@@ -2807,6 +2944,7 @@
 				7C08197726F1954900CE1DD9 /* ImageCaptureCoreDemoViewController.swift in Sources */,
 				7CE5304228C846950022A009 /* SurgeswiftDemoViewController.swift in Sources */,
 				7C0C27E627168896004D250D /* DeviceCheckViewController.swift in Sources */,
+				7CE5309528C883C80022A009 /* ScrollableGraphViewDemoViewController.swift in Sources */,
 				7CE5308028C8728D0022A009 /* UIsViewController.swift in Sources */,
 				7C12746E28C72D4F003A3660 /* CacheswiftDemoViewController.swift in Sources */,
 				7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */,
@@ -2829,6 +2967,7 @@
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,
 				7CF6696426F2DB050079A5EB /* AudioUnitViewController.swift in Sources */,
+				7CE530AF28C890D00022A009 /* IOSCallJsOrJsCallIOSViewController.swift in Sources */,
 				7C1273D428C6D9EC003A3660 /* Open_source_ios_appsDemoViewController.swift in Sources */,
 				7CB6342D2717D5480092758D /* CoreMLViewController.swift in Sources */,
 				7CBBC3052704686F001B6321 /* UserNotificationsDemoViewController.swift in Sources */,
@@ -2861,6 +3000,7 @@
 				7C12745B28C72847003A3660 /* AEXMLDemoViewController.swift in Sources */,
 				7CE5307B28C86E7D0022A009 /* FontAwesomeKitViewController.swift in Sources */,
 				7C91AD412701688B005E47D9 /* GLKitDemoViewController.swift in Sources */,
+				7CE530B128C890D50022A009 /* IOSCallJsOrJsCallIOSDemoViewController.swift in Sources */,
 				7C6865C9265748E700034B11 /* UniformTypeIdentifiersDemoViewController.swift in Sources */,
 				7C1273DC28C6E483003A3660 /* V2ex_SwiftDemoViewController.swift in Sources */,
 				7C0FF0A527102C7400FE3525 /* MessageUIViewController.swift in Sources */,

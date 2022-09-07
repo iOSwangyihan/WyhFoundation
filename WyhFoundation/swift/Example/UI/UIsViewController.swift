@@ -17,18 +17,52 @@ import UIKit
 
 enum UIsViewControllerType {
     case AutoLayout
-   
+   case List
+    case ScrollView
+    case HUDAndToast
+    case Chart
+    case IM
+    case WebView
+    case Calendar
     
     func name() -> String {
         switch self {
         case .AutoLayout:
             return "AutoLayout"
+        case .List:
+            return "列表"
+        case .ScrollView:
+            return "ScrollView"
+        case .HUDAndToast:
+            return "HUD与Toast"
+        case .Chart:
+            return "图表"
+        case .IM:
+            return "IM"
+        case .WebView:
+            return "WebView"
+        case .Calendar:
+            return "日历"
         }
     }
     func vc() -> SwiftViewController {
         switch self {
         case .AutoLayout:
             return AutoLayoutViewController()
+        case .List:
+            return ListViewController()
+        case .ScrollView:
+            return ScrollViewViewController()
+        case .HUDAndToast:
+            return HUDAndToastViewController()
+        case .Chart:
+            return ChartViewController()
+        case .IM:
+            return IMViewController()
+        case .WebView:
+            return WebViewViewController()
+        case .Calendar:
+            return CalendarViewController()
        
         }
     }
@@ -38,7 +72,7 @@ class UIsViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [UIsViewControllerType.AutoLayout,]
+        dataArr = [UIsViewControllerType.AutoLayout,UIsViewControllerType.List,UIsViewControllerType.ScrollView,UIsViewControllerType.HUDAndToast,UIsViewControllerType.Chart,UIsViewControllerType.IM,UIsViewControllerType.WebView,UIsViewControllerType.Calendar]
        
         // Do any additional setup after loading the view.
     }

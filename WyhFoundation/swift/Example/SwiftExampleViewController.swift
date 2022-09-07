@@ -24,6 +24,7 @@ enum SwiftExampleViewControllerType {
     case DataStorage
     case Multithreading
     case Multimedia
+    case Image
     
     func name() -> String {
         switch self {
@@ -41,6 +42,8 @@ enum SwiftExampleViewControllerType {
             return "多线程"
         case .Multimedia:
             return "多媒体"
+        case .Image:
+            return "图像"
         }
     }
     func vc() -> SwiftViewController {
@@ -59,6 +62,8 @@ enum SwiftExampleViewControllerType {
             return MultithreadingViewController()
         case .Multimedia:
             return MultimediaViewController()
+        case .Image:
+            return ImageViewController()
        
         }
     }
@@ -68,7 +73,7 @@ class SwiftExampleViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework, SwiftExampleViewControllerType.Safe, SwiftExampleViewControllerType.Network, SwiftExampleViewControllerType.DataStorage,SwiftExampleViewControllerType.Multithreading,SwiftExampleViewControllerType.Multimedia]
+        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework, SwiftExampleViewControllerType.Safe, SwiftExampleViewControllerType.Network, SwiftExampleViewControllerType.DataStorage,SwiftExampleViewControllerType.Multithreading,SwiftExampleViewControllerType.Multimedia,SwiftExampleViewControllerType.Image]
        
         // Do any additional setup after loading the view.
     }

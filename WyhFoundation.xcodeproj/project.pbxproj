@@ -452,6 +452,10 @@
 		7CE5307928C86DC80022A009 /* TypefaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307828C86DC80022A009 /* TypefaceViewController.swift */; };
 		7CE5307B28C86E7D0022A009 /* FontAwesomeKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307A28C86E7D0022A009 /* FontAwesomeKitViewController.swift */; };
 		7CE5307D28C86E830022A009 /* FontAwesomeKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307C28C86E830022A009 /* FontAwesomeKitDemoViewController.swift */; };
+		7CE5308028C8728D0022A009 /* UIsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5307F28C8728D0022A009 /* UIsViewController.swift */; };
+		7CE5308328C872E30022A009 /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5308228C872E30022A009 /* AutoLayoutViewController.swift */; };
+		7CE5308528C873280022A009 /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5308428C873280022A009 /* SnapViewController.swift */; };
+		7CE5308728C8732F0022A009 /* SnapDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5308628C8732F0022A009 /* SnapDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */; };
@@ -967,6 +971,10 @@
 		7CE5307828C86DC80022A009 /* TypefaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypefaceViewController.swift; sourceTree = "<group>"; };
 		7CE5307A28C86E7D0022A009 /* FontAwesomeKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeKitViewController.swift; sourceTree = "<group>"; };
 		7CE5307C28C86E830022A009 /* FontAwesomeKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CE5307F28C8728D0022A009 /* UIsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIsViewController.swift; sourceTree = "<group>"; };
+		7CE5308228C872E30022A009 /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
+		7CE5308428C873280022A009 /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
+		7CE5308628C8732F0022A009 /* SnapDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
@@ -1060,6 +1068,7 @@
 			isa = PBXGroup;
 			children = (
 				7C1273CC28C6D67D003A3660 /* SwiftExampleViewController.swift */,
+				7CE5307E28C8727C0022A009 /* UI */,
 				7CE5307728C86DBD0022A009 /* Typeface */,
 				7CE5307028C86CB70022A009 /* Text */,
 				7CE5306928C86B550022A009 /* RichText */,
@@ -2129,6 +2138,25 @@
 			path = Typeface;
 			sourceTree = "<group>";
 		};
+		7CE5307E28C8727C0022A009 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5307F28C8728D0022A009 /* UIsViewController.swift */,
+				7CE5308128C872DA0022A009 /* AutoLayout */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7CE5308128C872DA0022A009 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5308228C872E30022A009 /* AutoLayoutViewController.swift */,
+				7CE5308428C873280022A009 /* SnapViewController.swift */,
+				7CE5308628C8732F0022A009 /* SnapDemoViewController.swift */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2480,6 +2508,7 @@
 				7C12749228C73F7B003A3660 /* CameraViewController.swift in Sources */,
 				7C08193F26F1846400CE1DD9 /* AppleCryptoKitViewController.swift in Sources */,
 				7CA3E04226EF359800902D84 /* CompressionViewController.swift in Sources */,
+				7CE5308528C873280022A009 /* SnapViewController.swift in Sources */,
 				7CF6695626F2D49F0079A5EB /* CoreAudioDemoViewController.swift in Sources */,
 				7C55B3712728ED67005FE5BA /* CarPlayDemoViewController.swift in Sources */,
 				7CD1BDCC26FB33F100260DF5 /* RealityKitDemoViewController.swift in Sources */,
@@ -2530,6 +2559,7 @@
 				7C91AD43270168ED005E47D9 /* GameplayKitViewController.swift in Sources */,
 				7C0FF0952710227F00FE3525 /* PassKitViewController.swift in Sources */,
 				7CF6694826F2D10F0079A5EB /* CoreHapticsViewController.swift in Sources */,
+				7CE5308328C872E30022A009 /* AutoLayoutViewController.swift in Sources */,
 				7CBBC2EF270455BA001B6321 /* DeveloperToolsSupportDemoViewController.swift in Sources */,
 				7C1273E028C6E63C003A3660 /* iBBS_SwiftDemoViewController.swift in Sources */,
 				7C12742628C71815003A3660 /* PermissionScopeDemoViewController.swift in Sources */,
@@ -2723,6 +2753,7 @@
 				7CD621612719322F0048499D /* CoreLocationUIViewController.swift in Sources */,
 				7C55B395272946AB005FE5BA /* UIKitDemoViewController.swift in Sources */,
 				7C08197926F1972C00CE1DD9 /* CoreVideoViewController.swift in Sources */,
+				7CE5308728C8732F0022A009 /* SnapDemoViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
 				7C55B39B2729504D005FE5BA /* SwiftFrameworkViewController.swift in Sources */,
 				7CBBC2E4270451C4001B6321 /* ARKitViewController.swift in Sources */,
@@ -2776,6 +2807,7 @@
 				7C08197726F1954900CE1DD9 /* ImageCaptureCoreDemoViewController.swift in Sources */,
 				7CE5304228C846950022A009 /* SurgeswiftDemoViewController.swift in Sources */,
 				7C0C27E627168896004D250D /* DeviceCheckViewController.swift in Sources */,
+				7CE5308028C8728D0022A009 /* UIsViewController.swift in Sources */,
 				7C12746E28C72D4F003A3660 /* CacheswiftDemoViewController.swift in Sources */,
 				7C91AD4B2701A100005E47D9 /* GameControllerViewController.swift in Sources */,
 				7CDA894A27141B9800C93FBE /* ManagedSettingsViewController.swift in Sources */,

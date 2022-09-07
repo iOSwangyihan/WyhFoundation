@@ -30,6 +30,7 @@ enum SwiftExampleViewControllerType {
     case RichText
     case Text
     case Typeface
+    case UI
     
     func name() -> String {
         switch self {
@@ -59,6 +60,8 @@ enum SwiftExampleViewControllerType {
             return "文本"
         case .Typeface:
             return "字体"
+        case .UI:
+            return "UI"
         }
     }
     func vc() -> SwiftViewController {
@@ -89,6 +92,8 @@ enum SwiftExampleViewControllerType {
             return TextViewController()
         case .Typeface:
             return TypefaceViewController()
+        case .UI:
+            return UIsViewController()
        
         }
     }
@@ -98,7 +103,7 @@ class SwiftExampleViewController: SwiftViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework, SwiftExampleViewControllerType.Safe, SwiftExampleViewControllerType.Network, SwiftExampleViewControllerType.DataStorage,SwiftExampleViewControllerType.Multithreading,SwiftExampleViewControllerType.Multimedia,SwiftExampleViewControllerType.Image,SwiftExampleViewControllerType.DataStructuresAlgorithms,SwiftExampleViewControllerType.Animation,SwiftExampleViewControllerType.RichText,SwiftExampleViewControllerType.Text,SwiftExampleViewControllerType.Typeface]
+        dataArr = [SwiftExampleViewControllerType.CompleteTheAPP, SwiftExampleViewControllerType.Appframework, SwiftExampleViewControllerType.Safe, SwiftExampleViewControllerType.Network, SwiftExampleViewControllerType.DataStorage,SwiftExampleViewControllerType.Multithreading,SwiftExampleViewControllerType.Multimedia,SwiftExampleViewControllerType.Image,SwiftExampleViewControllerType.DataStructuresAlgorithms,SwiftExampleViewControllerType.Animation,SwiftExampleViewControllerType.RichText,SwiftExampleViewControllerType.Text,SwiftExampleViewControllerType.Typeface,SwiftExampleViewControllerType.UI]
        
         // Do any additional setup after loading the view.
     }

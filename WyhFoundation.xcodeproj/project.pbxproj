@@ -340,6 +340,64 @@
 		7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E3A22654DD5F00001D7A /* OcViewController.m */; };
 		7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E3D02654E7F200001D7A /* OcColors.m */; };
 		7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */; };
+		7CA6012828C97BCF00CB921C /* PullToRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6012728C97BCF00CB921C /* PullToRefreshViewController.swift */; };
+		7CA6012A28C97C5700CB921C /* PullUpControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6012928C97C5700CB921C /* PullUpControllerViewController.swift */; };
+		7CA6012C28C97C5F00CB921C /* PullUpControllerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6012B28C97C5F00CB921C /* PullUpControllerDemoViewController.swift */; };
+		7CA6012F28C9CA7100CB921C /* BlurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6012E28C9CA7100CB921C /* BlurViewController.swift */; };
+		7CA6013128C9CADE00CB921C /* BlurableswiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6013028C9CADE00CB921C /* BlurableswiftViewController.swift */; };
+		7CA6013328C9CAE700CB921C /* BlurableswiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6013228C9CAE700CB921C /* BlurableswiftDemoViewController.swift */; };
+		7CA6013628C9D54400CB921C /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6013528C9D54400CB921C /* SelectorViewController.swift */; };
+		7CA6013828C9D5B700CB921C /* AGCircularPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6013728C9D5B700CB921C /* AGCircularPickerViewController.swift */; };
+		7CA6013A28C9D5BD00CB921C /* AGCircularPickerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6013928C9D5BD00CB921C /* AGCircularPickerDemoViewController.swift */; };
+		7CA6013D28C9D80A00CB921C /* HideAndShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6013C28C9D80A00CB921C /* HideAndShowViewController.swift */; };
+		7CA6014028C9D89F00CB921C /* DialogBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6013F28C9D89F00CB921C /* DialogBoxViewController.swift */; };
+		7CA6014228C9D90A00CB921C /* AZDialogViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6014128C9D90A00CB921C /* AZDialogViewControllerViewController.swift */; };
+		7CA6014428C9D91000CB921C /* AZDialogViewControllerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6014328C9D91000CB921C /* AZDialogViewControllerDemoViewController.swift */; };
+		7CA6014728C9DA6400CB921C /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6014628C9DA6400CB921C /* PopViewController.swift */; };
+		7CA6014928C9DABF00CB921C /* alerts_and_pickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6014828C9DABF00CB921C /* alerts_and_pickersViewController.swift */; };
+		7CA6014B28C9DACC00CB921C /* alerts_and_pickersDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6014A28C9DACC00CB921C /* alerts_and_pickersDemoViewController.swift */; };
+		7CA6014E28C9DB7800CB921C /* NavigationBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6014D28C9DB7800CB921C /* NavigationBarViewController.swift */; };
+		7CA6015028C9DBCA00CB921C /* BartinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6014F28C9DBCA00CB921C /* BartinterViewController.swift */; };
+		7CA6015228C9DBD000CB921C /* BartinterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6015128C9DBD000CB921C /* BartinterDemoViewController.swift */; };
+		7CA6015528C9DCBE00CB921C /* LazyLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6015428C9DCBE00CB921C /* LazyLoadingViewController.swift */; };
+		7CA6015728C9DD0900CB921C /* ELWaterFallLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6015628C9DD0900CB921C /* ELWaterFallLayoutViewController.swift */; };
+		7CA6015928C9DD0F00CB921C /* ELWaterFallLayoutDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6015828C9DD0F00CB921C /* ELWaterFallLayoutDemoViewController.swift */; };
+		7CA6015C28C9DDEE00CB921C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6015B28C9DDEE00CB921C /* MenuViewController.swift */; };
+		7CA6015E28C9DE4000CB921C /* Swift_CircleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6015D28C9DE4000CB921C /* Swift_CircleMenuViewController.swift */; };
+		7CA6016028C9DE4900CB921C /* Swift_CircleMenuDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6015F28C9DE4900CB921C /* Swift_CircleMenuDemoViewController.swift */; };
+		7CA6016328C9DF8600CB921C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6016228C9DF8600CB921C /* TabBarViewController.swift */; };
+		7CA6016528C9DFE000CB921C /* animated_tab_barViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6016428C9DFE000CB921C /* animated_tab_barViewController.swift */; };
+		7CA6016728C9DFED00CB921C /* animated_tab_barDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6016628C9DFED00CB921C /* animated_tab_barDemoViewController.swift */; };
+		7CA6016A28C9E16000CB921C /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6016928C9E16000CB921C /* ScheduleViewController.swift */; };
+		7CA6016C28C9E1C300CB921C /* ButtonProgressBar_iOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6016B28C9E1C300CB921C /* ButtonProgressBar_iOSViewController.swift */; };
+		7CA6016E28C9E1CC00CB921C /* ButtonProgressBar_iOSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6016D28C9E1CC00CB921C /* ButtonProgressBar_iOSDemoViewController.swift */; };
+		7CA6017128C9E28500CB921C /* GuidePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6017028C9E28500CB921C /* GuidePageViewController.swift */; };
+		7CA6017328C9E2D400CB921C /* WhatsNewKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6017228C9E2D400CB921C /* WhatsNewKitViewController.swift */; };
+		7CA6017528C9E2DB00CB921C /* WhatsNewKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6017428C9E2DB00CB921C /* WhatsNewKitDemoViewController.swift */; };
+		7CA6017828C9E39100CB921C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6017728C9E39100CB921C /* PageViewController.swift */; };
+		7CA6017A28C9E3D700CB921C /* FSPagerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6017928C9E3D700CB921C /* FSPagerViewViewController.swift */; };
+		7CA6017C28C9E3DC00CB921C /* FSPagerViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6017B28C9E3DC00CB921C /* FSPagerViewDemoViewController.swift */; };
+		7CA6017F28C9E47A00CB921C /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6017E28C9E47A00CB921C /* ScoreViewController.swift */; };
+		7CA6018128C9E4D200CB921C /* iOS_RatingBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6018028C9E4D200CB921C /* iOS_RatingBarViewController.swift */; };
+		7CA6018328C9E4DB00CB921C /* iOS_RatingBarDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6018228C9E4DB00CB921C /* iOS_RatingBarDemoViewController.swift */; };
+		7CA6018628C9E58400CB921C /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6018528C9E58400CB921C /* KeyboardViewController.swift */; };
+		7CA6018828C9E5D100CB921C /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6018728C9E5D100CB921C /* IQKeyboardManagerViewController.swift */; };
+		7CA6018A28C9E5D700CB921C /* IQKeyboardManagerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6018928C9E5D700CB921C /* IQKeyboardManagerDemoViewController.swift */; };
+		7CA6018D28C9E70E00CB921C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6018C28C9E70E00CB921C /* SearchViewController.swift */; };
+		7CA6018F28C9E75500CB921C /* YNSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6018E28C9E75500CB921C /* YNSearchViewController.swift */; };
+		7CA6019128C9E75A00CB921C /* YNSearchDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6019028C9E75A00CB921C /* YNSearchDemoViewController.swift */; };
+		7CA6019428C9E82E00CB921C /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6019328C9E82E00CB921C /* ButtonViewController.swift */; };
+		7CA6019628C9E88900CB921C /* ZFRippleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6019528C9E88900CB921C /* ZFRippleButtonViewController.swift */; };
+		7CA6019828C9E88E00CB921C /* ZFRippleButtonDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6019728C9E88E00CB921C /* ZFRippleButtonDemoViewController.swift */; };
+		7CA6019B28C9E92200CB921C /* 3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6019A28C9E92200CB921C /* 3DViewController.swift */; };
+		7CA6019D28C9E99800CB921C /* EuclidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6019C28C9E99800CB921C /* EuclidViewController.swift */; };
+		7CA6019F28C9E99D00CB921C /* EuclidDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6019E28C9E99D00CB921C /* EuclidDemoViewController.swift */; };
+		7CA601A228C9EA2100CB921C /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA601A128C9EA2100CB921C /* SliderViewController.swift */; };
+		7CA601A428C9EA6500CB921C /* SlidersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA601A328C9EA6500CB921C /* SlidersViewController.swift */; };
+		7CA601A628C9EA6B00CB921C /* SlidersDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA601A528C9EA6B00CB921C /* SlidersDemoViewController.swift */; };
+		7CA601A928C9EB5600CB921C /* OtherUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA601A828C9EB5600CB921C /* OtherUIViewController.swift */; };
+		7CA601AD28C9EBB500CB921C /* PerseiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA601AC28C9EBB500CB921C /* PerseiViewController.swift */; };
+		7CA601AF28C9EBC000CB921C /* PerseiDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA601AE28C9EBC000CB921C /* PerseiDemoViewController.swift */; };
 		7CB61F7E26E6F88100019248 /* dnssdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB61F7D26E6F88100019248 /* dnssdViewController.swift */; };
 		7CB61F8026E6F88900019248 /* dnssdDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */; };
 		7CB634292717C5B10092758D /* CoreMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB634282717C5B10092758D /* CoreMotionViewController.swift */; };
@@ -477,6 +535,9 @@
 		7CE530B428C898AB0022A009 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530B328C898AB0022A009 /* CalendarViewController.swift */; };
 		7CE530B628C898F80022A009 /* TimepieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530B528C898F80022A009 /* TimepieceViewController.swift */; };
 		7CE530B828C898FD0022A009 /* TimepieceDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530B728C898FD0022A009 /* TimepieceDemoViewController.swift */; };
+		7CE530BB28C899960022A009 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530BA28C899960022A009 /* TimeViewController.swift */; };
+		7CE530BD28C899E70022A009 /* ChronologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530BC28C899E70022A009 /* ChronologyViewController.swift */; };
+		7CE530BF28C899ED0022A009 /* ChronologyDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE530BE28C899ED0022A009 /* ChronologyDemoViewController.swift */; };
 		7CEE3AC726DCC8CA0080B136 /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */; };
 		7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */; };
 		7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */; };
@@ -880,6 +941,64 @@
 		7CA3E3D02654E7F200001D7A /* OcColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcColors.m; sourceTree = "<group>"; };
 		7CA3E3DB2654F76E00001D7A /* OcBaseNaviView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OcBaseNaviView.h; sourceTree = "<group>"; };
 		7CA3E3DC2654F76E00001D7A /* OcBaseNaviView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcBaseNaviView.m; sourceTree = "<group>"; };
+		7CA6012728C97BCF00CB921C /* PullToRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshViewController.swift; sourceTree = "<group>"; };
+		7CA6012928C97C5700CB921C /* PullUpControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUpControllerViewController.swift; sourceTree = "<group>"; };
+		7CA6012B28C97C5F00CB921C /* PullUpControllerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUpControllerDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6012E28C9CA7100CB921C /* BlurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewController.swift; sourceTree = "<group>"; };
+		7CA6013028C9CADE00CB921C /* BlurableswiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurableswiftViewController.swift; sourceTree = "<group>"; };
+		7CA6013228C9CAE700CB921C /* BlurableswiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurableswiftDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6013528C9D54400CB921C /* SelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorViewController.swift; sourceTree = "<group>"; };
+		7CA6013728C9D5B700CB921C /* AGCircularPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGCircularPickerViewController.swift; sourceTree = "<group>"; };
+		7CA6013928C9D5BD00CB921C /* AGCircularPickerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGCircularPickerDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6013C28C9D80A00CB921C /* HideAndShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideAndShowViewController.swift; sourceTree = "<group>"; };
+		7CA6013F28C9D89F00CB921C /* DialogBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogBoxViewController.swift; sourceTree = "<group>"; };
+		7CA6014128C9D90A00CB921C /* AZDialogViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZDialogViewControllerViewController.swift; sourceTree = "<group>"; };
+		7CA6014328C9D91000CB921C /* AZDialogViewControllerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZDialogViewControllerDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6014628C9DA6400CB921C /* PopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		7CA6014828C9DABF00CB921C /* alerts_and_pickersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alerts_and_pickersViewController.swift; sourceTree = "<group>"; };
+		7CA6014A28C9DACC00CB921C /* alerts_and_pickersDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alerts_and_pickersDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6014D28C9DB7800CB921C /* NavigationBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarViewController.swift; sourceTree = "<group>"; };
+		7CA6014F28C9DBCA00CB921C /* BartinterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartinterViewController.swift; sourceTree = "<group>"; };
+		7CA6015128C9DBD000CB921C /* BartinterDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartinterDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6015428C9DCBE00CB921C /* LazyLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadingViewController.swift; sourceTree = "<group>"; };
+		7CA6015628C9DD0900CB921C /* ELWaterFallLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELWaterFallLayoutViewController.swift; sourceTree = "<group>"; };
+		7CA6015828C9DD0F00CB921C /* ELWaterFallLayoutDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELWaterFallLayoutDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6015B28C9DDEE00CB921C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7CA6015D28C9DE4000CB921C /* Swift_CircleMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_CircleMenuViewController.swift; sourceTree = "<group>"; };
+		7CA6015F28C9DE4900CB921C /* Swift_CircleMenuDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_CircleMenuDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6016228C9DF8600CB921C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		7CA6016428C9DFE000CB921C /* animated_tab_barViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animated_tab_barViewController.swift; sourceTree = "<group>"; };
+		7CA6016628C9DFED00CB921C /* animated_tab_barDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animated_tab_barDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6016928C9E16000CB921C /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		7CA6016B28C9E1C300CB921C /* ButtonProgressBar_iOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonProgressBar_iOSViewController.swift; sourceTree = "<group>"; };
+		7CA6016D28C9E1CC00CB921C /* ButtonProgressBar_iOSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonProgressBar_iOSDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6017028C9E28500CB921C /* GuidePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePageViewController.swift; sourceTree = "<group>"; };
+		7CA6017228C9E2D400CB921C /* WhatsNewKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewKitViewController.swift; sourceTree = "<group>"; };
+		7CA6017428C9E2DB00CB921C /* WhatsNewKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewKitDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6017728C9E39100CB921C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		7CA6017928C9E3D700CB921C /* FSPagerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerViewViewController.swift; sourceTree = "<group>"; };
+		7CA6017B28C9E3DC00CB921C /* FSPagerViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerViewDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6017E28C9E47A00CB921C /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		7CA6018028C9E4D200CB921C /* iOS_RatingBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_RatingBarViewController.swift; sourceTree = "<group>"; };
+		7CA6018228C9E4DB00CB921C /* iOS_RatingBarDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_RatingBarDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6018528C9E58400CB921C /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		7CA6018728C9E5D100CB921C /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
+		7CA6018928C9E5D700CB921C /* IQKeyboardManagerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6018C28C9E70E00CB921C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7CA6018E28C9E75500CB921C /* YNSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNSearchViewController.swift; sourceTree = "<group>"; };
+		7CA6019028C9E75A00CB921C /* YNSearchDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNSearchDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6019328C9E82E00CB921C /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		7CA6019528C9E88900CB921C /* ZFRippleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFRippleButtonViewController.swift; sourceTree = "<group>"; };
+		7CA6019728C9E88E00CB921C /* ZFRippleButtonDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFRippleButtonDemoViewController.swift; sourceTree = "<group>"; };
+		7CA6019A28C9E92200CB921C /* 3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DViewController.swift; sourceTree = "<group>"; };
+		7CA6019C28C9E99800CB921C /* EuclidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuclidViewController.swift; sourceTree = "<group>"; };
+		7CA6019E28C9E99D00CB921C /* EuclidDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuclidDemoViewController.swift; sourceTree = "<group>"; };
+		7CA601A128C9EA2100CB921C /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		7CA601A328C9EA6500CB921C /* SlidersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersViewController.swift; sourceTree = "<group>"; };
+		7CA601A528C9EA6B00CB921C /* SlidersDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersDemoViewController.swift; sourceTree = "<group>"; };
+		7CA601A828C9EB5600CB921C /* OtherUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherUIViewController.swift; sourceTree = "<group>"; };
+		7CA601AC28C9EBB500CB921C /* PerseiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseiViewController.swift; sourceTree = "<group>"; };
+		7CA601AE28C9EBC000CB921C /* PerseiDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseiDemoViewController.swift; sourceTree = "<group>"; };
 		7CB61F7D26E6F88100019248 /* dnssdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnssdViewController.swift; sourceTree = "<group>"; };
 		7CB61F7F26E6F88900019248 /* dnssdDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnssdDemoViewController.swift; sourceTree = "<group>"; };
 		7CB634282717C5B10092758D /* CoreMotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionViewController.swift; sourceTree = "<group>"; };
@@ -1017,6 +1136,9 @@
 		7CE530B328C898AB0022A009 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		7CE530B528C898F80022A009 /* TimepieceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimepieceViewController.swift; sourceTree = "<group>"; };
 		7CE530B728C898FD0022A009 /* TimepieceDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimepieceDemoViewController.swift; sourceTree = "<group>"; };
+		7CE530BA28C899960022A009 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		7CE530BC28C899E70022A009 /* ChronologyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronologyViewController.swift; sourceTree = "<group>"; };
+		7CE530BE28C899ED0022A009 /* ChronologyDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronologyDemoViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC626DCC8CA0080B136 /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
 		7CEE3AC826DCC8E00080B136 /* GSSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSDemoViewController.swift; sourceTree = "<group>"; };
 		7CF5981026F43DFB009E16E5 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
@@ -1952,6 +2074,204 @@
 			path = oc;
 			sourceTree = "<group>";
 		};
+		7CA6012628C97BBD00CB921C /* PullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6012728C97BCF00CB921C /* PullToRefreshViewController.swift */,
+				7CA6012928C97C5700CB921C /* PullUpControllerViewController.swift */,
+				7CA6012B28C97C5F00CB921C /* PullUpControllerDemoViewController.swift */,
+			);
+			path = PullToRefresh;
+			sourceTree = "<group>";
+		};
+		7CA6012D28C9CA6600CB921C /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6012E28C9CA7100CB921C /* BlurViewController.swift */,
+				7CA6013028C9CADE00CB921C /* BlurableswiftViewController.swift */,
+				7CA6013228C9CAE700CB921C /* BlurableswiftDemoViewController.swift */,
+			);
+			path = Blur;
+			sourceTree = "<group>";
+		};
+		7CA6013428C9D53800CB921C /* Selector */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6013528C9D54400CB921C /* SelectorViewController.swift */,
+				7CA6013728C9D5B700CB921C /* AGCircularPickerViewController.swift */,
+				7CA6013928C9D5BD00CB921C /* AGCircularPickerDemoViewController.swift */,
+			);
+			path = Selector;
+			sourceTree = "<group>";
+		};
+		7CA6013B28C9D7FD00CB921C /* HideAndShow */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6013C28C9D80A00CB921C /* HideAndShowViewController.swift */,
+			);
+			path = HideAndShow;
+			sourceTree = "<group>";
+		};
+		7CA6013E28C9D88700CB921C /* DialogBox */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6013F28C9D89F00CB921C /* DialogBoxViewController.swift */,
+				7CA6014128C9D90A00CB921C /* AZDialogViewControllerViewController.swift */,
+				7CA6014328C9D91000CB921C /* AZDialogViewControllerDemoViewController.swift */,
+			);
+			path = DialogBox;
+			sourceTree = "<group>";
+		};
+		7CA6014528C9DA5B00CB921C /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6014628C9DA6400CB921C /* PopViewController.swift */,
+				7CA6014828C9DABF00CB921C /* alerts_and_pickersViewController.swift */,
+				7CA6014A28C9DACC00CB921C /* alerts_and_pickersDemoViewController.swift */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		7CA6014C28C9DB6900CB921C /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6014D28C9DB7800CB921C /* NavigationBarViewController.swift */,
+				7CA6014F28C9DBCA00CB921C /* BartinterViewController.swift */,
+				7CA6015128C9DBD000CB921C /* BartinterDemoViewController.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		7CA6015328C9DCAE00CB921C /* LazyLoading */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6015428C9DCBE00CB921C /* LazyLoadingViewController.swift */,
+				7CA6015628C9DD0900CB921C /* ELWaterFallLayoutViewController.swift */,
+				7CA6015828C9DD0F00CB921C /* ELWaterFallLayoutDemoViewController.swift */,
+			);
+			path = LazyLoading;
+			sourceTree = "<group>";
+		};
+		7CA6015A28C9DDE500CB921C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6015B28C9DDEE00CB921C /* MenuViewController.swift */,
+				7CA6015D28C9DE4000CB921C /* Swift_CircleMenuViewController.swift */,
+				7CA6015F28C9DE4900CB921C /* Swift_CircleMenuDemoViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		7CA6016128C9DF7D00CB921C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6016228C9DF8600CB921C /* TabBarViewController.swift */,
+				7CA6016428C9DFE000CB921C /* animated_tab_barViewController.swift */,
+				7CA6016628C9DFED00CB921C /* animated_tab_barDemoViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7CA6016828C9E15500CB921C /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6016928C9E16000CB921C /* ScheduleViewController.swift */,
+				7CA6016B28C9E1C300CB921C /* ButtonProgressBar_iOSViewController.swift */,
+				7CA6016D28C9E1CC00CB921C /* ButtonProgressBar_iOSDemoViewController.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		7CA6016F28C9E27900CB921C /* GuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6017028C9E28500CB921C /* GuidePageViewController.swift */,
+				7CA6017228C9E2D400CB921C /* WhatsNewKitViewController.swift */,
+				7CA6017428C9E2DB00CB921C /* WhatsNewKitDemoViewController.swift */,
+			);
+			path = GuidePage;
+			sourceTree = "<group>";
+		};
+		7CA6017628C9E38800CB921C /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6017728C9E39100CB921C /* PageViewController.swift */,
+				7CA6017928C9E3D700CB921C /* FSPagerViewViewController.swift */,
+				7CA6017B28C9E3DC00CB921C /* FSPagerViewDemoViewController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		7CA6017D28C9E47000CB921C /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6017E28C9E47A00CB921C /* ScoreViewController.swift */,
+				7CA6018028C9E4D200CB921C /* iOS_RatingBarViewController.swift */,
+				7CA6018228C9E4DB00CB921C /* iOS_RatingBarDemoViewController.swift */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
+		7CA6018428C9E57600CB921C /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6018528C9E58400CB921C /* KeyboardViewController.swift */,
+				7CA6018728C9E5D100CB921C /* IQKeyboardManagerViewController.swift */,
+				7CA6018928C9E5D700CB921C /* IQKeyboardManagerDemoViewController.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		7CA6018B28C9E70300CB921C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6018C28C9E70E00CB921C /* SearchViewController.swift */,
+				7CA6018E28C9E75500CB921C /* YNSearchViewController.swift */,
+				7CA6019028C9E75A00CB921C /* YNSearchDemoViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7CA6019228C9E82600CB921C /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6019328C9E82E00CB921C /* ButtonViewController.swift */,
+				7CA6019528C9E88900CB921C /* ZFRippleButtonViewController.swift */,
+				7CA6019728C9E88E00CB921C /* ZFRippleButtonDemoViewController.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		7CA6019928C9E91A00CB921C /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6019A28C9E92200CB921C /* 3DViewController.swift */,
+				7CA6019C28C9E99800CB921C /* EuclidViewController.swift */,
+				7CA6019E28C9E99D00CB921C /* EuclidDemoViewController.swift */,
+			);
+			path = 3D;
+			sourceTree = "<group>";
+		};
+		7CA601A028C9EA1800CB921C /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				7CA601A128C9EA2100CB921C /* SliderViewController.swift */,
+				7CA601A328C9EA6500CB921C /* SlidersViewController.swift */,
+				7CA601A528C9EA6B00CB921C /* SlidersDemoViewController.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		7CA601A728C9EB4D00CB921C /* OtherUI */ = {
+			isa = PBXGroup;
+			children = (
+				7CA601A828C9EB5600CB921C /* OtherUIViewController.swift */,
+				7CA601AC28C9EBB500CB921C /* PerseiViewController.swift */,
+				7CA601AE28C9EBC000CB921C /* PerseiDemoViewController.swift */,
+			);
+			path = OtherUI;
+			sourceTree = "<group>";
+		};
 		7CBBC2E7270454A5001B6321 /* DeveloperToolsSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -2184,6 +2504,27 @@
 			isa = PBXGroup;
 			children = (
 				7CE5307F28C8728D0022A009 /* UIsViewController.swift */,
+				7CA601A728C9EB4D00CB921C /* OtherUI */,
+				7CA601A028C9EA1800CB921C /* Slider */,
+				7CA6019928C9E91A00CB921C /* 3D */,
+				7CA6019228C9E82600CB921C /* Button */,
+				7CA6018B28C9E70300CB921C /* Search */,
+				7CA6018428C9E57600CB921C /* Keyboard */,
+				7CA6017D28C9E47000CB921C /* Score */,
+				7CA6017628C9E38800CB921C /* Page */,
+				7CA6016F28C9E27900CB921C /* GuidePage */,
+				7CA6016828C9E15500CB921C /* Schedule */,
+				7CA6016128C9DF7D00CB921C /* TabBar */,
+				7CA6015A28C9DDE500CB921C /* Menu */,
+				7CA6015328C9DCAE00CB921C /* LazyLoading */,
+				7CA6014C28C9DB6900CB921C /* NavigationBar */,
+				7CA6014528C9DA5B00CB921C /* Pop */,
+				7CA6013E28C9D88700CB921C /* DialogBox */,
+				7CA6013B28C9D7FD00CB921C /* HideAndShow */,
+				7CA6013428C9D53800CB921C /* Selector */,
+				7CA6012D28C9CA6600CB921C /* Blur */,
+				7CA6012628C97BBD00CB921C /* PullToRefresh */,
+				7CE530B928C8998C0022A009 /* Time */,
 				7CE530B228C8989F0022A009 /* Calendar */,
 				7CE530AB28C8907B0022A009 /* WebView */,
 				7CE530A428C88F980022A009 /* IM */,
@@ -2274,6 +2615,16 @@
 				7CE530B728C898FD0022A009 /* TimepieceDemoViewController.swift */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		7CE530B928C8998C0022A009 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				7CE530BA28C899960022A009 /* TimeViewController.swift */,
+				7CE530BC28C899E70022A009 /* ChronologyViewController.swift */,
+				7CE530BE28C899ED0022A009 /* ChronologyDemoViewController.swift */,
+			);
+			path = Time;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2559,15 +2910,18 @@
 				7CE5305D28C84D8A0022A009 /* GIFAnimationViewController.swift in Sources */,
 				7CE5303E28C8462A0022A009 /* MathematicsViewController.swift in Sources */,
 				7CDA894E2714208A00C93FBE /* JavaScriptCoreViewController.swift in Sources */,
+				7CA6013D28C9D80A00CB921C /* HideAndShowViewController.swift in Sources */,
 				7CE5306628C86A9B0022A009 /* GoogleNewsStandAnimationViewController.swift in Sources */,
 				7C69F79F2656091F00055389 /* GraphicsandGamesViewController.swift in Sources */,
 				7C08198126F19A2300CE1DD9 /* CoreMediaViewController.swift in Sources */,
 				7C1273F028C6E9BD003A3660 /* EidolonDemoViewController.swift in Sources */,
 				7CE5305628C84B960022A009 /* SwipeBackAndSwipeRightViewController.swift in Sources */,
+				7CA6019B28C9E92200CB921C /* 3DViewController.swift in Sources */,
 				7C55B37927293545005FE5BA /* BusinessChatDemoViewController.swift in Sources */,
 				7CE5303B28C845BC0022A009 /* DataStructuresAlgorithmsViewController.swift in Sources */,
 				7C91AD4727019DA2005E47D9 /* GameKitViewController.swift in Sources */,
 				7C69F7C82656549D00055389 /* ScreenTimeDemoViewController.swift in Sources */,
+				7CA6014E28C9DB7800CB921C /* NavigationBarViewController.swift in Sources */,
 				7C08194526F185D100CE1DD9 /* AppleArchiveDemoViewController.swift in Sources */,
 				7CE5306B28C86B610022A009 /* RichTextViewController.swift in Sources */,
 				7CB6342B2717C5BA0092758D /* CoreMotionDemoViewController.swift in Sources */,
@@ -2579,11 +2933,14 @@
 				7C05A52626FD843200A6D7A7 /* MetalPerformanceShadersGraphDemoViewController.swift in Sources */,
 				7C08195F26F18DA900CE1DD9 /* SoundAnalysisDemoViewController.swift in Sources */,
 				7C08195D26F18D9F00CE1DD9 /* SoundAnalysisViewController.swift in Sources */,
+				7CA6018A28C9E5D700CB921C /* IQKeyboardManagerDemoViewController.swift in Sources */,
 				7C735E6328585EB300469516 /* SwiftUIView.swift in Sources */,
+				7CA6016728C9DFED00CB921C /* animated_tab_barDemoViewController.swift in Sources */,
 				7CA3615926C13107009E5376 /* Objective-CRuntimeViewController.swift in Sources */,
 				7CA3E3292654B7AB00001D7A /* BaseTableViewCell.swift in Sources */,
 				7C62A9F626D7417200D35995 /* LocalAuthenticationViewController.swift in Sources */,
 				7C1274A928C74631003A3660 /* GIFViewController.swift in Sources */,
+				7CA6018F28C9E75500CB921C /* YNSearchViewController.swift in Sources */,
 				7C0FF0892710176B00FE3525 /* SafariServicesViewController.swift in Sources */,
 				7CF6694E26F2D2D40079A5EB /* CoreAudioTypesDemoViewController.swift in Sources */,
 				7C12743028C71AD4003A3660 /* AlamofireViewController.swift in Sources */,
@@ -2617,9 +2974,11 @@
 				7CF6697426F2DF690079A5EB /* VisionDemoViewController.swift in Sources */,
 				7CBBC3012704670C001B6321 /* UserNotificationsUIDemoViewController.swift in Sources */,
 				7C69F7BB265650F700055389 /* ScreenTimeViewController.swift in Sources */,
+				7CA6019128C9E75A00CB921C /* YNSearchDemoViewController.swift in Sources */,
 				7CF6696A26F2DC8F0079A5EB /* AudioToolboxDemoViewController.swift in Sources */,
 				7C12740F28C6F515003A3660 /* ACRouterViewController.swift in Sources */,
 				7C1273D028C6D92E003A3660 /* CompleteTheAPPViewController.swift in Sources */,
+				7CE530BB28C899960022A009 /* TimeViewController.swift in Sources */,
 				7C91AD3927015571005E47D9 /* MetalDemoViewController.swift in Sources */,
 				7CE5309A28C885E30022A009 /* SwiftProgressHUDViewController.swift in Sources */,
 				7C6982B8272680020006DB04 /* ContactsUIViewController.swift in Sources */,
@@ -2629,16 +2988,21 @@
 				7C69F78C2656039200055389 /* AppFrameworksViewController.swift in Sources */,
 				7C12749228C73F7B003A3660 /* CameraViewController.swift in Sources */,
 				7C08193F26F1846400CE1DD9 /* AppleCryptoKitViewController.swift in Sources */,
+				7CA6017F28C9E47A00CB921C /* ScoreViewController.swift in Sources */,
 				7CA3E04226EF359800902D84 /* CompressionViewController.swift in Sources */,
 				7CE5308528C873280022A009 /* SnapViewController.swift in Sources */,
 				7CF6695626F2D49F0079A5EB /* CoreAudioDemoViewController.swift in Sources */,
 				7C55B3712728ED67005FE5BA /* CarPlayDemoViewController.swift in Sources */,
+				7CA6016E28C9E1CC00CB921C /* ButtonProgressBar_iOSDemoViewController.swift in Sources */,
 				7CD1BDCC26FB33F100260DF5 /* RealityKitDemoViewController.swift in Sources */,
 				7CE5303428C843590022A009 /* PhotoAlbumViewController.swift in Sources */,
+				7CA6013128C9CADE00CB921C /* BlurableswiftViewController.swift in Sources */,
 				7C5A58D526FC80F5006CA748 /* PDFKitViewController.swift in Sources */,
 				7CA3E3282654B7AB00001D7A /* BaseViewController.swift in Sources */,
 				7C08197126F1945100CE1DD9 /* MediaAccessibilityViewController.swift in Sources */,
+				7CA6017A28C9E3D700CB921C /* FSPagerViewViewController.swift in Sources */,
 				7C12748F28C73EFD003A3660 /* MultimediaViewController.swift in Sources */,
+				7CA6013828C9D5B700CB921C /* AGCircularPickerViewController.swift in Sources */,
 				7C12744E28C725DF003A3660 /* JSONViewController.swift in Sources */,
 				7C30012C265CF1E200C16956 /* SystemFrameworkViewController.swift in Sources */,
 				7C1273D828C6E20F003A3660 /* Swift30ProjectsDemoViewController.swift in Sources */,
@@ -2646,10 +3010,12 @@
 				7CE5307628C86D1B0022A009 /* PowerModeDemoViewController.swift in Sources */,
 				7CF6696826F2DC870079A5EB /* AudioToolboxViewController.swift in Sources */,
 				7C08195526F18B6F00CE1DD9 /* VideoToolboxDemoViewController.swift in Sources */,
+				7CA6014928C9DABF00CB921C /* alerts_and_pickersViewController.swift in Sources */,
 				7C0C27E82716889C004D250D /* DeviceCheckDemoViewController.swift in Sources */,
 				7C55B38127293B0D005FE5BA /* AutomaticAssessmentConfigurationDemoViewController.swift in Sources */,
 				7C08193B26F1821700CE1DD9 /* AuthenticationServicesViewController.swift in Sources */,
 				7C12749628C73FD9003A3660 /* CameraManagerDemoViewController.swift in Sources */,
+				7CA601AF28C9EBC000CB921C /* PerseiDemoViewController.swift in Sources */,
 				7C08196926F1918B00CE1DD9 /* MediaSetupViewController.swift in Sources */,
 				7CE52FFB28C834270022A009 /* VideoPlayingViewController.swift in Sources */,
 				7C7EE593270545FA0003965E /* TabularDataDemoViewController.swift in Sources */,
@@ -2660,10 +3026,12 @@
 				7CE5304528C847E40022A009 /* AnimationViewController.swift in Sources */,
 				7CA3E3452654BB8400001D7A /* SwiftViewController.swift in Sources */,
 				7C7EE59527054CCB0003965E /* StoreKitViewController.swift in Sources */,
+				7CA6017828C9E39100CB921C /* PageViewController.swift in Sources */,
 				7CBBC30327046867001B6321 /* UserNotificationsViewController.swift in Sources */,
 				7CE5305A28C84BF90022A009 /* SideMenuDemoViewController.swift in Sources */,
 				7C12743828C71D4E003A3660 /* InternetChatViewController.swift in Sources */,
 				7CF5981726F46C88009E16E5 /* SceneKitDemoViewController.swift in Sources */,
+				7CA6017C28C9E3DC00CB921C /* FSPagerViewDemoViewController.swift in Sources */,
 				7C12744628C7233E003A3660 /* PerfectswiftViewController.swift in Sources */,
 				7C55B36B2728E3A2005FE5BA /* ClassKitViewController.swift in Sources */,
 				7CA3E3DD2654F76E00001D7A /* OcBaseNaviView.m in Sources */,
@@ -2674,10 +3042,13 @@
 				7C5A58D326FC76C0006CA748 /* PencilKitDemoViewController.swift in Sources */,
 				7CE52FF928C8339C0022A009 /* VideoViewController.swift in Sources */,
 				7C69F7972656091400055389 /* AppServicesViewController.swift in Sources */,
+				7CA6019428C9E82E00CB921C /* ButtonViewController.swift in Sources */,
 				7CE530AD28C890830022A009 /* WebViewViewController.swift in Sources */,
+				7CA601A228C9EA2100CB921C /* SliderViewController.swift in Sources */,
 				7CE5300928C8373E0022A009 /* PryntTrimmerViewViewController.swift in Sources */,
 				7C7D819927113005003317F1 /* MapKitViewController.swift in Sources */,
 				7C050E96271E556300958A5E /* CoreFoundationViewController.swift in Sources */,
+				7CA6012828C97BCF00CB921C /* PullToRefreshViewController.swift in Sources */,
 				7CE530AA28C88FEC0022A009 /* MessageKitswiftDemoViewController.swift in Sources */,
 				7CF8D90727005C55008DCEF2 /* MetalPerformanceShadersDemoViewController.swift in Sources */,
 				7C91AD43270168ED005E47D9 /* GameplayKitViewController.swift in Sources */,
@@ -2691,6 +3062,7 @@
 				7C0C27F42716B0FB004D250D /* CoreTextDemoViewController.swift in Sources */,
 				7CD0988B26E8B78B00EBA585 /* DeviceManagementViewController.swift in Sources */,
 				7C7EE59727054CD90003965E /* StoreKitDemoViewController.swift in Sources */,
+				7CA6014428C9D91000CB921C /* AZDialogViewControllerDemoViewController.swift in Sources */,
 				7C05A52026FD724500A6D7A7 /* ModelIOViewController.swift in Sources */,
 				7CE530B828C898FD0022A009 /* TimepieceDemoViewController.swift in Sources */,
 				7C0FF09F2710273F00FE3525 /* MultipeerConnectivityDemoViewController.swift in Sources */,
@@ -2720,10 +3092,13 @@
 				7CDA894C27141BA000C93FBE /* ManagedSettingsDemoViewController.swift in Sources */,
 				7CA3E3002654B31C00001D7A /* SCDTableViewAttributes.swift in Sources */,
 				7CE530A628C88FA00022A009 /* IMViewController.swift in Sources */,
+				7CA6019D28C9E99800CB921C /* EuclidViewController.swift in Sources */,
 				7C08193D26F1822300CE1DD9 /* AuthenticationServicesDemoViewController.swift in Sources */,
+				7CA601A428C9EA6500CB921C /* SlidersViewController.swift in Sources */,
 				7C91AD3B2701674E005E47D9 /* ImageIOViewController.swift in Sources */,
 				7C1273EC28C6E8D9003A3660 /* DesignerNewsAppDemoViewController.swift in Sources */,
 				7C0C27F82716DCCE004D250D /* CoreSpotlightDemoViewController.swift in Sources */,
+				7CA6019828C9E88E00CB921C /* ZFRippleButtonDemoViewController.swift in Sources */,
 				7C12748528C73CE1003A3660 /* EllipticCurveKeyPairDemoViewController.swift in Sources */,
 				7CA3615F26C1327A009E5376 /* NetworkExtensionDemoViewController.swift in Sources */,
 				7C12740828C6F382003A3660 /* ReactiveCocoaViewController.swift in Sources */,
@@ -2749,6 +3124,7 @@
 				7CD62167271934490048499D /* CoreLocationDemoViewController.swift in Sources */,
 				7C1273E828C6E7A8003A3660 /* NirZhihuDaily2_swiftDemoViewController.swift in Sources */,
 				7C0C27E027168514004D250D /* EventKitUIDemoViewController.swift in Sources */,
+				7CA6017528C9E2DB00CB921C /* WhatsNewKitDemoViewController.swift in Sources */,
 				7C55B38527293BB0005FE5BA /* AdSupportDemoViewController.swift in Sources */,
 				7CE5302A28C840DF0022A009 /* KingfisherDemoViewController.swift in Sources */,
 				7C91AD512701A7FE005E47D9 /* CoreImageDemoViewController.swift in Sources */,
@@ -2764,11 +3140,14 @@
 				7C12746C28C72D46003A3660 /* CacheswiftViewController.swift in Sources */,
 				7C7EE5992705507C0003965E /* SpeechViewController.swift in Sources */,
 				7CF5981326F43E02009E16E5 /* SpriteKitDemoViewController.swift in Sources */,
+				7CA6013328C9CAE700CB921C /* BlurableswiftDemoViewController.swift in Sources */,
 				7C12745528C727CD003A3660 /* XmlViewController.swift in Sources */,
 				7C97EC3D2721699D00536B9A /* CoreDataDemoViewController.swift in Sources */,
+				7CA6014728C9DA6400CB921C /* PopViewController.swift in Sources */,
 				7CD1BDC826FB1CF200260DF5 /* ReplayKitDemoViewController.swift in Sources */,
 				7CBBC2DC27044B45001B6321 /* CoreGraphicsViewController.swift in Sources */,
 				7CE5300B28C837440022A009 /* PryntTrimmerViewDemoViewController.swift in Sources */,
+				7CA6019628C9E88900CB921C /* ZFRippleButtonViewController.swift in Sources */,
 				7CA3615D26C1326F009E5376 /* NetworkExtensionViewController.swift in Sources */,
 				7CF948E426DDC0440071430A /* ExternalAccessoryDemoViewController.swift in Sources */,
 				7CA3E3D12654E7F200001D7A /* OcColors.m in Sources */,
@@ -2777,11 +3156,14 @@
 				7CBBC2E027044DF4001B6321 /* CoreAnimationViewController.swift in Sources */,
 				7CE5300528C836CD0022A009 /* VideoProcessingViewController.swift in Sources */,
 				7C0130BA26D5D0700050833E /* MetricKitDemoViewController.swift in Sources */,
+				7CA6015E28C9DE4000CB921C /* Swift_CircleMenuViewController.swift in Sources */,
 				7CE5300028C834C80022A009 /* MobilePlayerViewController.swift in Sources */,
 				7CE5301328C83B0A0022A009 /* APKenBurnsViewViewController.swift in Sources */,
+				7CA6014028C9D89F00CB921C /* DialogBoxViewController.swift in Sources */,
 				7C0FF08B2710177400FE3525 /* SafariServicesDemoViewController.swift in Sources */,
 				7C0E0FBB271568F00036C7C2 /* FileProviderUIViewController.swift in Sources */,
 				7C343DDD26E5A3CC00A7A6BC /* ExposureNotificationDemoViewController.swift in Sources */,
+				7CE530BF28C899ED0022A009 /* ChronologyDemoViewController.swift in Sources */,
 				7C66107026D8C00400F4188D /* IOSurfaceDemoViewController.swift in Sources */,
 				7CBBC2E9270454E2001B6321 /* StoreKitTestViewController.swift in Sources */,
 				7C08196F26F1920C00CE1DD9 /* MediaPlayerDemoViewController.swift in Sources */,
@@ -2789,12 +3171,14 @@
 				7C6982BE272685160006DB04 /* ContactsDemoViewController.swift in Sources */,
 				7C08197B26F1973400CE1DD9 /* CoreVideoDemoViewController.swift in Sources */,
 				7C91AD4927019DA8005E47D9 /* GameKitDemoViewController.swift in Sources */,
+				7CA6015728C9DD0900CB921C /* ELWaterFallLayoutViewController.swift in Sources */,
 				7CA3E31E2654B46600001D7A /* Colors.swift in Sources */,
 				7C7D819B2711300B003317F1 /* MapKitDemoViewController.swift in Sources */,
 				7C12740028C6EEA3003A3660 /* CocoaChinaPlusDemoViewController.swift in Sources */,
 				7CE5304A28C848910022A009 /* HeroViewController.swift in Sources */,
 				7C08195126F18AA600CE1DD9 /* VisionKitDemoViewController.swift in Sources */,
 				7C300127265CF1B800C16956 /* SystemDemoViewController.swift in Sources */,
+				7CA6012C28C97C5F00CB921C /* PullUpControllerDemoViewController.swift in Sources */,
 				7C55B3752728F8E0005FE5BA /* CallKitDemoViewController.swift in Sources */,
 				7CA3E3062654B31C00001D7A /* SCDTextViewAttributes.swift in Sources */,
 				7CE5306828C86AA20022A009 /* GoogleNewsStandAnimationDemoViewController.swift in Sources */,
@@ -2809,9 +3193,12 @@
 				7C6982BA2726800A0006DB04 /* ContactsUIDemoViewController.swift in Sources */,
 				7CE5309F28C88BEB0022A009 /* ChartViewController.swift in Sources */,
 				7C12743228C71ADA003A3660 /* AlamofireDemoViewController.swift in Sources */,
+				7CA6018328C9E4DB00CB921C /* iOS_RatingBarDemoViewController.swift in Sources */,
 				7CD0989126E8BB6200EBA585 /* CryptoTokenKitDemoViewController.swift in Sources */,
 				7CE5309C28C885EC0022A009 /* SwiftProgressHUDDemoViewController.swift in Sources */,
 				7C1273F428C6EA86003A3660 /* BaiduFM_SwiftDemoViewController.swift in Sources */,
+				7CA6015028C9DBCA00CB921C /* BartinterViewController.swift in Sources */,
+				7CE530BD28C899E70022A009 /* ChronologyViewController.swift in Sources */,
 				7CE5309828C8858E0022A009 /* HUDAndToastViewController.swift in Sources */,
 				7C1274BD28C74D66003A3660 /* lfswiftDemoViewController.swift in Sources */,
 				7C0C27F027168B07004D250D /* CreateMLDemoViewController.swift in Sources */,
@@ -2822,18 +3209,22 @@
 				7C0FF0912710207600FE3525 /* PushKitViewController.swift in Sources */,
 				7CE5302628C8408E0022A009 /* TheImageCacheViewController.swift in Sources */,
 				7CE530A328C88C950022A009 /* ChartsDemoViewController.swift in Sources */,
+				7CA6012F28C9CA7100CB921C /* BlurViewController.swift in Sources */,
 				7CD0988F26E8BB5C00EBA585 /* CryptoTokenKitViewController.swift in Sources */,
 				7C12747728C7362A003A3660 /* JSQCoreDataKitDemoViewController.swift in Sources */,
 				7CBBC2F527045724001B6321 /* WidgetKitDemoViewController.swift in Sources */,
 				7C1274BB28C74D5E003A3660 /* lfswiftViewController.swift in Sources */,
 				7CE5303628C843C50022A009 /* DKImagePickerControllerViewController.swift in Sources */,
 				7C0E0FBD271568FA0036C7C2 /* FileProviderUIDemoViewController.swift in Sources */,
+				7CA6019F28C9E99D00CB921C /* EuclidDemoViewController.swift in Sources */,
 				7CE5305F28C84E2C0022A009 /* YLGIFImage_SwiftViewController.swift in Sources */,
 				7C12748A28C73E29003A3660 /* OverdriveViewController.swift in Sources */,
 				7CE5301528C83B100022A009 /* APKenBurnsViewDemoViewController.swift in Sources */,
+				7CA6015528C9DCBE00CB921C /* LazyLoadingViewController.swift in Sources */,
 				7C05A52226FD725300A6D7A7 /* ModelIODemoViewController.swift in Sources */,
 				7CBBC2F727045A5C001B6321 /* WebKitViewController.swift in Sources */,
 				7CDB3B61272A4E2D00419ED4 /* AccessibilityDemoViewController.swift in Sources */,
+				7CA601A928C9EB5600CB921C /* OtherUIViewController.swift in Sources */,
 				7C50FC1326D47FE500D9D857 /* MLComputeViewController.swift in Sources */,
 				7C1273DA28C6E474003A3660 /* V2ex_SwiftViewController.swift in Sources */,
 				7C7EE59D270592600003965E /* SocialViewController.swift in Sources */,
@@ -2846,12 +3237,16 @@
 				7CE5302D28C841D80022A009 /* PictureBrowsingViewController.swift in Sources */,
 				7CE5304828C848540022A009 /* AnimatedTransitionsViewController.swift in Sources */,
 				7CBBC2EB270454E9001B6321 /* StoreKitTestDemoViewController.swift in Sources */,
+				7CA601AD28C9EBB500CB921C /* PerseiViewController.swift in Sources */,
+				7CA6018128C9E4D200CB921C /* iOS_RatingBarViewController.swift in Sources */,
 				7C0E0FBF271569F90036C7C2 /* FileProviderViewController.swift in Sources */,
 				7CE5300E28C83A320022A009 /* ImageViewController.swift in Sources */,
 				7CBBC2F927045A62001B6321 /* WebKitDemoViewController.swift in Sources */,
 				7C62A9F826D7417C00D35995 /* LocalAuthenticationDemoViewController.swift in Sources */,
 				7C55B393272946A5005FE5BA /* UIKitViewController.swift in Sources */,
+				7CA6012A28C97C5700CB921C /* PullUpControllerViewController.swift in Sources */,
 				7C0C27E4271685E7004D250D /* EventKitDemoViewController.swift in Sources */,
+				7CA6014228C9D90A00CB921C /* AZDialogViewControllerViewController.swift in Sources */,
 				7C91AD4F2701A7F4005E47D9 /* CoreImageViewController.swift in Sources */,
 				7C6982BC2726850F0006DB04 /* ContactsViewController.swift in Sources */,
 				7CA3E2EE2654B17E00001D7A /* WyhHeader.swift in Sources */,
@@ -2873,6 +3268,9 @@
 				7CF5981126F43DFB009E16E5 /* SpriteKitViewController.swift in Sources */,
 				7CBBC2E227044DFE001B6321 /* CoreAnimationDemoViewController.swift in Sources */,
 				7CDB3B57272A4B6100419ED4 /* BundleResourcesViewController.swift in Sources */,
+				7CA6016528C9DFE000CB921C /* animated_tab_barViewController.swift in Sources */,
+				7CA6018628C9E58400CB921C /* KeyboardViewController.swift in Sources */,
+				7CA6016C28C9E1C300CB921C /* ButtonProgressBar_iOSViewController.swift in Sources */,
 				7CE5301F28C83E860022A009 /* PictureProcessingViewController.swift in Sources */,
 				7CA3E3972654C11500001D7A /* OcBaseViewController.m in Sources */,
 				7CDA894827141B1E00C93FBE /* ManagedSettingsUIDemoViewController.swift in Sources */,
@@ -2889,9 +3287,11 @@
 				7C55B395272946AB005FE5BA /* UIKitDemoViewController.swift in Sources */,
 				7C08197926F1972C00CE1DD9 /* CoreVideoViewController.swift in Sources */,
 				7CE5308728C8732F0022A009 /* SnapDemoViewController.swift in Sources */,
+				7CA6018D28C9E70E00CB921C /* SearchViewController.swift in Sources */,
 				7CA3614F26C12A20009E5376 /* SensorKitViewController.swift in Sources */,
 				7C55B39B2729504D005FE5BA /* SwiftFrameworkViewController.swift in Sources */,
 				7CBBC2E4270451C4001B6321 /* ARKitViewController.swift in Sources */,
+				7CA601A628C9EA6B00CB921C /* SlidersDemoViewController.swift in Sources */,
 				7C1273FC28C6ED8C003A3660 /* ios_ossDemoViewController.swift in Sources */,
 				7C1EE71026EAE648007F2A95 /* CoreBluetoothViewController.swift in Sources */,
 				7C9BAA3C2727D7D2000B9EC8 /* CloudKitViewController.swift in Sources */,
@@ -2909,6 +3309,7 @@
 				7CE5302328C83EE80022A009 /* GPUImage2swiftDemoViewController.swift in Sources */,
 				7C12745028C72635003A3660 /* SwiftyJSONViewController.swift in Sources */,
 				7CE5304F28C8496D0022A009 /* SpecialEffectsViewController.swift in Sources */,
+				7CA6018828C9E5D100CB921C /* IQKeyboardManagerViewController.swift in Sources */,
 				7C55B3A1272951C2005FE5BA /* FoundationDemoViewController.swift in Sources */,
 				7C53BB9326E99936004A1753 /* CoreServicesViewController.swift in Sources */,
 				7C55B38327293BA9005FE5BA /* AdSupportViewController.swift in Sources */,
@@ -2919,6 +3320,7 @@
 				7C0FF08F27101A4D00FE3525 /* QuickLookDemoViewController.swift in Sources */,
 				7CEE3AC926DCC8E00080B136 /* GSSDemoViewController.swift in Sources */,
 				7CE5301828C83C480022A009 /* ImageRecognitionViewController.swift in Sources */,
+				7CA6013628C9D54400CB921C /* SelectorViewController.swift in Sources */,
 				7C0E0FB7271567B30036C7C2 /* HealthKitViewController.swift in Sources */,
 				7C08194126F1846E00CE1DD9 /* AppleCryptoKitDemoViewController.swift in Sources */,
 				7CA3614D26C129AC009E5376 /* SensorKitDemoViewController.swift in Sources */,
@@ -2935,6 +3337,7 @@
 				7C12744228C7221D003A3660 /* WebFrameworkViewController.swift in Sources */,
 				7C1274A628C744F1003A3660 /* FolioReaderKitDemoViewController.swift in Sources */,
 				7C9BAA382727AE60000B9EC8 /* CombineViewController.swift in Sources */,
+				7CA6016328C9DF8600CB921C /* TabBarViewController.swift in Sources */,
 				7C08194326F185C800CE1DD9 /* AppleArchiveViewController.swift in Sources */,
 				7C12741D28C6FA04003A3660 /* SwiftPythonViewController.swift in Sources */,
 				7CD1BDC626FB1CEA00260DF5 /* ReplayKitViewController.swift in Sources */,
@@ -2951,6 +3354,7 @@
 				7CDA894A27141B9800C93FBE /* ManagedSettingsViewController.swift in Sources */,
 				7C12743F28C71E49003A3660 /* ReachabilityswiftDemoViewController.swift in Sources */,
 				7C12740D28C6F48D003A3660 /* PageRoutingViewController.swift in Sources */,
+				7CA6014B28C9DACC00CB921C /* alerts_and_pickersDemoViewController.swift in Sources */,
 				7C12743D28C71E3D003A3660 /* Reachability_swiftViewController.swift in Sources */,
 				7C12748828C73DCE003A3660 /* MultithreadingViewController.swift in Sources */,
 				7CDB3B5B272A4C1700419ED4 /* AppClipsViewController.swift in Sources */,
@@ -2959,15 +3363,19 @@
 				7CE5303828C843CB0022A009 /* DKImagePickerControllerDemoViewController.swift in Sources */,
 				7C1273EA28C6E8CE003A3660 /* DesignerNewsAppViewController.swift in Sources */,
 				7C12745E28C72B1C003A3660 /* CSVViewController.swift in Sources */,
+				7CA6017328C9E2D400CB921C /* WhatsNewKitViewController.swift in Sources */,
 				7C12743B28C71DD0003A3660 /* NetworkMeasurementViewController.swift in Sources */,
+				7CA6015928C9DD0F00CB921C /* ELWaterFallLayoutDemoViewController.swift in Sources */,
 				7CE5301C28C83CAE0022A009 /* ChineseIDCardOCRDemoViewController.swift in Sources */,
 				7C0C27DC2716836F004D250D /* FamilyControlsDemoViewController.swift in Sources */,
 				7C12741128C6F51A003A3660 /* ACRouterDemoViewController.swift in Sources */,
+				7CA6016028C9DE4900CB921C /* Swift_CircleMenuDemoViewController.swift in Sources */,
 				7C1273F228C6EA7D003A3660 /* BaiduFM_SwiftViewController.swift in Sources */,
 				7C08195326F18B6600CE1DD9 /* VideoToolboxViewController.swift in Sources */,
 				7C08197326F1945A00CE1DD9 /* MediaAccessibilityDemoViewController.swift in Sources */,
 				7CF6696426F2DB050079A5EB /* AudioUnitViewController.swift in Sources */,
 				7CE530AF28C890D00022A009 /* IOSCallJsOrJsCallIOSViewController.swift in Sources */,
+				7CA6013A28C9D5BD00CB921C /* AGCircularPickerDemoViewController.swift in Sources */,
 				7C1273D428C6D9EC003A3660 /* Open_source_ios_appsDemoViewController.swift in Sources */,
 				7CB6342D2717D5480092758D /* CoreMLViewController.swift in Sources */,
 				7CBBC3052704686F001B6321 /* UserNotificationsDemoViewController.swift in Sources */,
@@ -2983,6 +3391,7 @@
 				7C12740628C6F211003A3660 /* ReactiveFrameworkViewController.swift in Sources */,
 				7C69F7A92656093900055389 /* SystemViewController.swift in Sources */,
 				7C91AD3727015569005E47D9 /* MetalViewController.swift in Sources */,
+				7CA6016A28C9E16000CB921C /* ScheduleViewController.swift in Sources */,
 				7C1274AD28C746C6003A3660 /* AImageDemoViewController.swift in Sources */,
 				7C12745928C72840003A3660 /* AEXMLViewController.swift in Sources */,
 				7C69F7DF2656600400055389 /* LinkPresentationViewController.swift in Sources */,
@@ -3015,12 +3424,15 @@
 				7CE5302F28C8422C0022A009 /* NYTPhotoViewerViewController.swift in Sources */,
 				7C6865C4265748C600034B11 /* UniformTypeIdentifiersViewController.swift in Sources */,
 				7CA3E3A32654DD5F00001D7A /* OcViewController.m in Sources */,
+				7CA6015228C9DBD000CB921C /* BartinterDemoViewController.swift in Sources */,
 				7C55B3732728F8DA005FE5BA /* CallKitViewController.swift in Sources */,
 				7C12741B28C6F9A6003A3660 /* MixedDevelopmentViewController.swift in Sources */,
 				7CE5305328C849D60022A009 /* PastelDemoViewController.swift in Sources */,
 				7C1274B228C74BB7003A3660 /* recordDemoswiftViewController.swift in Sources */,
+				7CA6015C28C9DDEE00CB921C /* MenuViewController.swift in Sources */,
 				7C53BB9926E99F0C004A1753 /* CoreNFCDemoViewController.swift in Sources */,
 				7C55B36F2728ED61005FE5BA /* CarPlayViewController.swift in Sources */,
+				7CA6017128C9E28500CB921C /* GuidePageViewController.swift in Sources */,
 				7C12747328C735CC003A3660 /* CoreDatasViewController.swift in Sources */,
 				7C08194D26F1871C00CE1DD9 /* AccelerateDemoViewController.swift in Sources */,
 				7CBBC2F32704571F001B6321 /* WidgetKitViewController.swift in Sources */,
